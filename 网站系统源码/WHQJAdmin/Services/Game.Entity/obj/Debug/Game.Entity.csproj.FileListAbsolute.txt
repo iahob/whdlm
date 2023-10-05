@@ -1,0 +1,6 @@
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\bin\Debug\Game.Entity.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\bin\Debug\Game.Entity.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\bin\Debug\Game.Utils.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\obj\Debug\Game.Entity.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\obj\Debug\Game.Entity.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\obj\Debug\Game.Entity.csprojResolveAssemblyReference.cache

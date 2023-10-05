@@ -1,0 +1,30 @@
+16-15-16-20: OnEventTCPNetworkShut userid = 1 断线 
+16-15-16-20: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-15-16-20: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-15-16-20: PerformStandUpAction userid = 1 起立 
+16-15-16-20: JudePersonalStandUp userid = 1 cbUserStatus = 3  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-15-16-20: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-15-16-20: JudePersonalStandUp userid = 1 cbUserStatus = 3  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-15-16-20: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-15-16-20: PerformStandUpAction userid = 1 离开 
+16-15-16-20: PerformStandUpAction userid = 1 cbUserStatus = 3 离开 
+16-15-45-43: OnEventTCPNetworkShut userid = 1 断线 
+16-15-45-43: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-15-45-43: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-15-45-43: PerformStandUpAction userid = 1 起立 
+16-15-45-43: JudePersonalStandUp userid = 1 cbUserStatus = 3  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-15-45-43: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-15-45-43: JudePersonalStandUp userid = 1 cbUserStatus = 3  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-15-45-43: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-15-45-43: PerformStandUpAction userid = 1 离开 
+16-15-45-43: PerformStandUpAction userid = 1 cbUserStatus = 3 离开 
+16-15-58-2: OnEventTCPNetworkShut userid = 1 断线 
+16-15-58-2: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-15-58-2: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-15-58-2: PerformStandUpAction userid = 1 起立 
+16-15-58-2: JudePersonalStandUp userid = 1 cbUserStatus = 3  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-15-58-2: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-15-58-2: JudePersonalStandUp userid = 1 cbUserStatus = 3  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-15-58-2: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-15-58-2: PerformStandUpAction userid = 1 离开 
+16-15-58-2: PerformStandUpAction userid = 1 cbUserStatus = 3 离开 

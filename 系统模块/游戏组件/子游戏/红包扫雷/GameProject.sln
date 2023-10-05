@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "游戏服务器", "游戏服务器\GameServer.vcxproj", "{65911200-6AE7-4F42-AD51-F6984A995275}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI服务", "AI服务\AndroidService.vcxproj", "{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "调试客户端", "客户端调试\ClientDebug.vcxproj", "{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|Win32 = Debug_Unicode|Win32
+		Debug|Win32 = Debug|Win32
+		Release_Unicode|Win32 = Release_Unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Debug|Win32.ActiveCfg = Debug_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Debug|Win32.Build.0 = Debug_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Release|Win32.ActiveCfg = Release_Unicode|Win32
+		{65911200-6AE7-4F42-AD51-F6984A995275}.Release|Win32.Build.0 = Release_Unicode|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Debug|Win32.Build.0 = Debug|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Release|Win32.ActiveCfg = Release|Win32
+		{1758EF7F-A6BA-4ED8-A0E7-1D8A7D1B36DA}.Release|Win32.Build.0 = Release|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Debug|Win32.Build.0 = Debug|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Release|Win32.ActiveCfg = Release|Win32
+		{0F4BE34E-FD54-49C6-A67D-79AB3F39E689}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

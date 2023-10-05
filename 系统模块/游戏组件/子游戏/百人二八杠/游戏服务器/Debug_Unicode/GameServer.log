@@ -1,0 +1,10 @@
+﻿  TableFrameSink.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error:  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error:  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+  GameServerManager.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error:  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+  GameServer.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error:  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+  GameLogic.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error:  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.

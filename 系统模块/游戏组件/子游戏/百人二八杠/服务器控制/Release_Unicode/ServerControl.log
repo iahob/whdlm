@@ -1,0 +1,9 @@
+﻿  GameLogic.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\游戏服务器\StdAfx.h(40): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory
+  ServerControl.cpp
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\服务器控制\stdafx.h(44): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory
+  ServerControlItemSink.cpp
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\服务器控制\StdAfx.h(44): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory
+  stdafx.cpp
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\服务器控制\stdafx.h(44): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory

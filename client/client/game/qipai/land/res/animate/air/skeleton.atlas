@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flight
+  rotate: false
+  xy: 1635, 532
+  size: 375, 220
+  orig: 375, 220
+  offset: 0, 0
+  index: -1
+xulie/lizi_00006
+  rotate: false
+  xy: 1352, 204
+  size: 304, 100
+  orig: 1144, 224
+  offset: 3, 72
+  index: -1
+xulie/lizi_00007
+  rotate: false
+  xy: 1428, 306
+  size: 364, 111
+  orig: 1144, 224
+  offset: 4, 64
+  index: -1
+xulie/lizi_00008
+  rotate: false
+  xy: 1571, 419
+  size: 429, 111
+  orig: 1144, 224
+  offset: 0, 65
+  index: -1
+xulie/lizi_00009
+  rotate: false
+  xy: 801, 93
+  size: 460, 113
+  orig: 1144, 224
+  offset: 4, 62
+  index: -1
+xulie/lizi_00010
+  rotate: false
+  xy: 820, 208
+  size: 530, 128
+  orig: 1144, 224
+  offset: 0, 48
+  index: -1
+xulie/lizi_00011
+  rotate: false
+  xy: 854, 338
+  size: 572, 128
+  orig: 1144, 224
+  offset: 4, 48
+  index: -1
+xulie/lizi_00012
+  rotate: false
+  xy: 964, 468
+  size: 605, 144
+  orig: 1144, 224
+  offset: 4, 32
+  index: -1
+xulie/lizi_00013
+  rotate: false
+  xy: 151, 218
+  size: 667, 145
+  orig: 1144, 224
+  offset: 4, 30
+  index: -1
+xulie/lizi_00014
+  rotate: false
+  xy: 1008, 614
+  size: 625, 138
+  orig: 1144, 224
+  offset: 2, 35
+  index: -1
+xulie/lizi_00015
+  rotate: false
+  xy: 151, 98
+  size: 648, 118
+  orig: 1144, 224
+  offset: 2, 53
+  index: -1
+xulie/lizi_00016
+  rotate: false
+  xy: 151, 365
+  size: 701, 119
+  orig: 1144, 224
+  offset: 2, 48
+  index: -1
+xulie/lizi_00017
+  rotate: false
+  xy: 151, 486
+  size: 738, 123
+  orig: 1144, 224
+  offset: 8, 45
+  index: -1
+xulie/lizi_00018
+  rotate: false
+  xy: 1008, 754
+  size: 759, 130
+  orig: 1144, 224
+  offset: 11, 38
+  index: -1
+xulie/lizi_00019
+  rotate: false
+  xy: 151, 611
+  size: 811, 136
+  orig: 1144, 224
+  offset: 13, 32
+  index: -1
+xulie/lizi_00020
+  rotate: false
+  xy: 151, 749
+  size: 855, 135
+  orig: 1144, 224
+  offset: 13, 32
+  index: -1
+xulie/lizi_00021
+  rotate: true
+  xy: 2, 2
+  size: 882, 147
+  orig: 1144, 224
+  offset: 12, 29
+  index: -1
+xulie/lizi_00022
+  rotate: false
+  xy: 963, 886
+  size: 934, 136
+  orig: 1144, 224
+  offset: 13, 32
+  index: -1
+xulie/lizi_00023
+  rotate: false
+  xy: 2, 886
+  size: 959, 136
+  orig: 1144, 224
+  offset: 14, 32
+  index: -1

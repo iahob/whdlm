@@ -1,0 +1,55 @@
+
+fp.png
+size: 1143,367
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 4, 160
+  size: 337, 203
+  orig: 400, 242
+  offset: 31, 39
+  index: -1
+02
+  rotate: false
+  xy: 345, 188
+  size: 337, 175
+  orig: 400, 242
+  offset: 31, 67
+  index: -1
+03
+  rotate: false
+  xy: 4, 4
+  size: 337, 152
+  orig: 400, 242
+  offset: 31, 90
+  index: -1
+04
+  rotate: true
+  xy: 1010, 54
+  size: 309, 129
+  orig: 400, 242
+  offset: 43, 113
+  index: -1
+05
+  rotate: false
+  xy: 679, 55
+  size: 326, 129
+  orig: 400, 242
+  offset: 36, 113
+  index: -1
+06
+  rotate: false
+  xy: 345, 26
+  size: 330, 158
+  orig: 400, 242
+  offset: 35, 84
+  index: -1
+07
+  rotate: false
+  xy: 686, 188
+  size: 320, 175
+  orig: 400, 242
+  offset: 40, 67
+  index: -1

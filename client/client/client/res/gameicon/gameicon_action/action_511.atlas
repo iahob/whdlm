@@ -1,0 +1,69 @@
+
+action_511.png
+size: 986,216
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+att
+  rotate: true
+  xy: 265, 14
+  size: 200, 203
+  orig: 214, 214
+  offset: 7, 5
+  index: -1
+g
+  rotate: false
+  xy: 851, 166
+  size: 133, 48
+  orig: 133, 48
+  offset: 0, 0
+  index: -1
+gg
+  rotate: false
+  xy: 665, 2
+  size: 206, 86
+  orig: 208, 89
+  offset: 1, 1
+  index: -1
+j
+  rotate: false
+  xy: 851, 100
+  size: 66, 64
+  orig: 66, 64
+  offset: 0, 0
+  index: -1
+j2
+  rotate: false
+  xy: 919, 107
+  size: 59, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 470, 30
+  size: 193, 184
+  orig: 261, 199
+  offset: 30, 0
+  index: -1
+s_00000
+  rotate: false
+  xy: 2, 15
+  size: 261, 199
+  orig: 261, 199
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 873, 21
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zhuan
+  rotate: false
+  xy: 665, 90
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1

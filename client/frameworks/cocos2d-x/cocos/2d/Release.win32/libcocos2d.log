@@ -1,0 +1,616 @@
+﻿  AssetsManager.cpp
+  AssetsManagerEx.cpp
+  CCEventAssetsManagerEx.cpp
+  CCEventListenerAssetsManagerEx.cpp
+  Manifest.cpp
+  CCControl.cpp
+  CCControlButton.cpp
+  CCControlColourPicker.cpp
+  CCControlHuePicker.cpp
+  CCControlPotentiometer.cpp
+  CCControlSaturationBrightnessPicker.cpp
+  CCControlSlider.cpp
+  CCControlStepper.cpp
+  CCControlSwitch.cpp
+  CCControlUtils.cpp
+  CCInvocation.cpp
+  CCScrollView.cpp
+  CCTableView.cpp
+  CCTableViewCell.cpp
+  CCParticle3DAffector.cpp
+  CCParticle3DEmitter.cpp
+  CCParticle3DRender.cpp
+  CCParticleSystem3D.cpp
+  CCPUAffector.cpp
+  CCPUAffectorManager.cpp
+  CCPUAffectorTranslator.cpp
+  CCPUAlignAffector.cpp
+  CCPUAlignAffectorTranslator.cpp
+  CCPUBaseCollider.cpp
+  CCPUBaseColliderTranslator.cpp
+  CCPUBaseForceAffector.cpp
+  CCPUBaseForceAffectorTranslator.cpp
+  CCPUBeamRender.cpp
+  CCPUBehaviour.cpp
+  CCPUBehaviourManager.cpp
+  CCPUBehaviourTranslator.cpp
+  CCPUBillboardChain.cpp
+  CCPUBoxCollider.cpp
+  CCPUBoxColliderTranslator.cpp
+  CCPUBoxEmitter.cpp
+  CCPUBoxEmitterTranslator.cpp
+  CCPUCircleEmitter.cpp
+  CCPUCircleEmitterTranslator.cpp
+  CCPUCollisionAvoidanceAffector.cpp
+  CCPUCollisionAvoidanceAffectorTranslator.cpp
+  CCPUColorAffector.cpp
+  CCPUColorAffectorTranslator.cpp
+  CCPUDoAffectorEventHandler.cpp
+  CCPUDoAffectorEventHandlerTranslator.cpp
+  CCPUDoEnableComponentEventHandler.cpp
+  CCPUDoEnableComponentEventHandlerTranslator.cpp
+  CCPUDoExpireEventHandler.cpp
+  CCPUDoExpireEventHandlerTranslator.cpp
+  CCPUDoFreezeEventHandler.cpp
+  CCPUDoFreezeEventHandlerTranslator.cpp
+  CCPUDoPlacementParticleEventHandler.cpp
+  CCPUDoPlacementParticleEventHandlerTranslator.cpp
+  CCPUDoScaleEventHandler.cpp
+  CCPUDoScaleEventHandlerTranslator.cpp
+  CCPUDoStopSystemEventHandler.cpp
+  CCPUDoStopSystemEventHandlerTranslator.cpp
+  CCPUDynamicAttribute.cpp
+  CCPUDynamicAttributeTranslator.cpp
+  CCPUEmitter.cpp
+  CCPUEmitterManager.cpp
+  CCPUEmitterTranslator.cpp
+  CCPUEventHandler.cpp
+  CCPUEventHandlerManager.cpp
+  CCPUEventHandlerTranslator.cpp
+  CCPUFlockCenteringAffector.cpp
+  CCPUFlockCenteringAffectorTranslator.cpp
+  CCPUForceField.cpp
+  CCPUForceFieldAffector.cpp
+  CCPUForceFieldAffectorTranslator.cpp
+  CCPUGeometryRotator.cpp
+  CCPUGeometryRotatorTranslator.cpp
+  CCPUGravityAffector.cpp
+  CCPUGravityAffectorTranslator.cpp
+  CCPUInterParticleCollider.cpp
+  CCPUInterParticleColliderTranslator.cpp
+  CCPUJetAffector.cpp
+  CCPUJetAffectorTranslator.cpp
+  CCPULineAffector.cpp
+  CCPULineAffectorTranslator.cpp
+  CCPULinearForceAffector.cpp
+  CCPULinearForceAffectorTranslator.cpp
+  CCPULineEmitter.cpp
+  CCPULineEmitterTranslator.cpp
+  CCPUListener.cpp
+  CCPUMaterialManager.cpp
+  CCPUMaterialTranslator.cpp
+  CCPUMeshSurfaceEmitter.cpp
+  CCPUMeshSurfaceEmitterTranslator.cpp
+  CCPUNoise.cpp
+  CCPUObserver.cpp
+  CCPUObserverManager.cpp
+  CCPUObserverTranslator.cpp
+  CCPUOnClearObserver.cpp
+  CCPUOnClearObserverTranslator.cpp
+  CCPUOnCollisionObserver.cpp
+  CCPUOnCollisionObserverTranslator.cpp
+  CCPUOnCountObserver.cpp
+  CCPUOnCountObserverTranslator.cpp
+  CCPUOnEmissionObserver.cpp
+  CCPUOnEmissionObserverTranslator.cpp
+  CCPUOnEventFlagObserver.cpp
+  CCPUOnEventFlagObserverTranslator.cpp
+  CCPUOnExpireObserver.cpp
+  CCPUOnExpireObserverTranslator.cpp
+  CCPUOnPositionObserver.cpp
+  CCPUOnPositionObserverTranslator.cpp
+  CCPUOnQuotaObserver.cpp
+  CCPUOnQuotaObserverTranslator.cpp
+  CCPUOnRandomObserver.cpp
+  CCPUOnRandomObserverTranslator.cpp
+  CCPUOnTimeObserver.cpp
+  CCPUOnTimeObserverTranslator.cpp
+  CCPUOnVelocityObserver.cpp
+  CCPUOnVelocityObserverTranslator.cpp
+  CCPUParticleFollower.cpp
+  CCPUParticleFollowerTranslator.cpp
+  CCPUParticleSystem3D.cpp
+  CCPUParticleSystem3DTranslator.cpp
+  CCPUPathFollower.cpp
+  CCPUPathFollowerTranslator.cpp
+  CCPUPlane.cpp
+  CCPUPlaneCollider.cpp
+  CCPUPlaneColliderTranslator.cpp
+  CCPUPointEmitter.cpp
+  CCPUPointEmitterTranslator.cpp
+  CCPUPositionEmitter.cpp
+  CCPUPositionEmitterTranslator.cpp
+  CCPURandomiser.cpp
+  CCPURandomiserTranslator.cpp
+  CCPURender.cpp
+  CCPURendererTranslator.cpp
+  CCPURibbonTrail.cpp
+  CCPURibbonTrailRender.cpp
+  CCPUScaleAffector.cpp
+  CCPUScaleAffectorTranslator.cpp
+  CCPUScaleVelocityAffector.cpp
+  CCPUScaleVelocityAffectorTranslator.cpp
+  CCPUScriptCompiler.cpp
+  CCPUScriptLexer.cpp
+  CCPUScriptParser.cpp
+  CCPUScriptTranslator.cpp
+  CCPUSimpleSpline.cpp
+  CCPUSineForceAffector.cpp
+  CCPUSineForceAffectorTranslator.cpp
+  CCPUSlaveBehaviour.cpp
+  CCPUSlaveBehaviourTranslator.cpp
+  CCPUSlaveEmitter.cpp
+  CCPUSlaveEmitterTranslator.cpp
+  CCPUSphere.cpp
+  CCPUSphereCollider.cpp
+  CCPUSphereColliderTranslator.cpp
+  CCPUSphereSurfaceEmitter.cpp
+  CCPUSphereSurfaceEmitterTranslator.cpp
+  CCPUTechniqueTranslator.cpp
+  CCPUTextureAnimator.cpp
+  CCPUTextureAnimatorTranslator.cpp
+  CCPUTextureRotator.cpp
+  CCPUTextureRotatorTranslator.cpp
+  CCPUTranslateManager.cpp
+  CCPUUtil.cpp
+  CCPUVelocityMatchingAffector.cpp
+  CCPUVelocityMatchingAffectorTranslator.cpp
+  CCPUVertexEmitter.cpp
+  CCPUVortexAffector.cpp
+  CCPUVortexAffectorTranslator.cpp
+  CCPhysicsDebugNode.cpp
+  CCPhysicsSprite.cpp
+  clipper.cpp
+  ConvertUTF.c
+  ConvertUTFWrapper.cpp
+  edtaa3func.cpp
+  flatc.cpp
+  idl_gen_cpp.cpp
+  idl_gen_fbs.cpp
+  idl_gen_general.cpp
+  idl_gen_go.cpp
+  idl_gen_text.cpp
+  idl_parser.cpp
+  shapes.cc
+  advancing_front.cc
+  cdt.cc
+  sweep.cc
+  sweep_context.cc
+  tinyxml2.cpp
+  ioapi_mem.cpp
+  ioapi.cpp
+  unzip.cpp
+  xxhash.c
+  CCAABB.cpp
+..\..\external\xxhash\xxhash.c(312): warning C4804: “/”: 在操作中使用类型“bool”不安全
+  CCAnimate3D.cpp
+  CCAnimation3D.cpp
+  CCAttachNode.cpp
+  CCBillBoard.cpp
+  CCBundle3D.cpp
+  CCBundleReader.cpp
+  CCFrustum.cpp
+  CCMesh.cpp
+  CCMeshSkin.cpp
+  CCMeshVertexIndexData.cpp
+  CCMotionStreak3D.cpp
+  CCOBB.cpp
+  CCObjLoader.cpp
+  CCPlane.cpp
+  CCRay.cpp
+  CCSkeleton3D.cpp
+  CCSkybox.cpp
+  CCSprite3D.cpp
+  CCSprite3DMaterial.cpp
+  CCTerrain.cpp
+..\3d\CCSprite3D.cpp(467): warning C4018: “<”: 有符号/无符号不匹配
+..\3d\CCSprite3D.cpp(777): warning C4804: “>”: 在操作中使用类型“bool”不安全
+  AudioEngine.cpp
+  AudioCache.cpp
+  AudioEngine-win32.cpp
+  AudioPlayer.cpp
+  MciPlayer.cpp
+  SimpleAudioEngine.cpp
+  CCAllocatorDiagnostics.cpp
+  CCAllocatorGlobal.cpp
+  CCAllocatorGlobalNewDelete.cpp
+  atitc.cpp
+  base64.cpp
+  CCAsyncTaskPool.cpp
+  CCAutoreleasePool.cpp
+  ccCArray.cpp
+  CCConfiguration.cpp
+  CCConsole.cpp
+  CCData.cpp
+..\base\CCConsole.cpp(393): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+  ..\base\CCConsole.cpp(393): note: 请考虑在格式字符串中使用“%ls”
+  ..\base\CCConsole.cpp(393): note: 请考虑在格式字符串中使用“%lls”
+  ..\base\CCConsole.cpp(393): note: 请考虑在格式字符串中使用“%Ls”
+  ..\base\CCConsole.cpp(393): note: 请考虑在格式字符串中使用“%ws”
+  CCDataVisitor.cpp
+  CCDirector.cpp
+  CCEvent.cpp
+  CCEventAcceleration.cpp
+  CCEventCustom.cpp
+  CCEventDispatcher.cpp
+  CCEventFocus.cpp
+  CCEventKeyboard.cpp
+  CCEventListener.cpp
+  CCEventListenerAcceleration.cpp
+  CCEventListenerCustom.cpp
+  CCEventListenerFocus.cpp
+  CCEventListenerKeyboard.cpp
+  CCEventListenerMouse.cpp
+  CCEventListenerTouch.cpp
+  CCEventMouse.cpp
+  CCEventTouch.cpp
+  ccFPSImages.c
+  CCIMEDispatcher.cpp
+  CCNinePatchImageParser.cpp
+  CCStencilStateManager.cpp
+  CCNS.cpp
+  CCProfiling.cpp
+  CCProperties.cpp
+  ccRandom.cpp
+  CCRef.cpp
+  CCScheduler.cpp
+  CCScriptSupport.cpp
+  CCTouch.cpp
+  ccTypes.cpp
+  CCUserDefault.cpp
+  ccUTF8.cpp
+  ccUtils.cpp
+  CCValue.cpp
+..\base\ccUTF8.cpp(275): warning C4996: 'cocos2d::cc_wcslen': 被声明为已否决
+  ..\base\ccUTF8.cpp(219): note: 参见“cocos2d::cc_wcslen”的声明
+..\base\ccUTF8.cpp(318): warning C4996: 'cocos2d::cc_wcslen': 被声明为已否决
+  ..\base\ccUTF8.cpp(219): note: 参见“cocos2d::cc_wcslen”的声明
+  etc1.cpp
+  pvr.cpp
+  ObjectFactory.cpp
+  s3tc.cpp
+  TGAlib.cpp
+  ZipUtils.cpp
+  cocos2d.cpp
+  CCArray.cpp
+  CCDeprecated.cpp
+  CCDictionary.cpp
+  CCNotificationCenter.cpp
+  CCSet.cpp
+  CCString.cpp
+  CCBAnimationManager.cpp
+  CCBFileLoader.cpp
+  CCBKeyframe.cpp
+  CCBReader.cpp
+  CCBSequence.cpp
+  CCBSequenceProperty.cpp
+  CCControlButtonLoader.cpp
+  CCControlLoader.cpp
+  CCLabelBMFontLoader.cpp
+  CCLabelTTFLoader.cpp
+  CCLayerColorLoader.cpp
+  CCLayerGradientLoader.cpp
+  CCLayerLoader.cpp
+  CCMenuItemImageLoader.cpp
+  CCMenuItemLoader.cpp
+  CCNode+CCBRelativePositioning.cpp
+  CCNodeLoader.cpp
+  CCNodeLoaderLibrary.cpp
+  CCParticleSystemQuadLoader.cpp
+  CCScale9SpriteLoader.cpp
+  CCScrollViewLoader.cpp
+  CCSpriteLoader.cpp
+  CCActionTimeline.cpp
+  CCActionTimelineCache.cpp
+  CCActionTimelineNode.cpp
+  CCBoneNode.cpp
+  CCFrame.cpp
+  CCSkeletonNode.cpp
+  CCSkinNode.cpp
+  CCTimeLine.cpp
+  CSLoader.cpp
+  CCActionFrame.cpp
+  CCActionFrameEasing.cpp
+  CCActionManagerEx.cpp
+  CCActionNode.cpp
+  CCActionObject.cpp
+  CCArmature.cpp
+  CCArmatureAnimation.cpp
+  CCArmatureDataManager.cpp
+  CCArmatureDefine.cpp
+  CCBatchNode.cpp
+  CCBone.cpp
+  CCColliderDetector.cpp
+  CCComAttribute.cpp
+  CCComAudio.cpp
+  CCComController.cpp
+  CCComRender.cpp
+  CCDataReaderHelper.cpp
+  CCDatas.cpp
+  CCDecorativeDisplay.cpp
+..\editor-support\cocostudio\CCDataReaderHelper.cpp(309): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+  G:\Work\QJDLM\moble\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform/CCFileUtils.h(111): note: 参见“cocos2d::FileUtils::getFileData”的声明
+..\editor-support\cocostudio\CCDataReaderHelper.cpp(422): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+  G:\Work\QJDLM\moble\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform/CCFileUtils.h(111): note: 参见“cocos2d::FileUtils::getFileData”的声明
+  CCDisplayFactory.cpp
+  CCDisplayManager.cpp
+  CCInputDelegate.cpp
+  CCComExtensionData.cpp
+  CCProcessBase.cpp
+  CCSGUIReader.cpp
+  CCSkin.cpp
+  CCSpriteFrameCacheHelper.cpp
+  CCSSceneReader.cpp
+  CCTransformHelp.cpp
+  CCTween.cpp
+  CCUtilMath.cpp
+  CocoLoader.cpp
+  CocoStudio.cpp
+  DictionaryHelper.cpp
+  FlatBuffersSerialize.cpp
+  TriggerBase.cpp
+  TriggerMng.cpp
+  TriggerObj.cpp
+  WidgetCallBackHandlerProtocol.cpp
+  ArmatureNodeReader.cpp
+  ButtonReader.cpp
+  CheckBoxReader.cpp
+  ComAudioReader.cpp
+  GameMapReader.cpp
+  GameNode3DReader.cpp
+  ImageViewReader.cpp
+  LayoutReader.cpp
+  Light3DReader.cpp
+..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(163): warning C4800: “uint8_t”: 将值强制为布尔值“true”或“false”(性能警告)
+  ListViewReader.cpp
+  LoadingBarReader.cpp
+  NodeReaderDefine.cpp
+  NodeReaderProtocol.cpp
+  NodeReader.cpp
+  PageViewReader.cpp
+  ParticleReader.cpp
+  ProjectNodeReader.cpp
+  ScrollViewReader.cpp
+  SingleNodeReader.cpp
+  BoneNodeReader.cpp
+  SkeletonNodeReader.cpp
+  SliderReader.cpp
+  SpriteReader.cpp
+  TextAtlasReader.cpp
+  TextBMFontReader.cpp
+  TextFieldReader.cpp
+  TextReader.cpp
+  Node3DReader.cpp
+  Sprite3DReader.cpp
+  UserCameraReader.cpp
+  Particle3DReader.cpp
+  WidgetReader.cpp
+  CCAffineTransform.cpp
+  CCGeometry.cpp
+  CCVertex.cpp
+  Mat4.cpp
+  MathUtil.cpp
+  Quaternion.cpp
+  TransformUtils.cpp
+  Vec2.cpp
+  Vec3.cpp
+  Vec4.cpp
+  CCNavMesh.cpp
+  CCNavMeshAgent.cpp
+  CCNavMeshDebugDraw.cpp
+  CCNavMeshObstacle.cpp
+  CCNavMeshUtils.cpp
+  CCDownloader-curl.cpp
+  CCDownloader.cpp
+  HttpClient.cpp
+  SocketIO.cpp
+  WebSocket.cpp
+  CCPhysics3D.cpp
+  CCPhysics3DComponent.cpp
+  CCPhysics3DConstraint.cpp
+  CCPhysics3DDebugDrawer.cpp
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3D.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3D.cpp)
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3DComponent.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3DComponent.cpp)
+..\physics3d\CCPhysics3DComponent.cpp(103): warning C4018: “<”: 有符号/无符号不匹配
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3DConstraint.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3DConstraint.cpp)
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3DDebugDrawer.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3DDebugDrawer.cpp)
+  CCPhysics3DObject.cpp
+  CCPhysics3DShape.cpp
+  CCPhysics3DWorld.cpp
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3DObject.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3DObject.cpp)
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3DShape.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3DShape.cpp)
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysics3DWorld.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysics3DWorld.cpp)
+  CCPhysicsSprite3D.cpp
+  CCPhysicsBody.cpp
+  CCPhysicsContact.cpp
+g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: “btDbvtBroadphase”: 类型名称以前使用“class”现在使用的是“struct” (编译源文件 ..\physics3d\CCPhysicsSprite3D.cpp)
+  g:\work\qjdlm\moble\frameworks\cocos2d-x\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: 参见“btDbvtBroadphase”的声明 (编译源文件 ..\physics3d\CCPhysicsSprite3D.cpp)
+  CCPhysicsJoint.cpp
+  CCPhysicsShape.cpp
+  CCPhysicsWorld.cpp
+  CCFileUtils.cpp
+  CCGLView.cpp
+  CCImage.cpp
+  CCSAXParser.cpp
+..\platform\CCImage.cpp(2134): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  CCThread.cpp
+  CCGLViewImpl-desktop.cpp
+  CCApplication-win32.cpp
+  CCCommon-win32.cpp
+  CCDevice-win32.cpp
+  CCFileUtils-win32.cpp
+  CCStdC-win32.cpp
+  CCBatchCommand.cpp
+  CCCustomCommand.cpp
+g:\work\qjdlm\moble\frameworks\cocos2d-x\cocos\platform\win32\CCFileUtils-win32.h(119): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决 (编译源文件 ..\platform\win32\CCFileUtils-win32.cpp)
+  G:\Work\QJDLM\moble\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform/CCFileUtils.h(111): note: 参见“cocos2d::FileUtils::getFileData”的声明 (编译源文件 ..\platform\win32\CCFileUtils-win32.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warning C4091: “typedef ”: 没有声明变量时忽略“tagGPFIDL_FLAGS”的左侧 (编译源文件 ..\platform\win32\CCFileUtils-win32.cpp)
+  CCFrameBuffer.cpp
+  CCGLProgram.cpp
+  CCGLProgramCache.cpp
+  CCGLProgramState.cpp
+  CCGLProgramStateCache.cpp
+  ccGLStateCache.cpp
+  CCGroupCommand.cpp
+  CCMaterial.cpp
+  CCMeshCommand.cpp
+  CCPass.cpp
+  CCPrimitive.cpp
+  CCPrimitiveCommand.cpp
+  CCQuadCommand.cpp
+  CCRenderCommand.cpp
+  CCRenderer.cpp
+  CCRenderState.cpp
+  ccShaders.cpp
+  CCTechnique.cpp
+  CCTexture2D.cpp
+  CCTextureAtlas.cpp
+  CCTextureCache.cpp
+  CCTextureCube.cpp
+  CCTrianglesCommand.cpp
+  CCVertexAttribBinding.cpp
+  CCVertexIndexBuffer.cpp
+  CCVertexIndexData.cpp
+  LocalStorage.cpp
+  CocosGUI.cpp
+  UIButton.cpp
+  UIAbstractCheckButton.cpp
+  UICheckBox.cpp
+  UIRadioButton.cpp
+  UIDeprecated.cpp
+  UIEditBox.cpp
+  UIEditBoxImpl-win32.cpp
+  UIHBox.cpp
+  UIHelper.cpp
+..\ui\UIEditBox\UIEditBoxImpl-win32.cpp(259): warning C4302: “类型转换”: 从“LPCSTR”到“WORD”截断
+  UIImageView.cpp
+  UILayout.cpp
+  UILayoutComponent.cpp
+  UILayoutManager.cpp
+  UILayoutParameter.cpp
+  UIListView.cpp
+  UILoadingBar.cpp
+  UIPageView.cpp
+  UIPageViewIndicator.cpp
+  UIRelativeBox.cpp
+..\ui\UIPageView.cpp(315): warning C4996: 'cocos2d::ui::PageView::getPages': 被声明为已否决
+  ..\ui\UIPageView.cpp(299): note: 参见“cocos2d::ui::PageView::getPages”的声明
+  UIRichText.cpp
+  UIScale9Sprite.cpp
+  UIScrollView.cpp
+  UIScrollViewBar.cpp
+..\ui\UIRichText.cpp(336): warning C4018: “<=”: 有符号/无符号不匹配
+  UISlider.cpp
+  UIText.cpp
+  UITextAtlas.cpp
+  UITextBMFont.cpp
+  UITextField.cpp
+  UIVBox.cpp
+  UIWebView.cpp
+  UIWidget.cpp
+  CCAction.cpp
+  CCActionCamera.cpp
+  CCActionCatmullRom.cpp
+  CCActionEase.cpp
+  CCActionGrid.cpp
+  CCActionGrid3D.cpp
+  CCActionInstant.cpp
+  CCActionInterval.cpp
+  CCActionManager.cpp
+  CCActionPageTurn3D.cpp
+  CCActionProgressTimer.cpp
+  CCActionTiledGrid.cpp
+  CCActionTween.cpp
+  CCAnimation.cpp
+  CCAnimationCache.cpp
+  CCAtlasNode.cpp
+  CCAutoPolygon.cpp
+  CCCamera.cpp
+  CCCameraBackgroundBrush.cpp
+  CCClippingNode.cpp
+  CCClippingRectangleNode.cpp
+  CCComponent.cpp
+  CCComponentContainer.cpp
+  CCDrawingPrimitives.cpp
+  CCDrawNode.cpp
+  CCFastTMXLayer.cpp
+  CCFastTMXTiledMap.cpp
+  CCFontAtlas.cpp
+  CCFontAtlasCache.cpp
+  CCFontCharMap.cpp
+  CCFontFNT.cpp
+  CCFontFreeType.cpp
+  CCGLBufferedNode.cpp
+  CCGrabber.cpp
+  CCGrid.cpp
+  CCLabel.cpp
+  CCLabelAtlas.cpp
+  CCLabelBMFont.cpp
+CCLabel.cpp(754): warning C4018: “>”: 有符号/无符号不匹配
+CCLabel.cpp(756): warning C4018: “<”: 有符号/无符号不匹配
+  CCLabelTextFormatter.cpp
+  CCLabelTTF.cpp
+  CCLayer.cpp
+  CCLight.cpp
+  CCMenu.cpp
+  CCMenuItem.cpp
+  CCMotionStreak.cpp
+  CCNode.cpp
+  CCNodeGrid.cpp
+  CCParallaxNode.cpp
+  CCParticleBatchNode.cpp
+  CCParticleExamples.cpp
+  CCParticleSystem.cpp
+  CCParticleSystemQuad.cpp
+  CCProgressTimer.cpp
+  CCProtectedNode.cpp
+  CCRenderTexture.cpp
+  CCScene.cpp
+  CCSprite.cpp
+  CCSpriteBatchNode.cpp
+  CCSpriteFrame.cpp
+  CCSpriteFrameCache.cpp
+  CCTextFieldTTF.cpp
+  CCTileMapAtlas.cpp
+  CCTMXLayer.cpp
+  CCTMXObjectGroup.cpp
+  CCTMXTiledMap.cpp
+  CCTMXXMLParser.cpp
+  CCTransition.cpp
+  CCTransitionPageTurn.cpp
+  CCTransitionProgress.cpp
+  CCTweenFunction.cpp
+  复制了 1 个文件
+  复制了 2 个文件
+  复制了 4 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+  复制了 3 个文件
+  复制了 1 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+  复制了 6 个文件
+  复制了 2 个文件
+  复制了 2 个文件
+LINK : fatal error LNK1181: 无法打开输入文件“libSpine.lib”

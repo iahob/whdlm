@@ -1,0 +1,41 @@
+
+action_143.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 214, 56
+  size: 114, 139
+  orig: 117, 142
+  offset: 2, 1
+  index: -1
+R
+  rotate: false
+  xy: 330, 91
+  size: 85, 104
+  orig: 87, 107
+  offset: 1, 2
+  index: -1
+di
+  rotate: false
+  xy: 2, 37
+  size: 210, 211
+  orig: 214, 214
+  offset: 2, 1
+  index: -1
+shai
+  rotate: false
+  xy: 330, 2
+  size: 100, 87
+  orig: 104, 89
+  offset: 2, 0
+  index: -1
+zi
+  rotate: false
+  xy: 214, 197
+  size: 218, 51
+  orig: 219, 52
+  offset: 0, 1
+  index: -1

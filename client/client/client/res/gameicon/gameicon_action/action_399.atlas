@@ -1,0 +1,55 @@
+
+action_399.png
+size: 648,209
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+att
+  rotate: false
+  xy: 2, 4
+  size: 200, 203
+  orig: 200, 203
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 378, 27
+  size: 180, 54
+  orig: 180, 54
+  offset: 0, 0
+  index: -1
+r1
+  rotate: true
+  xy: 564, 49
+  size: 61, 65
+  orig: 61, 65
+  offset: 0, 0
+  index: -1
+r3
+  rotate: false
+  xy: 204, 27
+  size: 172, 180
+  orig: 172, 180
+  offset: 0, 0
+  index: -1
+r4
+  rotate: false
+  xy: 560, 2
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 564, 112
+  size: 82, 95
+  orig: 93, 99
+  offset: 11, 4
+  index: -1
+zhuan
+  rotate: false
+  xy: 378, 83
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1

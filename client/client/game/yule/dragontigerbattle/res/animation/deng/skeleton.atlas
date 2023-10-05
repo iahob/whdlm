@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+denglong
+  rotate: false
+  xy: 79, 10
+  size: 47, 96
+  orig: 47, 96
+  offset: 0, 0
+  index: -1
+denglong_shen
+  rotate: false
+  xy: 128, 34
+  size: 28, 72
+  orig: 29, 72
+  offset: 1, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 2
+  size: 75, 104
+  orig: 75, 104
+  offset: 0, 0
+  index: -1

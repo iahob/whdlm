@@ -1,0 +1,17 @@
+{
+  "name": "whwebtoolplus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preauto": "npm i",
+    "auto": "node index"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eventproxy": "^1.0.0",
+    "files-extractor": "^1.0.0",
+    "fs-extra": "^7.0.1"
+  }
+}

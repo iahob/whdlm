@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "HtUzX34XykJ1efZzMhzVB8ohoV8", "spine": "3.6.53", "width": 126.35, "height": 149.42, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "2", "parent": "root", "x": 0.39, "y": 1.03, "scaleX": 2.106, "scaleY": 1.966 }
+],
+"slots": [
+	{ "name": "2", "bone": "2", "attachment": "2/CardWin03", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"2": {
+			"2/CardWin01": { "width": 60, "height": 76 },
+			"2/CardWin02": { "width": 60, "height": 76 },
+			"2/CardWin03": { "width": 60, "height": 76 },
+			"2/CardWin04": { "width": 60, "height": 76 },
+			"2/CardWin05": { "width": 60, "height": 76 },
+			"2/CardWin06": { "width": 60, "height": 76 },
+			"2/CardWin07": { "width": 60, "height": 76 },
+			"2/CardWin08": { "width": 60, "height": 76 },
+			"2/CardWin09": { "width": 60, "height": 76 },
+			"2/CardWin10": { "width": 60, "height": 76 },
+			"2/CardWin11": { "width": 60, "height": 76 },
+			"2/CardWin12": { "width": 60, "height": 76 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"2": {
+				"attachment": [
+					{ "time": 0, "name": "2/CardWin01" },
+					{ "time": 0.0667, "name": "2/CardWin02" },
+					{ "time": 0.1333, "name": "2/CardWin03" },
+					{ "time": 0.2, "name": "2/CardWin04" },
+					{ "time": 0.2667, "name": "2/CardWin05" },
+					{ "time": 0.3333, "name": "2/CardWin06" },
+					{ "time": 0.4, "name": "2/CardWin07" },
+					{ "time": 0.4667, "name": "2/CardWin08" },
+					{ "time": 0.5333, "name": "2/CardWin09" },
+					{ "time": 0.6, "name": "2/CardWin10" },
+					{ "time": 0.6667, "name": "2/CardWin11" },
+					{ "time": 0.7333, "name": "2/CardWin12" }
+				]
+			}
+		}
+	}
+}
+}

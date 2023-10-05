@@ -1,0 +1,69 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ 生成的包含文件。
+// 供 AIConfigDebug.rc 使用
+//
+#define IDD_DIALOG_MAIN                 3100
+#define IDC_EDIT_KINDID                 1002
+#define IDC_EDIT_SERVERID               1003
+#define IDC_BUTTON_QUERY                1004
+#define IDC_BUTTON_SAVE                 1005
+#define IDC_STATIC_GROUPOCCUPYSEAT      1030
+#define IDC_EDIT_OC_RPLAYER_MIN0        1031
+#define IDC_EDIT_OC_RPLAYER_MIN1        1032
+#define IDC_EDIT_OC_RPLAYER_MAX1        1033
+#define IDC_EDIT_OC_RPLAYER_MAX2        1035
+#define IDC_EDIT_OC_COUNT_MIN0          1039
+#define IDC_EDIT_OC_COUNT_MAX0          1040
+#define IDC_EDIT_OC_COUNT_MIN1          1041
+#define IDC_EDIT_OC_COUNT_MAX1          1042
+#define IDC_EDIT_OC_COUNT_MIN2          1043
+#define IDC_EDIT_OC_COUNT_MAX2          1044
+#define IDC_STATIC_GROUPREQUESTBANKER   1055
+#define IDC_EDIT_RB_RPLAYER_MIN0        1056
+#define IDC_EDIT_RB_RPLAYER_MIN1        1057
+#define IDC_EDIT_RB_RPLAYER_MAX1        1058
+#define IDC_EDIT_RB_RPLAYER_MAX2        1060
+#define IDC_EDIT_RB_COUNT_MIN0          1064
+#define IDC_EDIT_RB_COUNT_MAX0          1065
+#define IDC_EDIT_RB_COUNT_MIN1          1066
+#define IDC_EDIT_RB_COUNT_MAX1          1067
+#define IDC_EDIT_RB_COUNT_MIN2          1068
+#define IDC_EDIT_RB_COUNT_MAX2          1069
+#define IDC_EDIT_PJ_COUNTDOWN_MIN0      1086
+#define IDC_EDIT_PJ_COUNTDOWN_MAX0      1087
+#define IDC_EDIT_PJ_COUNTDOWN_MIN1      1088
+#define IDC_EDIT_PJ_COUNTDOWN_MAX1      1089
+#define IDC_EDIT_PJ_COUNTDOWN_MIN2      1090
+#define IDC_EDIT_PJ_COUNTDOWN_MAX2      1091
+#define IDC_EDIT_PJ_COUNTDOWN_MIN3      1092
+#define IDC_EDIT_PJ_COUNTDOWN_MAX3      1093
+#define IDC_EDIT_PJ_COUNTDOWN_MIN4      1094
+#define IDC_EDIT_PJ_COUNTDOWN_MAX4      1095
+#define IDC_EDIT_PJ_LIMITRANGE_MIN0     1096
+#define IDC_EDIT_PJ_LIMITRANGE_MAX0     1097
+#define IDC_EDIT_PJ_LIMITRANGE_MIN1     1098
+#define IDC_EDIT_PJ_LIMITRANGE_MAX1     1099
+#define IDC_EDIT_PJ_LIMITRANGE_MIN2     1100
+#define IDC_EDIT_PJ_LIMITRANGE_MAX2     1101
+#define IDC_EDIT_PJ_LIMITRANGE_MIN3     1102
+#define IDC_EDIT_PJ_LIMITRANGE_MAX3     1103
+#define IDC_EDIT_PJ_LIMITRANGE_MIN4     1104
+#define IDC_EDIT_PJ_LIMITRANGE_MAX4     1105
+#define IDC_EDIT_PJ_RATE0               1107
+#define IDC_EDIT_PJ_RATE1               1108
+#define IDC_EDIT_PJ_RATE2               1109
+#define IDC_EDIT_PJ_RATE3               1110
+#define IDC_EDIT_PJ_RATE4               1111
+#define IDC_EDIT_PJ_RATE5               1112
+#define IDC_EDIT_AI_WINLOST_LIMITTIMES  1120
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        3305
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         3326
+#define _APS_NEXT_SYMED_VALUE           3305
+#endif
+#endif

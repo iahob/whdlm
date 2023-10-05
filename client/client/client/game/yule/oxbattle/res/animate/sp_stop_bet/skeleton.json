@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "rODz8Evsgd1wEt4rdE6C+OuwWHs", "spine": "3.6.53", "width": 1343.89, "height": 750, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Effect", "parent": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "hei", "parent": "Effect", "scaleX": 1.183 },
+	{ "name": "zi", "parent": "Effect", "y": 39.48 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "notice_bg", "bone": "hei", "attachment": "notice_bg" },
+	{ "name": "stop", "bone": "zi", "attachment": "stop" }
+],
+"skins": {
+	"default": {
+		"notice_bg": {
+			"notice_bg": { "width": 1136, "height": 135 }
+		},
+		"stop": {
+			"stop": { "width": 563, "height": 213 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"notice_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zi": {
+				"translate": [
+					{ "time": 0, "x": -960.87, "y": 0 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": 0, "y": 0 },
+					{ "time": 1.5, "x": 964.76, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

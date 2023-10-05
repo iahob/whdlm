@@ -1,0 +1,111 @@
+
+tongsha.png
+size: 879,1088
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tp
+  rotate: false
+  xy: 567, 298
+  size: 251, 129
+  orig: 251, 129
+  offset: 0, 0
+  index: -1
+tp_000
+  rotate: false
+  xy: 602, 14
+  size: 130, 146
+  orig: 465, 204
+  offset: 0, 24
+  index: -1
+tp_001
+  rotate: true
+  xy: 414, 4
+  size: 248, 184
+  orig: 465, 204
+  offset: 0, 4
+  index: -1
+tp_002
+  rotate: false
+  xy: 4, 474
+  size: 361, 204
+  orig: 465, 204
+  offset: 0, 0
+  index: -1
+tp_003
+  rotate: true
+  xy: 473, 621
+  size: 463, 204
+  orig: 465, 204
+  offset: 0, 0
+  index: -1
+tp_004
+  rotate: false
+  xy: 4, 880
+  size: 465, 204
+  orig: 465, 204
+  offset: 0, 0
+  index: -1
+ts
+  rotate: false
+  xy: 602, 164
+  size: 237, 130
+  orig: 237, 130
+  offset: 0, 0
+  index: -1
+ts2_000
+  rotate: true
+  xy: 158, 170
+  size: 300, 165
+  orig: 300, 165
+  offset: 0, 0
+  index: -1
+ts3
+  rotate: true
+  xy: 4, 45
+  size: 425, 150
+  orig: 425, 150
+  offset: 0, 0
+  index: -1
+ts3_000_000
+  rotate: false
+  xy: 158, 21
+  size: 252, 145
+  orig: 300, 165
+  offset: 24, 12
+  index: -1
+ts_000_000
+  rotate: false
+  xy: 736, 14
+  size: 130, 146
+  orig: 465, 204
+  offset: 0, 24
+  index: -1
+ts_000_001
+  rotate: false
+  xy: 567, 431
+  size: 248, 184
+  orig: 465, 204
+  offset: 0, 4
+  index: -1
+ts_000_002
+  rotate: true
+  xy: 369, 256
+  size: 361, 194
+  orig: 465, 204
+  offset: 0, 0
+  index: -1
+ts_000_003
+  rotate: false
+  xy: 4, 682
+  size: 463, 194
+  orig: 465, 204
+  offset: 0, 0
+  index: -1
+ts_000_004
+  rotate: true
+  xy: 681, 619
+  size: 465, 194
+  orig: 465, 204
+  offset: 0, 0
+  index: -1

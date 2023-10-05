@@ -1,0 +1,13 @@
+10-21-58-4: OnEventTCPNetworkShut userid = 1007 断线 
+10-21-58-4: OnEventTCPNetworkShut userid = 1007 wTableID = 65535 wDrawCount = 0 断线 
+10-21-58-4: OnEventTCPNetworkShut userid = 1007 断线 离开房间 
+10-21-58-9: PerformStandUpAction userid = 1007 起立 
+10-21-58-9: JudePersonalStandUp userid = 1007 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+10-21-58-9: PerformStandUpAction userid = 1007  bStand = 0 起立 1 
+10-21-58-9: JudePersonalStandUp userid = 1007 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+10-21-58-9: PerformStandUpAction userid = 1007 userid = 1007 起立 2 
+10-21-58-9: PerformStandUpAction userid = 1007 离开 
+10-21-58-9: PerformStandUpAction userid = 1007 cbUserStatus = 2 离开 
+10-21-58-9: OnEventTCPNetworkShut userid = 1007 断线 
+10-21-58-9: OnEventTCPNetworkShut userid = 1007 wTableID = 65535 wDrawCount = 0 断线 
+10-21-58-9: OnEventTCPNetworkShut userid = 1007 断线 离开房间 

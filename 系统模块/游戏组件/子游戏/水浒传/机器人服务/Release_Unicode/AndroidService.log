@@ -1,0 +1,18 @@
+﻿  AndroidService.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  AndroidUserItemSink.cpp
+AndroidUserItemSink.cpp(98): error C2039: “GetAndroidParameter”: 不是“IAndroidUserItem”的成员
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\GameServiceHead.h(1577): note: 参见“IAndroidUserItem”的声明
+AndroidUserItemSink.cpp(100): error C2039: “lTakeMinScore”: 不是“tagAndroidParameter”的成员
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\Struct.h(323): note: 参见“tagAndroidParameter”的声明
+AndroidUserItemSink.cpp(102): error C2039: “lTakeMinScore”: 不是“tagAndroidParameter”的成员
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\Struct.h(323): note: 参见“tagAndroidParameter”的声明
+AndroidUserItemSink.cpp(102): error C2039: “lTakeMaxScore”: 不是“tagAndroidParameter”的成员
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\Struct.h(323): note: 参见“tagAndroidParameter”的声明
+AndroidUserItemSink.cpp(108): error C2039: “lTakeMaxScore”: 不是“tagAndroidParameter”的成员
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\Struct.h(323): note: 参见“tagAndroidParameter”的声明
+AndroidUserItemSink.cpp(110): error C2039: “lTakeMinScore”: 不是“tagAndroidParameter”的成员
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\Struct.h(323): note: 参见“tagAndroidParameter”的声明
+  Stdafx.cpp

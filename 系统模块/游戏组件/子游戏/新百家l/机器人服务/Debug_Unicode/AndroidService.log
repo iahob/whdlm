@@ -1,0 +1,23 @@
+﻿  Stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  AndroidUserItemSink.cpp
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(725): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(726): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(743): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(746): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(747): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(750): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(753): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\androiduseritemsink.cpp(769): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+  AndroidServiceManager.cpp
+  AndroidService.cpp
+  正在生成代码...
+AndroidService.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../../../运行/Debug/Unicode/BaccaratNewAndroid.lib 和对象 ../../../../运行/Debug/Unicode/BaccaratNewAndroid.exp
+BaccaratNewAndroid.exp : warning LNK4070: .EXP 中的 /OUT:AndroidServiceD.dll 指令与输出文件名“../../../../运行/Debug/Unicode/BaccaratNewAndroid.dll”不同；忽略指令
+  AndroidService.vcxproj -> G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\新百家乐\机器人服务\../../../../运行/Debug/Unicode/BaccaratNewAndroid.dll
+  AndroidService.vcxproj -> ../../../../运行/Debug/Unicode/BaccaratNewAndroid.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

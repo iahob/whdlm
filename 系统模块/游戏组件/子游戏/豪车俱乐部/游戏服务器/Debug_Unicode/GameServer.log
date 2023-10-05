@@ -1,0 +1,41 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug_Unicode\) contains files shared from another project (豪车俱乐部服务端.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stdafx.cpp
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  MiniDumper.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\minidumper.cpp(68): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\minidumper.cpp(72): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\minidumper.cpp(73): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+  GameServerManager.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+  GameServer.cpp
+  GameLogic.cpp
+  DlgCustomRule.cpp
+  正在生成代码...
+  TableFrameSink.cpp
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(878): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1664): warning C4477: “swprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LONGLONG”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1664): note: 请考虑在格式字符串中使用“%lld”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1664): note: 请考虑在格式字符串中使用“%I64d”
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1666): warning C4477: “swprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“LONGLONG”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1666): note: 请考虑在格式字符串中使用“%lld”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1666): note: 请考虑在格式字符串中使用“%I64d”
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1668): warning C4477: “swprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“LONGLONG”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1668): note: 请考虑在格式字符串中使用“%lld”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1668): note: 请考虑在格式字符串中使用“%I64d”
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1712): warning C4477: “swprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LONGLONG”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1712): note: 请考虑在格式字符串中使用“%lld”
+  d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1712): note: 请考虑在格式字符串中使用“%I64d”
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(1475): warning C4715: “CTableFrameSink::GetRandCardValue”: 不是所有的控件路径都返回值
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\tableframesink.cpp(2123): warning C4715: “CTableFrameSink::ProbeJudge”: 不是所有的控件路径都返回值
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\projects\trunk\server\Server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\Debug_Unicode\LuxuryCarServer.dll) does not match the Linker's OutputFile property value (D:\projects\trunk\server\Server\运行\debug\Unicode\LuxuryCarServer.DLL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  GameServer.vcxproj -> D:\projects\trunk\server\Server\游戏组件\大连客户\豪车俱乐部_金币版\游戏服务器\Debug_Unicode\LuxuryCarServer.dll
+  GameServer.vcxproj -> Debug_Unicode\LuxuryCarServer.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

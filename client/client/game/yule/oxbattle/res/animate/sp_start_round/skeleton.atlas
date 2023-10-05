@@ -1,0 +1,188 @@
+
+skeleton.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dragon
+  rotate: false
+  xy: 483, 388
+  size: 294, 231
+  orig: 294, 231
+  offset: 0, 0
+  index: -1
+ani_flare_00000
+  rotate: false
+  xy: 709, 76
+  size: 102, 104
+  orig: 128, 128
+  offset: 14, 15
+  index: -1
+ani_tiger
+  rotate: true
+  xy: 1801, 729
+  size: 286, 234
+  orig: 286, 234
+  offset: 0, 0
+  index: -1
+ani_vs
+  rotate: true
+  xy: 731, 182
+  size: 168, 169
+  orig: 169, 171
+  offset: 1, 0
+  index: -1
+blueCloud
+  rotate: false
+  xy: 2, 449
+  size: 479, 280
+  orig: 481, 296
+  offset: 2, 5
+  index: -1
+lightingA/lightingA_00000
+  rotate: true
+  xy: 484, 621
+  size: 164, 435
+  orig: 280, 450
+  offset: 19, 14
+  index: -1
+lightingA/lightingA_00001
+  rotate: true
+  xy: 1364, 835
+  size: 180, 435
+  orig: 280, 450
+  offset: 54, 14
+  index: -1
+lightingA/lightingA_00002
+  rotate: true
+  xy: 921, 797
+  size: 218, 441
+  orig: 280, 450
+  offset: 13, 8
+  index: -1
+lightingB/lightingB_00000
+  rotate: false
+  xy: 921, 634
+  size: 415, 161
+  orig: 512, 256
+  offset: 18, 25
+  index: -1
+lightingB/lightingB_00001
+  rotate: false
+  xy: 921, 634
+  size: 415, 161
+  orig: 512, 256
+  offset: 18, 25
+  index: -1
+lightingB/lightingB_00002
+  rotate: false
+  xy: 2, 2
+  size: 426, 223
+  orig: 512, 256
+  offset: 11, 17
+  index: -1
+lightingB/lightingB_00003
+  rotate: false
+  xy: 484, 787
+  size: 435, 228
+  orig: 512, 256
+  offset: 7, 10
+  index: -1
+lightingB/lightingB_00004
+  rotate: false
+  xy: 2, 227
+  size: 443, 220
+  orig: 512, 256
+  offset: 2, 18
+  index: -1
+lightingB/lightingB_00005
+  rotate: false
+  xy: 954, 327
+  size: 249, 112
+  orig: 512, 256
+  offset: 203, 82
+  index: -1
+lightingB/lightingB_00006
+  rotate: false
+  xy: 954, 441
+  size: 255, 118
+  orig: 512, 256
+  offset: 201, 74
+  index: -1
+lightingB/lightingB_00007
+  rotate: true
+  xy: 779, 352
+  size: 267, 173
+  orig: 512, 256
+  offset: 193, 71
+  index: -1
+lightingB/lightingB_00008
+  rotate: false
+  xy: 430, 28
+  size: 277, 181
+  orig: 512, 256
+  offset: 185, 59
+  index: -1
+lightingB/lightingB_00009
+  rotate: false
+  xy: 447, 211
+  size: 282, 175
+  orig: 512, 256
+  offset: 182, 65
+  index: -1
+lightingB/lightingB_00010
+  rotate: false
+  xy: 1338, 672
+  size: 287, 37
+  orig: 512, 256
+  offset: 179, 70
+  index: -1
+lightingB/lightingB_00011
+  rotate: false
+  xy: 1338, 711
+  size: 295, 53
+  orig: 512, 256
+  offset: 173, 70
+  index: -1
+lightingB/lightingB_00012
+  rotate: false
+  xy: 1364, 766
+  size: 303, 67
+  orig: 512, 256
+  offset: 166, 70
+  index: -1
+lightingB/lightingB_00013
+  rotate: false
+  xy: 954, 561
+  size: 306, 71
+  orig: 512, 256
+  offset: 163, 71
+  index: -1
+lightingB/lightingB_00014
+  rotate: false
+  xy: 1338, 612
+  size: 230, 58
+  orig: 512, 256
+  offset: 157, 84
+  index: -1
+lightingB/lightingB_00015
+  rotate: false
+  xy: 1669, 756
+  size: 116, 77
+  orig: 512, 256
+  offset: 282, 60
+  index: -1
+lightingB/lightingB_00016
+  rotate: false
+  xy: 1669, 756
+  size: 116, 77
+  orig: 512, 256
+  offset: 282, 60
+  index: -1
+redCloud
+  rotate: false
+  xy: 2, 731
+  size: 480, 284
+  orig: 480, 295
+  offset: 0, 3
+  index: -1

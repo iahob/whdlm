@@ -1,0 +1,74 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: 控制服务器, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\RSP000009.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /YX"stdafx.h" /Fp"Debug/RedNineBattleServerControl.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\ServerControlItemSink.cpp
+.\ServerControl.cpp
+\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\游戏服务器\GameLogic.cpp
+]
+Creating command line "cl.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\RSP000009.rsp /nologo"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\RSP00000A.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /Yc"stdafx.h" /Fp"Debug/RedNineBattleServerControl.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\stdafx.cpp
+]
+Creating command line "cl.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\RSP00000A.rsp /nologo"
+Creating command line "rc.exe /d "_DEBUG" /d "_AFXDLL" /l 0x804 /I "Debug" /fo"Debug/ServerControl.res" .\ServerControl.rc"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\RSP00000B.rsp" with contents
+[
+/OUT:"../../../运行/Debug/RedNineBattleServerControl.dll" /INCREMENTAL /NOLOGO /DLL /DEF:".\ServerControl.def" /DEBUG /PDB:"Debug/控制服务器.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/ServerControl.lib" /MACHINE:X86
+.\Debug\GameLogic.obj
+.\Debug\ServerControl.obj
+.\Debug\ServerControlItemSink.obj
+.\Debug\stdafx.obj
+.\Debug\ServerControl.res
+]
+Creating command line "link.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\RSP00000B.rsp"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\BAT00000C.bat" with contents
+[
+@echo off
+mkdir ..\..\..\发布组件\服务器组件\Debug
+copy /y ..\..\..\运行\Debug\RedNineBattleServerControl.dll ..\..\..\发布组件\服务器组件\Debug\RedNineBattleServerControl.dll
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Post-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\BAT00000C.bat"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+ServerControlItemSink.cpp
+ServerControl.cpp
+GameLogic.cpp
+Compiling resources...
+Linking...
+LINK : LNK6004: ../../../运行/Debug/RedNineBattleServerControl.dll not found or not built by the last incremental link; performing full link
+   Creating library Debug/ServerControl.lib and object Debug/ServerControl.exp
+ServerControl.exp : warning LNK4070: /OUT:ServerControl.dll directive in .EXP differs from output filename '../../../运行/Debug/RedNineBattleServerControl.dll'; ignoring directive
+Performing Post-Build Event...
+子目录或文件 ..\..\..\发布组件\服务器组件\Debug 已经存在。
+已复制         1 个文件。
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\服务器控制\Debug\BuildLog.htm"
+控制服务器 - 0 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

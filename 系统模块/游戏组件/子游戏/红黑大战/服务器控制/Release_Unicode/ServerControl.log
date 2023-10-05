@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+d:\whqj\trunk\server\server\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameLogic.cpp
+  ServerControl.cpp
+  ServerControlItemSink.cpp
+ServerControlItemSink.cpp(62): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\whqj\trunk\server\server\游戏组件\开发库\include\RightDefine.h(64): note: 参见“CUserRight”的声明
+ServerControlItemSink.cpp(62): error C3861: “IsGameCheatUser”: 找不到标识符
+  正在生成代码...

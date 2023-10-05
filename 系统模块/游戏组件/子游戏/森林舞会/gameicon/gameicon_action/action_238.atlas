@@ -1,0 +1,90 @@
+
+action_238.png
+size: 674,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+att
+  rotate: true
+  xy: 2, 3
+  size: 200, 203
+  orig: 200, 203
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 333, 2
+  size: 203, 44
+  orig: 203, 44
+  offset: 0, 0
+  index: -1
+r1
+  rotate: false
+  xy: 475, 49
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+r2
+  rotate: false
+  xy: 538, 3
+  size: 52, 44
+  orig: 52, 44
+  offset: 0, 0
+  index: -1
+r3
+  rotate: true
+  xy: 538, 95
+  size: 108, 134
+  orig: 108, 134
+  offset: 0, 0
+  index: -1
+r4
+  rotate: false
+  xy: 333, 48
+  size: 140, 155
+  orig: 140, 155
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 216, 2
+  size: 5, 4
+  orig: 5, 4
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 207, 2
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+s3
+  rotate: false
+  xy: 207, 10
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+s4
+  rotate: false
+  xy: 216, 9
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 592, 16
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zhuan
+  rotate: true
+  xy: 207, 19
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,20 @@
+﻿  Stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  AndroidUserItemSink.cpp
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(755): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(756): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(773): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(779): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(782): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(799): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\androiduseritemsink.cpp(863): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): note: 参见“_snwscanf”的声明
+  AndroidService.cpp
+  GameLogic.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Projects\trunk\server\Server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\Debug_Unicode\LuxuryCarAndroid.dll) does not match the Linker's OutputFile property value (D:\Projects\trunk\server\Server\运行\Debug\Unicode\LuxuryCarAndroid.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  AndroidService.vcxproj -> D:\Projects\trunk\server\Server\游戏组件\大连客户\豪车俱乐部_金币版\机器人服务\Debug_Unicode\LuxuryCarAndroid.dll
+  AndroidService.vcxproj -> Debug_Unicode\LuxuryCarAndroid.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

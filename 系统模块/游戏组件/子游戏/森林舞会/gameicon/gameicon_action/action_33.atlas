@@ -1,0 +1,62 @@
+
+action_33.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L-jb
+  rotate: false
+  xy: 43, 18
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+L-jb2
+  rotate: false
+  xy: 2, 2
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+R-jb
+  rotate: false
+  xy: 310, 8
+  size: 46, 50
+  orig: 47, 51
+  offset: 0, 1
+  index: -1
+di
+  rotate: false
+  xy: 2, 41
+  size: 212, 213
+  orig: 214, 214
+  offset: 1, 1
+  index: -1
+jb
+  rotate: true
+  xy: 216, 60
+  size: 194, 132
+  orig: 194, 132
+  offset: 0, 0
+  index: -1
+pai
+  rotate: false
+  xy: 350, 123
+  size: 148, 131
+  orig: 148, 131
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 358, 44
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 216, 7
+  size: 92, 51
+  orig: 92, 51
+  offset: 0, 0
+  index: -1

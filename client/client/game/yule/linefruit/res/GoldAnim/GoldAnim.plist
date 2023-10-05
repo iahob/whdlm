@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>GoldAnim/sprite_backlight.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{719,701}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{719,701}</string>
+			</dict>
+			<key>GoldAnim/sprite_leftgold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{900,697},{87,136}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{87,136}</string>
+			</dict>
+			<key>GoldAnim/sprite_midgold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{900,562},{135,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{135,124}</string>
+			</dict>
+			<key>GoldAnim/sprite_rightgold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{900,833},{87,136}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{87,136}</string>
+			</dict>
+			<key>GoldAnim/sprite_star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{900,969},{49,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{49,50}</string>
+			</dict>
+			<key>GoldAnim/sprite_zdjl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{719,0},{562,199}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{562,199}</string>
+			</dict>
+			<key>GoldAnim/sprite_zfl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,701},{458,173}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{458,173}</string>
+			</dict>
+			<key>GoldAnim/sprite_zjl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{719,562},{455,181}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{455,181}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>GoldAnim.png</string>
+			<key>realTextureFileName</key>
+			<string>GoldAnim.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

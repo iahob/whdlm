@@ -1,0 +1,25 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  WHImage.cpp
+  PngImageEx.cpp
+  PngImage.cpp
+  GIFImage.cpp
+  DFontEx.cpp
+  D2DEngine.cpp
+  BitImageEx.cpp
+  BitImage.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\图像控件\Debug\图像控件.dll) does not match the Linker's OutputFile property value (D:\Space\Github\旗舰大联盟\系统模块\运行\Debug\Ansi\WHImageD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(图像控件) does not match the Linker's OutputFile property value (WHImageD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+BitImage.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../链接库/Ansi/WHImageD.lib 和对象 ../../链接库/Ansi/WHImageD.exp
+  WHImage.vcxproj -> D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\图像控件\Debug\图像控件.dll
+  WHImage.vcxproj -> Debug\图像控件.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+  系统找不到指定的文件。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy /y ..\..\..\运行\Debug\Ansi\图像控件.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\图像控件.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd”已退出，代码为 1。

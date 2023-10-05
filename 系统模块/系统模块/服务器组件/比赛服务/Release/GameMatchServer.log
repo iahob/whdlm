@@ -1,0 +1,58 @@
+﻿  ImmediateGroup.cpp
+ImmediateGroup.cpp(742): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  ImmediateGroup.cpp(742): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  ImmediateMatch.cpp
+ImmediateMatch.cpp(185): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+ImmediateMatch.cpp(471): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  ImmediateMatch.cpp(471): note: 请考虑在格式字符串中使用“%lld”
+  ImmediateMatch.cpp(471): note: 请考虑在格式字符串中使用“%I64d”
+ImmediateMatch.cpp(471): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LONGLONG”
+  ImmediateMatch.cpp(471): note: 请考虑在格式字符串中使用“%lld”
+  ImmediateMatch.cpp(471): note: 请考虑在格式字符串中使用“%I64d”
+ImmediateMatch.cpp(473): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  ImmediateMatch.cpp(473): note: 请考虑在格式字符串中使用“%lld”
+  ImmediateMatch.cpp(473): note: 请考虑在格式字符串中使用“%I64d”
+ImmediateMatch.cpp(475): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  ImmediateMatch.cpp(475): note: 请考虑在格式字符串中使用“%lld”
+  ImmediateMatch.cpp(475): note: 请考虑在格式字符串中使用“%I64d”
+ImmediateMatch.cpp(478): warning C4477: “_snprintf_s”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+  ImmediateMatch.cpp(478): note: 请考虑在格式字符串中使用“%ls”
+  ImmediateMatch.cpp(478): note: 请考虑在格式字符串中使用“%lls”
+  ImmediateMatch.cpp(478): note: 请考虑在格式字符串中使用“%Ls”
+  ImmediateMatch.cpp(478): note: 请考虑在格式字符串中使用“%ws”
+ImmediateMatch.cpp(687): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  ImmediateMatch.cpp(687): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+ImmediateMatch.cpp(1307): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  ImmediateMatch.cpp(1307): note: 请考虑在格式字符串中使用“%lld”
+  ImmediateMatch.cpp(1307): note: 请考虑在格式字符串中使用“%I64d”
+ImmediateMatch.cpp(1632): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  ImmediateMatch.cpp(1632): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+ImmediateMatch.cpp(1665): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  ImmediateMatch.cpp(1665): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  LockTimeMatch.cpp
+LockTimeMatch.cpp(925): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  LockTimeMatch.cpp(925): note: 请考虑在格式字符串中使用“%lld”
+  LockTimeMatch.cpp(925): note: 请考虑在格式字符串中使用“%I64d”
+LockTimeMatch.cpp(925): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LONGLONG”
+  LockTimeMatch.cpp(925): note: 请考虑在格式字符串中使用“%lld”
+  LockTimeMatch.cpp(925): note: 请考虑在格式字符串中使用“%I64d”
+LockTimeMatch.cpp(927): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  LockTimeMatch.cpp(927): note: 请考虑在格式字符串中使用“%lld”
+  LockTimeMatch.cpp(927): note: 请考虑在格式字符串中使用“%I64d”
+LockTimeMatch.cpp(929): warning C4477: “_snprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  LockTimeMatch.cpp(929): note: 请考虑在格式字符串中使用“%lld”
+  LockTimeMatch.cpp(929): note: 请考虑在格式字符串中使用“%I64d”
+LockTimeMatch.cpp(932): warning C4477: “_snprintf_s”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+  LockTimeMatch.cpp(932): note: 请考虑在格式字符串中使用“%ls”
+  LockTimeMatch.cpp(932): note: 请考虑在格式字符串中使用“%lls”
+  LockTimeMatch.cpp(932): note: 请考虑在格式字符串中使用“%Ls”
+  LockTimeMatch.cpp(932): note: 请考虑在格式字符串中使用“%ws”
+LockTimeMatch.cpp(1382): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  LockTimeMatch.cpp(1382): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+LockTimeMatch.cpp(2752): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  LockTimeMatch.cpp(2752): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+LockTimeMatch.cpp(2788): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  LockTimeMatch.cpp(2788): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+LockTimeMatch.cpp(3062): error C2664: “LPSTR lstrcpynA(LPSTR,LPCSTR,int)”: 无法将参数 2 从“WCHAR [32]”转换为“LPCSTR”
+  LockTimeMatch.cpp(3062): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  正在生成代码...

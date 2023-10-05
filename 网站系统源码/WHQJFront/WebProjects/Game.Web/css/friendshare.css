@@ -1,0 +1,177 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, table, ul, ol, dl, input, textarea, select, form, fieldset, legend, dt, dd, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+i, em {
+    font-style: normal;
+}
+
+h1, h2, h3, b, strong {
+    font-weight: 100;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    font-size: 12px;
+}
+
+.fn-left {
+    float: left;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft Yahei, SimHei, tahoma, arial, Hiragino Sans GB, SimSun, sans-serif";
+}
+
+    body > img {
+        display: block;
+        position: absolute;
+        z-index: -99;
+        width: 7.5rem;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translate(-50%);
+    }
+
+main {
+    width: 7.5rem;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ui-face {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.ui-player {
+    width: 1.44rem;
+    border-radius: 0.15rem;
+}
+
+.ui-face > span {
+    display: block;
+    font-size: 0.29rem;
+    color: #fff;
+    margin: 0.04rem 0 0;
+    height: 0.38rem;
+}
+
+.ui-room {
+    height: 1.70rem;
+    margin-top: 0.6rem;
+    text-align: center;
+    line-height: 1.7rem;
+    color: #fff;
+    font-size: 0.51rem;
+}
+
+    .ui-room > span {
+        font-size: 0.51rem;
+        color: #ffea00;
+    }
+
+.ui-detail {
+    width: 83%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.02rem;
+}
+
+    .ui-detail > p {
+        font-size: 0.33rem;
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+        .ui-detail > p > img {
+            display: inline-block;
+            vertical-align: bottom;
+            width: 0.56rem;
+            height: 0.44rem;
+        }
+
+        .ui-detail > p > span {
+            font-size: 0.33rem;
+            font-weight: 400;
+            color: #76fdff;
+        }
+
+.ui-btn {
+    display: block;
+    width: 3.2rem;
+    height: 0.98rem;
+    margin: 0.78rem auto 0;
+}
+
+    .ui-btn > img {
+        width: 100%;
+    }
+
+.ui-item {
+    width: 83%;
+    margin: 1.49rem auto 0;
+}
+
+.ui-icon1 {
+    width: 1.26rem;
+    ;
+}
+
+.ui-icon2 {
+    width: 1.56rem;
+    margin: 0 0.3rem 0 0.58rem;
+}
+
+.ui-icon3 {
+    width: 1.55rem;
+}
+
+body > img, .ui-player, .ui-btn > img, .ui-item > img, .ui-detail img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

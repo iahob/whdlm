@@ -1,0 +1,13 @@
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Facade.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Facade.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Data.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Entity.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.IData.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Kernel.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Utils.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Data.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.Entity.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\bin\Debug\Game.IData.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\obj\Debug\Game.Facade.csprojResolveAssemblyReference.cache
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\obj\Debug\Game.Facade.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Facade\obj\Debug\Game.Facade.pdb

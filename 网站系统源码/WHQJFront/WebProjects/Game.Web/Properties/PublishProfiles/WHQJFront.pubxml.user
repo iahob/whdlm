@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>G:\laok\组件\网站\前台</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="404.html">
+      <publishTime>04/07/2020 15:48:47</publishTime>
+    </File>
+    <File Include="Authorize.aspx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="bin/AopSdk.dll">
+      <publishTime>03/27/2020 12:17:23</publishTime>
+    </File>
+    <File Include="bin/AspNetPager.dll">
+      <publishTime>03/27/2020 12:17:23</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>03/27/2020 12:17:24</publishTime>
+    </File>
+    <File Include="bin/Game.Data.dll">
+      <publishTime>06/14/2020 16:42:18</publishTime>
+    </File>
+    <File Include="bin/Game.Entity.dll">
+      <publishTime>06/14/2020 16:42:16</publishTime>
+    </File>
+    <File Include="bin/Game.Facade.dll">
+      <publishTime>06/14/2020 16:42:19</publishTime>
+    </File>
+    <File Include="bin/Game.IData.dll">
+      <publishTime>06/14/2020 16:42:17</publishTime>
+    </File>
+    <File Include="bin/Game.Kernel.dll">
+      <publishTime>03/27/2020 12:17:24</publishTime>
+    </File>
+    <File Include="bin/Game.Utils.dll">
+      <publishTime>03/27/2020 12:17:24</publishTime>
+    </File>
+    <File Include="bin/Game.Web.dll">
+      <publishTime>06/14/2020 16:42:20</publishTime>
+    </File>
+    <File Include="bin/HttpHelper1.4.dll">
+      <publishTime>03/27/2020 12:17:24</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/27/2020 12:17:24</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/27/2020 12:17:23</publishTime>
+    </File>
+    <File Include="bin/ThoughtWorks.QRCode.dll">
+      <publishTime>03/27/2020 12:17:23</publishTime>
+    </File>
+    <File Include="Card/DataHandler.ashx">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/Index.aspx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="Card/setPassword.aspx">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/css/inputStyle.css">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/css/main.css">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/arrow-left.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/arrow-right.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/close.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/diamond.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/face.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/fail.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/gift1.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/gold.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-1.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-2.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-3.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-4.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-5.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-6.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-7.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-8.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/icon-9.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/assets/images/success.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/build.js">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/diamond.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/gold.png">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/index.html">
+      <publishTime>04/07/2020 15:48:48</publishTime>
+    </File>
+    <File Include="Card/v2/vendor.js">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/vendors~build.js">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="Card/v2/vendors~build~vendor.js">
+      <publishTime>03/27/2020 12:17:09</publishTime>
+    </File>
+    <File Include="css/Agentsharestyle.css">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="css/friendshare.css">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="css/index.css">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="css/mindex.css">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="css/roomshare.css">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="css/weixin.css">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="error.html">
+      <publishTime>04/07/2020 15:48:48</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="HAuthorize.aspx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="HTicket.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="image/custom.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/diamond.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/disband.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/download-btn.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/download-title-h5.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/download-title-lua.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/enter-bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/enter-btn.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/enter-title-bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/enter.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/face.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/fixed-a-bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/fox-cry.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/gamelist-bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/head.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/hotline.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/invite-bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/invite_bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/item1.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/item2.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/item3.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/jjb-qrcode.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/line.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/live_weixin.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/mobilelogo.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/phone.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qj_bg.jpg">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qj_btn.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qq.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qqbtn.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qq_pc.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qr-title.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/qr.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/recieve.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/saoyisao.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/share.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/sharelua_bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/Sharenew_bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/share_bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/telbtn.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/tel_pc.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/title-bg.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="image/title.png">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="js/agenctsharereset.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/baidumap/baidumap.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/commom.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/index.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/jquery/1.11.3/jquery.min.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/mindex.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/reset.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/share.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/slider/slider.css">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/slider/slider.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/weixin.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="js/zepto/1.1.6/zepto.min.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="log4net.config">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="Mobile/AgentShareLink.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/AgentShareLinkLua.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/DownLoad.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/GroupShareLink.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/Index.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/MoblieVideoInfo.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/Pay/LqReturn.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/RoomLink.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/ScanCodeAuthorize.aspx">
+      <publishTime>03/27/2020 20:13:00</publishTime>
+    </File>
+    <File Include="Mobile/ShareLink.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/ShareLinkNew.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/WebPay.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/WxRegister.aspx">
+      <publishTime>03/27/2020 12:17:21</publishTime>
+    </File>
+    <File Include="Mobile/WxScanLogin.aspx">
+      <publishTime>03/27/2020 20:13:03</publishTime>
+    </File>
+    <File Include="Notify/Alipay.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/Apple.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/H5Alipay.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/JftPay.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/jftycPay.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/LqPay.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/WxApp.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Notify/WxWeb.aspx">
+      <publishTime>03/27/2020 12:17:22</publishTime>
+    </File>
+    <File Include="Shop/WHShop.ashx">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/assets/css/agent/proxy.css">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/assets/css/reset.css">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/assets/js/fontReset.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/assets/js/utils/fetch.min.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/assets/js/utils/promise.min.js">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/DataHandle.ashx">
+      <publishTime>03/27/2020 12:17:10</publishTime>
+    </File>
+    <File Include="Spread/index.html">
+      <publishTime>04/07/2020 15:48:48</publishTime>
+    </File>
+    <File Include="U3D/index.aspx">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="U3D/Mobile/DownLoad.aspx">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="U3D/Mobile/index.aspx">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="U3D/Shop/WHShop.ashx">
+      <publishTime>03/27/2020 12:17:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/06/2020 14:37:59</publishTime>
+    </File>
+    <File Include="WS/DownImage.ashx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="WS/LogInterface.ashx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="WS/NewMoblieInterface.ashx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+    <File Include="WS/UserFace.ashx">
+      <publishTime>03/27/2020 12:17:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

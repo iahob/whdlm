@@ -1,0 +1,97 @@
+
+action_707.png
+size: 742,221
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+att
+  rotate: false
+  xy: 2, 13
+  size: 203, 206
+  orig: 214, 214
+  offset: 6, 6
+  index: -1
+e
+  rotate: true
+  xy: 2, 2
+  size: 9, 12
+  orig: 12, 15
+  offset: 3, 3
+  index: -1
+e1
+  rotate: false
+  xy: 340, 20
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+kk
+  rotate: false
+  xy: 566, 85
+  size: 133, 42
+  orig: 133, 42
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 667, 33
+  size: 49, 63
+  orig: 49, 63
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 701, 84
+  size: 39, 47
+  orig: 39, 47
+  offset: 0, 0
+  index: -1
+m3
+  rotate: true
+  xy: 566, 129
+  size: 90, 75
+  orig: 90, 75
+  offset: 0, 0
+  index: -1
+r1
+  rotate: true
+  xy: 466, 72
+  size: 147, 98
+  orig: 147, 98
+  offset: 0, 0
+  index: -1
+r2
+  rotate: false
+  xy: 207, 2
+  size: 131, 217
+  orig: 131, 217
+  offset: 0, 0
+  index: -1
+r3
+  rotate: false
+  xy: 643, 133
+  size: 76, 86
+  orig: 76, 88
+  offset: 0, 2
+  index: -1
+r4
+  rotate: true
+  xy: 466, 7
+  size: 63, 120
+  orig: 63, 120
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 588, 6
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zhuan
+  rotate: true
+  xy: 340, 35
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1

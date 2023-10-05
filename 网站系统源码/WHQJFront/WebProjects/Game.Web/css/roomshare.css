@@ -1,0 +1,169 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, table, ul, ol, dl, input, textarea, select, form, fieldset, legend, dt, dd, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+i, em {
+    font-style: normal;
+}
+
+h1, h2, h3, b, strong {
+    font-weight: 100;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    font-size: 12px;
+}
+
+.fn-left {
+    float: left;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft Yahei, SimHei, tahoma, arial, Hiragino Sans GB, SimSun, sans-serif";
+}
+
+    body > img {
+        display: block;
+        position: absolute;
+        z-index: -99;
+        width: 7.5rem;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translate(-50%);
+    }
+
+main {
+    width: 7.5rem;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ui-face {
+    text-align: center;
+    padding-top: 1.57rem;
+}
+
+.ui-head {
+    width: 1.31rem;
+    margin-right: 0.33rem;
+    vertical-align: top;
+}
+
+.ui-face > span {
+    display: inline-block;
+    font-size: 0.44rem;
+    color: #fff;
+    margin-top: 0.4rem;
+    height: 23px;
+}
+
+.ui-room {
+    height: 1.70rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    line-height: 1.7rem;
+    color: #fff;
+    font-size: 0.51rem;
+}
+
+    .ui-room > span {
+        font-size: 0.51rem;
+        color: #ffea00;
+    }
+
+.ui-detail {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.7rem 0.28rem 0;
+}
+
+    .ui-detail > p {
+        font-size: 0.31rem;
+        color: #fff;
+        font-weight: 400;
+    }
+
+        .ui-detail > p > span {
+            font-size: 0.31rem;
+            font-weight: 400;
+        }
+
+
+.ui-btn {
+    display: block;
+    width: 3.2rem;
+    height: 0.98rem;
+    margin: 0.78rem auto 0;
+}
+
+    .ui-btn > img {
+        width: 100%;
+    }
+
+.ui-item {
+    width: 83%;
+    margin: 1.1rem auto 0;
+}
+
+.ui-icon1 {
+    width: 1.26rem;
+}
+
+.ui-icon2 {
+    width: 1.56rem;
+    margin: 0 0.3rem 0 0.58rem;
+}
+
+.ui-icon3 {
+    width: 1.55rem;
+}
+
+body > img, .ui-head, .ui-title, .ui-btn > img, .ui-item > img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

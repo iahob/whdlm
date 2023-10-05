@@ -1,0 +1,219 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameServer.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM_RULE DIALOGEX 0, 0, 345, 351
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "时间控制",IDC_STATIC,6,7,333,50
+    LTEXT           "开始时间：",IDC_STATIC,23,25,41,8
+    LTEXT           "理牌时间：",IDC_STATIC,23,38,41,8
+    EDITTEXT        IDC_TIME_START_GAME,67,23,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_RANGE_CARD,67,36,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（默认 30 秒，有效范围 5 - 60 秒）",IDC_STATIC,122,26,137,8
+    LTEXT           "（默认 60 秒，有效范围 20 - 99 秒）",IDC_STATIC,122,39,141,8
+    GROUPBOX        "游戏配置",IDC_STATIC,7,59,331,89
+    LTEXT           "玩法配置：",IDC_STATIC,24,74,41,8
+    CONTROL         "经典通比",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,80,73,48,10
+    CONTROL         "庄家比模式",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,133,73,56,10
+    LTEXT           "人数：",IDC_STATIC,24,112,25,8
+    CONTROL         "2人",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,80,112,28,10
+    CONTROL         "3人",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,131,112,28,10
+    CONTROL         "4人",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,174,112,28,10
+    LTEXT           "码牌：",IDC_STATIC,25,134,25,8
+    CONTROL         "无码牌",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,77,134,40,10
+    CONTROL         "黑桃5",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,130,134,36,10
+    CONTROL         "黑桃10",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,173,134,40,10
+    CONTROL         "黑桃A",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,217,134,36,10
+    GROUPBOX        "库存控制",IDC_STATIC,7,151,331,77
+    LTEXT           "房间库存起始值：",IDC_STATIC,17,170,65,8
+    LTEXT           "房间库存封顶值1：",IDC_STATIC,17,192,69,8
+    LTEXT           "房间库存封顶值2：",IDC_STATIC,17,214,69,8
+    LTEXT           "房间库存衰减值：",IDC_STATIC,177,170,65,8
+    LTEXT           "赢分概率1：",IDC_STATIC,177,192,45,8
+    LTEXT           "赢分概率2：",IDC_STATIC,177,214,45,8
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_START,85,165,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MAX1,85,187,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MAX2,85,209,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_DEDUCT,243,165,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MUL1,243,187,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MUL2,243,209,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,327,189,13,11
+    LTEXT           "%",IDC_STATIC,327,211,13,11
+    GROUPBOX        "机器人控制",IDC_STATIC,6,243,331,77
+    LTEXT           "机器人的分数最小值：",IDC_STATIC,12,262,81,8
+    LTEXT           "取款最小数额：",IDC_STATIC,12,283,57,8
+    LTEXT           "存款百分比：",IDC_STATIC,12,304,49,8
+    LTEXT           "机器人的分数最大值：",IDC_STATIC,170,262,80,8
+    LTEXT           "取款最大数额：",IDC_STATIC,170,282,56,9
+    EDITTEXT        IDC_ROBOT_SCOREMIN,92,257,58,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ROBOT_BANKGET,92,278,58,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ROBOT_STOMUL,92,299,58,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ROBOT_SCOREMAX,251,257,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ROBOT_BANKERGETBANKER,251,278,80,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,157,301,13,11
+    CONTROL         "同花先比点数",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | WS_GROUP,195,73,64,10
+    CONTROL         "同花先比花色",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,261,74,64,10
+    CONTROL         "快速比牌",IDC_CHECK_QUICK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,80,93,48,10
+END
+
+IDD_PERSONAL_RULE DIALOGEX 0, 0, 339, 113
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "底分配置 ",IDC_STATIC,5,21,333,60
+    EDITTEXT        IDC_EDIT1,49,37,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分1：",IDC_STATIC,19,39,29,8
+    EDITTEXT        IDC_EDIT2,129,37,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分2：",IDC_STATIC,99,39,29,8
+    EDITTEXT        IDC_EDIT3,219,37,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分3：",IDC_STATIC,189,39,29,8
+    EDITTEXT        IDC_EDIT4,49,59,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分4：",IDC_STATIC,19,61,29,8
+    EDITTEXT        IDC_EDIT5,129,58,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分5：",IDC_STATIC,99,60,29,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "浙江十三水游戏服务器组件"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "ThirteenZJServer.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "ThirteenZJServer.dll"
+            VALUE "ProductName", "浙江十三水游戏服务器组件"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CUSTOM_RULE, DIALOG
+    BEGIN
+    END
+
+    IDD_PERSONAL_RULE, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameServer.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

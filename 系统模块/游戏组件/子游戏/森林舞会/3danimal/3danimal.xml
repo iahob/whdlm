@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="GB2312"?>
+<AnimalCfg>
+	<sys freetime="8" jettontime="30" endtime="23" cancelbankertime="2" minjetton="20" istest="0"/>
+        <prizesequence animal="0,1,2" enjoygame="999" animalthreshold="2000"/>
+	<enjoygamecfg maxsyswin="12000" maxsyslost="2000" maxsyslostonetime="100000" maxsyswinonetime="0" playerlimit="1000000"/>
+	<animal3dcfg maxsyswin="12000" maxsyslost="0" maxsyslostonetime="0" maxsyswinonetime="0" playerlimit="1000000" minsysprize="1000" maxsysprize="2000" minflashrate="2" maxflashrate="11" minrepeattime="2" maxrepeatetime="10"/>
+		<colorrate>
+		    <color r="6" g="7" y="11"/>
+		    <color r="6" g="11" y="7"/>
+		    <color r="6" g="8" y="10"/>
+		    <color r="6" g="10" y="8"/>
+		    <color r="7" g="11" y="6"/>
+		    <color r="7" g="6" y="11"/>
+		    <color r="7" g="8" y="9"/>
+		    <color r="7" g="9" y="8"/>
+		    <color r="8" g="10" y="6"/>
+		    <color r="8" g="6" y="10"/>
+		    <color r="8" g="7" y="9"/>
+		    <color r="8" g="9" y="7"/>
+		    <color r="9" g="8" y="7"/>
+		    <color r="9" g="7" y="8"/>
+		    <color r="10" g="8" y="6"/>
+		    <color r="10" g="6" y="8"/>
+		    <color r="11" g="6" y="7"/>
+		    <color r="11" g="7" y="6"/> 
+		</colorrate>
+		<animalmulity>
+			<prizemulity colorcount="6">
+				<animal type="0" mulity="46"/>
+				<animal type="1" mulity="23"/>
+				<animal type="2" mulity="13"/>
+				<animal type="3" mulity="8"/>
+			</prizemulity>
+			<prizemulity colorcount="7">
+				<animal type="0" mulity="40"/>
+				<animal type="1" mulity="20"/>
+				<animal type="2" mulity="11"/>
+				<animal type="3" mulity="7"/>
+			</prizemulity>
+		 <prizemulity colorcount="8">
+				<animal type="0" mulity="35"/>
+				<animal type="1" mulity="17"/>
+				<animal type="2" mulity="10"/>
+				<animal type="3" mulity="6"/>
+			</prizemulity>
+			<prizemulity colorcount="9">
+				<animal type="0" mulity="31"/>
+				<animal type="1" mulity="15"/>
+				<animal type="2" mulity="8"/>
+				<animal type="3" mulity="5"/>
+			</prizemulity>
+			<prizemulity colorcount="10">
+				<animal type="0" mulity="28"/>
+				<animal type="1" mulity="14"/>
+				<animal type="2" mulity="8"/>
+				<animal type="3" mulity="5"/>
+			</prizemulity>
+			<prizemulity colorcount="11">
+				<animal type="0" mulity="25"/>
+				<animal type="1" mulity="12"/>
+				<animal type="2" mulity="7"/>
+				<animal type="3" mulity="4"/>
+			</prizemulity>
+		</animalmulity>
+		
+	<!--庄闲和开奖配置-->
+	 <zhuangprizes>
+	     <zhuangprize id="0"><!--测试修改庄闲和配置： id从0开始递增，每个id表示一个开奖的模板(100盘)-->
+		 <prizeinfo type="0" prizecount="48"/><!--type描述： 0：庄，1： 闲，2：和 prizecount:开奖次数-->
+		 <prizeinfo type="1" prizecount="46"/>
+		 <prizeinfo type="2" prizecount="6"/>
+	    </zhuangprize>
+            <zhuangprize id="1">
+		 <prizeinfo type="0" prizecount="48"/>
+		 <prizeinfo type="1" prizecount="46"/>
+		 <prizeinfo type="2" prizecount="6"/>
+		</zhuangprize>
+	    </zhuangprizes>
+	
+	<animalprizes>
+	  <!--动物配置： id从0开始递增，每个id表示一个开奖的模板(100盘)-->
+		                      
+
+
+
+
+
+
+
+ <animalprize id="0">
+		  <!--
+		  animal:( 0: 狮子,1:熊猫，2：猴子，3：兔子) 
+		  mulity：倍率 
+		  prizemode:开奖模式（0：单动物单颜色，1：单颜色，2：单动物，3：彩金，4：重复开奖，5：闪电）
+		  -->
+		  <prizeinfo animal="1" mulity="23" prizemode="2" prizecount="1" />
+                  <prizeinfo animal="0" mulity="40" prizemode="1" prizecount="0" />
+                  <prizeinfo animal="0" mulity="46" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="40" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="35" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="0" mulity="31" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="0" mulity="28" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="25" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="23" prizemode="0" prizecount="2" />
+                  <prizeinfo animal="1" mulity="20" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="17" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="15" prizemode="0" prizecount="2" />
+                  <prizeinfo animal="1" mulity="14" prizemode="0" prizecount="2" />
+                  <prizeinfo animal="1" mulity="12" prizemode="0" prizecount="3" />
+                  <prizeinfo animal="2" mulity="13" prizemode="0" prizecount="2" />
+                  <prizeinfo animal="2" mulity="11" prizemode="0" prizecount="2" />
+                  <prizeinfo animal="2" mulity="10" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="2" mulity="8" prizemode="0" prizecount="3" />
+                  <prizeinfo animal="2" mulity="7" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="3" mulity="8" prizemode="0" prizecount="8" />
+                  <prizeinfo animal="3" mulity="7" prizemode="0" prizecount="3" />
+                  <prizeinfo animal="3" mulity="6" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="3" mulity="5" prizemode="0" prizecount="6" />
+                  <prizeinfo animal="3" mulity="4" prizemode="0" prizecount="8" />
+
+
+<prizeinfo animal="1" mulity="23" prizemode="3" prizecount="0" minsysprize = "3587" maxsysprize="10937"/><!--当是彩金模式下，minsysprize:最小彩金数，maxsysprize：最大彩金数-->
+
+
+
+<prizeinfo animal="3" mulity="8" prizemode="4" prizecount="0">
+			   <animal type="1" mulity="20"/><!--重复开奖模式下，重复开的动物，一行表示一个-->
+			   <animal type="3" mulity="7"/>
+                           <animal type="2" mulity="11"/>
+
+			</prizeinfo>
+			
+
+
+<prizeinfo animal="2" mulity="10" prizemode="5" prizecount="0" minflash = "2" maxflash="2"/><!--闪电模式下，minflash：最小倍率，maxflash：最大倍率-->
+			
+		</animalprize>
+
+		
+
+
+
+
+
+
+
+
+
+                                                
+
+
+                                              <animalprize id="1">
+		  <!--
+		  animal:( 0: 狮子,1:熊猫，2：猴子，3：兔子) 
+		  mulity：倍率 
+		  prizemode:开奖模式（0：单动物单颜色，1：单颜色，2：单动物，3：彩金，4：重复开奖，5：闪电）
+		  -->
+		  <prizeinfo animal="0" mulity="40" prizemode="2" prizecount="0" />
+                  <prizeinfo animal="2" mulity="10" prizemode="2" prizecount="0" />
+                  <prizeinfo animal="3" mulity="4" prizemode="1" prizecount="1" />
+                  <prizeinfo animal="0" mulity="46" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="40" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="35" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="0" mulity="31" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="28" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="25" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="23" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="1" mulity="20" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="17" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="15" prizemode="0" prizecount="3" />
+                  <prizeinfo animal="1" mulity="14" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="12" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="2" mulity="13" prizemode="0" prizecount="8" />
+                  <prizeinfo animal="2" mulity="11" prizemode="0" prizecount="3" />
+                  <prizeinfo animal="2" mulity="10" prizemode="0" prizecount="4" />
+                  <prizeinfo animal="2" mulity="8" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="2" mulity="7" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="3" mulity="8" prizemode="0" prizecount="8" />
+                  <prizeinfo animal="3" mulity="7" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="3" mulity="6" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="3" mulity="5" prizemode="0" prizecount="7" />
+                  <prizeinfo animal="3" mulity="4" prizemode="0" prizecount="11" />
+
+
+<prizeinfo animal="3" mulity="8" prizemode="3" prizecount="0" minsysprize = "3363" maxsysprize="5737"/><!--当是彩金模式下，minsysprize:最小彩金数，maxsysprize：最大彩金数-->
+
+
+
+<prizeinfo animal="3" mulity="7" prizemode="4" prizecount="0">
+			   <animal type="1" mulity="23"/><!--重复开奖模式下，重复开的动物，一行表示一个-->
+			  
+			</prizeinfo>
+			
+
+
+<prizeinfo animal="3" mulity="7" prizemode="5" prizecount="0" minflash = "2" maxflash="2"/><!--闪电模式下，minflash：最小倍率，maxflash：最大倍率-->
+			
+		</animalprize>
+		
+		
+		
+		                                    <animalprize id="2">
+		  <!--
+		  animal:( 0: 狮子,1:熊猫，2：猴子，3：兔子) 
+		  mulity：倍率 
+		  prizemode:开奖模式（0：单动物单颜色，1：单颜色，2：单动物，3：彩金，4：重复开奖，5：闪电）
+		  -->
+		               <prizeinfo animal="1" mulity="23" prizemode="2" prizecount="0" />
+                  <prizeinfo animal="0" mulity="40" prizemode="1" prizecount="0" />
+                  <prizeinfo animal="0" mulity="46" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="40" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="35" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="0" mulity="31" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="0" mulity="28" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="0" mulity="25" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="23" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="1" mulity="20" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="17" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="1" mulity="15" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="1" mulity="14" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="1" mulity="12" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="2" mulity="13" prizemode="0" prizecount="1" />
+                  <prizeinfo animal="2" mulity="11" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="2" mulity="10" prizemode="0" prizecount="4" />
+                  <prizeinfo animal="2" mulity="8" prizemode="0" prizecount="0" />
+                  <prizeinfo animal="2" mulity="7" prizemode="0" prizecount="5" />
+                  <prizeinfo animal="3" mulity="8" prizemode="0" prizecount="8" />
+                  <prizeinfo animal="3" mulity="7" prizemode="0" prizecount="3" />
+                  <prizeinfo animal="3" mulity="6" prizemode="0" prizecount="2" />
+                  <prizeinfo animal="3" mulity="5" prizemode="0" prizecount="4" />
+                  <prizeinfo animal="3" mulity="4" prizemode="0" prizecount="8" />
+
+
+<prizeinfo animal="1" mulity="23" prizemode="3" prizecount="0" minsysprize = "3587" maxsysprize="10937"/><!--当是彩金模式下，minsysprize:最小彩金数，maxsysprize：最大彩金数-->
+
+
+
+<prizeinfo animal="3" mulity="8" prizemode="4" prizecount="0">
+			   <animal type="1" mulity="20"/><!--重复开奖模式下，重复开的动物，一行表示一个-->
+			   <animal type="3" mulity="7"/>
+                           <animal type="2" mulity="11"/>
+                           <animal type="0" mulity="25"/>
+
+			</prizeinfo>
+			
+
+
+<prizeinfo animal="2" mulity="10" prizemode="5" prizecount="0" minflash = "2" maxflash="4"/><!--闪电模式下，minflash：最小倍率，maxflash：最大倍率-->
+			
+		</animalprize>
+		
+		
+		
+		                                              
+		
+</animalprizes>
+</AnimalCfg>

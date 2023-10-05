@@ -1,0 +1,54 @@
+﻿  Stdafx.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  DlgCustomRule.cpp
+  GameLogic.cpp
+  GameServer.cpp
+  GameServerManager.cpp
+  RobotManage.cpp
+RobotManage.cpp(243): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): note: 参见“_snwscanf”的声明
+RobotManage.cpp(285): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): note: 参见“_snwscanf”的声明
+RobotManage.cpp(300): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): note: 参见“_snwscanf”的声明
+  TableFrameSink.cpp
+TableFrameSink.cpp(445): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(594): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(691): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(922): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+TableFrameSink.cpp(1427): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1429): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1431): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1473): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1475): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1565): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(2194): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(2280): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(2547): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+TableFrameSink.cpp(2548): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+TableFrameSink.cpp(2550): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+TableFrameSink.cpp(2554): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
+TableFrameSink.cpp(2555): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
+TableFrameSink.cpp(2556): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
+TableFrameSink.cpp(2564): warning C4244: “=”: 从“LONGLONG”转换到“INT”，可能丢失数据
+TableFrameSink.cpp(2570): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+TableFrameSink.cpp(2579): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+TableFrameSink.cpp(2583): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+  正在生成代码...
+g:\work\guangdong\server\游戏组件\官方游戏\百人骰宝\游戏服务器\gamelogic.cpp(257): warning C4700: 使用了未初始化的局部变量“cbRecord”
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(G:\Work\GuangDong\Server\游戏组件\官方游戏\百人骰宝\游戏服务器\Release_Unicode\游戏服务端.dll) does not match the Linker's OutputFile property value (G:\Work\GuangDong\Server\运行\Release\Unicode\SicBoBattleServer.DLL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(游戏服务端) does not match the Linker's OutputFile property value (SicBoBattleServer). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\GameServer.lib 和对象 Release_Unicode\GameServer.exp
+  GameServer.vcxproj -> G:\Work\GuangDong\Server\游戏组件\官方游戏\百人骰宝\游戏服务器\Release_Unicode\游戏服务端.dll
+  GameServer.vcxproj -> Release_Unicode\游戏服务端.pdb (Full PDB)

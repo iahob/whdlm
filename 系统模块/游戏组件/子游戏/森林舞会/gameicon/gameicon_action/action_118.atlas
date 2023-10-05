@@ -1,0 +1,41 @@
+
+action_118.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 214, 214
+  orig: 214, 214
+  offset: 0, 0
+  index: -1
+da
+  rotate: false
+  xy: 404, 65
+  size: 168, 151
+  orig: 168, 151
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 574, 86
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+xiao
+  rotate: false
+  xy: 218, 39
+  size: 184, 177
+  orig: 184, 177
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 574, 165
+  size: 175, 51
+  orig: 175, 51
+  offset: 0, 0
+  index: -1

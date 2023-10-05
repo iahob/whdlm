@@ -1,0 +1,57 @@
+﻿  Stdafx.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  DlgCustomRule.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+DlgCustomRule.cpp(98): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(99): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(100): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(101): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(102): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(103): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(136): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(137): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(138): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(139): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(140): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(141): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(142): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+DlgCustomRule.cpp(143): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
+  GameLogic.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+GameLogic.cpp(215): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  GameServer.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameServiceManager.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+GameServiceManager.cpp(253): error C2259: “CGameServiceManager”: 不能实例化抽象类
+  GameServiceManager.cpp(253): note: 由于下列成员:
+  GameServiceManager.cpp(253): note: “bool IGameServiceCustomRule::DefaultServerLevel(LPBYTE,WORD,tagGameServerLevelInfo &,WORD)”: 是抽象的
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\GameServiceHead.h(651): note: 参见“IGameServiceCustomRule::DefaultServerLevel”的声明
+  HistoryScore.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  TableFrameSink.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+TableFrameSink.cpp(697): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+TableFrameSink.cpp(788): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+TableFrameSink.cpp(941): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+TableFrameSink.cpp(1071): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+TableFrameSink.cpp(1202): warning C4244: “初始化”: 从“LONGLONG”转换到“double”，可能丢失数据
+  正在生成代码...

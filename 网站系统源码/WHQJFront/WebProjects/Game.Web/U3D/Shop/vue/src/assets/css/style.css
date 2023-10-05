@@ -1,0 +1,748 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body,h1,h2,h3,h4,h5,h6,table,ul,ol,dl,input,textarea,select,form,fieldset,legend,dt,dd,a{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+i,em{font-style:normal;}
+h1,h2,h3,b,strong{font-weight:100;}
+img{border:0;}
+input{outline:none;}
+.clear:after{content:"."; display:block; height:0; overflow:hidden; visibility:hidden;clear:both;}
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {font-size: 12px;}
+.fn-left{
+  float: left;
+}
+.fn-right{
+  float: right;
+}
+.fn-clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+ul li.list-marginRight0{
+  margin-right: 0;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft Yahei, SimHei, tahoma, arial, Hiragino Sans GB, SimSun, sans-serif";
+  /* background-color: #1d1315; */
+  background-color: #0e1b27;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+}
+
+.ui-productPage{
+  width: 100%;
+  height: 100%;
+}
+
+.ui-nav{
+  width: 39.1%;
+  height: 5.87%;
+  background: url(../images/nav_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-top: 1.41%;
+}
+
+.ui-nav ul{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.ui-nav li {
+  display: table-cell;
+  vertical-align: middle;
+  width: 12%;
+  height: 100%;
+  text-align: center;
+  /* color: #a492cd; */
+  color: #5f99f7;
+}
+
+.ui-nav li.active{
+  margin-top: 0.01rem;
+  color: #fff;
+  height: 0.4rem;
+  background: url(../images/nav_active.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.ui-product-content{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ui-list{
+  width: 100%;
+  height: 100%;
+  /* margin-top: 1.87%; */
+}
+
+.ui-list li{
+  float: left;
+  width: 19.58%;
+  /* height: 45%; */
+  margin-right: 1.84%; 
+  margin-top: 1.8%;
+  background: url(../images/li_bg.png) no-repeat;
+  background-size: 100%;
+  /* margin-bottom: 3%; */
+}
+
+.ui-list li > img {
+  width: 78%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 16%;
+  height: 82px;
+
+}
+/*iphone 678*/
+@media screen and (min-width: 666px) and (max-width: 735px) 
+{
+  .ui-list li > img {
+    height: 75px;
+  
+  }
+}
+
+/*iphone x*/
+@media screen and (min-width: 800px) 
+{
+  .ui-list li > img {
+    height: 93px;
+  
+  }
+}
+
+.ui-list li p {
+  text-align: center;
+}
+
+.ui-list li p > span{
+  font-size: 14px;
+}
+
+.ui-list li > a {
+  display: table;
+  width: 78.02%;
+  height: 54px;
+  margin: 10.09% auto 0;
+  background: url(../images/product_btn.png) no-repeat;
+  background-size: 100% 70%;
+  /* line-height: 36px; */
+}
+
+.ui-list li > a > span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 45%;
+  text-align: left;
+  padding-bottom: 14%;
+  font-weight: bold;
+}
+
+/* 弹窗 */
+.ui-dialog{
+  width: 296.5px;
+  height: 158px;
+  background: url(../images/dialog_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding-top: 47px;
+}
+
+.ui-dialog-close{
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url(../images/dialog_close.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+/* 容器一 */
+.ui-dialog-tainer1{
+  display: block;
+  /* display: none; */
+}
+.ui-tainer1-content{
+  width: 261px;
+  margin: 0 auto;
+  padding-top: 19.5px;
+  display: table;
+}
+
+.ui-tainer1-content p{
+  margin-bottom: 5px;
+  padding-left: 36px;
+}
+
+.ui-tainer1-content p b{
+  display: table-cell;
+  color: #85b0fa;
+  font-size: 14px;
+  width: 80px;
+  text-align: right;
+}
+
+.ui-tainer1-content p span{
+  display: table-cell;
+  color: #ffd542;
+  font-size: 14px;
+}
+
+.ui-amount{
+  width: 92px;
+  height: 18px;
+  background-color: #21282d;
+  
+}
+
+.ui-amount input{
+  border: 0;
+  background-color: #21282d;
+  text-align: center;
+  height: 18px;
+  width: 52px;
+  color: #ffd542;
+  vertical-align: top;
+  border-top: 1px solid #080a0b;
+  border-bottom: 1px solid #44374a;
+}
+
+.ui-reduce{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/reduce_btn.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0;
+}
+
+.ui-plus{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/plus_btn.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0;
+}
+
+.ui-dialog-btn{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.ui-dialog-cancel{
+  display: inline-block;
+  width: 109px;
+  height: 34px;
+  background: url(../images/cancel_btn.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0;
+  margin-right: 19px;
+}
+
+.ui-dialog-confirm{
+  display: inline-block;
+  width: 109px;
+  height: 34px;
+  background: url(../images/confirm_btn.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0;
+}
+
+/* 容器二 */
+
+.ui-tainer2-content{
+  width: 261px;
+  margin: 0 auto;
+  padding-top: 19.5px;
+  display: table;
+}
+
+.ui-tainer2-content p{
+  text-align: center;
+  color: #85b0fa;
+  margin-top: 28px;
+}
+
+.ui-tainer2-content p span{
+  color: #ffd542;
+}
+
+/* 容器三 */
+
+.ui-tainer3-content{
+  width: 261px;
+  margin: 0 auto;
+  padding-top: 19.5px;
+  display: table;
+}
+
+.ui-tainer3-content p{
+  text-align: center;
+  color: #85b0fa;
+  margin-top: 28px;
+}
+
+/* 容器四 */
+
+.ui-tainer4-content{
+  width: 261px;
+  margin: 0 auto;
+  padding-top: 19.5px;
+  display: table;
+}
+
+.ui-tainer4-content p{
+  text-align: center;
+  color: #85b0fa;
+  margin-top: 14px;
+}
+
+.ui-tainer4-content p span{
+  color: #ffd542;
+}
+
+/* 兑换记录页面 */
+.ui-recordPage{
+  height: 100%;
+}
+
+.ui-recordPage > p{
+  text-align: center;
+  color: #ffe6a2;
+  font-weight: 900;
+  font-size: 16px;
+  margin-bottom: 0.6%;
+}
+
+.ui-record-content{
+  width: 91.63%;
+  height: 91.9%;
+  background: url(../images/record_bg.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow-y: auto;
+}
+
+.ui-record-close{
+  display: block;
+  width: 7.85%;
+  height: 9.57%;
+  background: url(../images/record_close.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+}
+
+.ui-record-list li{
+  width: 96.77%;
+  margin: 0 auto;
+  padding-top: 2.44%;
+  border-bottom: 1px solid #37273e;
+}
+
+.ui-record-list p{
+  margin-bottom: 3%;
+  font-size: 14px;
+}
+
+.ui-record-list b{
+  display: inline-block;
+  width: 22.89%;
+  color: #4e82dc;
+  text-align: right;
+  margin-right: 3.2%;
+  font-weight: 900;
+}
+
+.ui-record-list span{
+  color: #fff;
+  font-size: 14px;
+}
+
+/* 订单详情页面 */
+.ui-orderPage{
+  height: 100%;
+}
+
+.ui-orderPage > p{
+  text-align: center;
+  color: #ffe6a2;
+  font-weight: 900;
+  font-size: 16px;
+  margin-bottom: 0.6%;
+}
+
+.ui-order-content{
+  width: 91.63%;
+  height: 91.9%;
+  background: url(../images/record_bg.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ui-order-content > div{
+  margin-bottom: 2.8%;
+}
+
+.ui-order-content > div:first-child{
+  padding-top: 2.37%;
+}
+
+.ui-order-content b{
+  color: #4e82dc;
+  display: inline-block;
+  width: 22.89%;
+  text-align: right;
+  margin-right: 2.58%;
+}
+
+.ui-order-content span{
+  color: #fff;
+}
+
+.ui-accept-msg > span{
+  color: #4e82dc;
+}
+
+.ui-accept-msg a{
+  color: #ffd542;
+  text-decoration: underline;
+}
+
+
+
+.ui-order-address{
+  height: 26.71%;
+}
+
+.ui-order-address > div{
+  margin-bottom: 0.8%;
+  height: 30.5%;
+}
+
+.ui-order-address input{
+  width: 25.81%;
+  height: 100%;
+  border: 0;
+  text-indent: 5%;
+  color: #fff;
+  background: url(../images/input_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.ui-order-address-last input{
+  width: 55.91%;
+  height: 100%;
+  border: 0;
+  text-indent: 2.2%;
+  color: #fff;
+  background: url(../images/address_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+div.ui-order-bottom{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.ui-order-bottom p{
+  color: #4e82dc;
+  text-align: left;
+  margin: 0 0 1.72% 16.48%;
+}
+
+/* 收件人信息页面 */
+.ui-receivePage{
+  height: 100%;
+}
+
+.ui-receivePage > p{
+  text-align: center;
+  color: #ffe6a2;
+  font-weight: 900;
+  font-size: 16px;
+  margin-bottom: 0.6%;
+}
+
+.ui-receive-content{
+  width: 91.63%;
+  height: 91.9%;
+  background: url(../images/record_bg.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ui-receive-content > div:first-child{
+  padding-top: 4.41%;
+}
+
+.ui-receive-content > .ui-receive-msg{
+  margin-bottom: 5.05%;
+  height: 9.53%;
+}
+
+.ui-receive-content b{
+  color: #4e82dc;
+  display: inline-block;
+  width: 22.89%;
+  text-align: right;
+  margin-right: 2.58%;
+}
+
+.ui-receive-content input{
+  width: 25.81%;
+  height: 100%;
+  border: 0;
+  text-indent: 5%;
+  color: #fff;
+  background: url(../images/input_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.ui-site{
+  display: inline-block;
+  width: 16.56%;
+  height: 100%;
+  background: url(../images/input_bg.png) no-repeat;
+  background-size: 100% 100%;
+  margin-right: 1.26%;
+  margin-left: 1.62%;
+}
+
+.ui-site:first-of-type{
+  margin-left: 0;
+}
+
+.ui-site > a{
+  width: 100%;
+  height: 89%;
+  color: #fff;
+  display: block;
+  padding-top: 8%;
+  text-indent: 15%;
+  position: relative;
+}
+
+.ui-site + span{
+  color: #fff;
+}
+
+.ui-underarrow{
+  display: block;
+  width: 32.97%;
+  height: 89%;
+  background: url(../images/under_arrow.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+input.ui-address{
+  width: 65.6%;
+  height: 100%;
+  border: 0;
+  text-indent: 2%;
+  background: url(../images/address_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.ui-receive-bottom{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* 适配iphone4 */
+@media screen and (max-width:480px){
+  .ui-list li{
+    width: 24.58%;
+    margin-right: 0;
+  }
+  .ui-list li > a{
+    margin-top: 5.09%;
+    width: 90.02%;
+  }
+  .ui-list li p > span{
+    font-size: 12px;
+  }
+  .ui-list li > a > span{
+    font-size: 12px;
+  }
+  .ui-list li > a{
+    height: 36px;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:568px){
+  .ui-list li{
+    width: 24.58%;
+    margin-right: 0;
+  }
+}
+
+/* 适配ipad */
+@media screen and (min-width:1024px){
+  .ui-list li > a{
+    margin-top: 4.09%;
+    height: 60px;
+  }
+  .ui-tainer1-content p span,
+  .ui-tainer2-content p span,
+  .ui-tainer4-content p span,
+  .ui-record-list b,
+  .ui-record-list span,
+  .ui-order-content b,
+  .ui-order-content span,
+  .ui-accept-msg a,
+  .ui-order-bottom p,
+  .ui-order-address input,
+  .ui-receive-content b,
+  .ui-receive-content input,
+  .ui-site > a,
+  .ui-site + span,
+  .ui-nav li a{
+    font-size: 24px;
+  }
+  .ui-list li > a > span{
+    font-size: 18px;
+  }
+  .ui-list li p>span{
+    font-size: 20px;
+  }
+  .ui-dialog{
+    width: 593px;
+    height: 316px;
+    padding-top: 94px;
+  }
+  .ui-dialog-close{
+    display: block;
+    width: 38px;
+    height: 38px;
+    background: url(../images/dialog_close.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 18px;
+    top: 34px;
+  }
+  .ui-dialog-btn{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .ui-dialog-cancel{
+    width: 218px;
+    height: 68px;
+    margin-right: 38px;
+  }
+  
+  .ui-dialog-confirm{
+    width: 218px;
+    height: 68px;
+  }
+  .ui-tainer1-content,
+  .ui-tainer2-content,
+  .ui-tainer3-content,
+  .ui-tainer4-content{
+    width: 522px;
+    padding-top: 39px;
+  }
+  .ui-tainer1-content p{
+    margin-bottom: 10px;
+    padding-left: 72px;
+  }
+  .ui-tainer1-content p b{
+    font-size: 24px;
+    width: 160px;
+  }
+  .ui-amount{
+    width: 184px;
+    height: 36px;
+  }
+  .ui-reduce,.ui-plus{
+    width: 40px;
+    height: 40px;
+  }
+  .ui-amount input{
+    height: 38px;
+    width: 104px;
+    font-size: 24px;
+  }
+  .ui-tainer2-content p,
+  .ui-tainer3-content p{
+    margin-top: 56px;
+    font-size: 24px;
+  }
+  .ui-tainer4-content p{
+    margin-top: 28px;
+    font-size: 24px;
+  }
+  .ui-recordPage > p,
+  .ui-orderPage > p,
+  .ui-receivePage > p{
+    font-size: 28px;
+  }
+  .ui-record-close{
+    width: 9.85%;
+  }
+  .ui-site > a{
+    padding-top: 13%;
+    height: 83%;
+  }
+  .ui-underarrow{
+    width: 37.97%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

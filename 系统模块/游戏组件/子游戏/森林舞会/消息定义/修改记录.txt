@@ -1,0 +1,35 @@
+1）新加结构：CMD_BANKER_INFO
+描述当前庄家信息
+2）CMD_S_StatusFree，CMD_S_StatusPlay，CMD_S_GameFree，CMD_S_GameStart，CMD_S_GameEnd 分别增加了庄信息
+3） CMD_S_GameEnd 增加了__int64							iBankerScore;						//庄本次得分，描述本次游戏庄家的得分情况
+4） 新增申请上庄，下庄结构：
+
+新增加申请下庄协议(服务器端)：
+#define SUB_S_APPLY_BANKER			103									//申请庄家
+#define SUB_S_CHANGE_BANKER			104									//切换庄家
+
+对应的结构：
+//申请庄家
+struct CMD_S_ApplyBanker
+{
+	WORD							wApplyUser;							//申请玩家
+};
+
+//取消申请
+struct CMD_S_CancelBanker
+{
+	TCHAR							szCancelUser[32];					//取消玩家
+};
+
+//切换庄家
+struct CMD_S_ChangeBanker
+{
+	WORD							wBankerUser;						//当庄玩家
+	__int64							iBankerScore;						//庄家金币
+};
+
+5） 新增加申请下庄协议(客户端)：
+#define SUB_C_CANCEL_BANKER			4									//取消申请
+对应结构：
+没有结构
+

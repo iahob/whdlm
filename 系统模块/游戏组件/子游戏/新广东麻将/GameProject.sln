@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "游戏服务器", "服务器组件\GameServer.vcxproj", "{23FB6ADB-F0D0-4855-A74A-71DBA637856F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "游戏视频", "游戏录像\GameVideo.vcxproj", "{C59B4FE7-E421-4CFA-8C10-75AF8C978CD5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI服务", "AI服务\AndroidService.vcxproj", "{DCE9C6BF-60C3-45DD-8ED9-DC5CBBF54958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|Win32 = Debug_Unicode|Win32
+		Release_Unicode|Win32 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23FB6ADB-F0D0-4855-A74A-71DBA637856F}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{23FB6ADB-F0D0-4855-A74A-71DBA637856F}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{23FB6ADB-F0D0-4855-A74A-71DBA637856F}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{23FB6ADB-F0D0-4855-A74A-71DBA637856F}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{C59B4FE7-E421-4CFA-8C10-75AF8C978CD5}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{C59B4FE7-E421-4CFA-8C10-75AF8C978CD5}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{C59B4FE7-E421-4CFA-8C10-75AF8C978CD5}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{C59B4FE7-E421-4CFA-8C10-75AF8C978CD5}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{DCE9C6BF-60C3-45DD-8ED9-DC5CBBF54958}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{DCE9C6BF-60C3-45DD-8ED9-DC5CBBF54958}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{DCE9C6BF-60C3-45DD-8ED9-DC5CBBF54958}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{DCE9C6BF-60C3-45DD-8ED9-DC5CBBF54958}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

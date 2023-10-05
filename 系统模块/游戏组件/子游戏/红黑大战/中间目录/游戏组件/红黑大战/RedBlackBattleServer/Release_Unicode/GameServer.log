@@ -1,0 +1,10 @@
+﻿  GameServiceManager.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\qjdlm\服务端\游戏组件\开发库\include\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+    正在创建库 ../../../../运行/Release/Unicode/GameServer.lib 和对象 ../../../../运行/Release/Unicode/GameServer.exp
+GameServer.exp : warning LNK4070: .EXP 中的 /OUT:GameServer.dll 指令与输出文件名“../../../../运行/Release/Unicode/RedBlackBattleServer.dll”不同；忽略指令
+  GameServer.vcxproj -> G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\红黑大战\服务器组件\../../../../运行/Release/Unicode/RedBlackBattleServer.dll
+  GameServer.vcxproj -> ../../../../运行/Release/Unicode/RedBlackBattleServer.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode\ 已经存在。
+  已复制         1 个文件。

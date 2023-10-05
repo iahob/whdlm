@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/alipaySdk-20180601.jar"/>
+	<classpathentry kind="lib" path="libs/AMap_Location_V3.1.0_20161027.jar"/>
+	<classpathentry kind="lib" path="libs/Amap_2DMap_V2.9.2_20161026.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/banksdk.jar"/>
+	<classpathentry kind="lib" path="libs/bugly_agent.jar"/>
+	<classpathentry kind="lib" path="libs/bugly_crash_release.jar"/>
+	<classpathentry kind="lib" path="libs/libammsdk.jar"/>
+	<classpathentry kind="lib" path="libs/okhttp-3.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/okio-1.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/pay2.0.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.4.12.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

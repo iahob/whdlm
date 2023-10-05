@@ -1,0 +1,307 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+longhu-xy
+  rotate: false
+  xy: 1137, 1322
+  size: 109, 39
+  orig: 114, 40
+  offset: 5, 1
+  index: -1
+longhu-xy2
+  rotate: false
+  xy: 1364, 1584
+  size: 38, 5
+  orig: 38, 6
+  offset: 0, 0
+  index: -1
+xulie/longhudou_long_00001
+  rotate: false
+  xy: 910, 911
+  size: 224, 223
+  orig: 250, 250
+  offset: 19, 4
+  index: -1
+xulie/longhudou_long_00002
+  rotate: false
+  xy: 2, 1816
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00003
+  rotate: false
+  xy: 1364, 1817
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00004
+  rotate: false
+  xy: 2, 1589
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00005
+  rotate: false
+  xy: 229, 1816
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00006
+  rotate: false
+  xy: 2, 1362
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00007
+  rotate: false
+  xy: 229, 1589
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00008
+  rotate: false
+  xy: 2, 228
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00009
+  rotate: false
+  xy: 229, 230
+  size: 225, 223
+  orig: 250, 250
+  offset: 19, 4
+  index: -1
+xulie/longhudou_long_00010
+  rotate: false
+  xy: 229, 455
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00011
+  rotate: false
+  xy: 456, 1816
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00012
+  rotate: false
+  xy: 456, 682
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00013
+  rotate: false
+  xy: 2, 1135
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00014
+  rotate: false
+  xy: 683, 909
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00015
+  rotate: false
+  xy: 910, 1136
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00016
+  rotate: false
+  xy: 229, 1362
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00017
+  rotate: false
+  xy: 1137, 1363
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00018
+  rotate: false
+  xy: 456, 1589
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00019
+  rotate: false
+  xy: 683, 1816
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00020
+  rotate: false
+  xy: 1364, 1591
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00021
+  rotate: false
+  xy: 1591, 1817
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00022
+  rotate: false
+  xy: 2, 908
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00023
+  rotate: false
+  xy: 229, 1135
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00024
+  rotate: false
+  xy: 456, 1362
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00025
+  rotate: false
+  xy: 2, 2
+  size: 225, 224
+  orig: 250, 250
+  offset: 19, 3
+  index: -1
+xulie/longhudou_long_00026
+  rotate: false
+  xy: 456, 457
+  size: 225, 223
+  orig: 250, 250
+  offset: 19, 4
+  index: -1
+xulie/longhudou_long_00027
+  rotate: false
+  xy: 683, 1589
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00028
+  rotate: false
+  xy: 683, 684
+  size: 225, 223
+  orig: 250, 250
+  offset: 19, 4
+  index: -1
+xulie/longhudou_long_00029
+  rotate: false
+  xy: 910, 1816
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00030
+  rotate: false
+  xy: 2, 681
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00031
+  rotate: false
+  xy: 229, 908
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00032
+  rotate: false
+  xy: 456, 1135
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00033
+  rotate: false
+  xy: 683, 1362
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00034
+  rotate: false
+  xy: 910, 1589
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00035
+  rotate: false
+  xy: 1137, 1816
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00036
+  rotate: false
+  xy: 2, 454
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00037
+  rotate: false
+  xy: 229, 681
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00038
+  rotate: false
+  xy: 456, 908
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00039
+  rotate: false
+  xy: 683, 1135
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00040
+  rotate: false
+  xy: 910, 1362
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+xulie/longhudou_long_00041
+  rotate: false
+  xy: 1137, 1589
+  size: 225, 225
+  orig: 250, 250
+  offset: 19, 2
+  index: -1

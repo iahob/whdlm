@@ -1,0 +1,1268 @@
+ MatchService
+
+ Timestamp is 651e8785 (Thu Oct  5 17:53:09 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000020H .text$di                CODE
+ 0001:00000020 0000ef70H .text$mn                CODE
+ 0001:0000ef90 00000460H .text$x                 CODE
+ 0001:0000f3f0 0000000aH .text$yd                CODE
+ 0002:00000000 0000016cH .idata$5                DATA
+ 0002:0000016c 00000004H .00cfg                  DATA
+ 0002:00000170 00000004H .CRT$XCA                DATA
+ 0002:00000174 00000004H .CRT$XCL                DATA
+ 0002:00000178 00000000H .CRT$XCU                DATA
+ 0002:00000178 00000004H .CRT$XCZ                DATA
+ 0002:0000017c 00000004H .CRT$XIA                DATA
+ 0002:00000180 00000004H .CRT$XIC                DATA
+ 0002:00000184 00000004H .CRT$XIZ                DATA
+ 0002:00000188 00000004H .CRT$XLA                DATA
+ 0002:0000018c 00000004H .CRT$XLZ                DATA
+ 0002:00000190 00000004H .CRT$XPA                DATA
+ 0002:00000194 00000004H .CRT$XPZ                DATA
+ 0002:00000198 00000004H .CRT$XTA                DATA
+ 0002:0000019c 00000004H .CRT$XTZ                DATA
+ 0002:000001a0 000018a4H .rdata                  DATA
+ 0002:00001a44 00000018H .rdata$T                DATA
+ 0002:00001a5c 00000964H .rdata$r                DATA
+ 0002:000023c0 00000048H .rdata$sxdata           DATA
+ 0002:00002408 000003c0H .rdata$zzzdbg           DATA
+ 0002:000027c8 00000004H .rtc$IAA                DATA
+ 0002:000027cc 00000004H .rtc$IZZ                DATA
+ 0002:000027d0 00000004H .rtc$TAA                DATA
+ 0002:000027d4 00000004H .rtc$TZZ                DATA
+ 0002:000027d8 00000618H .xdata$x                DATA
+ 0002:00002dec 00000000H ATL$__a                 DATA
+ 0002:00002dec 00000000H ATL$__z                 DATA
+ 0002:00002df0 00000604H .edata                  DATA
+ 0002:000033f4 000000c8H .idata$2                DATA
+ 0002:000034bc 00000014H .idata$3                DATA
+ 0002:000034d0 0000016cH .idata$4                DATA
+ 0002:0000363c 0000057aH .idata$6                DATA
+ 0003:00000000 00000028H .data                   DATA
+ 0003:00000028 00000488H .data$r                 DATA
+ 0003:000004b0 00000420H .bss                    DATA
+ 0004:00000000 00000028H .gfids$y                DATA
+ 0005:00000000 00000004H .tls                    DATA
+ 0005:00000004 00000004H .tls$                   DATA
+ 0005:00000008 00000001H .tls$ZZZ                DATA
+ 0006:00000000 000000a0H .rsrc$01                DATA
+ 0006:000000a0 00000520H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000012       ___safe_se_handler_count   00000012     <absolute>
+ 0000:0000002c       __tls_array                0000002c     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000020       ??0CDistributeManager@@QAE@XZ 10001020 f   DistributeManager.obj
+ 0001:00000150       ??1?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAE@XZ 10001150 f i DistributeManager.obj
+ 0001:00000190       ??1?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@UAE@XZ 10001190 f i DistributeManager.obj
+ 0001:000001c0       ??1CDistributeManager@@UAE@XZ 100011c0 f   DistributeManager.obj
+ 0001:00000360       ??1CDistributeNodePool@@QAE@XZ 10001360 f   DistributeManager.obj
+ 0001:000003a0       ??A?$CMap@KKPAUIServerUserItem@@PAU1@@@QAEAAPAUIServerUserItem@@K@Z 100013a0 f i ImmediateGroup.obj
+ 0001:000003a0       ??A?$CMap@KKPAUtagSameTableInfo@@PAU1@@@QAEAAPAUtagSameTableInfo@@K@Z 100013a0 f i DistributeManager.obj
+ 0001:00000450       ??_G?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEPAXI@Z 10001450 f i DistributeManager.obj
+ 0001:00000450       ??_E?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEPAXI@Z 10001450 f i DistributeManager.obj
+ 0001:000004d0       ??_G?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@UAEPAXI@Z 100014d0 f i DistributeManager.obj
+ 0001:000004d0       ??_E?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@UAEPAXI@Z 100014d0 f i DistributeManager.obj
+ 0001:00000510       ??_ECDistributeManager@@UAEPAXI@Z 10001510 f i DistributeManager.obj
+ 0001:00000510       ??_GCDistributeManager@@UAEPAXI@Z 10001510 f i DistributeManager.obj
+ 0001:00000540       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10001540 f i DistributeManager.obj
+ 0001:00000550       ?GetAssocAt@?$CMap@KKPAUtagSameTableInfo@@PAU1@@@IBEPAVCAssoc@1@KAAI0@Z 10001550 f i DistributeManager.obj
+ 0001:00000550       ?GetAssocAt@?$CMap@KKPAUIServerUserItem@@PAU1@@@IBEPAVCAssoc@1@KAAI0@Z 10001550 f i ImmediateGroup.obj
+ 0001:000005c0       ?RemoveAll@CDistributeManager@@QAEXXZ 100015c0 f   DistributeManager.obj
+ 0001:00000680       ?Serialize@?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEXAAVCArchive@@@Z 10001680 f i DistributeManager.obj
+ 0001:00000680       ?Serialize@?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEXAAVCArchive@@@Z 10001680 f i ImmediateGroup.obj
+ 0001:00000990       _ExtRawDllMain@12          10001990 f   GameMatchServer.obj
+ 0001:000009d0       _DllMain@12                100019d0 f   GameMatchServer.obj
+ 0001:00000a30       ??$_snwprintf_s@$0BAA@@@YAHAAY0BAA@_WIPB_WZZ 10001a30 f i ImmediateGroup.obj
+ 0001:00000a70       ??$_snwprintf_s@$0EAA@@@YAHAAY0EAA@_WIPB_WZZ 10001a70 f i ImmediateGroup.obj
+ 0001:00000ab0       ??$_snwprintf_s@$0IA@@@YAHAAY0IA@_WIPB_WZZ 10001ab0 f i ImmediateGroup.obj
+ 0001:00000af0       ??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z 10001af0 f   ImmediateGroup.obj
+ 0001:00000d50       ??1?$CMap@KKPAUIServerUserItem@@PAU1@@@UAE@XZ 10001d50 f i ImmediateGroup.obj
+ 0001:00000d90       ??1?$CWHArray@KABK@@UAE@XZ 10001d90 f i ImmediateGroup.obj
+ 0001:00000dc0       ??1?$CWHArray@PAUIServerUserItem@@ABQAU1@@@UAE@XZ 10001dc0 f i ImmediateGroup.obj
+ 0001:00000df0       ??1?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@UAE@XZ 10001df0 f i ImmediateGroup.obj
+ 0001:00000e20       ??1?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@UAE@XZ 10001e20 f i ImmediateGroup.obj
+ 0001:00000e50       ??1CImmediateGroup@@UAE@XZ 10001e50 f   ImmediateGroup.obj
+ 0001:000010b0       ??_E?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEPAXI@Z 100020b0 f i ImmediateGroup.obj
+ 0001:000010b0       ??_G?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEPAXI@Z 100020b0 f i ImmediateGroup.obj
+ 0001:00001130       ??_G?$CWHArray@KABK@@UAEPAXI@Z 10002130 f i ImmediateGroup.obj
+ 0001:00001130       ??_E?$CWHArray@KABK@@UAEPAXI@Z 10002130 f i ImmediateGroup.obj
+ 0001:00001170       ??_E?$CWHArray@PAUIServerUserItem@@ABQAU1@@@UAEPAXI@Z 10002170 f i ImmediateGroup.obj
+ 0001:00001170       ??_G?$CWHArray@PAUIServerUserItem@@ABQAU1@@@UAEPAXI@Z 10002170 f i ImmediateGroup.obj
+ 0001:000011b0       ??_E?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@UAEPAXI@Z 100021b0 f i ImmediateGroup.obj
+ 0001:000011b0       ??_G?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@UAEPAXI@Z 100021b0 f i ImmediateGroup.obj
+ 0001:000011f0       ??_E?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@UAEPAXI@Z 100021f0 f i ImmediateGroup.obj
+ 0001:000011f0       ??_G?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@UAEPAXI@Z 100021f0 f i ImmediateGroup.obj
+ 0001:00001230       ??_GCImmediateGroup@@UAEPAXI@Z 10002230 f i ImmediateGroup.obj
+ 0001:00001230       ??_ECImmediateGroup@@UAEPAXI@Z 10002230 f i ImmediateGroup.obj
+ 0001:00001260       ?Add@?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@QAEHABQAVCImmediateGroup@@@Z 10002260 f i ImmediateMatch.obj
+ 0001:00001260       ?Add@?$CWHArray@PAUIServerUserItem@@ABQAU1@@@QAEHABQAUIServerUserItem@@@Z 10002260 f i ImmediateMatch.obj
+ 0001:00001260       ?Add@?$CWHArray@KABK@@QAEHABK@Z 10002260 f i ImmediateGroup.obj
+ 0001:000012c0       ?AllKillMatchTimer@CImmediateGroup@@IAEXXZ 100022c0 f   ImmediateGroup.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@QAEXH@Z 10002380 f i ImmediateGroup.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@QAEXH@Z 10002380 f i ImmediateGroup.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@QAEXH@Z 10002380 f i ImmediateMatch.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@KABK@@QAEXH@Z 10002380 f i ImmediateGroup.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAUIServerUserItem@@ABQAU1@@@QAEXH@Z 10002380 f i ImmediateGroup.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@QAEXH@Z 10002380 f i LockTimeMatch.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@QAEXH@Z 10002380 f i DistributeManager.obj
+ 0001:00001380       ?AllocMemory@?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@QAEXH@Z 10002380 f i LockTimeMatch.obj
+ 0001:00001410       ?AtlThrowImpl@ATL@@YGXJ@Z  10002410 f i ImmediateGroup.obj
+ 0001:00001430       ?CaptureMatchTimer@CImmediateGroup@@IAEXXZ 10002430 f   ImmediateGroup.obj
+ 0001:000015e0       ?CheckAndroidJoin@CImmediateGroup@@QAEHXZ 100025e0 f   ImmediateGroup.obj
+ 0001:00001680       ?CheckMatchTaskFinish@CImmediateGroup@@IAE_NXZ 10002680 f   ImmediateGroup.obj
+ 0001:000017a0       ?CheckMatchUser@CImmediateGroup@@IAE_NXZ 100027a0 f   ImmediateGroup.obj
+ 0001:00001890       ?CheckSwitchTaskFinish@CImmediateGroup@@IAE_NXZ 10002890 f   ImmediateGroup.obj
+ 0001:000019b0       ?CheckTableStart@CImmediateGroup@@IAEXPAUITableFrame@@@Z 100029b0 f   ImmediateGroup.obj
+ 0001:00001ac0       ?ContinueGame@CImmediateGroup@@IAEXPAUITableFrame@@@Z 10002ac0 f   ImmediateGroup.obj
+ 0001:00001b80       ?EfficacyStartMatch@CImmediateGroup@@IAEXXZ 10002b80 f   ImmediateGroup.obj
+ 0001:00001e70       ?GetAsSystemTime@CTime@ATL@@QBE_NAAU_SYSTEMTIME@@@Z 10002e70 f i ImmediateGroup.obj
+ 0001:00001f00       ?GetLocalTm@CTime@ATL@@QBEPAUtm@@PAU3@@Z 10002f00 f i ImmediateGroup.obj
+ 0001:00001f70       ?GetNextAssoc@?$CMap@KKPAUIServerUserItem@@PAU1@@@QBEXAAPAU__POSITION@@AAKAAPAUIServerUserItem@@@Z 10002f70 f i ImmediateGroup.obj
+ 0001:00002000       ?GetTableInterface@CImmediateGroup@@IAEPAUtagTableFrameInfo@@PAUITableFrame@@@Z 10003000 f   ImmediateGroup.obj
+ 0001:00002060       ?GetUserRank@CImmediateGroup@@IAEGPAUIServerUserItem@@PAUITableFrame@@@Z 10003060 f   ImmediateGroup.obj
+ 0001:00002190       ?InsertFreeGroup@CImmediateGroup@@IAEXPAUIServerUserItem@@@Z 10003190 f   ImmediateGroup.obj
+ 0001:00002240       ?KillMatchGameTimer@CImmediateGroup@@IAEXK@Z 10003240 f   ImmediateGroup.obj
+ 0001:00002270       ?KillMatchTimer@CImmediateGroup@@IAE_NH@Z 10003270 f   ImmediateGroup.obj
+ 0001:000022e0       ?MatchAndroidDebug@CImmediateGroup@@IAEXG@Z 100032e0 f   ImmediateGroup.obj
+ 0001:00002310       ?MatchOver@CImmediateGroup@@IAEXXZ 10003310 f   ImmediateGroup.obj
+ 0001:00002390       ?NewAssoc@?$CMap@KKPAUIServerUserItem@@PAU1@@@IAEPAVCAssoc@1@K@Z 10003390 f i ImmediateGroup.obj
+ 0001:00002390       ?NewAssoc@?$CMap@KKPAUtagSameTableInfo@@PAU1@@@IAEPAVCAssoc@1@K@Z 10003390 f i DistributeManager.obj
+ 0001:00002410       ?OnActionUserOnReady@CImmediateGroup@@UAE_NGGPAUIServerUserItem@@PAXG@Z 10003410 f   ImmediateGroup.obj
+ 0001:00002420       ?OnActionUserSitDown@CImmediateGroup@@UAE_NGGPAUIServerUserItem@@_N@Z 10003420 f   ImmediateGroup.obj
+ 0001:00002420       ?OnActionUserStandUp@CImmediateGroup@@UAE_NGGPAUIServerUserItem@@_N@Z 10003420 f   ImmediateGroup.obj
+ 0001:00002430       ?OnEventGameEnd@CImmediateGroup@@UAE_NPAUITableFrame@@GPAUIServerUserItem@@E@Z 10003430 f   ImmediateGroup.obj
+ 0001:000026b0       ?OnEventGameStart@CImmediateGroup@@UAE_NPAUITableFrame@@G@Z 100036b0 f   ImmediateGroup.obj
+ 0001:00002800       ?OnEventUserReturnMatch@CImmediateGroup@@UAE_NPAUITableFrame@@PAUIServerUserItem@@@Z 10003800 f   ImmediateGroup.obj
+ 0001:00002830       ?OnTimeMessage@CImmediateGroup@@IAE_NKI@Z 10003830 f   ImmediateGroup.obj
+ 0001:00002a40       ?OnUserQuitMatch@CImmediateGroup@@QAE_NPAUIServerUserItem@@@Z 10003a40 f   ImmediateGroup.obj
+ 0001:00002af0       ?OnUserSignUpMatch@CImmediateGroup@@QAE_NPAUIServerUserItem@@@Z 10003af0 f   ImmediateGroup.obj
+ 0001:00002cb0       ?PerformAllUserStandUp@CImmediateGroup@@IAEXPAUITableFrame@@@Z 10003cb0 f   ImmediateGroup.obj
+ 0001:00002d20       ?PerformAllUserStandUp@CImmediateGroup@@IAEXXZ 10003d20 f   ImmediateGroup.obj
+ 0001:00002d70       ?PerformDistributeTable@CImmediateGroup@@IAEXXZ 10003d70 f   ImmediateGroup.obj
+ 0001:00003220       ?PostMatchTimer@CImmediateGroup@@IAEXKHIJ@Z 10004220 f   ImmediateGroup.obj
+ 0001:000032b0       ?QueryInterface@CImmediateGroup@@UAEPAXABU_GUID@@K@Z 100042b0 f   ImmediateGroup.obj
+ 0001:00003360       ?RankingPromotion@CImmediateGroup@@IAEXPAX@Z 10004360 f   ImmediateGroup.obj
+ 0001:000035e0       ?__empty_global_delete@@YAXPAXI@Z 100045e0 f i DistributeManager.obj
+ 0001:000035e0       ?__global_delete@@YAXPAXI@Z 100045e0 f i DistributeManager.obj
+ 0001:000035e0       ?AssertValid@CObject@@UBEXXZ 100045e0 f i DistributeManager.obj
+ 0001:000035e0       ?Release@CImmediateGroup@@UAEXXZ 100045e0 f i ImmediateGroup.obj
+ 0001:000035e0       @_guard_check_icall_nop@4  100045e0 f i msvcrt:guard_support.obj
+ 0001:000035f0       ?RemoveAll@?$CMap@KKPAUIServerUserItem@@PAU1@@@QAEXXZ 100045f0 f i ImmediateGroup.obj
+ 0001:000035f0       ?RemoveAll@?$CMap@KKPAUtagSameTableInfo@@PAU1@@@QAEXXZ 100045f0 f i DistributeManager.obj
+ 0001:00003650       ?RemoveAll@?$CWHArray@KABK@@QAEXXZ 10004650 f i ImmediateGroup.obj
+ 0001:00003680       ?RemoveKey@?$CMap@KKPAUIServerUserItem@@PAU1@@@QAEHK@Z 10004680 f i ImmediateGroup.obj
+ 0001:00003710       ?SendGroupMessage@CImmediateGroup@@IAEXPB_W@Z 10004710 f   ImmediateGroup.obj
+ 0001:000037c0       ?SendTableMatchInfo@CImmediateGroup@@IAEXPAUITableFrame@@G@Z 100047c0 f   ImmediateGroup.obj
+ 0001:000038d0       ?SendWaitMessage@CImmediateGroup@@IAEXPAUITableFrame@@G@Z 100048d0 f   ImmediateGroup.obj
+ 0001:00003b40       ?SortMapUser@CImmediateGroup@@IAEGQAUtagMatchScore@@@Z 10004b40 f   ImmediateGroup.obj
+ 0001:00003c80       ___local_stdio_printf_options 10004c80 f i ImmediateGroup.obj
+ 0001:00003c90       ??0CImmediateMatch@@QAE@XZ 10004c90 f   ImmediateMatch.obj
+ 0001:00003e00       ??0CMatchServiceManager@@QAE@ABV0@@Z 10004e00 f i ImmediateMatch.obj
+ 0001:00003e30       ??1?$CWHArray@EABE@@UAE@XZ 10004e30 f i ImmediateMatch.obj
+ 0001:00003e60       ??1?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@UAE@XZ 10004e60 f i ImmediateMatch.obj
+ 0001:00003e90       ??1?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@UAE@XZ 10004e90 f i ImmediateMatch.obj
+ 0001:00003ec0       ??1CImmediateMatch@@UAE@XZ 10004ec0 f   ImmediateMatch.obj
+ 0001:000040b0       ??4CMatchServiceManager@@QAEAAV0@ABV0@@Z 100050b0 f i ImmediateMatch.obj
+ 0001:000040d0       ??_ECMatchServiceManager@@UAEPAXI@Z 100050d0 f i ImmediateMatch.obj
+ 0001:00004170       ??_E?$CWHArray@EABE@@UAEPAXI@Z 10005170 f i ImmediateMatch.obj
+ 0001:00004170       ??_G?$CWHArray@EABE@@UAEPAXI@Z 10005170 f i ImmediateMatch.obj
+ 0001:000041b0       ??_E?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@UAEPAXI@Z 100051b0 f i ImmediateMatch.obj
+ 0001:000041b0       ??_G?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@UAEPAXI@Z 100051b0 f i ImmediateMatch.obj
+ 0001:000041f0       ??_G?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@UAEPAXI@Z 100051f0 f i ImmediateMatch.obj
+ 0001:000041f0       ??_E?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@UAEPAXI@Z 100051f0 f i ImmediateMatch.obj
+ 0001:00004230       ??_ECImmediateMatch@@UAEPAXI@Z 10005230 f i ImmediateMatch.obj
+ 0001:00004230       ??_GCImmediateMatch@@UAEPAXI@Z 10005230 f i ImmediateMatch.obj
+ 0001:00004260       ?Add@?$CWHArray@EABE@@QAEHABE@Z 10005260 f i ImmediateMatch.obj
+ 0001:000042c0       ?AddMatchTable@CImmediateGroup@@IAEXPAUtagTableFrameInfo@@@Z 100052c0 f i ImmediateMatch.obj
+ 0001:00004330       ?AllocMemory@?$CWHArray@EABE@@QAEXH@Z 10005330 f i ImmediateMatch.obj
+ 0001:000043b0       ?Append@?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@QAEHABV1@@Z 100053b0 f i DistributeManager.obj
+ 0001:000043b0       ?Append@?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@QAEHABV1@@Z 100053b0 f i ImmediateMatch.obj
+ 0001:00004410       ?BindTableFrame@CImmediateMatch@@UAE_NPAUITableFrame@@G@Z 10005410 f   ImmediateMatch.obj
+ 0001:00004510       ?CalcMatchNo@CImmediateMatch@@AAE_JXZ 10005510 f   ImmediateMatch.obj
+ 0001:00004630       ?GetNullTable@CImmediateMatch@@AAEGXZ 10005630 f   ImmediateMatch.obj
+ 0001:00004710       ?InitMatchInterface@CImmediateMatch@@UAE_NAAUtagMatchManagerParameter@@@Z 10005710 f   ImmediateMatch.obj
+ 0001:00004850       ?InsertNullTable@CImmediateMatch@@UAEXXZ 10005850 f   ImmediateMatch.obj
+ 0001:00004ac0       ?KillGameTimer@CImmediateMatch@@UAE_NKPAVCImmediateGroup@@@Z 10005ac0 f   ImmediateMatch.obj
+ 0001:00004ae0       ?OnActionUserOffLine@CTableFrameHook@@UAE_NGPAUIServerUserItem@@@Z 10005ae0 f i TableFrameHook.obj
+ 0001:00004ae0       ?OnActionUserConnect@CTableFrameHook@@UAE_NGPAUIServerUserItem@@@Z 10005ae0 f i TableFrameHook.obj
+ 0001:00004ae0       ?OnEventAndroidUserHangingNotify@CLockTimeMatch@@UAE_NPAUIServerUserItem@@_N@Z 10005ae0 f i LockTimeMatch.obj
+ 0001:00004ae0       ?OnEventAndroidUserHangingNotify@CImmediateMatch@@UAE_NPAUIServerUserItem@@_N@Z 10005ae0 f i ImmediateMatch.obj
+ 0001:00004ae0       ?OnEventAndroidUserGradeNotify@CImmediateMatch@@UAE_NPAUIServerUserItem@@G@Z 10005ae0 f i ImmediateMatch.obj
+ 0001:00004ae0       ?OnEventAndroidUserGradeNotify@CLockTimeMatch@@UAE_NPAUIServerUserItem@@G@Z 10005ae0 f i LockTimeMatch.obj
+ 0001:00004af0       ?OnEventDataBase@CImmediateMatch@@UAE_NGPAUIServerUserItem@@PAXGK@Z 10005af0 f   ImmediateMatch.obj
+ 0001:00005570       ?OnEventEnterMatch@CImmediateMatch@@UAE_NKPAXK_N@Z 10006570 f   ImmediateMatch.obj
+ 0001:000056e0       ?OnEventMatchAndroidDebug@CImmediateMatch@@UAE_NPAVCImmediateGroup@@GKKK@Z 100066e0 f   ImmediateMatch.obj
+ 0001:000057a0       ?OnEventMatchOver@CImmediateMatch@@UAE_NPAVCImmediateGroup@@@Z 100067a0 f   ImmediateMatch.obj
+ 0001:000058d0       ?OnEventMatchRoundsOver@CImmediateMatch@@UAE_NPAVCImmediateGroup@@H@Z 100068d0 f   ImmediateMatch.obj
+ 0001:000059b0       ?OnEventMatchStart@CImmediateMatch@@UAE_NPAVCImmediateGroup@@@Z 100069b0 f   ImmediateMatch.obj
+ 0001:00005b10       ?OnEventSocketMatch@CImmediateMatch@@UAE_NGPAXGPAUIServerUserItem@@K@Z 10006b10 f   ImmediateMatch.obj
+ 0001:00005cc0       ?OnEventTimer@CImmediateMatch@@UAE_NKI@Z 10006cc0 f   ImmediateMatch.obj
+ 0001:00005df0       ?OnEventUserItemGameData@CImmediateMatch@@UAE_NPAUIServerUserItem@@E@Z 10006df0 f   ImmediateMatch.obj
+ 0001:00005e10       ?OnEventUserItemRight@CImmediateMatch@@UAE_NPAUIServerUserItem@@KKE@Z 10006e10 f   ImmediateMatch.obj
+ 0001:00005e30       ?OnEventUserItemScore@CImmediateMatch@@UAE_NPAUIServerUserItem@@E@Z 10006e30 f   ImmediateMatch.obj
+ 0001:00006140       ?OnEventUserItemStatus@CImmediateMatch@@UAE_NPAUIServerUserItem@@GG@Z 10007140 f   ImmediateMatch.obj
+ 0001:00006190       ?OnEventUserJoinMatch@CImmediateMatch@@UAE_NPAUIServerUserItem@@EK@Z 10007190 f   ImmediateMatch.obj
+ 0001:00006550       ?OnEventUserLogon@CImmediateMatch@@UAE_NPAUIServerUserItem@@@Z 10007550 f   ImmediateMatch.obj
+ 0001:000066c0       ?OnEventUserLogonFinish@CImmediateMatch@@UAE_NPAUIServerUserItem@@@Z 100076c0 f   ImmediateMatch.obj
+ 0001:000066d0       ?OnEventUserLogout@CImmediateMatch@@UAE_NPAUIServerUserItem@@@Z 100076d0 f   ImmediateMatch.obj
+ 0001:000066f0       ?OnEventUserQuitMatch@CImmediateMatch@@UAE_NPAUIServerUserItem@@EPAGK@Z 100076f0 f   ImmediateMatch.obj
+ 0001:000068f0       ?OnStartService@CImmediateMatch@@UAEXXZ 100078f0 f   ImmediateMatch.obj
+ 0001:00006a20       ?PromotionUserLogout@CImmediateMatch@@UAE_NPAUIServerUserItem@@@Z 10007a20 f   ImmediateMatch.obj
+ 0001:00006a40       ?QueryInterface@CImmediateMatch@@UAEPAXABU_GUID@@K@Z 10007a40 f   ImmediateMatch.obj
+ 0001:00006b3c       ?QueryInterface@CImmediateMatch@@W7AEPAXABU_GUID@@K@Z 10007b3c f i ImmediateMatch.obj
+ 0001:00006b50       ?Release@CMatchServiceManager@@UAEXXZ 10007b50 f i ImmediateMatch.obj
+ 0001:00006b60       ?RemoveMatchUserItem@CImmediateMatch@@AAE_NPAUIServerUserItem@@@Z 10007b60 f   ImmediateMatch.obj
+ 0001:00006bd0       ?SendData@CImmediateMatch@@UAE_NPAUIServerUserItem@@GGPAXG@Z 10007bd0 f   ImmediateMatch.obj
+ 0001:00006c00       ?SendGameMessage@CImmediateMatch@@UAE_NPAUIServerUserItem@@PB_WG@Z 10007c00 f   ImmediateMatch.obj
+ 0001:00006d10       ?SendGroupData@CImmediateMatch@@UAE_NGGPAXGPAVCImmediateGroup@@@Z 10007d10 f   ImmediateMatch.obj
+ 0001:00006dd0       ?SendGroupUserMessage@CImmediateMatch@@UAE_NPB_WPAVCImmediateGroup@@@Z 10007dd0 f   ImmediateMatch.obj
+ 0001:00006e80       ?SendGroupUserScore@CImmediateMatch@@UAE_NPAUIServerUserItem@@PAVCImmediateGroup@@@Z 10007e80 f   ImmediateMatch.obj
+ 0001:00006ff0       ?SendGroupUserStatus@CImmediateMatch@@UAE_NPAUIServerUserItem@@PAVCImmediateGroup@@@Z 10007ff0 f   ImmediateMatch.obj
+ 0001:00007140       ?SendMatchInfo@CImmediateMatch@@UAE_NPAUIServerUserItem@@@Z 10008140 f   ImmediateMatch.obj
+ 0001:000072a0       ?SendRoomMessage@CImmediateMatch@@UAE_NPAUIServerUserItem@@PB_WG@Z 100082a0 f   ImmediateMatch.obj
+ 0001:000073b0       ?SetGameTimer@CImmediateMatch@@UAE_NKKKIPAVCImmediateGroup@@@Z 100083b0 f   ImmediateMatch.obj
+ 0001:000073d0       ?WriteUserAward@CImmediateMatch@@UAE_NPAUIServerUserItem@@PAUtagMatchRankInfo@@@Z 100083d0 f   ImmediateMatch.obj
+ 0001:00007640       ??0CLockTimeMatch@@QAE@XZ  10008640 f   LockTimeMatch.obj
+ 0001:00007870       ??0CTime@ATL@@QAE@ABU_SYSTEMTIME@@H@Z 10008870 f i LockTimeMatch.obj
+ 0001:000078e0       ??0CTime@ATL@@QAE@HHHHHHH@Z 100088e0 f i LockTimeMatch.obj
+ 0001:000079e0       ??1?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@UAE@XZ 100089e0 f i LockTimeMatch.obj
+ 0001:00007a10       ??1?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@UAE@XZ 10008a10 f i LockTimeMatch.obj
+ 0001:00007a40       ??1CLockTimeMatch@@UAE@XZ  10008a40 f   LockTimeMatch.obj
+ 0001:00007cd0       ??A?$CWHArray@KABK@@QAEAAKH@Z 10008cd0 f i LockTimeMatch.obj
+ 0001:00007cf0       ??_E?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@UAEPAXI@Z 10008cf0 f i LockTimeMatch.obj
+ 0001:00007cf0       ??_G?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@UAEPAXI@Z 10008cf0 f i LockTimeMatch.obj
+ 0001:00007d30       ??_E?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@UAEPAXI@Z 10008d30 f i LockTimeMatch.obj
+ 0001:00007d30       ??_G?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@UAEPAXI@Z 10008d30 f i LockTimeMatch.obj
+ 0001:00007d70       ??_ECLockTimeMatch@@UAEPAXI@Z 10008d70 f i LockTimeMatch.obj
+ 0001:00007d70       ??_GCLockTimeMatch@@UAEPAXI@Z 10008d70 f i LockTimeMatch.obj
+ 0001:00007da0       ?AllKillMatchTimer@CLockTimeMatch@@IAEXXZ 10008da0 f   LockTimeMatch.obj
+ 0001:00007e50       ?BindTableFrame@CLockTimeMatch@@UAE_NPAUITableFrame@@G@Z 10008e50 f   LockTimeMatch.obj
+ 0001:00007f50       ?CalcMatchNo@CLockTimeMatch@@IAE_JXZ 10008f50 f   LockTimeMatch.obj
+ 0001:00008070       ?CaptureMatchTimer@CLockTimeMatch@@IAEXXZ 10009070 f   LockTimeMatch.obj
+ 0001:00008150       ?CheckMatchTaskFinish@CLockTimeMatch@@IAE_NXZ 10009150 f   LockTimeMatch.obj
+ 0001:00008260       ?CheckMatchUser@CLockTimeMatch@@IAE_NXZ 10009260 f   LockTimeMatch.obj
+ 0001:00008350       ?CheckSwitchTaskFinish@CLockTimeMatch@@IAE_NXZ 10009350 f   LockTimeMatch.obj
+ 0001:00008460       ?CheckTableStart@CLockTimeMatch@@IAEXPAUITableFrame@@@Z 10009460 f   LockTimeMatch.obj
+ 0001:00008560       ?ContinueGame@CLockTimeMatch@@IAEXPAUITableFrame@@@Z 10009560 f   LockTimeMatch.obj
+ 0001:00008630       ?EfficacyStartMatch@CLockTimeMatch@@AAEXXZ 10009630 f   LockTimeMatch.obj
+ 0001:00008880       ?GetTableInterface@CLockTimeMatch@@IAEPAUtagLockTimeTableInfo@@PAUITableFrame@@@Z 10009880 f   LockTimeMatch.obj
+ 0001:000088e0       ?GetTickCount@CTime@ATL@@SG?AV12@XZ 100098e0 f i LockTimeMatch.obj
+ 0001:00008900       ?GetUserRank@CLockTimeMatch@@IAEGPAUIServerUserItem@@PAUITableFrame@@@Z 10009900 f   LockTimeMatch.obj
+ 0001:00008a30       ?InitMatchInterface@CLockTimeMatch@@UAE_NAAUtagMatchManagerParameter@@@Z 10009a30 f   LockTimeMatch.obj
+ 0001:00008ba0       ?InsertFreeGroup@CLockTimeMatch@@IAEXPAUIServerUserItem@@@Z 10009ba0 f   LockTimeMatch.obj
+ 0001:00008c70       ?InsertNullTable@CLockTimeMatch@@AAEXXZ 10009c70 f   LockTimeMatch.obj
+ 0001:00008dc0       ?IsMatchSignupEnd@CLockTimeMatch@@IAE_NXZ 10009dc0 f   LockTimeMatch.obj
+ 0001:00008e50       ?IsMatchSignupStart@CLockTimeMatch@@IAE_NXZ 10009e50 f   LockTimeMatch.obj
+ 0001:00008ee0       ?KillMatchTimer@CLockTimeMatch@@IAE_NH@Z 10009ee0 f   LockTimeMatch.obj
+ 0001:00008f50       ?MatchOver@CLockTimeMatch@@AAEXXZ 10009f50 f   LockTimeMatch.obj
+ 0001:00009060       ?MatchRoundsOver@CLockTimeMatch@@AAE_NH@Z 1000a060 f   LockTimeMatch.obj
+ 0001:00009130       ?OnActionUserOnReady@CLockTimeMatch@@UAE_NGGPAUIServerUserItem@@PAXG@Z 1000a130 f   LockTimeMatch.obj
+ 0001:000091a0       ?OnActionUserSitDown@CLockTimeMatch@@UAE_NGGPAUIServerUserItem@@_N@Z 1000a1a0 f   LockTimeMatch.obj
+ 0001:00009210       ?OnActionUserStandUp@CLockTimeMatch@@UAE_NGGPAUIServerUserItem@@_N@Z 1000a210 f   LockTimeMatch.obj
+ 0001:00009280       ?OnEventDataBase@CLockTimeMatch@@UAE_NGPAUIServerUserItem@@PAXGK@Z 1000a280 f   LockTimeMatch.obj
+ 0001:00009b40       ?OnEventEnterMatch@CLockTimeMatch@@UAE_NKPAXK_N@Z 1000ab40 f   LockTimeMatch.obj
+ 0001:00009d50       ?OnEventGameEnd@CLockTimeMatch@@UAE_NPAUITableFrame@@GPAUIServerUserItem@@E@Z 1000ad50 f   LockTimeMatch.obj
+ 0001:00009fa0       ?OnEventGameStart@CLockTimeMatch@@UAE_NPAUITableFrame@@G@Z 1000afa0 f   LockTimeMatch.obj
+ 0001:0000a120       ?OnEventMatchStart@CLockTimeMatch@@AAE_NXZ 1000b120 f   LockTimeMatch.obj
+ 0001:0000a1b0       ?OnEventSocketMatch@CLockTimeMatch@@UAE_NGPAXGPAUIServerUserItem@@K@Z 1000b1b0 f   LockTimeMatch.obj
+ 0001:0000a3e0       ?OnEventTimer@CLockTimeMatch@@UAE_NKI@Z 1000b3e0 f   LockTimeMatch.obj
+ 0001:0000aab0       ?OnEventUserItemGameData@CLockTimeMatch@@UAE_NPAUIServerUserItem@@E@Z 1000bab0 f   LockTimeMatch.obj
+ 0001:0000aad0       ?OnEventUserItemRight@CLockTimeMatch@@UAE_NPAUIServerUserItem@@KKE@Z 1000bad0 f   LockTimeMatch.obj
+ 0001:0000aaf0       ?OnEventUserItemScore@CLockTimeMatch@@UAE_NPAUIServerUserItem@@E@Z 1000baf0 f   LockTimeMatch.obj
+ 0001:0000adc0       ?OnEventUserItemStatus@CLockTimeMatch@@UAE_NPAUIServerUserItem@@GG@Z 1000bdc0 f   LockTimeMatch.obj
+ 0001:0000ae10       ?OnEventUserJoinMatch@CLockTimeMatch@@UAE_NPAUIServerUserItem@@EK@Z 1000be10 f   LockTimeMatch.obj
+ 0001:0000af70       ?OnEventUserLogon@CLockTimeMatch@@UAE_NPAUIServerUserItem@@@Z 1000bf70 f   LockTimeMatch.obj
+ 0001:0000b0c0       ?OnEventUserLogonFinish@CLockTimeMatch@@UAE_NPAUIServerUserItem@@@Z 1000c0c0 f   LockTimeMatch.obj
+ 0001:0000b0e0       ?OnEventUserLogout@CLockTimeMatch@@UAE_NPAUIServerUserItem@@@Z 1000c0e0 f   LockTimeMatch.obj
+ 0001:0000b0f0       ?OnEventUserQuitMatch@CLockTimeMatch@@UAE_NPAUIServerUserItem@@EPAGK@Z 1000c0f0 f   LockTimeMatch.obj
+ 0001:0000b280       ?OnEventUserReturnMatch@CLockTimeMatch@@UAE_NPAUITableFrame@@PAUIServerUserItem@@@Z 1000c280 f   LockTimeMatch.obj
+ 0001:0000b2b0       ?OnStartService@CLockTimeMatch@@UAEXXZ 1000c2b0 f   LockTimeMatch.obj
+ 0001:0000b400       ?PerformAllUserStandUp@CLockTimeMatch@@IAEXPAUITableFrame@@@Z 1000c400 f   LockTimeMatch.obj
+ 0001:0000b4d0       ?PerformAllUserStandUp@CLockTimeMatch@@IAEXXZ 1000c4d0 f   LockTimeMatch.obj
+ 0001:0000b520       ?PerformDistributeTable@CLockTimeMatch@@IAEXXZ 1000c520 f   LockTimeMatch.obj
+ 0001:0000bac0       ?PostMatchTimer@CLockTimeMatch@@IAEXKHIJ@Z 1000cac0 f   LockTimeMatch.obj
+ 0001:0000bb50       ?QueryInterface@CLockTimeMatch@@UAEPAXABU_GUID@@K@Z 1000cb50 f   LockTimeMatch.obj
+ 0001:0000bc9c       ?QueryInterface@CLockTimeMatch@@W3AEPAXABU_GUID@@K@Z 1000cc9c f i LockTimeMatch.obj
+ 0001:0000bca4       ?QueryInterface@CLockTimeMatch@@W7AEPAXABU_GUID@@K@Z 1000cca4 f i LockTimeMatch.obj
+ 0001:0000bcb0       ?RankingPromotion@CLockTimeMatch@@IAEXPAX@Z 1000ccb0 f   LockTimeMatch.obj
+ 0001:0000bfc0       ?Release@CLockTimeMatch@@UAEXXZ 1000cfc0 f i LockTimeMatch.obj
+ 0001:0000bfc0       ?Release@CImmediateMatch@@UAEXXZ 1000cfc0 f i ImmediateMatch.obj
+ 0001:0000bfcc       ?Release@CLockTimeMatch@@W3AEXXZ 1000cfcc f i LockTimeMatch.obj
+ 0001:0000bfd4       ?Release@CLockTimeMatch@@W7AEXXZ 1000cfd4 f i LockTimeMatch.obj
+ 0001:0000bfd4       ?Release@CImmediateMatch@@W7AEXXZ 1000cfd4 f i ImmediateMatch.obj
+ 0001:0000bfe0       ?RemoveAt@?$CWHArray@KABK@@QAEXHH@Z 1000cfe0 f i LockTimeMatch.obj
+ 0001:0000c030       ?SendDeductFeeNotify@CLockTimeMatch@@IAE_NPAUIServerUserItem@@@Z 1000d030 f   LockTimeMatch.obj
+ 0001:0000c150       ?SendGroupData@CLockTimeMatch@@AAE_NGGPAXG@Z 1000d150 f   LockTimeMatch.obj
+ 0001:0000c220       ?SendGroupMessage@CLockTimeMatch@@AAEXPB_W@Z 1000d220 f   LockTimeMatch.obj
+ 0001:0000c2c0       ?SendGroupUserScore@CLockTimeMatch@@AAE_NPAUIServerUserItem@@@Z 1000d2c0 f   LockTimeMatch.obj
+ 0001:0000c410       ?SendMatchInfo@CLockTimeMatch@@AAE_NPAUIServerUserItem@@K@Z 1000d410 f   LockTimeMatch.obj
+ 0001:0000c5f0       ?SendMatchUserInitScore@CLockTimeMatch@@IAE_NPAUIServerUserItem@@@Z 1000d5f0 f   LockTimeMatch.obj
+ 0001:0000c670       ?SendMatchUserScore@CLockTimeMatch@@IAE_NPAUIServerUserItem@@@Z 1000d670 f   LockTimeMatch.obj
+ 0001:0000c750       ?SendTableMatchInfo@CLockTimeMatch@@AAEXPAUITableFrame@@G@Z 1000d750 f   LockTimeMatch.obj
+ 0001:0000c930       ?SendTableUserMatchInfo@CLockTimeMatch@@IAEXPAUITableFrame@@G@Z 1000d930 f   LockTimeMatch.obj
+ 0001:0000cab0       ?SendWaitMessage@CLockTimeMatch@@IAEXPAUITableFrame@@G@Z 1000dab0 f   LockTimeMatch.obj
+ 0001:0000cd40       ?VerifyMatchTime@CLockTimeMatch@@AAE_NPA_WGAAG@Z 1000dd40 f   LockTimeMatch.obj
+ 0001:0000d260       ?WriteUserAward@CLockTimeMatch@@IAE_NPAUIServerUserItem@@PAUtagMatchRankInfo@@@Z 1000e260 f   LockTimeMatch.obj
+ 0001:0000d560       __snwprintf_s              1000e560 f i LockTimeMatch.obj
+ 0001:0000d5a0       ??0CMatchServiceManager@@QAE@XZ 1000e5a0 f   MatchServiceManager.obj
+ 0001:0000d5c0       ??1CMatchServiceManager@@UAE@XZ 1000e5c0 f   MatchServiceManager.obj
+ 0001:0000d5f0       ?BindTableFrame@CMatchServiceManager@@UAE_NPAUITableFrame@@G@Z 1000e5f0 f   MatchServiceManager.obj
+ 0001:0000d610       ?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z 1000e610 f   MatchServiceManager.obj
+ 0001:0000d720       ?GetServerUserItemSink@CMatchServiceManager@@UAEPAUIUnknownEx@@XZ 1000e720 f   MatchServiceManager.obj
+ 0001:0000d740       ?InitMatchInterface@CMatchServiceManager@@UAE_NAAUtagMatchManagerParameter@@@Z 1000e740 f   MatchServiceManager.obj
+ 0001:0000d760       ?OnEventDataBase@CMatchServiceManager@@UAE_NGPAUIServerUserItem@@PAXGK@Z 1000e760 f   MatchServiceManager.obj
+ 0001:0000d780       ?OnEventEnterMatch@CMatchServiceManager@@UAE_NKPAXK_N@Z 1000e780 f   MatchServiceManager.obj
+ 0001:0000d7a0       ?OnEventSocketMatch@CMatchServiceManager@@UAE_NGPAXGPAUIServerUserItem@@K@Z 1000e7a0 f   MatchServiceManager.obj
+ 0001:0000d7c0       ?OnEventTimer@CMatchServiceManager@@UAE_NKI@Z 1000e7c0 f   MatchServiceManager.obj
+ 0001:0000d7e0       ?OnEventUserJoinMatch@CMatchServiceManager@@UAE_NPAUIServerUserItem@@EK@Z 1000e7e0 f   MatchServiceManager.obj
+ 0001:0000d800       ?OnEventUserLogon@CMatchServiceManager@@UAE_NPAUIServerUserItem@@@Z 1000e800 f   MatchServiceManager.obj
+ 0001:0000d820       ?OnEventUserLogonFinish@CMatchServiceManager@@UAE_NPAUIServerUserItem@@@Z 1000e820 f   MatchServiceManager.obj
+ 0001:0000d840       ?OnEventUserLogout@CMatchServiceManager@@UAE_NPAUIServerUserItem@@@Z 1000e840 f   MatchServiceManager.obj
+ 0001:0000d860       ?OnEventUserQuitMatch@CMatchServiceManager@@UAE_NPAUIServerUserItem@@EPAGK@Z 1000e860 f   MatchServiceManager.obj
+ 0001:0000d880       ?QueryInterface@CMatchServiceManager@@UAEPAXABU_GUID@@K@Z 1000e880 f   MatchServiceManager.obj
+ 0001:0000d930       ?StartService@CMatchServiceManager@@UAE_NXZ 1000e930 f   MatchServiceManager.obj
+ 0001:0000d950       ?StopService@CMatchServiceManager@@UAE_NXZ 1000e950 f   MatchServiceManager.obj
+ 0001:0000d970       _CreateMatchServiceManager 1000e970 f   MatchServiceManager.obj
+ 0001:0000da40       ??0CTableFrameHook@@QAE@XZ 1000ea40 f   TableFrameHook.obj
+ 0001:0000da70       ??_ECTableFrameHook@@UAEPAXI@Z 1000ea70 f i TableFrameHook.obj
+ 0001:0000da70       ??_GCTableFrameHook@@UAEPAXI@Z 1000ea70 f i TableFrameHook.obj
+ 0001:0000daa0       ?InitTableFrameHook@CTableFrameHook@@UAE_NPAUIUnknownEx@@@Z 1000eaa0 f   TableFrameHook.obj
+ 0001:0000dae0       ?OnActionUserOnReady@CTableFrameHook@@UAE_NGPAUIServerUserItem@@PAXG@Z 1000eae0 f   TableFrameHook.obj
+ 0001:0000db20       ?OnActionUserSitDown@CTableFrameHook@@UAE_NGPAUIServerUserItem@@_N@Z 1000eb20 f   TableFrameHook.obj
+ 0001:0000db60       ?OnActionUserStandUp@CTableFrameHook@@UAE_NGPAUIServerUserItem@@_N@Z 1000eb60 f   TableFrameHook.obj
+ 0001:0000dba0       ?OnEventGameEnd@CTableFrameHook@@UAE_NGPAUIServerUserItem@@E@Z 1000eba0 f   TableFrameHook.obj
+ 0001:0000dbd0       ?OnEventGameStart@CTableFrameHook@@UAE_NG@Z 1000ebd0 f   TableFrameHook.obj
+ 0001:0000dc00       ?OnEventUserReturnMatch@CTableFrameHook@@UAE_NPAUIServerUserItem@@@Z 1000ec00 f   TableFrameHook.obj
+ 0001:0000dc30       ?QueryInterface@CTableFrameHook@@UAEPAXABU_GUID@@K@Z 1000ec30 f   TableFrameHook.obj
+ 0001:0000dd2c       ?QueryInterface@CTableFrameHook@@W3AEPAXABU_GUID@@K@Z 1000ed2c f i TableFrameHook.obj
+ 0001:0000dd40       ?Release@CTableFrameHook@@UAEXXZ 1000ed40 f i TableFrameHook.obj
+ 0001:0000dd4c       ?Release@CTableFrameHook@@W3AEXXZ 1000ed4c f i TableFrameHook.obj
+ 0001:0000dd60       ?SetMatchEventSink@CTableFrameHook@@UAE_NPAUIUnknownEx@@@Z 1000ed60 f   TableFrameHook.obj
+ 0001:0000dd90       ??3@YAXPAX@Z               1000ed90 f   mfc140u:mfc140u.dll
+ 0001:0000dd96       ??2@YAPAXI@Z               1000ed96 f   mfc140u:mfc140u.dll
+ 0001:0000dd9c       ??_U@YAPAXI@Z              1000ed9c f   mfc140u:mfc140u.dll
+ 0001:0000dda2       ??_V@YAXPAX@Z              1000eda2 f   mfc140u:mfc140u.dll
+ 0001:0000dda8       ?AfxThrowInvalidArgException@@YGXXZ 1000eda8 f   mfc140u:mfc140u.dll
+ 0001:0000ddae       ?AfxThrowArchiveException@@YGXHPB_W@Z 1000edae f   mfc140u:mfc140u.dll
+ 0001:0000ddb4       ?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 1000edb4 f   mfc140u:mfc140u.dll
+ 0001:0000ddba       ?Read@CArchive@@QAEIPAXI@Z 1000edba f   mfc140u:mfc140u.dll
+ 0001:0000ddc0       ?Write@CArchive@@QAEXPBXI@Z 1000edc0 f   mfc140u:mfc140u.dll
+ 0001:0000ddc6       ?ReadCount@CArchive@@QAEKXZ 1000edc6 f   mfc140u:mfc140u.dll
+ 0001:0000ddcc       ?WriteCount@CArchive@@QAEXK@Z 1000edcc f   mfc140u:mfc140u.dll
+ 0001:0000ddd2       ?Create@CPlex@@SGPAU1@AAPAU1@II@Z 1000edd2 f   mfc140u:mfc140u.dll
+ 0001:0000ddd8       ?FreeDataChain@CPlex@@QAEXXZ 1000edd8 f   mfc140u:mfc140u.dll
+ 0001:0000ddde       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000edde f   mfc140u:mfc140u.dll
+ 0001:0000dde4       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000ede4 f   mfc140u:mfc140u.dll
+ 0001:0000ddea       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000edea f   mfc140u:mfc140u.dll
+ 0001:0000ddf0       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000edf0 f   mfc140u:mfc140u.dll
+ 0001:0000ddf6       ?AfxThrowMemoryException@@YGXXZ 1000edf6 f   mfc140u:mfc140u.dll
+ 0001:0000ddfc       ?AfxThrowOleException@@YGXJ@Z 1000edfc f   mfc140u:mfc140u.dll
+ 0001:0000de02       ?Init@CComCriticalSection@ATL@@QAEJXZ 1000ee02 f i mfcs140u:nolib.obj
+ 0001:0000de2a       ??3@YAXPAXI@Z              1000ee2a f   msvcrt:delete_scalar_size.obj
+ 0001:0000de38       @__security_check_cookie@4 1000ee38 f   msvcrt:_secchk_.obj
+ 0001:0000de49       ??_Etype_info@@UAEPAXI@Z   1000ee49 f i msvcrt:std_type_info_static.obj
+ 0001:0000de49       ??_Gtype_info@@UAEPAXI@Z   1000ee49 f i msvcrt:std_type_info_static.obj
+ 0001:0000de70       __alloca_probe             1000ee70 f   msvcrt:chkstk.obj
+ 0001:0000de70       __chkstk                   1000ee70 f   msvcrt:chkstk.obj
+ 0001:0000de9d       ??_M@YGXPAXIIP6EX0@Z@Z     1000ee9d f   msvcrt:ehvecdtr.obj
+ 0001:0000df17       ?__ArrayUnwind@@YGXPAXIIP6EX0@Z@Z 1000ef17 f   msvcrt:ehvecdtr.obj
+ 0001:0000df84       ??_V@YAXPAXI@Z             1000ef84 f   msvcrt:delete_array_size.obj
+ 0001:0000e054       ??$__crt_fast_encode_pointer@P6GXPAU_RTL_CONDITION_VARIABLE@@@Z@@YAP6GXPAU_RTL_CONDITION_VARIABLE@@@ZQ6GX0@Z@Z 1000f054 f i msvcrt:thread_safe_statics.obj
+ 0001:0000e054       ??$__crt_fast_encode_pointer@P6GHPAU_RTL_CONDITION_VARIABLE@@PAU_RTL_CRITICAL_SECTION@@K@Z@@YAP6GHPAU_RTL_CONDITION_VARIABLE@@PAU_RTL_CRITICAL_SECTION@@K@ZQ6GH01K@Z@Z 1000f054 f i msvcrt:thread_safe_statics.obj
+ 0001:0000e08d       __Init_thread_footer       1000f08d f   msvcrt:thread_safe_statics.obj
+ 0001:0000e0cc       __Init_thread_header       1000f0cc f   msvcrt:thread_safe_statics.obj
+ 0001:0000e112       __Init_thread_lock         1000f112 f   msvcrt:thread_safe_statics.obj
+ 0001:0000e11e       __Init_thread_notify       1000f11e f   msvcrt:thread_safe_statics.obj
+ 0001:0000e15f       __Init_thread_unlock       1000f15f f   msvcrt:thread_safe_statics.obj
+ 0001:0000e16b       __Init_thread_wait         1000f16b f   msvcrt:thread_safe_statics.obj
+ 0001:0000e214       ___scrt_acquire_startup_lock 1000f214 f   msvcrt:utility.obj
+ 0001:0000e249       ___scrt_dllmain_after_initialize_c 1000f249 f   msvcrt:utility.obj
+ 0001:0000e274       ___scrt_dllmain_before_initialize_c 1000f274 f   msvcrt:utility.obj
+ 0001:0000e282       ___scrt_dllmain_crt_thread_attach 1000f282 f   msvcrt:utility.obj
+ 0001:0000e2a1       ___scrt_dllmain_crt_thread_detach 1000f2a1 f   msvcrt:utility.obj
+ 0001:0000e2ae       ___scrt_dllmain_exception_filter 1000f2ae f   msvcrt:utility.obj
+ 0001:0000e2e1       ___scrt_dllmain_uninitialize_c 1000f2e1 f   msvcrt:utility.obj
+ 0001:0000e304       ___scrt_dllmain_uninitialize_critical 1000f304 f   msvcrt:utility.obj
+ 0001:0000e311       ___scrt_initialize_crt     1000f311 f   msvcrt:utility.obj
+ 0001:0000e34a       ___scrt_initialize_onexit_tables 1000f34a f   msvcrt:utility.obj
+ 0001:0000e3e1       ___scrt_is_nonwritable_in_current_image 1000f3e1 f   msvcrt:utility.obj
+ 0001:0000e46b       ___scrt_release_startup_lock 1000f46b f   msvcrt:utility.obj
+ 0001:0000e488       ___scrt_uninitialize_crt   1000f488 f   msvcrt:utility.obj
+ 0001:0000e4b0       __onexit                   1000f4b0 f   msvcrt:utility.obj
+ 0001:0000e4eb       _atexit                    1000f4eb f   msvcrt:utility.obj
+ 0001:0000e808       __DllMainCRTStartup@12     1000f808 f   msvcrt:dll_dllmain.obj
+ 0001:0000e82b       @_guard_check_icall@4      1000f82b f i msvcrt:checkcfg.obj
+ 0001:0000e840       __SEH_prolog4              1000f840 f   msvcrt:_sehprolg4_.obj
+ 0001:0000e886       __SEH_epilog4              1000f886 f   msvcrt:_sehprolg4_.obj
+ 0001:0000e8a0       __SEH_prolog4_GS           1000f8a0 f   msvcrt:_sehprolg4gs_.obj
+ 0001:0000e8e9       __SEH_epilog4_GS           1000f8e9 f   msvcrt:_sehprolg4gs_.obj
+ 0001:0000e8fa       __except_handler4          1000f8fa f   msvcrt:_chandler4gs_.obj
+ 0001:0000e91d       ___raise_securityfailure   1000f91d f   msvcrt:gs_report.obj
+ 0001:0000e945       ___report_gsfailure        1000f945 f   msvcrt:gs_report.obj
+ 0001:0000ea40       ___scrt_fastfail           1000fa40 f   msvcrt:utility_desktop.obj
+ 0001:0000eb5b       ___isa_available_init      1000fb5b f   msvcrt:_cpu_disp_.obj
+ 0001:0000ecff       __get_startup_argv_mode    1000fcff f   msvcrt:argv_mode.obj
+ 0001:0000ed03       ___scrt_is_ucrt_dll_in_use 1000fd03 f   msvcrt:ucrt_detection.obj
+ 0001:0000ed0f       ___security_init_cookie    1000fd0f f   msvcrt:gs_support.obj
+ 0001:0000edab       ?__scrt_initialize_type_info@@YAXXZ 1000fdab f   msvcrt:tncleanup.obj
+ 0001:0000edb7       ?__scrt_uninitialize_type_info@@YAXXZ 1000fdb7 f   msvcrt:tncleanup.obj
+ 0001:0000edc3       ___local_stdio_scanf_options 1000fdc3 f i msvcrt:default_local_stdio_options.obj
+ 0001:0000edc9       ___scrt_initialize_default_local_stdio_options 1000fdc9 f   msvcrt:default_local_stdio_options.obj
+ 0001:0000ede6       ___scrt_get_dyn_tls_init_callback 1000fde6 f   msvcrt:dyn_tls_init.obj
+ 0001:0000edec       __RTC_Initialize           1000fdec f   msvcrt:_initsect_.obj
+ 0001:0000ee17       __RTC_Terminate            1000fe17 f   msvcrt:_initsect_.obj
+ 0001:0000ee42       _IsProcessorFeaturePresent@4 1000fe42 f   kernel32:KERNEL32.dll
+ 0001:0000ee48       ??0CAtlBaseModule@ATL@@QAE@XZ 1000fe48 f   atls:atlbase.obj
+ 0001:0000ee9b       ??0_ATL_BASE_MODULE70@ATL@@QAE@XZ 1000fe9b f i atls:atlbase.obj
+ 0001:0000eebe       ??1CAtlBaseModule@ATL@@QAE@XZ 1000febe f   atls:atlbase.obj
+ 0001:0000eed4       ?RemoveAll@?$CSimpleArray@PAUHINSTANCE__@@V?$CSimpleArrayEqualHelper@PAUHINSTANCE__@@@ATL@@@ATL@@QAEXXZ 1000fed4 f i atls:atlbase.obj
+ 0001:0000eef2       ___std_terminate           1000fef2 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000eef8       __CxxThrowException@8      1000fef8 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000eefe       ___CxxFrameHandler3        1000fefe f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef04       _memcpy                    1000ff04 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef0a       _memset                    1000ff0a f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef10       __purecall                 1000ff10 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef16       ___vcrt_InitializeCriticalSectionEx 1000ff16 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef1c       __except_handler4_common   1000ff1c f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef22       ___std_type_info_destroy_list 1000ff22 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000ef28       _free                      1000ff28 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000ef2e       _terminate                 1000ff2e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef34       __seh_filter_dll           1000ff34 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef3a       __configure_narrow_argv    1000ff3a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef40       __initialize_narrow_environment 1000ff40 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef46       __initialize_onexit_table  1000ff46 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef4c       __register_onexit_function 1000ff4c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef52       __execute_onexit_table     1000ff52 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef58       __crt_atexit               1000ff58 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef5e       __cexit                    1000ff5e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef64       __initterm                 1000ff64 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef6a       __initterm_e               1000ff6a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ef70       ___vcrt_uninitialize       1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___scrt_stub_for_acrt_initialize 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___scrt_stub_for_acrt_uninitialize 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___scrt_stub_for_acrt_uninitialize_critical 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___acrt_uninitialize       1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___vcrt_thread_attach      1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___vcrt_uninitialize_critical 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___acrt_thread_detach      1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___vcrt_thread_detach      1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___acrt_uninitialize_critical 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___acrt_thread_attach      1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___acrt_initialize         1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___vcrt_initialize         1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___scrt_stub_for_acrt_thread_attach 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef70       ___scrt_stub_for_acrt_thread_detach 1000ff70 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef80       ?GetFreeAndroidUserItem@CImmediateMatch@@UAEPAUIAndroidUserItem@@XZ 1000ff80 f   ImmediateMatch.obj
+ 0001:0000ef80       __is_c_termination_complete 1000ff80 f   msvcrt:ucrt_stubs.obj
+ 0001:0000ef80       ___scrt_stub_for_is_c_termination_complete 1000ff80 f   msvcrt:ucrt_stubs.obj
+ 0002:00000000       __imp__IsProcessorFeaturePresent@4 10011000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__InitializeSListHead@4 10011004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetSystemTimeAsFileTime@4 10011008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetCurrentThreadId@0 1001100c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetCurrentProcessId@0 10011010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__QueryPerformanceCounter@4 10011014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__IsDebuggerPresent@0 10011018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__OutputDebugStringW@4 1001101c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__TerminateProcess@8  10011020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentProcess@0 10011024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__SetUnhandledExceptionFilter@4 10011028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__UnhandledExceptionFilter@4 1001102c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__CreateEventW@16     10011030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__WaitForSingleObjectEx@12 10011034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__ResetEvent@4        10011038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__SetEvent@4          1001103c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__LeaveCriticalSection@4 10011040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__EnterCriticalSection@4 10011044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__CloseHandle@4       10011048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetProcAddress@8    1001104c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetModuleHandleW@4  10011050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__lstrcpynW@12        10011054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__lstrlenW@4          10011058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetLocalTime@4      1001105c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetLastError@0      10011060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__InitializeCriticalSectionAndSpinCount@8 10011064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__DeleteCriticalSection@4 10011068     kernel32:KERNEL32.dll
+ 0002:0000006c       \177KERNEL32_NULL_THUNK_DATA 1001106c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_?TraceString@CTraceService@@SA_NPB_WW4enTraceLevel@@@Z 10011070     KernelEngine:KernelEngine.dll
+ 0002:00000074       \177KernelEngine_NULL_THUNK_DATA 10011074     KernelEngine:KernelEngine.dll
+ 0002:00000078       __imp__wsprintfW           10011078     user32:USER32.dll
+ 0002:0000007c       \177USER32_NULL_THUNK_DATA 1001107c     user32:USER32.dll
+ 0002:00000080       __imp____CxxFrameHandler3  10011080     vcruntime:VCRUNTIME140.dll
+ 0002:00000084       __imp__memcpy              10011084     vcruntime:VCRUNTIME140.dll
+ 0002:00000088       __imp__memmove             10011088     vcruntime:VCRUNTIME140.dll
+ 0002:0000008c       __imp____std_terminate     1001108c     vcruntime:VCRUNTIME140.dll
+ 0002:00000090       __imp___purecall           10011090     vcruntime:VCRUNTIME140.dll
+ 0002:00000094       __imp____vcrt_InitializeCriticalSectionEx 10011094     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp___except_handler4_common 10011098     vcruntime:VCRUNTIME140.dll
+ 0002:0000009c       __imp____std_type_info_destroy_list 1001109c     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp___CxxThrowException@8 100110a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a4       __imp__memset              100110a4     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       \177VCRUNTIME140_NULL_THUNK_DATA 100110a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000ac       __imp__free                100110ac     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000b0       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 100110b0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000b4       __imp__terminate           100110b4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000b8       __imp___initterm_e         100110b8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000bc       __imp___initterm           100110bc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000c0       __imp___cexit              100110c0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000c4       __imp___crt_atexit         100110c4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000c8       __imp___execute_onexit_table 100110c8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000cc       __imp___register_onexit_function 100110cc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d0       __imp___initialize_onexit_table 100110d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d4       __imp___initialize_narrow_environment 100110d4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d8       __imp___configure_narrow_argv 100110d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000dc       __imp___seh_filter_dll     100110dc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 100110e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e4       __imp____stdio_common_vsnwprintf_s 100110e4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000e8       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 100110e8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000ec       __imp___localtime64_s      100110ec     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:000000f0       __imp___mktime64           100110f0     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:000000f4       __imp___time64             100110f4     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:000000f8       \177api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA 100110f8     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:000000fc       __imp__rand                100110fc     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000100       __imp__ldiv                10011100     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000104       __imp__srand               10011104     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000108       \177api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA 10011108     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:0000010c       __imp_??1?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ 1001110c     mfc140u:mfc140u.dll
+ 0002:00000110       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ 10011110     mfc140u:mfc140u.dll
+ 0002:00000114       __imp_??B?$CSimpleStringT@_W$00@ATL@@QBEPB_WXZ 10011114     mfc140u:mfc140u.dll
+ 0002:00000118       __imp_?AfxThrowOleException@@YGXJ@Z 10011118     mfc140u:mfc140u.dll
+ 0002:0000011c       __imp_?AfxThrowMemoryException@@YGXXZ 1001111c     mfc140u:mfc140u.dll
+ 0002:00000120       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10011120     mfc140u:mfc140u.dll
+ 0002:00000124       __imp_?Format@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAAXPB_WZZ 10011124     mfc140u:mfc140u.dll
+ 0002:00000128       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10011128     mfc140u:mfc140u.dll
+ 0002:0000012c       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1001112c     mfc140u:mfc140u.dll
+ 0002:00000130       __imp_?FreeDataChain@CPlex@@QAEXXZ 10011130     mfc140u:mfc140u.dll
+ 0002:00000134       __imp_?Create@CPlex@@SGPAU1@AAPAU1@II@Z 10011134     mfc140u:mfc140u.dll
+ 0002:00000138       __imp_?WriteCount@CArchive@@QAEXK@Z 10011138     mfc140u:mfc140u.dll
+ 0002:0000013c       __imp_?ReadCount@CArchive@@QAEKXZ 1001113c     mfc140u:mfc140u.dll
+ 0002:00000140       __imp_?Write@CArchive@@QAEXPBXI@Z 10011140     mfc140u:mfc140u.dll
+ 0002:00000144       __imp_?Read@CArchive@@QAEIPAXI@Z 10011144     mfc140u:mfc140u.dll
+ 0002:00000148       __imp_?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 10011148     mfc140u:mfc140u.dll
+ 0002:0000014c       __imp_??2@YAPAXI@Z         1001114c     mfc140u:mfc140u.dll
+ 0002:00000150       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 10011150     mfc140u:mfc140u.dll
+ 0002:00000154       __imp_??_U@YAPAXI@Z        10011154     mfc140u:mfc140u.dll
+ 0002:00000158       __imp_??_V@YAXPAX@Z        10011158     mfc140u:mfc140u.dll
+ 0002:0000015c       __imp_?AfxThrowInvalidArgException@@YGXXZ 1001115c     mfc140u:mfc140u.dll
+ 0002:00000160       __imp_?AfxThrowArchiveException@@YGXHPB_W@Z 10011160     mfc140u:mfc140u.dll
+ 0002:00000164       __imp_??3@YAXPAX@Z         10011164     mfc140u:mfc140u.dll
+ 0002:00000168       \177mfc140u_NULL_THUNK_DATA 10011168     mfc140u:mfc140u.dll
+ 0002:0000016c       ___guard_check_icall_fptr  1001116c     msvcrt:guard_support.obj
+ 0002:00000170       ___xc_a                    10011170     msvcrt:initializers.obj
+ 0002:00000178       ___xc_z                    10011178     msvcrt:initializers.obj
+ 0002:0000017c       ___xi_a                    1001117c     msvcrt:initializers.obj
+ 0002:00000184       ___xi_z                    10011184     msvcrt:initializers.obj
+ 0002:00000188       ___xl_a                    10011188     msvcrt:tlssup.obj
+ 0002:0000018c       ___xl_z                    1001118c     msvcrt:tlssup.obj
+ 0002:00000190       ___xp_a                    10011190     msvcrt:initializers.obj
+ 0002:00000194       ___xp_z                    10011194     msvcrt:initializers.obj
+ 0002:00000198       ___xt_a                    10011198     msvcrt:initializers.obj
+ 0002:0000019c       ___xt_z                    1001119c     msvcrt:initializers.obj
+ 0002:000001b0       ?BLOCK_SIZE@CDistributeNodePool@@2HB 100111b0     DistributeManager.obj
+ 0002:000001b8       ??_7?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@6B@ 100111b8     DistributeManager.obj
+ 0002:000001c0       ??_7?$CMap@KKPAUtagSameTableInfo@@PAU1@@@6B@ 100111c0     DistributeManager.obj
+ 0002:000001d8       ??_7CDistributeManager@@6B@ 100111d8     DistributeManager.obj
+ 0002:000001dc       __pRawDllMain              100111dc     GameMatchServer.obj
+ 0002:00000214       ??_7IMatchEventSink@@6B@   10011214     ImmediateGroup.obj
+ 0002:00000238       ??_7?$CMap@KKPAUIServerUserItem@@PAU1@@@6B@ 10011238     ImmediateGroup.obj
+ 0002:00000250       ??_7?$CWHArray@PAUIServerUserItem@@ABQAU1@@@6B@ 10011250     ImmediateGroup.obj
+ 0002:00000258       ??_7?$CWHArray@KABK@@6B@   10011258     ImmediateGroup.obj
+ 0002:00000260       ??_7?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@6B@ 10011260     ImmediateGroup.obj
+ 0002:00000268       ??_7?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@6B@ 10011268     ImmediateGroup.obj
+ 0002:00000270       ??_7CImmediateGroup@@6B@   10011270     ImmediateGroup.obj
+ 0002:00000298       ??_C@_1EG@POECFEPD@b?$LBkI?$PP?$AMu1N?$IOg?Pu?$CIb7_?3?$IIL?$JA?$AAQ?zk?T?$IN?$FL?$PP?$AM?$IL?eW?3k?T?$IN?$FLc?PRM?$HO?Sg_0?$ACO?$GAS?oN?e?$HO?g?$HO?m?$HLI_?$IFk?T@ 10011298     ImmediateGroup.obj
+ 0002:000002e0       ??_C@_1EG@IMCMPACJ@b?$LBkI?$PP?$AMu1N?$IO?$IP?GY?$BKu?$CIb7hL?$FLPep?$JB?ON?$ANY?$BP?$PP?$AB?$IP?X?$FN?n?$AA?5?$AA?$CF?$AAd?$AA?5_?5hL?$FLP_?$AA?$IN?$FL?$AA?0?$IL?w?$HLI_?$IF0?$AC@ 100112e0     ImmediateGroup.obj
+ 0002:00000328       ??_C@_1CM@CLMDBCOB@?$AAI?$AAD?$AAI?$AA_?$AAS?$AAW?$AAI?$AAT?$AAC?$AAH?$AA_?$AAT?$AAA?$AAB?$AAL?$AAE?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?$AA@ 10011328     ImmediateGroup.obj
+ 0002:00000354       ??_C@_1BC@FFAMOOPA@?$IPn?$HO?Sg_?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?$AA@ 10011354     ImmediateGroup.obj
+ 0002:00000368       ??_C@_1CM@GCGLEBHL@?$AAI?$AAD?$AAI?$AA_?$AAM?$AAA?$AAT?$AAC?$AAH?$AA_?$AAF?$AAI?$AAN?$AAI?$AAS?$AAH?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?$AA@ 10011368     ImmediateGroup.obj
+ 0002:00000394       ??_C@_1BE@EPLIAOGO@k?T?$IN?$FL?$HO?Sg_?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?$AA@ 10011394     ImmediateGroup.obj
+ 0002:000003a8       ??_C@_1CK@DIOJONHD@Sse?v?$IN?$FL?$HL?0?$AA?$CF?$AAd?$IPn?$HL?0?$AA?$CF?$AAd?2?$EA_?$AAY?K?$PP?$AIQq?$AA?$CF?$AAd?$IPn?$PP?70?$AC?$AA?$AA@ 100113a8     ImmediateGroup.obj
+ 0002:000003d8       ??_C@_1EK@CDEMPMME@?$GAmU?$JM?$GA?$KI?$AA?0?$GA?$KI?$FN?rs?$KJn?a?$AA?$CF?$AAd?$IPnn8b?$AP?$AA?0?$HLIQvN?VhL?$FL?$IMb?$BAT?$AO?$HM?$PL?$HO?$NP?2?$AG?$IP?$NL?$IILc?$JCT?$AN?$AA?0?$IL?w?$GA?$KI?$IA?$BA@ 100113d8     ImmediateGroup.obj
+ 0002:00000424       ??_C@_1DG@GMLCLKLB@g?0?$IPn?$FN?r?$HO?Sg_?$PP?$AM?$IL?w?$IA?$BA_?C?$HLI_?$IFQvN?VhL?$FL?$IMb?$BA?$PP?$AMz?$ANT?$AON?3?$GA?$KI?$JBMhL?$AA?4?$AA?4?$AA?4?$AA?$AA@ 10011424     ImmediateGroup.obj
+ 0002:0000045c       ??_C@_1BK@FMGKCOPI@g?0?2?$EA?$FN?r?$HO?Sg_?$PP?$AM?$IL?wz?$ANP?$BJ?$AA?4?$AA?4?$AA?4?$AA?$AA@ 1001145c     ImmediateGroup.obj
+ 0002:00000478       ??_C@_1M@FALLOEFM@WPN?$ALY1?$IN?$CF?$PP?$BP?$AA?$AA@ 10011478     ImmediateGroup.obj
+ 0002:00000484       ??_C@_1DC@CGOFFPKE@_SRMk?T?$IN?$FL?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?0?$GA?$DLhLep?$AA?3?$AA?$CF?$AAd?$AA?0?$FN?r?$FL?$IMb?$BAep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10011484     ImmediateGroup.obj
+ 0002:000004b8       ??_C@_1CI@CIIPIEKP@_SRMk?T?$IN?$FL?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?0g?$CK?$FL?$IMb?$BAv?$IEhLep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 100114b8     ImmediateGroup.obj
+ 0002:000004e0       ??_C@_1DC@KABHOJGK@h?$MAg?ecbhL?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?0?$GA?$DLhLep?$AA?3?$AA?$CF?$AAd?$AA?0?$FN?r?$FL?$IMb?$BAep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 100114e0     ImmediateGroup.obj
+ 0002:00000514       ??_C@_1CI@NCFCEDNA@h?$MAg?ecbhL?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?0g?$CK?$FL?$IMb?$BAv?$IEhLep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10011514     ImmediateGroup.obj
+ 0002:0000053c       ??_C@_1BE@BFFOIIJL@?$HO?g?$HO?mn8b?$AP?$AA_?$INwz?KY1?$IN?$CF?$AA?$AA@ 1001153c     ImmediateGroup.obj
+ 0002:00000550       ??_C@_1BE@BPHMJNOD@?$HO?g?$HO?mn8b?$AP?$AA_WPN?$ALY1?$IN?$CF?$AA?$AA@ 10011550     ImmediateGroup.obj
+ 0002:00000564       ??_C@_1DA@DOICMNEJ@h?$MAmKS?B?$IN?$FLN?$LKep?$AA?3_SRMs?$KJ?$FL?$LGep?$AA?3?$AA?$CF?$AAd?$AA?0i?$AF?$FLPep?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 10011564     ImmediateGroup.obj
+ 0002:00000598       ??_C@_1FI@JKPLABAG@b?$LBkI?$PP?$AMu1N?$IOk?T?$IN?$FLu?$CIb7_?3?$IIL?$JA?$AAQ?zk?T?$IN?$FL?$PP?$AMN?$LKepN?$AN?$IN?$LD?$AA?5?$AA?$CF?$AAd?$AA?5N?$LK?$PP?$AMc?PRM?$HO?S?$HL?$JH0?$ACk?$CC@ 10011598     ImmediateGroup.obj
+ 0002:000005f0       ??_C@_1DK@MFLFCJAC@h?$MAg?ehL?$FLP?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?0s?$KJ?$FL?$LG0?$BA?$AA?$CF?$AAs0?$BB?$AA?0hL?$FLP?$AA?3?$AA?$CF?$AAd?$AA?0i?$AF?$FLP?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 100115f0     ImmediateGroup.obj
+ 0002:0000062c       ??_C@_1BO@GFDDFKCF@g?$EAk?$HLk?T?$IN?$FLN?$BDu?$CI?$FL?$JKe?vVh?$AA?3?$AA?$CF?$AAl?$AAl?$AAd?$AA?$AA@ 1001162c     ImmediateGroup.obj
+ 0002:0000069c       ??_C@_11LOCGONAA@?$AA?$AA@ 1001169c     ImmediateMatch.obj
+ 0002:000006a4       ??_7IServerUserItemSink@@6B@ 100116a4     ImmediateMatch.obj
+ 0002:000006c8       ??_7IImmediateGroupSink@@6B@ 100116c8     ImmediateMatch.obj
+ 0002:00000714       ??_7CMatchServiceManager@@6B@ 10011714     ImmediateMatch.obj
+ 0002:00000760       ??_7?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@6B@ 10011760     ImmediateMatch.obj
+ 0002:00000768       ??_7?$CWHArray@EABE@@6B@   10011768     ImmediateMatch.obj
+ 0002:00000770       ??_7?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@6B@ 10011770     ImmediateMatch.obj
+ 0002:00000778       ??_7CImmediateMatch@@6BIGameMatchItem@@@ 10011778     ImmediateMatch.obj
+ 0002:000007b8       ??_7CImmediateMatch@@6BIImmediateGroupSink@@@ 100117b8     ImmediateMatch.obj
+ 0002:00000804       ??_7CImmediateMatch@@6BIServerUserItemSink@@@ 10011804     ImmediateMatch.obj
+ 0002:00000824       ??_C@_1BG@HFLPNDEO@s?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?5v?$HL_U?$FL?$IMb?$BA?$AA?$AA@ 10011824     ImmediateMatch.obj
+ 0002:0000083c       ??_C@_1DA@DCIHLLFA@k?T?$IN?$FL?$FN?r?$HO?O_?$AAY?K?$AA?0b?$KFT?$ANY1?$IN?$CF?$AA?0?$IL?w?$JB?Me?$LAb?$KFT?$ANN?$ALN?$AAW?3k?T?$IN?$FL?$PP?$AB?$AA?$AA@ 1001183c     ImmediateMatch.obj
+ 0002:0000086c       ??_C@_19OJCKIJCG@b?$KFT?$ANY1?$IN?$CF?$AA?$AA@ 1001186c     ImmediateMatch.obj
+ 0002:00000878       ??_C@_1CK@LKANMMNB@?$GAmU?$JM?$PP?$AMb?$KFT?$ANb?$BAR?$JP?$PP?$AM?$IL?w?$HLI_?$IF?$HM?$PL?$HO?$NPN?3?$GA?$KIR?$AG?$JBM?$FO?$KHOM?$PP?$AB?$AA?$AA@ 10011878     ImmediateMatch.obj
+ 0002:000008a4       ??_C@_17NLEGKNMB@n8b?$AP?$FO?$AB?$AA?$AA@ 100118a4     ImmediateMatch.obj
+ 0002:000008ac       ??_C@_15NPNLPLKG@?$JE?$LLw?s?$AA?$AA@ 100118ac     ImmediateMatch.obj
+ 0002:000008b4       ??_C@_1CG@EPAKIEPP@?$JA?$AA?$IN?$FLb?$BAR?$JP?$PP?$AM?$JA?$AA?$IP?Xb?$KFT?$AN?$IN9?$AA?$CF?$AAI?$AA6?$AA4?$AAd?$AA?$CF?$AAs?$PP?$AB?$AA?$AA@ 100118b4     ImmediateMatch.obj
+ 0002:000008dc       ??_C@_1M@EDIGFFDB@?$JA?$AA?$IN?$FLb?$BAR?$JP?$PP?$AB?$AA?$AA@ 100118dc     ImmediateMatch.obj
+ 0002:000008e8       ??_C@_1BI@KLDGOMHB@?$AA?$CF?$AAd?$AA?5?$JB?Q?$FO?$AB?$AA?0?$AA?$CF?$AAd?$AA?5?$JE?$LLw?s?$AA?$AA@ 100118e8     ImmediateMatch.obj
+ 0002:00000900       ??_C@_1M@MOFIPGNB@?$AA?$CF?$AAd?$AA?5?$JB?Q?$FO?$AB?$AA?$AA@ 10011900     ImmediateMatch.obj
+ 0002:0000090c       ??_C@_1M@LECEPGNO@?$AA?$CF?$AAd?$AA?5?$JE?$LLw?s?$AA?$AA@ 1001190c     ImmediateMatch.obj
+ 0002:00000918       ??_C@_1DO@NIHCGBDC@?$GAmU?$JM0?$BA?$AA?$CF?$AAs0?$BBW?$CI0?$BA?$AA?$CF?$AAs0?$BBv?$IEk?T?$IN?$FLN?9?$ID?$LH_?$JH?$HL?0N?$AAT?$AN?$PP?$AM?$INb_?$JH0?$BA?$AA?$CF?$AAs0?$BBY?8YV?$PP?$AB?$AA?$AA@ 10011918     ImmediateMatch.obj
+ 0002:00000958       ??_C@_1BK@FBGKINAA@k?T?$IN?$FL?$HO?Sg_T?$AO?$PP?$AM?$JA?$AA?$IN?$FLN?$LKep_?$AC?$FO8?$AA?$AA@ 10011958     ImmediateMatch.obj
+ 0002:00000974       ??_C@_1BC@FOLAOKMN@s?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?5v?$HL_U?$AA?$AA@ 10011974     ImmediateMatch.obj
+ 0002:00000988       ??_C@_1BA@DMGOKJKM@u?$CIb7c?$AH?$JE?$IIN?3zz?$AA?$CB?$AA?$AA@ 10011988     ImmediateMatch.obj
+ 0002:00000998       ??_C@_1DG@MBMCPGIC@b?$LBkI?$PP?$AM_SRMhL?$FLPN?$ANY?$BP?$IL?w?$HLI_?$IF0?$AC?$IP?X?$FN?n?$AA?5?$AA?$CF?$AAd?$AA?5_?5hL?$FLPS?oN?eb?$KFT?$AN?$AA?$AA@ 10011998     ImmediateMatch.obj
+ 0002:000009d0       ??_C@_1DO@LHEIJOF@b?$LBkI?$PP?$AM?$IL?eb?$DP?$JF?tS?B?$IN?$FLN?$LKep?$FN?rn?a?$PP?$AM?$IL?wz?$ANT?$AOQ?$INb?$KFT?$ANb?$BG?$IA?$AF?$IP?$NLQeS?fN?$AAb?$DP?$JF?tk?T?$IN?$FL0?$AC?$AA?$AA@ 100119d0     ImmediateMatch.obj
+ 0002:00000a10       ??_C@_1CA@NEDDMPCF@?$GA?$KI?$FN?r?$HO?Ob?$BAR?$JPb?$KFT?$AN?$PP?$AMN?$AN?$IA?$PN?$JB?MY?$ANb?$KFT?$AN?$PP?$AB?$AA?$AA@ 10011a10     ImmediateMatch.obj
+ 0002:00000a30       ??_C@_1BM@OKMCHLBA@b?$LBkI?$PP?$AMk?T?$IN?$FL?$HP?$BGS?wN?$ANY?$BP?$IL?wz?$AN?$HLI0?$AC?$AA?$AA@ 10011a30     ImmediateMatch.obj
+ 0002:00000a4c       ??_C@_1CG@GNOLCLFA@?$FL?yN?$AN?$INw?$PP?$AM?$GA?$KI_SRMv?$IEr?$LG?$GA?$ABN?$ANQA?$IL?$LIS?BR?$KAk?T?$IN?$FL?$PP?$AB?$AA?$AA@ 10011a4c     ImmediateMatch.obj
+ 0002:00000a74       ??_C@_1CO@FNNALDPP@b?$LBkI?$PP?$AM?$GA?$KIv?$IEO?$BKTX?$HLI?$HO?$KH?$IP?$LON?$ANR0b?$KFT?$ANgaN?v?$PP?$AMb?$KFT?$ANY1?$IN?$CF?$PP?$AB?$AA?$AA@ 10011a74     ImmediateMatch.obj
+ 0002:00000aa4       ??_C@_1CM@LHDGNJMP@b?$LBkI?$PP?$AM?$GA?$KIv?$IE?$HO?O?$JK?$IMP?$DM?$IP?$LON?$ANR0b?$KFT?$ANgaN?v?$PP?$AMb?$KFT?$ANY1?$IN?$CF?$PP?$AB?$AA?$AA@ 10011aa4     ImmediateMatch.obj
+ 0002:00000ad0       ??_C@_1DE@DNNODKGA@S?B?$IN?$FL?2?$AGbc?$JGdb?$KFT?$AN?$IN9?$AA?5?$AA?$CF?$AAI?$AA6?$AA4?$AAd?$AA?5?$AA?$CF?$AAs?$PP?$AMxn?$IL?$KE?$IJ?$IBS?B?$IN?$FLT?$BH?$PP?$BP?$AA?$AA@ 10011ad0     ImmediateMatch.obj
+ 0002:00000b04       ??_C@_1CK@MFAJDNBN@?$GAmU?$JM?$PP?$AMb?$KFT?$ANb?$BAR?$JP?$PP?$AM?$IL?w?$HLI_?$IF?$HM?$PL?$HO?$NPN?3?$GA?$KI?$FL?$IJc?$JC?$FO?$KHOM?$PP?$AB?$AA?$AA@ 10011b04     ImmediateMatch.obj
+ 0002:00000b30       ??_C@_1CE@EJPIHGJC@?$JA?$AA?$IN?$FLb?$BAR?$JP?$PP?$AMk?$CC?$IP?N?$GA?$KI?$HO?g?$HO?mS?BR?$KAQvN?Vk?T?$IN?$FL?$PP?$AB?$AA?$AA@ 10011b30     ImmediateMatch.obj
+ 0002:00000b54       ??_C@_1BC@IMACLDMI@Sse?v?$IN?$FL?$HO?Sg_?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10011b54     ImmediateMatch.obj
+ 0002:00000bbc       ??_7?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@6B@ 10011bbc     LockTimeMatch.obj
+ 0002:00000bc4       ??_7?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@6B@ 10011bc4     LockTimeMatch.obj
+ 0002:00000bcc       ??_7CLockTimeMatch@@6BIGameMatchItem@@@ 10011bcc     LockTimeMatch.obj
+ 0002:00000c0c       ??_7CLockTimeMatch@@6BIMatchEventSink@@@ 10011c0c     LockTimeMatch.obj
+ 0002:00000c30       ??_7CLockTimeMatch@@6BIServerUserItemSink@@@ 10011c30     LockTimeMatch.obj
+ 0002:00000c50       ??_C@_1EK@ILMDAHMH@?$AAp?$AAt?$AAd?$AAt?$AA?5?$AA?$CK?$AA?$CK?$AA?$CK?$AA?5?$AAO?$AAn?$AAE?$AAv?$AAe?$AAn?$AAt?$AAT?$AAi?$AAm?$AAe?$AAr?$AA?5?$AAd?$AAw?$AAT?$AAi?$AAm?$AAe?$AAr?$AAI?$AAD?$AA?5@ 10011c50     LockTimeMatch.obj
+ 0002:00000c9c       ??_C@_1DI@IONGGMNH@?$AAI?$AAD?$AAI?$AA_?$AAC?$AAH?$AAE?$AAC?$AAK?$AA_?$AAS?$AAT?$AAA?$AAR?$AAT?$AA_?$AAS?$AAI?$AAG?$AAN?$AAU?$AAP?$AA?3_?$AAY?Kb?$KFT?$AN?$AA?$AA@ 10011c9c     LockTimeMatch.obj
+ 0002:00000cd4       ??_C@_1DG@NNKJDKNA@?$AAI?$AAD?$AAI?$AA_?$AAC?$AAH?$AAE?$AAC?$AAK?$AA_?$AAS?$AAT?$AAA?$AAR?$AAT?$AA_?$AAM?$AAA?$AAT?$AAC?$AAH?$AA?3_?$AAY?Kk?T?$IN?$FL?$AA?$AA@ 10011cd4     LockTimeMatch.obj
+ 0002:00000d0c       ??_C@_1CA@MCJCJKNK@_SRM?$AAA?$PP?$BK?$AA?5?$AA?$CF?$AAd?$AA?5N?$CKN?$LKS?BR?$KAk?T?$IN?$FL0?$AC?$AA?$AA@ 10011d0c     LockTimeMatch.obj
+ 0002:00000d2c       ??_C@_1CA@FDPMIBKL@_SRM?$AAB?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?5N?$CKN?$LKS?BR?$KAk?T?$IN?$FL0?$AC?$AA?$AA@ 10011d2c     LockTimeMatch.obj
+ 0002:00000d4c       ??_C@_1DM@PJKAAAAB@?$FL?yN?$AN?$INwk?T?$IN?$FLN?$LKep?$IP?$LON?$ANR0S?B?$IN?$FL?$IJ?$IBlB?$PP?$AMk?T?$IN?$FL?$IJ?cec?$PP?$AM?$IL?w?$GA?$KIf?$AOY?$CJQ?$INgeS?BR?$KA?$PP?$AB?$AA?$AA@ 10011d4c     LockTimeMatch.obj
+ 0002:00000d88       ??_C@_1CC@BCJLPPPD@?$AAI?$AAD?$AAI?$AA_?$AAS?$AAW?$AAI?$AAT?$AAC?$AAH?$AA_?$AAT?$AAA?$AAB?$AAL?$AAE?$AA?$AA@ 10011d88     LockTimeMatch.obj
+ 0002:00000dac       ??_C@_1CC@FHAGFKCP@?$AAI?$AAD?$AAI?$AA_?$AAM?$AAA?$AAT?$AAC?$AAH?$AA_?$AAF?$AAI?$AAN?$AAI?$AAS?$AAH?$AA?$AA@ 10011dac     LockTimeMatch.obj
+ 0002:00000dd0       ??_C@_1FC@FBGIPCKK@?$AAp?$AAt?$AAd?$AAt?$AA?5?$AA?$CK?$AA?$CK?$AA?$CK?$AA?5?$AAO?$AAn?$AAE?$AAv?$AAe?$AAn?$AAt?$AAD?$AAa?$AAt?$AAa?$AAB?$AAa?$AAs?$AAe?$AA?5?$AAw?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs@ 10011dd0     LockTimeMatch.obj
+ 0002:00000e24       ??_C@_1CA@FCIADLGG@s?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?5v?$HL_UY1?$IN?$CF?$AA?00?$BA?$AA?$CF?$AAs0?$BB?$AA?$AA@ 10011e24     LockTimeMatch.obj
+ 0002:00000e44       ??_C@_1DC@OOFBKKFP@b?$KFT?$AN?$HO?Sg?$JM?$AA?3u?$CIb7?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0?$FN?rb?$KFT?$ANN?$LKep?$PP?$BK?$AA?$CF?$AAd?$AA?5N?$LK?$AA?4?$AA?$AA@ 10011e44     LockTimeMatch.obj
+ 0002:00000e78       ??_C@_1CM@ONNEHKMD@?$GAmU?$JM?$GA?$KI?$PP?$AMb?$KFT?$ANb?$BAR?$JP?$PP?$AM?$IL?w?$HLI_?$IF?$HM?$PL?$HO?$NPN?3?$GA?$KIR?$AG?$JBM?$FO?$KHOM?$PP?$AB?$AA?$AA@ 10011e78     LockTimeMatch.obj
+ 0002:00000ea4       ??_C@_1DC@CINICOOG@?$JA?$AA?$IN?$FL?$HO?Sg?$JM?$AA?3u?$CIb7?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0?$FN?rb?$KFT?$ANN?$LKep?$PP?$BK?$AA?$CF?$AAd?$AA?5N?$LK?$AA?4?$AA?$AA@ 10011ea4     LockTimeMatch.obj
+ 0002:00000ed8       ??_C@_1DA@FEPPHLML@k?T?$IN?$FL?$HO?Sg_b?$EAg?7s?$KJ?$FL?$LG?$INwz?K?$AA?5?$AAT?$AAa?$AAb?$AAl?$AAe?$AAI?$AAD?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 10011ed8     LockTimeMatch.obj
+ 0002:00000f08       ??_C@_1FI@OEMHMCLA@V?$OAb?$KFT?$ANN?$LKepN?$AN?$IN?$LD?$PP?$AMS?Vm?$IIg?0W?3k?T?$IN?$FL0?$AC?$FN?rb?$KFT?$ANv?$IEs?$KJ?$FL?$LGz?$ANT?$AO?2?$AGO?$BKe6R0?$HM?$PL?$HO?$NP?$JA?$AA?$IP?Xv?$IE@ 10011f08     LockTimeMatch.obj
+ 0002:00000f60       ??_C@_1FI@PNONEDKB@?$AAp?$AAt?$AAd?$AAt?$AA?5?$AA?$CK?$AA?$CK?$AA?$CK?$AA?5?$AAO?$AAn?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?5?$AAw?$AAR?$AAe?$AAq@ 10011f60     LockTimeMatch.obj
+ 0002:00000fb8       ??_C@_1DA@NGFBKELA@b?$KFT?$AN?$FN?r?$HO?Ob?$CKkb?$PP?$AM?$IL?w?$GA?$KIy?$PL?$JK?$HO?$IB?sQvN?Vk?T?$IN?$FLb?$DP?$JF?tS?BN?$AOk?T?$IN?$FL?$PP?$AB?$AA?$AA@ 10011fb8     LockTimeMatch.obj
+ 0002:00000fe8       ??_C@_1BG@LODPKBIA@s?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?5?$JA?$AAQ?zk?T?$IN?$FL?$AA?$AA@ 10011fe8     LockTimeMatch.obj
+ 0002:00001000       ??_C@_1BM@BGBLFIEO@b?$KFT?$AN?2?$BKg?$CK_?$AAY?K?$PP?$AM?$IL?wz?$ANT?$AOQ?$INge?$PP?$AB?$AA?$AA@ 10012000     LockTimeMatch.obj
+ 0002:0000101c       ??_C@_1CI@NOFHAEBD@?$HM?$PL?$HO?$NPkcW?$CIR?$KKR?$JLN?3?$GA?$KIR?$AG?$JBM?$FO?$KHOM?$PP?$AM?$IL?wz?$ANT?$AO0?$AC0?$AC0?$AC?$AA?$AA@ 1001201c     LockTimeMatch.obj
+ 0002:00001044       ??_C@_1CG@GHBLEMOB@b?$LBkI?$AA?0?$GA?$KI?$FN?rS?BR?$KA?$IP?Gg?0W?3k?T?$IN?$FL?$PP?$AMN?$AN?$IA?$PN?$JA?$AA?$IN?$FL?$PP?$AB?$AA?$AA@ 10012044     LockTimeMatch.obj
+ 0002:00001070       ??_C@_1EO@GIENMGAB@u?$CIb7?$JA?$AA?$IN?$FL?$AA?3u?$CIb7?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0S?B?$IN?$FLN?$LKep?$PP?$BK?$AA?$CF?$AAd?$AA?5N?$LK?$AA?0?$JA?$AA?$IN?$FLS?$JPV?$OA?$AA?3?$AA?$CF?$AAd?$AA?0f?1@ 10012070     LockTimeMatch.obj
+ 0002:000010c0       ??_C@_1DG@KCFLJOCF@?$FL?$JKe?v?$IN?$FLhL?$FLP?$AA?3?$AA?$CF?$AAd?$AA?0?$HL?0?$AA?$CF?$AAd?$IPn?$HL?0?$AA?$CF?$AAd?2?$EA_?$AAY?K?$PP?$AIQq?$AA?$CF?$AAd?$IPn?$PP?70?$AC?$AA?$AA@ 100120c0     LockTimeMatch.obj
+ 0002:000010f8       ??_C@_1EK@GLLMGCPJ@?$GAmU?$JM?$GA?$KI?$AA?0?$GA?$KI?$FN?rs?$KJn?a?$AA?$CF?$AAd?$IPnn8b?$AP?$AA?0?$HM?$PL?$HO?$NP?2?$AG?$IP?$NL?$IILc?$JCT?$AN?$AA?0?$IL?w?$GA?$KI?$IA?$BA_?C?$HLI_?$IF?$PP?$ABhL?$FLP?$AAI@ 100120f8     LockTimeMatch.obj
+ 0002:00001148       ??_C@_1FI@HBEFBKAB@?$GAmU?$JM?$GA?$KI?$AA?0?$GA?$KI?$FN?rs?$KJn?a?$AA?$CF?$AAd?$IPnn8b?$AP?$AA?0?$HLIQvN?VhL?$FL?$IMb?$BAT?$AO?$HM?$PL?$HO?$NP?2?$AG?$IP?$NL?$IILc?$JCT?$AN?$AA?0?$IL?w?$GA?$KI?$IA?$BA@ 10012148     LockTimeMatch.obj
+ 0002:000011a0       ??_C@_1DG@HOPDKOGB@u?$CIb7WPN?$AL?$AA?3u?$CIb7?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0f?1T?$CG?$AAA?$AAI?$AA?3?$AA?$CF?$AAd?$AA?0hL?$FLP?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 100121a0     LockTimeMatch.obj
+ 0002:000011d8       ??_C@_1DG@ENIPDKOC@u?$CIb7?$INwz?K?$AA?3u?$CIb7?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0f?1T?$CG?$AAA?$AAI?$AA?3?$AA?$CF?$AAd?$AA?0hL?$FLP?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 100121d8     LockTimeMatch.obj
+ 0002:00001210       ??_C@_1DG@KJLFJFLP@u?$CIb7T?$AMa?$AP?$AA?3u?$CIb7?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0f?1T?$CG?$AAA?$AAI?$AA?3?$AA?$CF?$AAd?$AA?0hL?$FLP?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10012210     LockTimeMatch.obj
+ 0002:00001248       ??_C@_1GO@DEPHOHMI@k?T?$IN?$FLb?$KFT?$AN?2?$BKg?$CK_?$AAY?K?$AA?0g?0W?3k?T?$IN?$FLb?$KFT?$ANe?vk?$LFN?3?$PP?$BK?$AA?$CF?$AAd?$AA?9?$AA?$CF?$AAd?$AA?9?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?$CF@ 10012248     LockTimeMatch.obj
+ 0002:000012b8       ??_C@_1EC@GBKIMAEE@k?T?$IN?$FLb?$KFT?$AN?2?$BKg?$CK_?$AAY?K?$AA?0?$IL?w?$GA?$KIN?$ION?JY?$CJ?$AA?$CF?$AAde?v?$AA?$CF?$AAdR?$AG?$AA?$CF?$AAdy?RRMgeb?$KFT?$ANS?BR?$KAk?T?$IN?$FL?$PP?$AB@ 100122b8     LockTimeMatch.obj
+ 0002:00001300       ??_C@_1ME@KOBDPOKB@?$AAS?$AAU?$AAB?$AA_?$AAG?$AAR?$AA_?$AAM?$AAA?$AAT?$AAC?$AAH?$AA_?$AAI?$AAN?$AAF?$AAO?$AA?3?$AAU?$AAs?$AAe?$AAr?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0?$AAC?$AAh?$AAa?$AAi@ 10012300     LockTimeMatch.obj
+ 0002:000013c4       ??_C@_1BO@LGBINIDK@?$ID?$LHYVs?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?0T?$ANk?$CB?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 100123c4     LockTimeMatch.obj
+ 0002:000013e4       ??_C@_1CA@GOFGOJCF@g?$CK?$ID?$LHYVs?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?0T?$ANk?$CB?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 100123e4     LockTimeMatch.obj
+ 0002:00001404       ??_C@_1DA@DBJHBCCE@h?$MAg?ehL?$FLP?$AA?3s?$KJ?$FL?$LG0?$BA?$AA?$CF?$AAs0?$BB?$AA?0hL?$FLP?$AA?3?$AA?$CF?$AAd?$AA?0i?$AF?$FLP?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10012404     LockTimeMatch.obj
+ 0002:00001434       ??_C@_1BO@PHHJICCO@?$GA?$DLhLep?$AA?3?$AA?$CF?$AAd?$AA?0?$FN?r?$FL?$IMb?$BAep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10012434     LockTimeMatch.obj
+ 0002:00001454       ??_C@_1BO@KNMGKGIE@_SRMk?T?$IN?$FL?$AA?3g?$CK?$FL?$IMb?$BAv?$IEhLep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10012454     LockTimeMatch.obj
+ 0002:00001474       ??_C@_1CI@CLHONGEK@h?$MAg?ecbhL?$AA?3?$GA?$DLhLep?$AA?3?$AA?$CF?$AAd?$AA?0?$FN?r?$FL?$IMb?$BAep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10012474     LockTimeMatch.obj
+ 0002:0000149c       ??_C@_1BO@LLIIMKMB@h?$MAg?ecbhL?$AA?3g?$CK?$FL?$IMb?$BAv?$IEhLep?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 1001249c     LockTimeMatch.obj
+ 0002:000014bc       ??_C@_1BO@ELCJKGIA@fK?$HO?$KHs?$KJ?$FL?$LG?$AA?3?$AA?$CF?$AAd?$AA?0T?$ANk?$CB?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 100124bc     LockTimeMatch.obj
+ 0002:000014e0       ??_C@_1EK@FLHEBLO@?$AAS?$AAi?$AAt?$AAD?$AAo?$AAw?$AAn?$AAA?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3s?$KJ?$FL?$LG?$AAI?$AAD?$AA?3?$AA?$CF?$AAd?$AA?0hL?$FLP?$AAI?$AAD?$AA?3?$AA?$CF?$AAdi?$AF?$FLP?$AAI@ 100124e0     LockTimeMatch.obj
+ 0002:00001530       ??_C@_1FG@DBNPNOKJ@?$FL?$JKe?v?$IN?$FL?$HO?Sg_b?$EAg?7s?$KJ?$FL?$LG?$INwz?K?$AA?5?$AAT?$AAa?$AAb?$AAl?$AAe?$AAI?$AAD?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?5?$AA?5?$AAu?$AAs?$AAe?$AAr?$AAi?$AAd@ 10012530     LockTimeMatch.obj
+ 0002:00001588       ??_C@_1FG@NPMEFNFO@?$FL?$JKe?v?$IN?$FL?$HO?Sg_b?$EAg?7s?$KJ?$FL?$LG?$INwz?K?$AA?5?$AAT?$AAa?$AAb?$AAl?$AAe?$AAI?$AAD?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?5?$AA?5?$AAu?$AAs?$AAe?$AAr?$AAi?$AAd@ 10012588     LockTimeMatch.obj
+ 0002:000015e0       ??_C@_1BE@MHLEBMMK@g?$EAk?$HLk?T?$IN?$FLN?$BDu?$CI?$FL?$JKe?vVh?$AA?$AA@ 100125e0     LockTimeMatch.obj
+ 0002:000015f4       ??_C@_1DC@GKIAAKPL@b?$LBkI?$PP?$AMu1N?$IOg?Pu?$CIb7_?3?$IIL?$JA?$AAQ?zk?T?$IN?$FL?$PP?$AM?$IL?eW?3k?T?$IN?$FLc?PRM?$HO?Sg_0?$AC?$AA?$AA@ 100125f4     LockTimeMatch.obj
+ 0002:00001628       ??_C@_1EA@EAIPPAIN@b?$LBkI?$PP?$AMu1N?$IO?$IP?GY?$BKu?$CIb7hL?$FLPep?$JB?ON?$ANY?$BP?$PP?$AB?$IP?X?$FN?nQ?$OA_?5hL?$FLP_?$AA?$IN?$FL?$AA?0?$IL?w?$HLI_?$IF0?$AC0?$AC0?$AC?$AA?$AA@ 10012628     LockTimeMatch.obj
+ 0002:00001668       ??_C@_1CA@PCBPBPHJ@f?te?$LAN?$LKep?$AA?0_SRMk?T?$IN?$FL?$AA?3?$AA?$CF?$AAd?$AA?5N?$LK?$AA?4?$AA?$AA@ 10012668     LockTimeMatch.obj
+ 0002:000016a8       ??_C@_1BC@NMENDJEF@?$FL?$JKe?v?$IN?$FLR?$BL?$FO?zY1?$IN?$CF?$PP?$AB?$AA?$AA@ 100126a8     MatchServiceManager.obj
+ 0002:000016bc       ??_C@_1BC@ILPOEAOH@Sse?v?$IN?$FLR?$BL?$FO?zY1?$IN?$CF?$PP?$AB?$AA?$AA@ 100126bc     MatchServiceManager.obj
+ 0002:000016d0       ??_C@_19GPKLAGD@R?$BL?$FO?zY1?$IN?$CF?$AA?$AA@ 100126d0     MatchServiceManager.obj
+ 0002:000016dc       ??_C@_1O@KPJHLLOD@c?$KFS?cg?e?$IL?bY1?$IN?$CF?$AA?$AA@ 100126dc     MatchServiceManager.obj
+ 0002:0000180c       ?m_wPlayerCount@CTableFrameHook@@1GB 1001280c     TableFrameHook.obj
+ 0002:00001814       ??_7ITableUserAction@@6B@  10012814     TableFrameHook.obj
+ 0002:00001834       ??_7CTableFrameHook@@6BITableFrameHook@@@ 10012834     TableFrameHook.obj
+ 0002:00001858       ??_7CTableFrameHook@@6BITableUserAction@@@ 10012858     TableFrameHook.obj
+ 0002:00001878       ??_7type_info@@6B@         10012878     msvcrt:std_type_info_static.obj
+ 0002:0000187c       ??_C@_1BK@MGMFAEKH@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1001287c     msvcrt:thread_safe_statics.obj
+ 0002:00001898       ??_C@_0BM@HLJJNPAH@InitializeConditionVariable?$AA@ 10012898     msvcrt:thread_safe_statics.obj
+ 0002:000018b4       ??_C@_0BJ@JEBJOJFJ@SleepConditionVariableCS?$AA@ 100128b4     msvcrt:thread_safe_statics.obj
+ 0002:000018d0       ??_C@_0BJ@PGPPEPCC@WakeAllConditionVariable?$AA@ 100128d0     msvcrt:thread_safe_statics.obj
+ 0002:000018ec       __pDefaultRawDllMain       100128ec     msvcrt:dll_dllmain.obj
+ 0002:000018f8       _GUID_ATLVer110            100128f8     atls:atlbase.obj
+ 0002:00001908       ??_C@_1IC@ONKHOIDK@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAc?$AAr?$AAi@ 10012908     atls:atlbase.obj
+ 0002:000019e8       __load_config_used         100129e8     msvcrt:loadcfg.obj
+ 0002:00001a44       __tls_used                 10012a44     msvcrt:tlssup.obj
+ 0002:00001a5c       ??_R3CObject@@8            10012a5c     DistributeManager.obj
+ 0002:00001a6c       ??_R2CObject@@8            10012a6c     DistributeManager.obj
+ 0002:00001a74       ??_R1A@?0A@EA@CObject@@8   10012a74     DistributeManager.obj
+ 0002:00001a90       ??_R4?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@6B@ 10012a90     DistributeManager.obj
+ 0002:00001aa4       ??_R3?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@8 10012aa4     DistributeManager.obj
+ 0002:00001ab4       ??_R2?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@8 10012ab4     DistributeManager.obj
+ 0002:00001abc       ??_R1A@?0A@EA@?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@8 10012abc     DistributeManager.obj
+ 0002:00001ad8       ??_R4?$CMap@KKPAUtagSameTableInfo@@PAU1@@@6B@ 10012ad8     DistributeManager.obj
+ 0002:00001aec       ??_R3?$CMap@KKPAUtagSameTableInfo@@PAU1@@@8 10012aec     DistributeManager.obj
+ 0002:00001afc       ??_R2?$CMap@KKPAUtagSameTableInfo@@PAU1@@@8 10012afc     DistributeManager.obj
+ 0002:00001b08       ??_R1A@?0A@EA@?$CMap@KKPAUtagSameTableInfo@@PAU1@@@8 10012b08     DistributeManager.obj
+ 0002:00001b24       ??_R4CDistributeManager@@6B@ 10012b24     DistributeManager.obj
+ 0002:00001b38       ??_R3CDistributeManager@@8 10012b38     DistributeManager.obj
+ 0002:00001b48       ??_R2CDistributeManager@@8 10012b48     DistributeManager.obj
+ 0002:00001b50       ??_R1A@?0A@EA@CDistributeManager@@8 10012b50     DistributeManager.obj
+ 0002:00001b6c       ??_R3IUnknownEx@@8         10012b6c     ImmediateGroup.obj
+ 0002:00001b7c       ??_R2IUnknownEx@@8         10012b7c     ImmediateGroup.obj
+ 0002:00001b84       ??_R1A@?0A@EA@IUnknownEx@@8 10012b84     ImmediateGroup.obj
+ 0002:00001ba0       ??_R4IMatchEventSink@@6B@  10012ba0     ImmediateGroup.obj
+ 0002:00001bb4       ??_R3IMatchEventSink@@8    10012bb4     ImmediateGroup.obj
+ 0002:00001bc4       ??_R2IMatchEventSink@@8    10012bc4     ImmediateGroup.obj
+ 0002:00001bd0       ??_R1A@?0A@EA@IMatchEventSink@@8 10012bd0     ImmediateGroup.obj
+ 0002:00001bec       ??_R4?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@6B@ 10012bec     ImmediateGroup.obj
+ 0002:00001c00       ??_R3?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@8 10012c00     ImmediateGroup.obj
+ 0002:00001c10       ??_R2?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@8 10012c10     ImmediateGroup.obj
+ 0002:00001c18       ??_R1A@?0A@EA@?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@8 10012c18     ImmediateGroup.obj
+ 0002:00001c34       ??_R4?$CWHArray@PAUIServerUserItem@@ABQAU1@@@6B@ 10012c34     ImmediateGroup.obj
+ 0002:00001c48       ??_R3?$CWHArray@PAUIServerUserItem@@ABQAU1@@@8 10012c48     ImmediateGroup.obj
+ 0002:00001c58       ??_R2?$CWHArray@PAUIServerUserItem@@ABQAU1@@@8 10012c58     ImmediateGroup.obj
+ 0002:00001c60       ??_R1A@?0A@EA@?$CWHArray@PAUIServerUserItem@@ABQAU1@@@8 10012c60     ImmediateGroup.obj
+ 0002:00001c7c       ??_R4?$CWHArray@KABK@@6B@  10012c7c     ImmediateGroup.obj
+ 0002:00001c90       ??_R3?$CWHArray@KABK@@8    10012c90     ImmediateGroup.obj
+ 0002:00001ca0       ??_R2?$CWHArray@KABK@@8    10012ca0     ImmediateGroup.obj
+ 0002:00001ca8       ??_R1A@?0A@EA@?$CWHArray@KABK@@8 10012ca8     ImmediateGroup.obj
+ 0002:00001cc4       ??_R4?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@6B@ 10012cc4     ImmediateGroup.obj
+ 0002:00001cd8       ??_R3?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@8 10012cd8     ImmediateGroup.obj
+ 0002:00001ce8       ??_R2?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@8 10012ce8     ImmediateGroup.obj
+ 0002:00001cf0       ??_R1A@?0A@EA@?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@8 10012cf0     ImmediateGroup.obj
+ 0002:00001d0c       ??_R4?$CMap@KKPAUIServerUserItem@@PAU1@@@6B@ 10012d0c     ImmediateGroup.obj
+ 0002:00001d20       ??_R3?$CMap@KKPAUIServerUserItem@@PAU1@@@8 10012d20     ImmediateGroup.obj
+ 0002:00001d30       ??_R2?$CMap@KKPAUIServerUserItem@@PAU1@@@8 10012d30     ImmediateGroup.obj
+ 0002:00001d3c       ??_R1A@?0A@EA@?$CMap@KKPAUIServerUserItem@@PAU1@@@8 10012d3c     ImmediateGroup.obj
+ 0002:00001d58       ??_R4CImmediateGroup@@6B@  10012d58     ImmediateGroup.obj
+ 0002:00001d6c       ??_R3CImmediateGroup@@8    10012d6c     ImmediateGroup.obj
+ 0002:00001d7c       ??_R2CImmediateGroup@@8    10012d7c     ImmediateGroup.obj
+ 0002:00001d8c       ??_R1A@?0A@EA@CImmediateGroup@@8 10012d8c     ImmediateGroup.obj
+ 0002:00001da8       ??_R4IServerUserItemSink@@6B@ 10012da8     ImmediateMatch.obj
+ 0002:00001dbc       ??_R3IServerUserItemSink@@8 10012dbc     ImmediateMatch.obj
+ 0002:00001dcc       ??_R2IServerUserItemSink@@8 10012dcc     ImmediateMatch.obj
+ 0002:00001dd8       ??_R1A@?0A@EA@IServerUserItemSink@@8 10012dd8     ImmediateMatch.obj
+ 0002:00001df4       ??_R3IMatchServiceManager@@8 10012df4     ImmediateMatch.obj
+ 0002:00001e04       ??_R2IMatchServiceManager@@8 10012e04     ImmediateMatch.obj
+ 0002:00001e10       ??_R1A@?0A@EA@IMatchServiceManager@@8 10012e10     ImmediateMatch.obj
+ 0002:00001e2c       ??_R3IGameMatchItem@@8     10012e2c     ImmediateMatch.obj
+ 0002:00001e3c       ??_R2IGameMatchItem@@8     10012e3c     ImmediateMatch.obj
+ 0002:00001e48       ??_R1A@?0A@EA@IGameMatchItem@@8 10012e48     ImmediateMatch.obj
+ 0002:00001e64       ??_R4IImmediateGroupSink@@6B@ 10012e64     ImmediateMatch.obj
+ 0002:00001e78       ??_R3IImmediateGroupSink@@8 10012e78     ImmediateMatch.obj
+ 0002:00001e88       ??_R2IImmediateGroupSink@@8 10012e88     ImmediateMatch.obj
+ 0002:00001e90       ??_R1A@?0A@EA@IImmediateGroupSink@@8 10012e90     ImmediateMatch.obj
+ 0002:00001eac       ??_R4CImmediateMatch@@6BIGameMatchItem@@@ 10012eac     ImmediateMatch.obj
+ 0002:00001ec0       ??_R3CImmediateMatch@@8    10012ec0     ImmediateMatch.obj
+ 0002:00001ed0       ??_R2CImmediateMatch@@8    10012ed0     ImmediateMatch.obj
+ 0002:00001eec       ??_R1A@?0A@EA@CImmediateMatch@@8 10012eec     ImmediateMatch.obj
+ 0002:00001f08       ??_R1A@?0A@EC@IUnknownEx@@8 10012f08     ImmediateMatch.obj
+ 0002:00001f24       ??_R13?0A@EA@IImmediateGroupSink@@8 10012f24     ImmediateMatch.obj
+ 0002:00001f40       ??_R17?0A@EN@IServerUserItemSink@@8 10012f40     ImmediateMatch.obj
+ 0002:00001f5c       ??_R17?0A@EL@IUnknownEx@@8 10012f5c     ImmediateMatch.obj
+ 0002:00001f78       ??_R4CImmediateMatch@@6BIImmediateGroupSink@@@ 10012f78     ImmediateMatch.obj
+ 0002:00001f8c       ??_R4CImmediateMatch@@6BIServerUserItemSink@@@ 10012f8c     ImmediateMatch.obj
+ 0002:00001fa0       ??_R4CMatchServiceManager@@6B@ 10012fa0     ImmediateMatch.obj
+ 0002:00001fb4       ??_R3CMatchServiceManager@@8 10012fb4     ImmediateMatch.obj
+ 0002:00001fc4       ??_R2CMatchServiceManager@@8 10012fc4     ImmediateMatch.obj
+ 0002:00001fd4       ??_R1A@?0A@EA@CMatchServiceManager@@8 10012fd4     ImmediateMatch.obj
+ 0002:00001ff0       ??_R4?$CWHArray@EABE@@6B@  10012ff0     ImmediateMatch.obj
+ 0002:00002004       ??_R3?$CWHArray@EABE@@8    10013004     ImmediateMatch.obj
+ 0002:00002014       ??_R2?$CWHArray@EABE@@8    10013014     ImmediateMatch.obj
+ 0002:0000201c       ??_R1A@?0A@EA@?$CWHArray@EABE@@8 1001301c     ImmediateMatch.obj
+ 0002:00002038       ??_R4?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@6B@ 10013038     ImmediateMatch.obj
+ 0002:0000204c       ??_R3?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@8 1001304c     ImmediateMatch.obj
+ 0002:0000205c       ??_R2?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@8 1001305c     ImmediateMatch.obj
+ 0002:00002064       ??_R1A@?0A@EA@?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@8 10013064     ImmediateMatch.obj
+ 0002:00002080       ??_R4?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@6B@ 10013080     ImmediateMatch.obj
+ 0002:00002094       ??_R3?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@8 10013094     ImmediateMatch.obj
+ 0002:000020a4       ??_R2?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@8 100130a4     ImmediateMatch.obj
+ 0002:000020ac       ??_R1A@?0A@EA@?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@8 100130ac     ImmediateMatch.obj
+ 0002:000020c8       ??_R4CLockTimeMatch@@6BIGameMatchItem@@@ 100130c8     LockTimeMatch.obj
+ 0002:000020dc       ??_R3CLockTimeMatch@@8     100130dc     LockTimeMatch.obj
+ 0002:000020ec       ??_R2CLockTimeMatch@@8     100130ec     LockTimeMatch.obj
+ 0002:0000210c       ??_R1A@?0A@EA@CLockTimeMatch@@8 1001310c     LockTimeMatch.obj
+ 0002:00002128       ??_R13?0A@EA@IMatchEventSink@@8 10013128     LockTimeMatch.obj
+ 0002:00002144       ??_R13?0A@EC@IUnknownEx@@8 10013144     LockTimeMatch.obj
+ 0002:00002160       ??_R17?0A@EA@IServerUserItemSink@@8 10013160     LockTimeMatch.obj
+ 0002:0000217c       ??_R17?0A@EC@IUnknownEx@@8 1001317c     LockTimeMatch.obj
+ 0002:00002198       ??_R4CLockTimeMatch@@6BIMatchEventSink@@@ 10013198     LockTimeMatch.obj
+ 0002:000021ac       ??_R4CLockTimeMatch@@6BIServerUserItemSink@@@ 100131ac     LockTimeMatch.obj
+ 0002:000021c0       ??_R4?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@6B@ 100131c0     LockTimeMatch.obj
+ 0002:000021d4       ??_R3?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@8 100131d4     LockTimeMatch.obj
+ 0002:000021e4       ??_R2?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@8 100131e4     LockTimeMatch.obj
+ 0002:000021ec       ??_R1A@?0A@EA@?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@8 100131ec     LockTimeMatch.obj
+ 0002:00002208       ??_R4?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@6B@ 10013208     LockTimeMatch.obj
+ 0002:0000221c       ??_R3?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@8 1001321c     LockTimeMatch.obj
+ 0002:0000222c       ??_R2?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@8 1001322c     LockTimeMatch.obj
+ 0002:00002234       ??_R1A@?0A@EA@?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@8 10013234     LockTimeMatch.obj
+ 0002:00002250       ??_R4ITableUserAction@@6B@ 10013250     TableFrameHook.obj
+ 0002:00002264       ??_R3ITableUserAction@@8   10013264     TableFrameHook.obj
+ 0002:00002274       ??_R2ITableUserAction@@8   10013274     TableFrameHook.obj
+ 0002:00002280       ??_R1A@?0A@EA@ITableUserAction@@8 10013280     TableFrameHook.obj
+ 0002:0000229c       ??_R3ITableFrameHook@@8    1001329c     TableFrameHook.obj
+ 0002:000022ac       ??_R2ITableFrameHook@@8    100132ac     TableFrameHook.obj
+ 0002:000022b8       ??_R1A@?0A@EA@ITableFrameHook@@8 100132b8     TableFrameHook.obj
+ 0002:000022d4       ??_R4CTableFrameHook@@6BITableFrameHook@@@ 100132d4     TableFrameHook.obj
+ 0002:000022e8       ??_R3CTableFrameHook@@8    100132e8     TableFrameHook.obj
+ 0002:000022f8       ??_R2CTableFrameHook@@8    100132f8     TableFrameHook.obj
+ 0002:00002310       ??_R1A@?0A@EA@CTableFrameHook@@8 10013310     TableFrameHook.obj
+ 0002:0000232c       ??_R13?0A@EN@ITableUserAction@@8 1001332c     TableFrameHook.obj
+ 0002:00002348       ??_R13?0A@EL@IUnknownEx@@8 10013348     TableFrameHook.obj
+ 0002:00002364       ??_R4CTableFrameHook@@6BITableUserAction@@@ 10013364     TableFrameHook.obj
+ 0002:00002378       ??_R4type_info@@6B@        10013378     msvcrt:std_type_info_static.obj
+ 0002:0000238c       ??_R3type_info@@8          1001338c     msvcrt:std_type_info_static.obj
+ 0002:0000239c       ??_R2type_info@@8          1001339c     msvcrt:std_type_info_static.obj
+ 0002:000023a4       ??_R1A@?0A@EA@type_info@@8 100133a4     msvcrt:std_type_info_static.obj
+ 0002:000023c0       ___safe_se_handler_table   100133c0     <linker-defined>
+ 0002:000027c8       ___rtc_iaa                 100137c8     msvcrt:_initsect_.obj
+ 0002:000027cc       ___rtc_izz                 100137cc     msvcrt:_initsect_.obj
+ 0002:000027d0       ___rtc_taa                 100137d0     msvcrt:_initsect_.obj
+ 0002:000027d4       ___rtc_tzz                 100137d4     msvcrt:_initsect_.obj
+ 0002:000028c8       __TI2PA_W                  100138c8     DistributeManager.obj
+ 0002:000028d8       __CTA2PA_W                 100138d8     DistributeManager.obj
+ 0002:000028e4       __CT??_R0PA_W@84           100138e4     DistributeManager.obj
+ 0002:00002900       __CT??_R0PAX@84            10013900     DistributeManager.obj
+ 0002:000033f4       __IMPORT_DESCRIPTOR_mfc140u 100143f4     mfc140u:mfc140u.dll
+ 0002:00003408       __IMPORT_DESCRIPTOR_KERNEL32 10014408     kernel32:KERNEL32.dll
+ 0002:0000341c       __IMPORT_DESCRIPTOR_USER32 1001441c     user32:USER32.dll
+ 0002:00003430       __IMPORT_DESCRIPTOR_KernelEngine 10014430     KernelEngine:KernelEngine.dll
+ 0002:00003444       __IMPORT_DESCRIPTOR_VCRUNTIME140 10014444     vcruntime:VCRUNTIME140.dll
+ 0002:00003458       __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 10014458     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:0000346c       __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 1001446c     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00003480       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 10014480     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00003494       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 10014494     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000034a8       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 100144a8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000034bc       __NULL_IMPORT_DESCRIPTOR   100144bc     mfc140u:mfc140u.dll
+ 0003:00000000       ___security_cookie_complement 10015000     msvcrt:gs_cookie.obj
+ 0003:00000004       ___security_cookie         10015004     msvcrt:gs_cookie.obj
+ 0003:00000010       __Init_global_epoch        10015010     msvcrt:thread_safe_statics.obj
+ 0003:00000014       __fltused                  10015014     msvcrt:fltused.obj
+ 0003:00000018       ___scrt_native_dllmain_reason 10015018     msvcrt:utility.obj
+ 0003:00000020       ___isa_enabled             10015020     msvcrt:_cpu_disp_.obj
+ 0003:00000024       ___scrt_ucrt_dll_is_in_use 10015024     msvcrt:ucrt_stubs.obj
+ 0003:00000028       ??_R0?AVCObject@@@8        10015028     DistributeManager.obj
+ 0003:00000040       ??_R0PA_W@8                10015040     DistributeManager.obj
+ 0003:00000050       ??_R0PAX@8                 10015050     DistributeManager.obj
+ 0003:00000060       ??_R0?AV?$CWHArray@PAUtagSameTableInfo@@ABQAU1@@@@8 10015060     DistributeManager.obj
+ 0003:00000098       ??_R0?AV?$CMap@KKPAUtagSameTableInfo@@PAU1@@@@8 10015098     DistributeManager.obj
+ 0003:000000cc       ??_R0?AVCDistributeManager@@@8 100150cc     DistributeManager.obj
+ 0003:000000f0       ??_R0?AUIUnknownEx@@@8     100150f0     ImmediateGroup.obj
+ 0003:0000010c       ??_R0?AUIMatchEventSink@@@8 1001510c     ImmediateGroup.obj
+ 0003:0000012c       ??_R0?AV?$CWHArray@PAUtagMatchTimer@@ABQAU1@@@@8 1001512c     ImmediateGroup.obj
+ 0003:00000160       ??_R0?AV?$CWHArray@PAUIServerUserItem@@ABQAU1@@@@8 10015160     ImmediateGroup.obj
+ 0003:00000198       ??_R0?AV?$CWHArray@KABK@@@8 10015198     ImmediateGroup.obj
+ 0003:000001b8       ??_R0?AV?$CWHArray@PAUtagTableFrameInfo@@ABQAU1@@@@8 100151b8     ImmediateGroup.obj
+ 0003:000001f0       ??_R0?AV?$CMap@KKPAUIServerUserItem@@PAU1@@@@8 100151f0     ImmediateGroup.obj
+ 0003:00000224       ??_R0?AVCImmediateGroup@@@8 10015224     ImmediateGroup.obj
+ 0003:00000244       ??_R0?AUIServerUserItemSink@@@8 10015244     ImmediateMatch.obj
+ 0003:00000268       ??_R0?AUIMatchServiceManager@@@8 10015268     ImmediateMatch.obj
+ 0003:0000028c       ??_R0?AUIGameMatchItem@@@8 1001528c     ImmediateMatch.obj
+ 0003:000002ac       ??_R0?AUIImmediateGroupSink@@@8 100152ac     ImmediateMatch.obj
+ 0003:000002d0       ??_R0?AVCImmediateMatch@@@8 100152d0     ImmediateMatch.obj
+ 0003:000002f0       ??_R0?AVCMatchServiceManager@@@8 100152f0     ImmediateMatch.obj
+ 0003:00000314       ??_R0?AV?$CWHArray@EABE@@@8 10015314     ImmediateMatch.obj
+ 0003:00000334       ??_R0?AV?$CWHArray@PAVCImmediateGroup@@ABQAV1@@@@8 10015334     ImmediateMatch.obj
+ 0003:0000036c       ??_R0?AV?$CWHArray@PAVCTableFrameHook@@ABQAV1@@@@8 1001536c     ImmediateMatch.obj
+ 0003:000003a4       ??_R0?AVCLockTimeMatch@@@8 100153a4     LockTimeMatch.obj
+ 0003:000003c4       ??_R0?AV?$CWHArray@PAUtagLockMatchTimer@@ABQAU1@@@@8 100153c4     LockTimeMatch.obj
+ 0003:000003fc       ??_R0?AV?$CWHArray@PAUtagLockTimeTableInfo@@ABQAU1@@@@8 100153fc     LockTimeMatch.obj
+ 0003:00000438       ??_R0?AUITableUserAction@@@8 10015438     TableFrameHook.obj
+ 0003:00000458       ??_R0?AUITableFrameHook@@@8 10015458     TableFrameHook.obj
+ 0003:00000478       ??_R0?AVCTableFrameHook@@@8 10015478     TableFrameHook.obj
+ 0003:00000498       ??_R0?AVtype_info@@@8      10015498     msvcrt:std_type_info_static.obj
+ 0003:000004b0       ?m_pHeadOfFreeList@CDistributeNodePool@@2PAUtagDistributeNode@@A 100154b0     DistributeManager.obj
+ 0003:000004b4       __afxForceEXTDLL           100154b4     GameMatchServer.obj
+ 0003:000004cc       ?m_wChairCount@CImmediateGroup@@1GA 100154cc     ImmediateGroup.obj
+ 0003:000004d0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 100154d0     ImmediateGroup.obj
+ 0003:000004f0       ___@@_PchSym_@00@UhkzxvUtrgsfyUdswonUdswonUKlsKowKooKlsKooKqkKltKprKpyKluKqmKqsUKlvKorKpmKlqKqsKovKlsKqoKplKluKomKquUKltKpkKqvKlrKouKqoKltKqnKrmKluKrpKpyUivovzhvPfmrxlwvUhgwzucOlyq@B41E7035853EC7F6 100154f0     Stdafx.obj
+ 0003:000004f4       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 100154f4     Stdafx.obj
+ 0003:000004f8       __afxForceEXCLUDE          100154f8     mfcs140u:nolib.obj
+ 0003:000004fc       __afxForceSTDAFX           100154fc     mfcs140u:stdafx.obj
+ 0003:00000528       __tls_index                10015528     msvcrt:tlssup.obj
+ 0003:0000052c       ___scrt_current_native_startup_state 1001552c     msvcrt:utility.obj
+ 0003:00000530       ___scrt_native_startup_lock 10015530     msvcrt:utility.obj
+ 0003:00000874       ___scrt_debugger_hook_flag 10015874     msvcrt:utility_desktop.obj
+ 0003:00000878       ___isa_available           10015878     msvcrt:_cpu_disp_.obj
+ 0003:0000087c       ___favor                   1001587c     msvcrt:_cpu_disp_.obj
+ 0003:00000880       ?__type_info_root_node@@3U__type_info_node@@A 10015880     msvcrt:tncleanup.obj
+ 0003:00000888       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 10015888     msvcrt:default_local_stdio_options.obj
+ 0003:00000890       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 10015890     atls:atlbase.obj
+ 0003:000008c8       ___@@_PchSym_@00@UyrmzirvhUrmgvinvwrzgvUexgllohUzgohOmzgrevkilqPBACIAJCBDBUlyqiUcIGUhgwzucOlyq@400B0995F36844BC 100158c8     atls:stdafx.obj
+ 0003:000008cc       ___dyn_tls_init_callback   100158cc     <common>
+ 0005:00000000       __tls_start                10017000     msvcrt:tlssup.obj
+ 0005:00000004       __Init_thread_epoch        10017004     msvcrt:thread_safe_statics.obj
+ 0005:00000008       __tls_end                  10017008     msvcrt:tlssup.obj
+
+ entry point at        0001:0000e808
+
+ Static symbols
+
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     MatchService.exp
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     KernelEngine:KernelEngine.dll
+ 0002:fffef000       .idata$6                   10000000     oleaut32:OLEAUT32.dll
+ 0000:fffe6000       .debug$S                   10000000     oleaut32:OLEAUT32.dll
+ 0000:fffe6000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     user32:USER32.dll
+ 0000:fffe6000       .debug$S                   10000000     user32:USER32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe6000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0001:00000000       ??__E_AtlBaseModule@ATL@@YAXXZ 10001000 f   atls:atlbase.obj
+ 0001:0000022c       __catch$??1CDistributeManager@@UAE@XZ$0 1000122c f   DistributeManager.obj
+ 0001:00000ebf       __catch$??1CImmediateGroup@@UAE@XZ$0 10001ebf f   ImmediateGroup.obj
+ 0001:00002a28       $LN59                      10003a28     ImmediateGroup.obj
+ 0001:00003f7e       __catch$??1CImmediateMatch@@UAE@XZ$4 10004f7e f   ImmediateMatch.obj
+ 0001:00005544       $LN284                     10006544     ImmediateMatch.obj
+ 0001:00007b41       __catch$??1CLockTimeMatch@@UAE@XZ$2 10008b41 f   LockTimeMatch.obj
+ 0001:00009b18       $LN113                     1000ab18     LockTimeMatch.obj
+ 0001:0000aa84       $LN87                      1000ba84     LockTimeMatch.obj
+ 0001:0000d6f1       __catch$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z$0 1000e6f1 f   MatchServiceManager.obj
+ 0001:0000da0e       __catch$_CreateMatchServiceManager$0 1000ea0e f   MatchServiceManager.obj
+ 0001:0000de70       $$000000                   1000ee70     msvcrt:chkstk.obj
+ 0001:0000df94       ?__scrt_initialize_thread_safe_statics@@YAHXZ 1000ef94 f   msvcrt:thread_safe_statics.obj
+ 0001:0000e071       ?__scrt_uninitialize_thread_safe_statics@@YAXXZ 1000f071 f   msvcrt:thread_safe_statics.obj
+ 0001:0000e1d0       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 1000f1d0 f   msvcrt:utility.obj
+ 0001:0000e500       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 1000f500 f   msvcrt:dll_dllmain.obj
+ 0001:0000e553       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1000f553 f   msvcrt:dll_dllmain.obj
+ 0001:0000e665       ?dllmain_crt_process_detach@@YAH_N@Z 1000f665 f   msvcrt:dll_dllmain.obj
+ 0001:0000e6e2       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 1000f6e2 f   msvcrt:dll_dllmain.obj
+ 0001:0000e7de       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 1000f7de f   msvcrt:dll_dllmain.obj
+ 0001:0000e840       $$000000                   1000f840     msvcrt:_sehprolg4_.obj
+ 0001:0000e8a0       $$000000                   1000f8a0     msvcrt:_sehprolg4gs_.obj
+ 0001:0000ef90       __unwindfunclet$??0CDistributeManager@@QAE@XZ$0 1000ff90 f   DistributeManager.obj
+ 0001:0000ef9b       __unwindfunclet$??0CDistributeManager@@QAE@XZ$1 1000ff9b f   DistributeManager.obj
+ 0001:0000efa6       __unwindfunclet$??0CDistributeManager@@QAE@XZ$2 1000ffa6 f   DistributeManager.obj
+ 0001:0000efb1       __unwindfunclet$??0CDistributeManager@@QAE@XZ$3 1000ffb1 f   DistributeManager.obj
+ 0001:0000efbc       __ehhandler$??0CDistributeManager@@QAE@XZ 1000ffbc f   DistributeManager.obj
+ 0001:0000efe0       __unwindfunclet$??1CDistributeManager@@UAE@XZ$2 1000ffe0 f   DistributeManager.obj
+ 0001:0000efeb       __unwindfunclet$??1CDistributeManager@@UAE@XZ$3 1000ffeb f   DistributeManager.obj
+ 0001:0000eff6       __unwindfunclet$??1CDistributeManager@@UAE@XZ$4 1000fff6 f   DistributeManager.obj
+ 0001:0000f001       __unwindfunclet$??1CDistributeManager@@UAE@XZ$5 10010001 f   DistributeManager.obj
+ 0001:0000f00c       __unwindfunclet$??1CDistributeManager@@UAE@XZ$6 1001000c f   DistributeManager.obj
+ 0001:0000f012       __ehhandler$??1CDistributeManager@@UAE@XZ 10010012 f   DistributeManager.obj
+ 0001:0000f030       __unwindfunclet$??_G?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEPAXI@Z$1 10010030 f   DistributeManager.obj
+ 0001:0000f030       __unwindfunclet$??_G?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEPAXI@Z$1 10010030 f   ImmediateGroup.obj
+ 0001:0000f036       __ehhandler$??_G?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEPAXI@Z 10010036 f   DistributeManager.obj
+ 0001:0000f036       __ehhandler$??_G?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEPAXI@Z 10010036 f   ImmediateGroup.obj
+ 0001:0000f060       __unwindfunclet$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z$0 10010060 f   ImmediateGroup.obj
+ 0001:0000f06b       __unwindfunclet$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z$1 1001006b f   ImmediateGroup.obj
+ 0001:0000f076       __unwindfunclet$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z$2 10010076 f   ImmediateGroup.obj
+ 0001:0000f081       __unwindfunclet$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z$3 10010081 f   ImmediateGroup.obj
+ 0001:0000f08f       __unwindfunclet$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z$4 1001008f f   ImmediateGroup.obj
+ 0001:0000f09d       __ehhandler$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z 1001009d f   ImmediateGroup.obj
+ 0001:0000f0c0       __ehhandler$??1?$CMap@KKPAUIServerUserItem@@PAU1@@@UAE@XZ 100100c0 f   ImmediateGroup.obj
+ 0001:0000f0c0       __ehhandler$??1?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAE@XZ 100100c0 f   DistributeManager.obj
+ 0001:0000f0e0       __unwindfunclet$??1CImmediateGroup@@UAE@XZ$2 100100e0 f   ImmediateGroup.obj
+ 0001:0000f0eb       __unwindfunclet$??1CImmediateGroup@@UAE@XZ$3 100100eb f   ImmediateGroup.obj
+ 0001:0000f0f6       __unwindfunclet$??1CImmediateGroup@@UAE@XZ$4 100100f6 f   ImmediateGroup.obj
+ 0001:0000f101       __unwindfunclet$??1CImmediateGroup@@UAE@XZ$5 10010101 f   ImmediateGroup.obj
+ 0001:0000f10f       __unwindfunclet$??1CImmediateGroup@@UAE@XZ$6 1001010f f   ImmediateGroup.obj
+ 0001:0000f11d       __unwindfunclet$??1CImmediateGroup@@UAE@XZ$11 1001011d f   ImmediateGroup.obj
+ 0001:0000f123       __ehhandler$??1CImmediateGroup@@UAE@XZ 10010123 f   ImmediateGroup.obj
+ 0001:0000f140       __unwindfunclet$?PerformDistributeTable@CImmediateGroup@@IAEXXZ$0 10010140 f   ImmediateGroup.obj
+ 0001:0000f148       __ehhandler$?PerformDistributeTable@CImmediateGroup@@IAEXXZ 10010148 f   ImmediateGroup.obj
+ 0001:0000f170       __unwindfunclet$??1CImmediateMatch@@UAE@XZ$6 10010170 f   ImmediateMatch.obj
+ 0001:0000f17b       __unwindfunclet$??1CImmediateMatch@@UAE@XZ$7 1001017b f   ImmediateMatch.obj
+ 0001:0000f186       __unwindfunclet$??1CImmediateMatch@@UAE@XZ$8 10010186 f   ImmediateMatch.obj
+ 0001:0000f191       __unwindfunclet$??1CImmediateMatch@@UAE@XZ$9 10010191 f   ImmediateMatch.obj
+ 0001:0000f19c       __unwindfunclet$??1CImmediateMatch@@UAE@XZ$10 1001019c f   ImmediateMatch.obj
+ 0001:0000f1a7       __ehhandler$??1CImmediateMatch@@UAE@XZ 100101a7 f   ImmediateMatch.obj
+ 0001:0000f1d0       __ehhandler$??_ECMatchServiceManager@@UAEPAXI@Z 100101d0 f   ImmediateMatch.obj
+ 0001:0000f1f0       __unwindfunclet$?BindTableFrame@CImmediateMatch@@UAE_NPAUITableFrame@@G@Z$0 100101f0 f   ImmediateMatch.obj
+ 0001:0000f1f0       __unwindfunclet$?BindTableFrame@CLockTimeMatch@@UAE_NPAUITableFrame@@G@Z$0 100101f0 f   LockTimeMatch.obj
+ 0001:0000f1ff       __ehhandler$?BindTableFrame@CLockTimeMatch@@UAE_NPAUITableFrame@@G@Z 100101ff f   LockTimeMatch.obj
+ 0001:0000f1ff       __ehhandler$?BindTableFrame@CImmediateMatch@@UAE_NPAUITableFrame@@G@Z 100101ff f   ImmediateMatch.obj
+ 0001:0000f220       __unwindfunclet$?OnEventMatchStart@CImmediateMatch@@UAE_NPAVCImmediateGroup@@@Z$0 10010220 f   ImmediateMatch.obj
+ 0001:0000f232       __ehhandler$?OnEventMatchStart@CImmediateMatch@@UAE_NPAVCImmediateGroup@@@Z 10010232 f   ImmediateMatch.obj
+ 0001:0000f260       __unwindfunclet$?OnStartService@CImmediateMatch@@UAEXXZ$0 10010260 f   ImmediateMatch.obj
+ 0001:0000f272       __ehhandler$?OnStartService@CImmediateMatch@@UAEXXZ 10010272 f   ImmediateMatch.obj
+ 0001:0000f290       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$4 10010290 f   LockTimeMatch.obj
+ 0001:0000f29b       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$5 1001029b f   LockTimeMatch.obj
+ 0001:0000f2a9       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$6 100102a9 f   LockTimeMatch.obj
+ 0001:0000f2b7       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$7 100102b7 f   LockTimeMatch.obj
+ 0001:0000f2c5       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$8 100102c5 f   LockTimeMatch.obj
+ 0001:0000f2d3       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$9 100102d3 f   LockTimeMatch.obj
+ 0001:0000f2e1       __unwindfunclet$??1CLockTimeMatch@@UAE@XZ$14 100102e1 f   LockTimeMatch.obj
+ 0001:0000f2e7       __ehhandler$??1CLockTimeMatch@@UAE@XZ 100102e7 f   LockTimeMatch.obj
+ 0001:0000f310       __unwindfunclet$?CheckMatchUser@CImmediateGroup@@IAE_NXZ$0 10010310 f   ImmediateGroup.obj
+ 0001:0000f310       __unwindfunclet$?CheckMatchUser@CLockTimeMatch@@IAE_NXZ$0 10010310 f   LockTimeMatch.obj
+ 0001:0000f31c       __ehhandler$?CheckMatchUser@CImmediateGroup@@IAE_NXZ 1001031c f   ImmediateGroup.obj
+ 0001:0000f31c       __ehhandler$?CheckMatchUser@CLockTimeMatch@@IAE_NXZ 1001031c f   LockTimeMatch.obj
+ 0001:0000f350       __unwindfunclet$?PerformDistributeTable@CLockTimeMatch@@IAEXXZ$0 10010350 f   LockTimeMatch.obj
+ 0001:0000f35b       __ehhandler$?PerformDistributeTable@CLockTimeMatch@@IAEXXZ 1001035b f   LockTimeMatch.obj
+ 0001:0000f390       __unwindfunclet$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z$2 10010390 f   MatchServiceManager.obj
+ 0001:0000f3a2       __unwindfunclet$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z$3 100103a2 f   MatchServiceManager.obj
+ 0001:0000f3b4       __ehhandler$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z 100103b4 f   MatchServiceManager.obj
+ 0001:0000f3d0       __ehhandler$_CreateMatchServiceManager 100103d0 f   MatchServiceManager.obj
+ 0001:0000f3f0       ??__F_AtlBaseModule@ATL@@YAXXZ 100103f0 f   atls:atlbase.obj
+ 0002:00000174       ?_AtlBaseModule$initializer$@ATL@@3P6AXXZA 10011174     atls:atlbase.obj
+ 0002:00000180       ?__scrt_initialize_tss_var@@3P6AHXZA 10011180     msvcrt:thread_safe_statics.obj
+ 0002:000001a0       ?IID_IMatchServiceManager@@3U_GUID@@B 100111a0     DistributeManager.obj
+ 0002:000001e0       ?IID_IUnknownEx@@3U_GUID@@B 100111e0     ImmediateGroup.obj
+ 0002:000001f0       ?IID_IMatchServiceManager@@3U_GUID@@B 100111f0     ImmediateGroup.obj
+ 0002:00000200       ?IID_IMatchEventSink@@3U_GUID@@B 10011200     ImmediateGroup.obj
+ 0002:0000064c       ?IID_IServerUserItemSink@@3U_GUID@@B 1001164c     ImmediateMatch.obj
+ 0002:0000065c       ?IID_IUnknownEx@@3U_GUID@@B 1001165c     ImmediateMatch.obj
+ 0002:0000066c       ?IID_IMatchServiceManager@@3U_GUID@@B 1001166c     ImmediateMatch.obj
+ 0002:0000067c       ?IID_IGameMatchItem@@3U_GUID@@B 1001167c     ImmediateMatch.obj
+ 0002:0000068c       ?IID_ITableFrameHook@@3U_GUID@@B 1001168c     ImmediateMatch.obj
+ 0002:00000b68       ?IID_IServerUserItemSink@@3U_GUID@@B 10011b68     LockTimeMatch.obj
+ 0002:00000b78       ?IID_IUnknownEx@@3U_GUID@@B 10011b78     LockTimeMatch.obj
+ 0002:00000b88       ?IID_IMatchServiceManager@@3U_GUID@@B 10011b88     LockTimeMatch.obj
+ 0002:00000b98       ?IID_IGameMatchItem@@3U_GUID@@B 10011b98     LockTimeMatch.obj
+ 0002:00000ba8       ?IID_IMatchEventSink@@3U_GUID@@B 10011ba8     LockTimeMatch.obj
+ 0002:00001688       ?IID_IUnknownEx@@3U_GUID@@B 10012688     MatchServiceManager.obj
+ 0002:00001698       ?IID_IMatchServiceManager@@3U_GUID@@B 10012698     MatchServiceManager.obj
+ 0002:000016ec       ?IID_IWEBSocketService@@3U_GUID@@B 100126ec     Stdafx.obj
+ 0002:000016fc       ?IID_ITimerEngine@@3U_GUID@@B 100126fc     Stdafx.obj
+ 0002:0000170c       ?IID_IAttemperEngine@@3U_GUID@@B 1001270c     Stdafx.obj
+ 0002:0000171c       ?IID_IAndroidUserItemSink@@3U_GUID@@B 1001271c     Stdafx.obj
+ 0002:0000172c       ?IID_ITraceServiceManager@@3U_GUID@@B 1001272c     Stdafx.obj
+ 0002:0000173c       ?IID_IGameServiceManager@@3U_GUID@@B 1001273c     Stdafx.obj
+ 0002:0000174c       ?IID_IAsynchronismEngine@@3U_GUID@@B 1001274c     Stdafx.obj
+ 0002:0000175c       ?IID_IDataBase@@3U_GUID@@B 1001275c     Stdafx.obj
+ 0002:0000176c       ?IID_IDataBaseEngine@@3U_GUID@@B 1001276c     Stdafx.obj
+ 0002:0000177c       ?IID_IUDPNetworkEngine@@3U_GUID@@B 1001277c     Stdafx.obj
+ 0002:0000178c       ?IID_ITCPNetworkEngine@@3U_GUID@@B 1001278c     Stdafx.obj
+ 0002:0000179c       ?IID_ITCPSocketService@@3U_GUID@@B 1001279c     Stdafx.obj
+ 0002:000017ac       ?IID_IUnknownEx@@3U_GUID@@B 100127ac     TableFrameHook.obj
+ 0002:000017bc       ?IID_ITableFrame@@3U_GUID@@B 100127bc     TableFrameHook.obj
+ 0002:000017cc       ?IID_IMatchServiceManager@@3U_GUID@@B 100127cc     TableFrameHook.obj
+ 0002:000017dc       ?IID_IMatchEventSink@@3U_GUID@@B 100127dc     TableFrameHook.obj
+ 0002:000017ec       ?IID_ITableFrameHook@@3U_GUID@@B 100127ec     TableFrameHook.obj
+ 0002:000017fc       ?IID_ITableUserAction@@3U_GUID@@B 100127fc     TableFrameHook.obj
+ 0002:000018f0       _GS_ExceptionPointers      100128f0     msvcrt:gs_report.obj
+ 0002:000027d8       __unwindtable$??_G?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEPAXI@Z 100137d8     ImmediateGroup.obj
+ 0002:000027d8       __unwindtable$??_G?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEPAXI@Z 100137d8     DistributeManager.obj
+ 0002:000027e0       __ehfuncinfo$??_G?$CMap@KKPAUIServerUserItem@@PAU1@@@UAEPAXI@Z 100137e0     ImmediateGroup.obj
+ 0002:000027e0       __ehfuncinfo$??_G?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAEPAXI@Z 100137e0     DistributeManager.obj
+ 0002:00002804       __unwindtable$??0CDistributeManager@@QAE@XZ 10013804     DistributeManager.obj
+ 0002:00002824       __ehfuncinfo$??0CDistributeManager@@QAE@XZ 10013824     DistributeManager.obj
+ 0002:00002848       __catchsym$??1CDistributeManager@@UAE@XZ$10 10013848     DistributeManager.obj
+ 0002:00002858       __tryblocktable$??1CDistributeManager@@UAE@XZ 10013858     DistributeManager.obj
+ 0002:0000286c       __ehfuncinfo$??1CDistributeManager@@UAE@XZ 1001386c     DistributeManager.obj
+ 0002:00002890       __unwindtable$??1CDistributeManager@@UAE@XZ 10013890     DistributeManager.obj
+ 0002:0000291c       __ehfuncinfo$??_ECMatchServiceManager@@UAEPAXI@Z 1001391c     ImmediateMatch.obj
+ 0002:0000291c       __ehfuncinfo$??1?$CMap@KKPAUtagSameTableInfo@@PAU1@@@UAE@XZ 1001391c     DistributeManager.obj
+ 0002:0000291c       __ehfuncinfo$??1?$CMap@KKPAUIServerUserItem@@PAU1@@@UAE@XZ 1001391c     ImmediateGroup.obj
+ 0002:00002940       __ehfuncinfo$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z 10013940     ImmediateGroup.obj
+ 0002:00002964       __unwindtable$??0CImmediateGroup@@QAE@_JPAUtagGameMatchOption@@PAUIImmediateGroupSink@@@Z 10013964     ImmediateGroup.obj
+ 0002:0000298c       __catchsym$??1CImmediateGroup@@UAE@XZ$13 1001398c     ImmediateGroup.obj
+ 0002:0000299c       __tryblocktable$??1CImmediateGroup@@UAE@XZ 1001399c     ImmediateGroup.obj
+ 0002:000029b0       __ehfuncinfo$??1CImmediateGroup@@UAE@XZ 100139b0     ImmediateGroup.obj
+ 0002:000029d4       __unwindtable$??1CImmediateGroup@@UAE@XZ 100139d4     ImmediateGroup.obj
+ 0002:00002a14       __unwindtable$?PerformDistributeTable@CImmediateGroup@@IAEXXZ 10013a14     ImmediateGroup.obj
+ 0002:00002a1c       __ehfuncinfo$?PerformDistributeTable@CImmediateGroup@@IAEXXZ 10013a1c     ImmediateGroup.obj
+ 0002:00002a40       __catchsym$??1CImmediateMatch@@UAE@XZ$16 10013a40     ImmediateMatch.obj
+ 0002:00002a50       __tryblocktable$??1CImmediateMatch@@UAE@XZ 10013a50     ImmediateMatch.obj
+ 0002:00002a64       __ehfuncinfo$??1CImmediateMatch@@UAE@XZ 10013a64     ImmediateMatch.obj
+ 0002:00002a88       __unwindtable$??1CImmediateMatch@@UAE@XZ 10013a88     ImmediateMatch.obj
+ 0002:00002ae0       __unwindtable$?OnStartService@CImmediateMatch@@UAEXXZ 10013ae0     ImmediateMatch.obj
+ 0002:00002ae8       __ehfuncinfo$?OnStartService@CImmediateMatch@@UAEXXZ 10013ae8     ImmediateMatch.obj
+ 0002:00002b0c       __unwindtable$?BindTableFrame@CLockTimeMatch@@UAE_NPAUITableFrame@@G@Z 10013b0c     LockTimeMatch.obj
+ 0002:00002b0c       __unwindtable$?BindTableFrame@CImmediateMatch@@UAE_NPAUITableFrame@@G@Z 10013b0c     ImmediateMatch.obj
+ 0002:00002b14       __ehfuncinfo$?BindTableFrame@CLockTimeMatch@@UAE_NPAUITableFrame@@G@Z 10013b14     LockTimeMatch.obj
+ 0002:00002b14       __ehfuncinfo$?BindTableFrame@CImmediateMatch@@UAE_NPAUITableFrame@@G@Z 10013b14     ImmediateMatch.obj
+ 0002:00002b38       __unwindtable$?OnEventMatchStart@CImmediateMatch@@UAE_NPAVCImmediateGroup@@@Z 10013b38     ImmediateMatch.obj
+ 0002:00002b40       __ehfuncinfo$?OnEventMatchStart@CImmediateMatch@@UAE_NPAVCImmediateGroup@@@Z 10013b40     ImmediateMatch.obj
+ 0002:00002b64       __catchsym$??1CLockTimeMatch@@UAE@XZ$16 10013b64     LockTimeMatch.obj
+ 0002:00002b74       __tryblocktable$??1CLockTimeMatch@@UAE@XZ 10013b74     LockTimeMatch.obj
+ 0002:00002b88       __ehfuncinfo$??1CLockTimeMatch@@UAE@XZ 10013b88     LockTimeMatch.obj
+ 0002:00002bac       __unwindtable$??1CLockTimeMatch@@UAE@XZ 10013bac     LockTimeMatch.obj
+ 0002:00002c04       __unwindtable$?CheckMatchUser@CImmediateGroup@@IAE_NXZ 10013c04     ImmediateGroup.obj
+ 0002:00002c04       __unwindtable$?CheckMatchUser@CLockTimeMatch@@IAE_NXZ 10013c04     LockTimeMatch.obj
+ 0002:00002c0c       __ehfuncinfo$?CheckMatchUser@CLockTimeMatch@@IAE_NXZ 10013c0c     LockTimeMatch.obj
+ 0002:00002c0c       __ehfuncinfo$?CheckMatchUser@CImmediateGroup@@IAE_NXZ 10013c0c     ImmediateGroup.obj
+ 0002:00002c30       __unwindtable$?PerformDistributeTable@CLockTimeMatch@@IAEXXZ 10013c30     LockTimeMatch.obj
+ 0002:00002c38       __ehfuncinfo$?PerformDistributeTable@CLockTimeMatch@@IAEXXZ 10013c38     LockTimeMatch.obj
+ 0002:00002c5c       __catchsym$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z$4 10013c5c     MatchServiceManager.obj
+ 0002:00002c6c       __tryblocktable$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z 10013c6c     MatchServiceManager.obj
+ 0002:00002c80       __unwindtable$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z 10013c80     MatchServiceManager.obj
+ 0002:00002ca0       __ehfuncinfo$?CreateGameMatch@CMatchServiceManager@@UAE_NE@Z 10013ca0     MatchServiceManager.obj
+ 0002:00002cc4       __catchsym$_CreateMatchServiceManager$7 10013cc4     MatchServiceManager.obj
+ 0002:00002cd4       __tryblocktable$_CreateMatchServiceManager 10013cd4     MatchServiceManager.obj
+ 0002:00002ce8       __unwindtable$_CreateMatchServiceManager 10013ce8     MatchServiceManager.obj
+ 0002:00002d08       __ehfuncinfo$_CreateMatchServiceManager 10013d08     MatchServiceManager.obj
+ 0002:00002d30       __sehtable$??_M@YGXPAXIIP6EX0@Z@Z 10013d30     msvcrt:ehvecdtr.obj
+ 0002:00002d50       __sehtable$?__ArrayUnwind@@YGXPAXIIP6EX0@Z@Z 10013d50     msvcrt:ehvecdtr.obj
+ 0002:00002d70       __sehtable$___scrt_is_nonwritable_in_current_image 10013d70     msvcrt:utility.obj
+ 0002:00002d90       __sehtable$?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 10013d90     msvcrt:dll_dllmain.obj
+ 0002:00002db0       __sehtable$?dllmain_crt_process_detach@@YAH_N@Z 10013db0     msvcrt:dll_dllmain.obj
+ 0002:00002dd0       __sehtable$?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10013dd0     msvcrt:dll_dllmain.obj
+ 0002:00002df0       .edata                     10013df0     MatchService.exp
+ 0002:00002e18       rgpv                       10013e18     MatchService.exp
+ 0002:00002e74       rgszName                   10013e74     MatchService.exp
+ 0002:00002ed0       rgwOrd                     10013ed0     MatchService.exp
+ 0002:00002efe       szName                     10013efe     MatchService.exp
+ 0002:00002f0f       $N00001                    10013f0f     MatchService.exp
+ 0002:00002f34       $N00002                    10013f34     MatchService.exp
+ 0002:00002f54       $N00003                    10013f54     MatchService.exp
+ 0002:00002f74       $N00004                    10013f74     MatchService.exp
+ 0002:00002f9d       $N00005                    10013f9d     MatchService.exp
+ 0002:00002fbb       $N00006                    10013fbb     MatchService.exp
+ 0002:00002ffa       $N00007                    10013ffa     MatchService.exp
+ 0002:0000302a       $N00008                    1001402a     MatchService.exp
+ 0002:0000306c       $N00009                    1001406c     MatchService.exp
+ 0002:000030bb       $N00010                    100140bb     MatchService.exp
+ 0002:00003104       $N00011                    10014104     MatchService.exp
+ 0002:0000313c       $N00012                    1001413c     MatchService.exp
+ 0002:00003188       $N00013                    10014188     MatchService.exp
+ 0002:000031b6       $N00014                    100141b6     MatchService.exp
+ 0002:00003200       $N00015                    10014200     MatchService.exp
+ 0002:00003244       $N00016                    10014244     MatchService.exp
+ 0002:0000328e       $N00017                    1001428e     MatchService.exp
+ 0002:000032d3       $N00018                    100142d3     MatchService.exp
+ 0002:00003320       $N00019                    10014320     MatchService.exp
+ 0002:0000335a       $N00020                    1001435a     MatchService.exp
+ 0002:00003380       $N00021                    10014380     MatchService.exp
+ 0002:000033ac       $N00022                    100143ac     MatchService.exp
+ 0002:000033d7       $N00023                    100143d7     MatchService.exp
+ 0002:0000363c       .idata$6                   1001463c     mfc140u:mfc140u.dll
+ 0002:0000386e       .idata$6                   1001486e     kernel32:KERNEL32.dll
+ 0002:00003888       .idata$6                   10014888     user32:USER32.dll
+ 0002:000038ce       .idata$6                   100148ce     KernelEngine:KernelEngine.dll
+ 0002:000039a8       .idata$6                   100149a8     vcruntime:VCRUNTIME140.dll
+ 0002:00003afc       .idata$6                   10014afc     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00003b1e       .idata$6                   10014b1e     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00003b3e       .idata$6                   10014b3e     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00003b5e       .idata$6                   10014b5e     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00003b7e       .idata$6                   10014b7e     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:000004b8       ?GameServerDLL@@3UAFX_EXTENSION_MODULE@@A 100154b8     GameMatchServer.obj
+ 0003:000004d8       ?wMatchCount@?1??CalcMatchNo@CImmediateMatch@@AAE_JXZ@4KA 100154d8     ImmediateMatch.obj
+ 0003:000004dc       ?wLastDay@?1??CalcMatchNo@CImmediateMatch@@AAE_JXZ@4KA 100154dc     ImmediateMatch.obj
+ 0003:000004e0       ?$TSS0@?1??CalcMatchNo@CImmediateMatch@@AAE_JXZ@4HA 100154e0     ImmediateMatch.obj
+ 0003:000004e4       ?wMatchCount@?1??CalcMatchNo@CLockTimeMatch@@IAE_JXZ@4KA 100154e4     LockTimeMatch.obj
+ 0003:000004e8       ?wLastDay@?1??CalcMatchNo@CLockTimeMatch@@IAE_JXZ@4KA 100154e8     LockTimeMatch.obj
+ 0003:000004ec       ?$TSS0@?1??CalcMatchNo@CLockTimeMatch@@IAE_JXZ@4HA 100154ec     LockTimeMatch.obj
+ 0003:00000500       ?_Tss_mutex@@3U_RTL_CRITICAL_SECTION@@A 10015500     msvcrt:thread_safe_statics.obj
+ 0003:00000518       ?_Tss_cv@@3U_RTL_CONDITION_VARIABLE@@A 10015518     msvcrt:thread_safe_statics.obj
+ 0003:0000051c       ?_Tss_event@@3PAXA         1001551c     msvcrt:thread_safe_statics.obj
+ 0003:00000520       ?encoded_sleep_condition_variable_cs@@3P6GHPAU_RTL_CONDITION_VARIABLE@@PAU_RTL_CRITICAL_SECTION@@K@ZA 10015520     msvcrt:thread_safe_statics.obj
+ 0003:00000524       ?encoded_wake_all_condition_variable@@3P6GXPAU_RTL_CONDITION_VARIABLE@@@ZA 10015524     msvcrt:thread_safe_statics.obj
+ 0003:00000534       ?module_local_atexit_table@@3U_onexit_table_t@@A 10015534     msvcrt:utility.obj
+ 0003:00000540       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 10015540     msvcrt:utility.obj
+ 0003:0000054c       ?is_initialized_as_dll@@3_NA 1001554c     msvcrt:utility.obj
+ 0003:00000550       ?__proc_attached@@3HA      10015550     msvcrt:dll_dllmain.obj
+ 0003:00000558       _GS_ExceptionRecord        10015558     msvcrt:gs_report.obj
+ 0003:000005a8       _GS_ContextRecord          100155a8     msvcrt:gs_report.obj
+ 0004:00000000       __guard_fids__             10016000     msvcrt:std_type_info_static.obj
+ 0004:00000004       __guard_fids__             10016004     msvcrt:thread_safe_statics.obj
+ 0004:00000008       __guard_fids_?__scrt_initialize_thread_safe_statics@@YAHXZ 10016008     msvcrt:thread_safe_statics.obj
+ 0004:0000000c       __guard_fids_?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1001600c     msvcrt:dll_dllmain.obj
+ 0004:00000014       __guard_fids_?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10016014     msvcrt:dll_dllmain.obj
+ 0004:00000018       __guard_fids___except_handler4 10016018     msvcrt:_chandler4gs_.obj
+ 0004:0000001c       __guard_fids__             1001601c     msvcrt:guard_support.obj
+ 0004:00000020       __guard_fids_??__E_AtlBaseModule@ATL@@YAXXZ 10016020     atls:atlbase.obj
+ 0004:00000024       __guard_fids__             10016024     atls:atlbase.obj
+ 0006:000000a0       $R000000                   100180a0     GameMatchServer.res
+ 0006:00000398       $R0002F8                   10018398     GameMatchServer.res

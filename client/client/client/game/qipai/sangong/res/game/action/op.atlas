@@ -1,0 +1,48 @@
+
+op.png
+size: 205,54
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cuo
+  rotate: false
+  xy: 150, 25
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 4, 14
+  size: 89, 36
+  orig: 89, 36
+  offset: 0, 0
+  index: -1
+pai
+  rotate: false
+  xy: 97, 25
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+xia
+  rotate: true
+  xy: 176, 28
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+zhong
+  rotate: true
+  xy: 176, 4
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+zhu
+  rotate: false
+  xy: 124, 25
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1

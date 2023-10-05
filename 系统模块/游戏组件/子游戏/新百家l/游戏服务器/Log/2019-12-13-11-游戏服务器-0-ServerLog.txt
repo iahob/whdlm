@@ -1,0 +1,194 @@
+13-11-2-6: OnEventTCPNetworkShut userid = 3 断线 
+13-11-2-6: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-2-6: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-2-6: PerformStandUpAction userid = 3 起立 
+13-11-2-6: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-6: PerformStandUpAction userid = 3  bStand = 0 起立 1 
+13-11-2-6: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-6: PerformStandUpAction userid = 3 userid = 3 起立 2 
+13-11-2-6: PerformStandUpAction userid = 3 离开 
+13-11-2-6: PerformStandUpAction userid = 3 cbUserStatus = 2 离开 
+13-11-2-9: OnEventTCPNetworkShut userid = 3 断线 
+13-11-2-9: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-2-9: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-2-9: PerformStandUpAction userid = 3 起立 
+13-11-2-9: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-9: PerformStandUpAction userid = 3  bStand = 0 起立 1 
+13-11-2-9: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-9: PerformStandUpAction userid = 3 userid = 3 起立 2 
+13-11-2-9: PerformStandUpAction userid = 3 离开 
+13-11-2-9: PerformStandUpAction userid = 3 cbUserStatus = 2 离开 
+13-11-2-13: OnEventTCPNetworkShut userid = 3 断线 
+13-11-2-13: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-2-13: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-2-13: PerformStandUpAction userid = 3 起立 
+13-11-2-13: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-13: PerformStandUpAction userid = 3  bStand = 0 起立 1 
+13-11-2-13: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-13: PerformStandUpAction userid = 3 userid = 3 起立 2 
+13-11-2-13: PerformStandUpAction userid = 3 离开 
+13-11-2-13: PerformStandUpAction userid = 3 cbUserStatus = 2 离开 
+13-11-2-15: OnEventTCPNetworkShut userid = 3 断线 
+13-11-2-15: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-2-15: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-2-15: PerformStandUpAction userid = 3 起立 
+13-11-2-15: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-15: PerformStandUpAction userid = 3  bStand = 0 起立 1 
+13-11-2-15: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-2-15: PerformStandUpAction userid = 3 userid = 3 起立 2 
+13-11-2-15: PerformStandUpAction userid = 3 离开 
+13-11-2-15: PerformStandUpAction userid = 3 cbUserStatus = 2 离开 
+13-11-4-23: OnEventTCPNetworkShut userid = 3 断线 
+13-11-4-23: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-4-23: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-6-9: OnEventTCPNetworkShut userid = 3 断线 
+13-11-6-9: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-6-9: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-6-12: PerformStandUpAction userid = 3 起立 
+13-11-6-12: JudePersonalStandUp userid = 3 cbUserStatus = 5  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-6-12: PerformStandUpAction userid = 3  bStand = 0 起立 1 
+13-11-6-12: PerformStandUpAction userid = 3 userid = 3 起立 2 
+13-11-6-12: PerformStandUpAction userid = 3 离开 
+13-11-6-12: PerformStandUpAction userid = 3 cbUserStatus = 5 离开 
+13-11-6-12: OnEventTCPNetworkShut userid = 3 断线 
+13-11-6-12: OnEventTCPNetworkShut userid = 3 wTableID = 65535 wDrawCount = 0 断线 
+13-11-6-12: OnEventTCPNetworkShut userid = 3 断线 离开房间 
+13-11-8-4: OnEventTCPNetworkShut userid = 5 断线 
+13-11-8-4: OnEventTCPNetworkShut userid = 5 wTableID = 0 wDrawCount = 0 断线 
+13-11-8-4: OnEventTCPNetworkShut userid = 5 断线 处理 
+13-11-9-32: OnEventTCPNetworkShut userid = 1074 断线 
+13-11-9-32: OnEventTCPNetworkShut userid = 1074 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-32: OnEventTCPNetworkShut userid = 1074 断线 离开房间 
+13-11-9-37: OnEventTCPNetworkShut userid = 1016 断线 
+13-11-9-37: OnEventTCPNetworkShut userid = 1016 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-37: OnEventTCPNetworkShut userid = 1016 断线 离开房间 
+13-11-9-41: OnEventTCPNetworkShut userid = 1079 断线 
+13-11-9-41: OnEventTCPNetworkShut userid = 1079 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-41: OnEventTCPNetworkShut userid = 1079 断线 离开房间 
+13-11-9-43: OnEventTCPNetworkShut userid = 1096 断线 
+13-11-9-43: OnEventTCPNetworkShut userid = 1096 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-43: OnEventTCPNetworkShut userid = 1096 断线 离开房间 
+13-11-9-45: OnEventTCPNetworkShut userid = 1200 断线 
+13-11-9-45: OnEventTCPNetworkShut userid = 1200 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-45: OnEventTCPNetworkShut userid = 1200 断线 离开房间 
+13-11-9-49: OnEventTCPNetworkShut userid = 1055 断线 
+13-11-9-49: OnEventTCPNetworkShut userid = 1055 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-49: OnEventTCPNetworkShut userid = 1055 断线 离开房间 
+13-11-9-52: OnEventTCPNetworkShut userid = 1292 断线 
+13-11-9-52: OnEventTCPNetworkShut userid = 1292 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-52: OnEventTCPNetworkShut userid = 1292 断线 离开房间 
+13-11-9-54: PerformStandUpAction userid = 1069 起立 
+13-11-9-54: JudePersonalStandUp userid = 1069 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-9-54: PerformStandUpAction userid = 1069  bStand = 0 起立 1 
+13-11-9-54: JudePersonalStandUp userid = 1069 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-9-54: PerformStandUpAction userid = 1069 userid = 1069 起立 2 
+13-11-9-54: PerformStandUpAction userid = 1069 离开 
+13-11-9-54: PerformStandUpAction userid = 1069 cbUserStatus = 2 离开 
+13-11-9-54: PerformStandUpAction userid = 1028 起立 
+13-11-9-54: JudePersonalStandUp userid = 1028 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-9-54: PerformStandUpAction userid = 1028  bStand = 0 起立 1 
+13-11-9-54: JudePersonalStandUp userid = 1028 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-9-54: PerformStandUpAction userid = 1028 userid = 1028 起立 2 
+13-11-9-54: PerformStandUpAction userid = 1028 离开 
+13-11-9-54: PerformStandUpAction userid = 1028 cbUserStatus = 2 离开 
+13-11-9-55: OnEventTCPNetworkShut userid = 1069 断线 
+13-11-9-55: OnEventTCPNetworkShut userid = 1069 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-55: OnEventTCPNetworkShut userid = 1069 断线 离开房间 
+13-11-9-58: OnEventTCPNetworkShut userid = 1028 断线 
+13-11-9-58: OnEventTCPNetworkShut userid = 1028 wTableID = 65535 wDrawCount = 0 断线 
+13-11-9-58: OnEventTCPNetworkShut userid = 1028 断线 离开房间 
+13-11-10-0: OnEventTCPNetworkShut userid = 1205 断线 
+13-11-10-0: OnEventTCPNetworkShut userid = 1205 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-0: OnEventTCPNetworkShut userid = 1205 断线 离开房间 
+13-11-10-3: OnEventTCPNetworkShut userid = 1176 断线 
+13-11-10-3: OnEventTCPNetworkShut userid = 1176 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-3: OnEventTCPNetworkShut userid = 1176 断线 离开房间 
+13-11-10-8: OnEventTCPNetworkShut userid = 1239 断线 
+13-11-10-8: OnEventTCPNetworkShut userid = 1239 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-8: OnEventTCPNetworkShut userid = 1239 断线 离开房间 
+13-11-10-11: OnEventTCPNetworkShut userid = 1157 断线 
+13-11-10-11: OnEventTCPNetworkShut userid = 1157 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-11: OnEventTCPNetworkShut userid = 1157 断线 离开房间 
+13-11-10-16: OnEventTCPNetworkShut userid = 1261 断线 
+13-11-10-16: OnEventTCPNetworkShut userid = 1261 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-16: OnEventTCPNetworkShut userid = 1261 断线 离开房间 
+13-11-10-18: OnEventTCPNetworkShut userid = 1041 断线 
+13-11-10-18: OnEventTCPNetworkShut userid = 1041 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-18: OnEventTCPNetworkShut userid = 1041 断线 离开房间 
+13-11-10-20: OnEventTCPNetworkShut userid = 2 断线 
+13-11-10-20: OnEventTCPNetworkShut userid = 2 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-20: OnEventTCPNetworkShut userid = 2 断线 离开房间 
+13-11-10-22: OnEventTCPNetworkShut userid = 1012 断线 
+13-11-10-22: OnEventTCPNetworkShut userid = 1012 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-22: OnEventTCPNetworkShut userid = 1012 断线 离开房间 
+13-11-10-26: OnEventTCPNetworkShut userid = 1162 断线 
+13-11-10-26: OnEventTCPNetworkShut userid = 1162 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-26: OnEventTCPNetworkShut userid = 1162 断线 离开房间 
+13-11-10-28: OnEventTCPNetworkShut userid = 1254 断线 
+13-11-10-28: OnEventTCPNetworkShut userid = 1254 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-28: OnEventTCPNetworkShut userid = 1254 断线 离开房间 
+13-11-10-33: OnEventTCPNetworkShut userid = 1184 断线 
+13-11-10-33: OnEventTCPNetworkShut userid = 1184 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-33: OnEventTCPNetworkShut userid = 1184 断线 离开房间 
+13-11-10-36: OnEventTCPNetworkShut userid = 1097 断线 
+13-11-10-36: OnEventTCPNetworkShut userid = 1097 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-36: OnEventTCPNetworkShut userid = 1097 断线 离开房间 
+13-11-10-40: OnEventTCPNetworkShut userid = 1305 断线 
+13-11-10-40: OnEventTCPNetworkShut userid = 1305 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-40: OnEventTCPNetworkShut userid = 1305 断线 离开房间 
+13-11-10-42: OnEventTCPNetworkShut userid = 1276 断线 
+13-11-10-42: OnEventTCPNetworkShut userid = 1276 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-42: OnEventTCPNetworkShut userid = 1276 断线 离开房间 
+13-11-10-44: OnEventTCPNetworkShut userid = 1032 断线 
+13-11-10-44: OnEventTCPNetworkShut userid = 1032 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-44: OnEventTCPNetworkShut userid = 1032 断线 离开房间 
+13-11-10-46: OnEventTCPNetworkShut userid = 1020 断线 
+13-11-10-46: OnEventTCPNetworkShut userid = 1020 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-46: OnEventTCPNetworkShut userid = 1020 断线 离开房间 
+13-11-10-48: OnEventTCPNetworkShut userid = 1245 断线 
+13-11-10-48: OnEventTCPNetworkShut userid = 1245 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-48: OnEventTCPNetworkShut userid = 1245 断线 离开房间 
+13-11-10-51: OnEventTCPNetworkShut userid = 1025 断线 
+13-11-10-51: OnEventTCPNetworkShut userid = 1025 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-51: OnEventTCPNetworkShut userid = 1025 断线 离开房间 
+13-11-10-54: OnEventTCPNetworkShut userid = 1262 断线 
+13-11-10-54: OnEventTCPNetworkShut userid = 1262 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-54: OnEventTCPNetworkShut userid = 1262 断线 离开房间 
+13-11-10-56: OnEventTCPNetworkShut userid = 1209 断线 
+13-11-10-56: OnEventTCPNetworkShut userid = 1209 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-56: OnEventTCPNetworkShut userid = 1209 断线 离开房间 
+13-11-10-58: OnEventTCPNetworkShut userid = 1076 断线 
+13-11-10-58: OnEventTCPNetworkShut userid = 1076 wTableID = 65535 wDrawCount = 0 断线 
+13-11-10-58: OnEventTCPNetworkShut userid = 1076 断线 离开房间 
+13-11-11-0: OnEventTCPNetworkShut userid = 1197 断线 
+13-11-11-0: OnEventTCPNetworkShut userid = 1197 wTableID = 65535 wDrawCount = 0 断线 
+13-11-11-0: OnEventTCPNetworkShut userid = 1197 断线 离开房间 
+13-11-11-40: OnEventTCPNetworkShut userid = 5 断线 
+13-11-11-40: OnEventTCPNetworkShut userid = 5 wTableID = 0 wDrawCount = 0 断线 
+13-11-11-40: OnEventTCPNetworkShut userid = 5 断线 处理 
+13-11-11-41: PerformStandUpAction userid = 5 起立 
+13-11-11-41: JudePersonalStandUp userid = 5 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-11-41: PerformStandUpAction userid = 5  bStand = 0 起立 1 
+13-11-11-41: JudePersonalStandUp userid = 5 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-11-41: PerformStandUpAction userid = 5 userid = 5 起立 2 
+13-11-11-41: PerformStandUpAction userid = 5 离开 
+13-11-11-41: PerformStandUpAction userid = 5 cbUserStatus = 2 离开 
+13-11-11-42: OnEventTCPNetworkShut userid = 3 断线 
+13-11-11-42: OnEventTCPNetworkShut userid = 3 wTableID = 0 wDrawCount = 0 断线 
+13-11-11-42: OnEventTCPNetworkShut userid = 3 断线 处理 
+13-11-11-42: PerformStandUpAction userid = 3 起立 
+13-11-11-42: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-11-42: PerformStandUpAction userid = 3  bStand = 0 起立 1 
+13-11-11-42: JudePersonalStandUp userid = 3 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-11-42: PerformStandUpAction userid = 3 userid = 3 起立 2 
+13-11-11-42: PerformStandUpAction userid = 3 离开 
+13-11-11-42: PerformStandUpAction userid = 3 cbUserStatus = 2 离开 
+13-11-13-36: PerformStandUpAction userid = 5 起立 
+13-11-13-36: JudePersonalStandUp userid = 5 cbUserStatus = 5  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-11-13-36: PerformStandUpAction userid = 5  bStand = 0 起立 1 
+13-11-13-36: PerformStandUpAction userid = 5 userid = 5 起立 2 
+13-11-13-36: PerformStandUpAction userid = 5 离开 
+13-11-13-36: PerformStandUpAction userid = 5 cbUserStatus = 5 离开 
+13-11-13-36: OnEventTCPNetworkShut userid = 5 断线 
+13-11-13-36: OnEventTCPNetworkShut userid = 5 wTableID = 65535 wDrawCount = 0 断线 
+13-11-13-36: OnEventTCPNetworkShut userid = 5 断线 离开房间 

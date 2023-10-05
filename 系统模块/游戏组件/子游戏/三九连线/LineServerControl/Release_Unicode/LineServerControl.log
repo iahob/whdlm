@@ -1,0 +1,40 @@
+﻿  stdafx.cpp
+  LineServerControl.cpp
+  ServerControl.cpp
+ServerControl.cpp(35): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+ServerControl.cpp(71): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(72): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(75): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+ServerControl.cpp(463): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(464): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(531): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(551): warning C4996: 'vswprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1835): note: 参见“vswprintf”的声明
+ServerControl.cpp(557): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(558): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ServerControl.cpp(569): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+ServerControl.cpp(591): warning C4996: 'vswprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1835): note: 参见“vswprintf”的声明
+ServerControl.cpp(596): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\WHQJ\游戏\game\足球连线\LineServerControl\Release_Unicode\LineServerControl.dll) does not match the Linker's OutputFile property value (D:\WHQJ\运行\Release\Unicode\LineServerControl.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\LineServerControl.lib 和对象 Release_Unicode\LineServerControl.exp
+mfcs140u.lib(nolib.obj) : warning LNK4099: 未找到 PDB“mfcs140u.pdb”(使用“mfcs140u.lib(nolib.obj)”或在“D:\WHQJ\游戏\game\足球连线\LineServerControl\Release_Unicode\mfcs140u.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+mfcs140u.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“mfcs140u.pdb”(使用“mfcs140u.lib(stdafx.obj)”或在“D:\WHQJ\游戏\game\足球连线\LineServerControl\Release_Unicode\mfcs140u.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+atls.lib(atlbase.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlbase.obj)”或在“D:\WHQJ\游戏\game\足球连线\LineServerControl\Release_Unicode\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+atls.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(stdafx.obj)”或在“D:\WHQJ\游戏\game\足球连线\LineServerControl\Release_Unicode\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  LineServerControl.vcxproj -> D:\WHQJ\游戏\game\足球连线\LineServerControl\Release_Unicode\LineServerControl.dll
+  LineServerControl.vcxproj -> Release_Unicode\LineServerControl.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
+  已复制         1 个文件。

@@ -1,0 +1,90 @@
+
+configEdit.png
+size: 1447,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+w1
+  rotate: true
+  xy: 124, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w10
+  rotate: true
+  xy: 734, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w11
+  rotate: true
+  xy: 856, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w12
+  rotate: true
+  xy: 978, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w2
+  rotate: true
+  xy: 246, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w3
+  rotate: true
+  xy: 368, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w4
+  rotate: true
+  xy: 490, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w5
+  rotate: true
+  xy: 612, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w6
+  rotate: true
+  xy: 1217, 2
+  size: 192, 113
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w7
+  rotate: true
+  xy: 1100, 2
+  size: 192, 115
+  orig: 192, 144
+  offset: 0, 8
+  index: -1
+w8
+  rotate: true
+  xy: 1332, 2
+  size: 192, 113
+  orig: 192, 144
+  offset: 0, 20
+  index: -1
+w9
+  rotate: true
+  xy: 2, 2
+  size: 192, 120
+  orig: 192, 144
+  offset: 0, 20
+  index: -1

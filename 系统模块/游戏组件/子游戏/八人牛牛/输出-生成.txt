@@ -1,0 +1,56 @@
+﻿1>------ 已启动全部重新生成:  项目: OxEightServer, 配置: Debug_Unicode Win32 ------
+2>------ 已启动全部重新生成:  项目: OxEightGameVideo, 配置: Debug_Unicode Win32 ------
+3>------ 已启动全部重新生成:  项目: OxEightServerDebug, 配置: Debug_Unicode Win32 ------
+4>------ 已启动全部重新生成:  项目: OxEightAndroid, 配置: Debug_Unicode Win32 ------
+1>  Stdafx.cpp
+3>  stdafx.cpp
+2>  stdafx.cpp
+4>  Stdafx.cpp
+1>  HistoryScore.cpp
+1>  GameServerManager.cpp
+2>  GameVideoItemSink.cpp
+1>  GameServer.cpp
+1>  GameLogic.cpp
+3>  ServerDebugItemSink.cpp
+4>  GameLogic.cpp
+1>  DlgPersonalRule.cpp
+1>  DlgCustomRule.cpp
+3>  ServerDebug.cpp
+3>  GameLogic.cpp
+2>  GameVideo.cpp
+1>  正在生成代码...
+2>  正在生成代码...
+4>  AndroidUserItemSink.cpp
+3>  正在生成代码...
+4>  AndroidService.cpp
+4>  正在生成代码...
+1>  TableFrameSink.cpp
+2>GameVideo.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+2>     正在创建库 ../../../../运行/Debug/Unicode/LandGameVideo.lib 和对象 ../../../../运行/Debug/Unicode/LandGameVideo.exp
+4>AndroidService.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+4>     正在创建库 ../../../../运行/Debug/Unicode/OxEightAndroid.lib 和对象 ../../../../运行/Debug/Unicode/OxEightAndroid.exp
+3>GameLogic.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+3>     正在创建库 ../../../../运行/Debug/Unicode/ServerDebug.lib 和对象 ../../../../运行/Debug/Unicode/ServerDebug.exp
+1>DlgCustomRule.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+2>  GameVideo.vcxproj -> D:\czl_work\PJ6603\PJ2016\JD6603\旗舰新俱乐部（临时）\游戏组件\牌类游戏\八人牛牛\游戏录像\../../../../运行/Debug/Unicode/OxEightGameVideo.dll
+1>     正在创建库 ../../../../运行/Debug/Unicode/GameServer.lib 和对象 ../../../../运行/Debug/Unicode/GameServer.exp
+2>  已复制         1 个文件。
+4>  AndroidService.vcxproj -> D:\czl_work\PJ6603\PJ2016\JD6603\旗舰新俱乐部（临时）\游戏组件\牌类游戏\八人牛牛\AI服务\../../../../运行/Debug/Unicode/OxEightAndroid.dll
+5>------ 已启动全部重新生成:  项目: OxEightClientDebug, 配置: Debug_Unicode Win32 ------
+4>  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+4>  已复制         1 个文件。
+3>  ServerDebug.vcxproj -> D:\czl_work\PJ6603\PJ2016\JD6603\旗舰新俱乐部（临时）\游戏组件\牌类游戏\八人牛牛\服务器调试\../../../../运行/Debug/Unicode/OxEightServerDebug.dll
+1>  GameServer.vcxproj -> D:\czl_work\PJ6603\PJ2016\JD6603\旗舰新俱乐部（临时）\游戏组件\牌类游戏\八人牛牛\游戏服务器\../../../../运行/Debug/Unicode/OxEightServer.dll
+3>  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+3>  已复制         1 个文件。
+5>  stdafx.cpp
+1>  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+1>  已复制         1 个文件。
+5>  ClientDebugItemSink.cpp
+5>  ClientDebug.cpp
+5>  正在生成代码...
+5>ClientDebug.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+5>     正在创建库 ../../../../运行/Debug/Unicode/ClientDebug.lib 和对象 ../../../../运行/Debug/Unicode/ClientDebug.exp
+5>  ClientDebug.vcxproj -> D:\czl_work\PJ6603\PJ2016\JD6603\旗舰新俱乐部（临时）\游戏组件\牌类游戏\八人牛牛\客户端调试\../../../../运行/Debug/Unicode/OxEightClientDebug.dll
+5>  已复制         1 个文件。
+========== 全部重新生成:  成功 5 个，失败 0 个，跳过 0 个 ==========

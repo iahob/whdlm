@@ -1,0 +1,732 @@
+2023/8/27_14:24:56--OnEventDataBase wRequestID=401,dwcontextid=0
+2023/8/27_14:24:56--OnEventTCPSocketRead wServiceID=1,mainid=1,subid=201
+2023/8/27_14:24:56--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=110
+2023/8/27_14:24:56--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=115
+2023/8/27_14:24:56--OnEventTCPSocketRead wServiceID=2,mainid=1,subid=201
+2023/8/27_14:24:57--OnEventDataBase wRequestID=101,dwcontextid=65534
+2023/8/27_14:24:57--OnEventDataBase wRequestID=101,dwcontextid=65535
+2023/8/27_14:33:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_14:43:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_14:52:9--OnEventTCPSocketRead wServiceID=1,mainid=8,subid=210
+2023/8/27_14:52:10--ptdt OnEventTCPNetworkBind dwSocketID=65536,wBindIndex=0
+2023/8/27_14:52:10--大联盟收到包，main=2,sub=1,socket=65536,
+2023/8/27_14:52:10--玩家请求登陆大联盟，userid=1,scoketid=65536
+2023/8/27_14:52:10--玩家请求登陆大联盟1，userid=1
+2023/8/27_14:52:10--OnEventDataBase wRequestID=110,dwcontextid=65536
+2023/8/27_14:52:10--OnEventDataBase wRequestID=423,dwcontextid=65536
+2023/8/27_14:52:50--ptdtai OnEventTCPNetworkShut dwSocketID=65536,wBindIndex=0
+2023/8/27_14:52:52--ptdt OnEventTCPNetworkBind dwSocketID=131072,wBindIndex=0
+2023/8/27_14:52:53--大联盟收到包，main=2,sub=1,socket=131072,
+2023/8/27_14:52:53--玩家请求登陆大联盟，userid=1,scoketid=131072
+2023/8/27_14:52:53--玩家请求登陆大联盟1，userid=1
+2023/8/27_14:52:53--OnEventDataBase wRequestID=110,dwcontextid=131072
+2023/8/27_14:52:53--OnEventDataBase wRequestID=423,dwcontextid=131072
+2023/8/27_14:53:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:3:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:10:23--ptdtai OnEventTCPNetworkShut dwSocketID=131072,wBindIndex=0
+2023/8/27_15:10:26--ptdt OnEventTCPNetworkBind dwSocketID=196608,wBindIndex=0
+2023/8/27_15:10:26--大联盟收到包，main=2,sub=1,socket=196608,
+2023/8/27_15:10:26--玩家请求登陆大联盟，userid=1,scoketid=196608
+2023/8/27_15:10:26--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:10:26--OnEventDataBase wRequestID=110,dwcontextid=196608
+2023/8/27_15:10:26--OnEventDataBase wRequestID=423,dwcontextid=196608
+2023/8/27_15:13:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:17:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_15:18:9--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:18:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:19:9--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:19:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:20:9--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:20:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:21:9--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:21:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:22:9--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:22:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:22:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_15:22:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_15:23:14--ptdtai OnEventTCPNetworkShut dwSocketID=196608,wBindIndex=0
+2023/8/27_15:23:17--ptdt OnEventTCPNetworkBind dwSocketID=262144,wBindIndex=0
+2023/8/27_15:23:17--大联盟收到包，main=2,sub=1,socket=262144,
+2023/8/27_15:23:17--玩家请求登陆大联盟，userid=1,scoketid=262144
+2023/8/27_15:23:17--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:23:17--OnEventDataBase wRequestID=110,dwcontextid=262144
+2023/8/27_15:23:17--OnEventDataBase wRequestID=423,dwcontextid=262144
+2023/8/27_15:23:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:23:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:23:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:24:15--ptdtai OnEventTCPNetworkShut dwSocketID=262144,wBindIndex=0
+2023/8/27_15:24:18--ptdt OnEventTCPNetworkBind dwSocketID=327680,wBindIndex=0
+2023/8/27_15:24:18--大联盟收到包，main=2,sub=1,socket=327680,
+2023/8/27_15:24:18--玩家请求登陆大联盟，userid=1,scoketid=327680
+2023/8/27_15:24:18--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:24:18--OnEventDataBase wRequestID=110,dwcontextid=327680
+2023/8/27_15:24:18--OnEventDataBase wRequestID=423,dwcontextid=327680
+2023/8/27_15:24:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:24:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:25:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:25:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:26:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:26:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:27:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:27:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:28:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:28:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:29:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:29:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:30:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:30:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:31:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:31:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:32:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:32:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:33:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:33:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:33:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:34:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:34:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:35:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:35:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:36:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:36:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:37:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:37:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:38:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:38:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:39:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:39:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:40:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:40:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:41:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:41:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:42:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:42:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:43:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:43:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:43:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:44:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:44:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:45:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:45:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:46:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:46:35--ptdtai OnEventTCPNetworkShut dwSocketID=327680,wBindIndex=0
+2023/8/27_15:46:46--ptdt OnEventTCPNetworkBind dwSocketID=393216,wBindIndex=0
+2023/8/27_15:46:46--大联盟收到包，main=2,sub=1,socket=393216,
+2023/8/27_15:46:46--玩家请求登陆大联盟，userid=1,scoketid=393216
+2023/8/27_15:46:46--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:46:46--OnEventDataBase wRequestID=110,dwcontextid=393216
+2023/8/27_15:46:46--OnEventDataBase wRequestID=423,dwcontextid=393216
+2023/8/27_15:46:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:47:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:47:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:48:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:48:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:49:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:49:45--ptdtai OnEventTCPNetworkShut dwSocketID=393216,wBindIndex=0
+2023/8/27_15:49:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:50:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:50:46--ptdt OnEventTCPNetworkBind dwSocketID=458752,wBindIndex=0
+2023/8/27_15:50:46--大联盟收到包，main=2,sub=1,socket=458752,
+2023/8/27_15:50:46--玩家请求登陆大联盟，userid=1,scoketid=458752
+2023/8/27_15:50:46--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:50:46--OnEventDataBase wRequestID=110,dwcontextid=458752
+2023/8/27_15:50:46--OnEventDataBase wRequestID=423,dwcontextid=458752
+2023/8/27_15:50:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:51:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:51:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:52:3--ptdtai OnEventTCPNetworkShut dwSocketID=458752,wBindIndex=0
+2023/8/27_15:52:6--ptdt OnEventTCPNetworkBind dwSocketID=524288,wBindIndex=0
+2023/8/27_15:52:6--大联盟收到包，main=2,sub=1,socket=524288,
+2023/8/27_15:52:6--玩家请求登陆大联盟，userid=1,scoketid=524288
+2023/8/27_15:52:6--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:52:6--OnEventDataBase wRequestID=110,dwcontextid=524288
+2023/8/27_15:52:6--OnEventDataBase wRequestID=423,dwcontextid=524288
+2023/8/27_15:52:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:52:26--ptdtai OnEventTCPNetworkShut dwSocketID=524288,wBindIndex=0
+2023/8/27_15:52:45--ptdt OnEventTCPNetworkBind dwSocketID=589824,wBindIndex=0
+2023/8/27_15:52:45--大联盟收到包，main=2,sub=1,socket=589824,
+2023/8/27_15:52:45--玩家请求登陆大联盟，userid=1,scoketid=589824
+2023/8/27_15:52:45--玩家请求登陆大联盟1，userid=1
+2023/8/27_15:52:45--OnEventDataBase wRequestID=110,dwcontextid=589824
+2023/8/27_15:52:45--OnEventDataBase wRequestID=423,dwcontextid=589824
+2023/8/27_15:52:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:53:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:53:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_15:53:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:54:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:54:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:55:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:55:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:56:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:56:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:57:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:57:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:58:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:58:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:59:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_15:59:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:0:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:0:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:1:21--大联盟收到包，main=2,sub=3,socket=589824,
+2023/8/27_16:1:21--OnEventDataBase wRequestID=112,dwcontextid=589824
+2023/8/27_16:1:21--OnEventDataBase wRequestID=120,dwcontextid=589824
+2023/8/27_16:1:21--OnEventDataBase wRequestID=200,dwcontextid=589824
+2023/8/27_16:1:21--大联盟收到包，main=3,sub=1,socket=589824,
+2023/8/27_16:1:21--大联盟收到包，main=1,sub=110,socket=589824,
+2023/8/27_16:1:21--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_16:1:21--大联盟收到包，main=1,sub=110,socket=589824,
+2023/8/27_16:1:21--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_16:1:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:1:26--大联盟收到包，main=3,sub=2,socket=589824,
+2023/8/27_16:1:28--大联盟收到包，main=3,sub=1,socket=589824,
+2023/8/27_16:1:28--大联盟收到包，main=1,sub=110,socket=589824,
+2023/8/27_16:1:28--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_16:1:28--大联盟收到包，main=1,sub=110,socket=589824,
+2023/8/27_16:1:28--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_16:1:38--大联盟收到包，main=2,sub=49,socket=589824,
+2023/8/27_16:1:38--OnEventDataBase wRequestID=162,dwcontextid=589824
+2023/8/27_16:1:40--大联盟收到包，main=2,sub=41,socket=589824,
+2023/8/27_16:1:40--OnEventDataBase wRequestID=154,dwcontextid=589824
+2023/8/27_16:1:48--大联盟收到包，main=3,sub=2,socket=589824,
+2023/8/27_16:1:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:2:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:2:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:3:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:3:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_16:3:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:3:53--ptdtai OnEventTCPNetworkShut dwSocketID=589824,wBindIndex=0
+2023/8/27_16:4:2--ptdt OnEventTCPNetworkBind dwSocketID=655360,wBindIndex=0
+2023/8/27_16:4:2--大联盟收到包，main=2,sub=1,socket=655360,
+2023/8/27_16:4:2--玩家请求登陆大联盟，userid=1,scoketid=655360
+2023/8/27_16:4:2--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:4:2--OnEventDataBase wRequestID=110,dwcontextid=655360
+2023/8/27_16:4:2--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:4:2--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:4:2--OnEventDataBase wRequestID=423,dwcontextid=655360
+2023/8/27_16:4:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:4:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:5:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:5:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:6:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:6:33--ptdtai OnEventTCPNetworkShut dwSocketID=655360,wBindIndex=0
+2023/8/27_16:6:36--ptdt OnEventTCPNetworkBind dwSocketID=720896,wBindIndex=0
+2023/8/27_16:6:36--大联盟收到包，main=2,sub=1,socket=720896,
+2023/8/27_16:6:36--玩家请求登陆大联盟，userid=1,scoketid=720896
+2023/8/27_16:6:36--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:6:36--OnEventDataBase wRequestID=110,dwcontextid=720896
+2023/8/27_16:6:36--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:6:36--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:6:36--OnEventDataBase wRequestID=423,dwcontextid=720896
+2023/8/27_16:6:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:7:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:7:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:8:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:8:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:9:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:9:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:10:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:10:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:11:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:11:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:12:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:12:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:13:18--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:13:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_16:13:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:13:53--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:14:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:14:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:15:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:15:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:16:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:16:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:16:40--ptdt OnEventTCPNetworkBind dwSocketID=65537,wBindIndex=1
+2023/8/27_16:16:41--大联盟收到包，main=2,sub=1,socket=65537,
+2023/8/27_16:16:41--玩家请求登陆大联盟，userid=1,scoketid=65537
+2023/8/27_16:16:41--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:16:41--OnEventDataBase wRequestID=110,dwcontextid=65537
+2023/8/27_16:16:41--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:16:41--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:16:41--OnEventDataBase wRequestID=423,dwcontextid=65537
+2023/8/27_16:16:51--ptdtai OnEventTCPNetworkShut dwSocketID=720896,wBindIndex=0
+2023/8/27_16:16:52--ptdt OnEventTCPNetworkBind dwSocketID=786432,wBindIndex=0
+2023/8/27_16:16:52--大联盟收到包，main=2,sub=1,socket=786432,
+2023/8/27_16:16:52--玩家请求登陆大联盟，userid=1,scoketid=786432
+2023/8/27_16:16:52--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:16:52--OnEventDataBase wRequestID=110,dwcontextid=786432
+2023/8/27_16:16:52--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:16:52--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:16:52--OnEventDataBase wRequestID=423,dwcontextid=786432
+2023/8/27_16:16:53--ptdtai OnEventTCPNetworkShut dwSocketID=786432,wBindIndex=0
+2023/8/27_16:17:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:17:22--ptdtai OnEventTCPNetworkShut dwSocketID=65537,wBindIndex=1
+2023/8/27_16:17:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:17:44--ptdt OnEventTCPNetworkBind dwSocketID=131073,wBindIndex=1
+2023/8/27_16:17:44--大联盟收到包，main=2,sub=1,socket=131073,
+2023/8/27_16:17:44--玩家请求登陆大联盟，userid=1,scoketid=131073
+2023/8/27_16:17:44--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:17:44--OnEventDataBase wRequestID=110,dwcontextid=131073
+2023/8/27_16:17:44--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:17:44--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:17:44--OnEventDataBase wRequestID=423,dwcontextid=131073
+2023/8/27_16:18:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:18:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:19:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:19:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:20:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:20:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:21:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:21:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:22:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:22:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:23:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:23:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:23:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_16:24:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:24:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:25:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:25:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:26:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:26:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:27:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:27:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:28:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:28:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:29:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:29:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:30:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:30:30--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:31:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:31:21--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:31:48--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:32:1--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:32:1--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:32:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:32:4--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:32:5--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:33:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_16:33:45--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:33:56--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:33:57--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:33:59--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:34:26--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:34:56--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:35:26--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:35:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:35:39--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:35:53--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:40:30--ptdtai OnEventTCPNetworkShut dwSocketID=131073,wBindIndex=1
+2023/8/27_16:40:33--ptdt OnEventTCPNetworkBind dwSocketID=196609,wBindIndex=1
+2023/8/27_16:40:33--大联盟收到包，main=2,sub=1,socket=196609,
+2023/8/27_16:40:33--玩家请求登陆大联盟，userid=1,scoketid=196609
+2023/8/27_16:40:33--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:40:33--OnEventDataBase wRequestID=110,dwcontextid=196609
+2023/8/27_16:40:33--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:40:33--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:40:33--OnEventDataBase wRequestID=423,dwcontextid=196609
+2023/8/27_16:40:40--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:40:43--ptdtai OnEventTCPNetworkShut dwSocketID=196609,wBindIndex=1
+2023/8/27_16:40:45--ptdt OnEventTCPNetworkBind dwSocketID=262145,wBindIndex=1
+2023/8/27_16:40:45--大联盟收到包，main=2,sub=1,socket=262145,
+2023/8/27_16:40:45--玩家请求登陆大联盟，userid=1,scoketid=262145
+2023/8/27_16:40:45--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:40:45--OnEventDataBase wRequestID=110,dwcontextid=262145
+2023/8/27_16:40:45--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:40:45--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:40:45--OnEventDataBase wRequestID=423,dwcontextid=262145
+2023/8/27_16:40:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_16:41:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_16:41:15--ptdtai OnEventTCPNetworkShut dwSocketID=262145,wBindIndex=1
+2023/8/27_16:41:18--ptdt OnEventTCPNetworkBind dwSocketID=327681,wBindIndex=1
+2023/8/27_16:41:18--大联盟收到包，main=2,sub=1,socket=327681,
+2023/8/27_16:41:18--玩家请求登陆大联盟，userid=1,scoketid=327681
+2023/8/27_16:41:18--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:41:18--OnEventDataBase wRequestID=110,dwcontextid=327681
+2023/8/27_16:41:18--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:41:18--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:41:18--OnEventDataBase wRequestID=423,dwcontextid=327681
+2023/8/27_16:41:30--ptdtai OnEventTCPNetworkShut dwSocketID=327681,wBindIndex=1
+2023/8/27_16:41:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:42:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:42:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:43:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:43:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_16:43:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:44:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:44:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:45:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:45:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:45:49--ptdt OnEventTCPNetworkBind dwSocketID=393217,wBindIndex=1
+2023/8/27_16:45:49--大联盟收到包，main=2,sub=1,socket=393217,
+2023/8/27_16:45:49--玩家请求登陆大联盟，userid=1,scoketid=393217
+2023/8/27_16:45:49--玩家请求登陆大联盟1，userid=1
+2023/8/27_16:45:49--OnEventDataBase wRequestID=110,dwcontextid=393217
+2023/8/27_16:45:49--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_16:45:49--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_16:45:49--OnEventDataBase wRequestID=423,dwcontextid=393217
+2023/8/27_16:45:51--ptdtai OnEventTCPNetworkShut dwSocketID=393217,wBindIndex=1
+2023/8/27_16:46:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:46:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:47:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:47:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:48:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:48:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:49:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:49:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:50:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:50:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:51:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:51:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:52:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:52:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:53:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:53:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_16:53:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:54:12--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:54:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_16:54:47--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:3:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_17:8:7--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:8:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:8:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:9:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:9:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:10:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:10:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:11:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:11:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:12:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:12:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:13:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:13:33--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:13:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_17:13:35--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:15:55--ptdt OnEventTCPNetworkBind dwSocketID=458753,wBindIndex=1
+2023/8/27_17:15:55--大联盟收到包，main=2,sub=1,socket=458753,
+2023/8/27_17:15:55--玩家请求登陆大联盟，userid=1,scoketid=458753
+2023/8/27_17:15:55--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:15:55--OnEventDataBase wRequestID=110,dwcontextid=458753
+2023/8/27_17:15:55--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:15:55--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:15:55--OnEventDataBase wRequestID=423,dwcontextid=458753
+2023/8/27_17:16:4--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:16:6--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:16:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:16:40--大联盟收到包，main=3,sub=1,socket=458753,
+2023/8/27_17:16:41--大联盟收到包，main=1,sub=110,socket=458753,
+2023/8/27_17:16:41--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_17:16:41--大联盟收到包，main=1,sub=110,socket=458753,
+2023/8/27_17:16:41--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_17:16:42--大联盟收到包，main=3,sub=2,socket=458753,
+2023/8/27_17:16:43--ptdtai OnEventTCPNetworkShut dwSocketID=458753,wBindIndex=1
+2023/8/27_17:16:45--ptdt OnEventTCPNetworkBind dwSocketID=524289,wBindIndex=1
+2023/8/27_17:16:46--大联盟收到包，main=2,sub=1,socket=524289,
+2023/8/27_17:16:46--玩家请求登陆大联盟，userid=1,scoketid=524289
+2023/8/27_17:16:46--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:16:46--OnEventDataBase wRequestID=110,dwcontextid=524289
+2023/8/27_17:16:46--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:16:46--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:16:46--OnEventDataBase wRequestID=423,dwcontextid=524289
+2023/8/27_17:17:6--ptdtai OnEventTCPNetworkShut dwSocketID=524289,wBindIndex=1
+2023/8/27_17:17:7--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:17:9--ptdt OnEventTCPNetworkBind dwSocketID=589825,wBindIndex=1
+2023/8/27_17:17:10--大联盟收到包，main=2,sub=1,socket=589825,
+2023/8/27_17:17:10--玩家请求登陆大联盟，userid=1,scoketid=589825
+2023/8/27_17:17:10--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:17:10--OnEventDataBase wRequestID=110,dwcontextid=589825
+2023/8/27_17:17:10--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:17:10--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:17:10--OnEventDataBase wRequestID=423,dwcontextid=589825
+2023/8/27_17:17:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:17:29--ptdtai OnEventTCPNetworkShut dwSocketID=589825,wBindIndex=1
+2023/8/27_17:17:32--ptdt OnEventTCPNetworkBind dwSocketID=655361,wBindIndex=1
+2023/8/27_17:17:32--大联盟收到包，main=2,sub=1,socket=655361,
+2023/8/27_17:17:32--玩家请求登陆大联盟，userid=1,scoketid=655361
+2023/8/27_17:17:32--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:17:32--OnEventDataBase wRequestID=110,dwcontextid=655361
+2023/8/27_17:17:32--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:17:32--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:17:32--OnEventDataBase wRequestID=423,dwcontextid=655361
+2023/8/27_17:17:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:17:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:18:7--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:18:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:18:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:18:43--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:18:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:19:7--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:19:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:19:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:19:52--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:19:52--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:19:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:20:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:20:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:20:26--ptdtai OnEventTCPNetworkShut dwSocketID=655361,wBindIndex=1
+2023/8/27_17:20:29--ptdt OnEventTCPNetworkBind dwSocketID=720897,wBindIndex=1
+2023/8/27_17:20:29--大联盟收到包，main=2,sub=1,socket=720897,
+2023/8/27_17:20:29--玩家请求登陆大联盟，userid=1,scoketid=720897
+2023/8/27_17:20:29--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:20:29--OnEventDataBase wRequestID=110,dwcontextid=720897
+2023/8/27_17:20:29--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:20:29--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:20:29--OnEventDataBase wRequestID=423,dwcontextid=720897
+2023/8/27_17:20:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:20:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:21:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:21:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:21:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:21:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:22:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:22:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:22:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:22:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:23:0--ptdtai OnEventTCPNetworkShut dwSocketID=720897,wBindIndex=1
+2023/8/27_17:23:3--ptdt OnEventTCPNetworkBind dwSocketID=786433,wBindIndex=1
+2023/8/27_17:23:3--大联盟收到包，main=2,sub=1,socket=786433,
+2023/8/27_17:23:3--玩家请求登陆大联盟，userid=1,scoketid=786433
+2023/8/27_17:23:3--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:23:3--OnEventDataBase wRequestID=110,dwcontextid=786433
+2023/8/27_17:23:3--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:23:3--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:23:3--OnEventDataBase wRequestID=423,dwcontextid=786433
+2023/8/27_17:23:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:23:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:23:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_17:23:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:23:51--ptdtai OnEventTCPNetworkShut dwSocketID=786433,wBindIndex=1
+2023/8/27_17:23:53--ptdt OnEventTCPNetworkBind dwSocketID=851969,wBindIndex=1
+2023/8/27_17:23:54--大联盟收到包，main=2,sub=1,socket=851969,
+2023/8/27_17:23:54--玩家请求登陆大联盟，userid=1,scoketid=851969
+2023/8/27_17:23:54--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:23:54--OnEventDataBase wRequestID=110,dwcontextid=851969
+2023/8/27_17:23:54--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:23:54--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:23:54--OnEventDataBase wRequestID=423,dwcontextid=851969
+2023/8/27_17:23:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:23:56--ptdtai OnEventTCPNetworkShut dwSocketID=851969,wBindIndex=1
+2023/8/27_17:24:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:24:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:24:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:24:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:25:15--ptdt OnEventTCPNetworkBind dwSocketID=917505,wBindIndex=1
+2023/8/27_17:25:15--大联盟收到包，main=2,sub=1,socket=917505,
+2023/8/27_17:25:15--玩家请求登陆大联盟，userid=1,scoketid=917505
+2023/8/27_17:25:15--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:25:15--OnEventDataBase wRequestID=110,dwcontextid=917505
+2023/8/27_17:25:15--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:25:15--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:25:15--OnEventDataBase wRequestID=423,dwcontextid=917505
+2023/8/27_17:25:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:25:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:25:30--ptdtai OnEventTCPNetworkShut dwSocketID=917505,wBindIndex=1
+2023/8/27_17:25:33--ptdt OnEventTCPNetworkBind dwSocketID=983041,wBindIndex=1
+2023/8/27_17:25:33--大联盟收到包，main=2,sub=1,socket=983041,
+2023/8/27_17:25:33--玩家请求登陆大联盟，userid=1,scoketid=983041
+2023/8/27_17:25:33--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:25:33--OnEventDataBase wRequestID=110,dwcontextid=983041
+2023/8/27_17:25:33--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:25:33--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:25:33--OnEventDataBase wRequestID=423,dwcontextid=983041
+2023/8/27_17:25:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:25:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:26:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:26:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:26:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:26:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:27:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:27:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:27:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:27:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:28:20--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:28:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:28:40--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:40--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:28:42--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:28:44--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:45--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:28:47--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:28:49--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:50--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:28:50--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:28:51--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:51--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:28:52--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:28:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:28:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:55--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:28:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:28:57--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:57--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:28:58--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:28:59--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:28:59--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:29:0--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:29:1--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:29:1--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:29:2--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:29:3--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:29:3--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=213
+2023/8/27_17:29:14--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:29:19--ptdtai OnEventTCPNetworkShut dwSocketID=983041,wBindIndex=1
+2023/8/27_17:29:21--ptdt OnEventTCPNetworkBind dwSocketID=1048577,wBindIndex=1
+2023/8/27_17:29:21--大联盟收到包，main=2,sub=1,socket=1048577,
+2023/8/27_17:29:21--玩家请求登陆大联盟，userid=1,scoketid=1048577
+2023/8/27_17:29:21--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:29:21--OnEventDataBase wRequestID=110,dwcontextid=1048577
+2023/8/27_17:29:21--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:29:21--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:29:21--OnEventDataBase wRequestID=423,dwcontextid=1048577
+2023/8/27_17:29:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:29:28--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114
+2023/8/27_17:29:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=112
+2023/8/27_17:29:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:29:57--ptdtai OnEventTCPNetworkShut dwSocketID=1048577,wBindIndex=1
+2023/8/27_17:29:59--ptdt OnEventTCPNetworkBind dwSocketID=1114113,wBindIndex=1
+2023/8/27_17:29:59--大联盟收到包，main=2,sub=1,socket=1114113,
+2023/8/27_17:29:59--玩家请求登陆大联盟，userid=1,scoketid=1114113
+2023/8/27_17:29:59--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:29:59--OnEventDataBase wRequestID=110,dwcontextid=1114113
+2023/8/27_17:29:59--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:29:59--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:29:59--OnEventDataBase wRequestID=423,dwcontextid=1114113
+2023/8/27_17:30:10--ptdtai OnEventTCPNetworkShut dwSocketID=1114113,wBindIndex=1
+2023/8/27_17:30:13--ptdt OnEventTCPNetworkBind dwSocketID=1179649,wBindIndex=1
+2023/8/27_17:30:14--大联盟收到包，main=2,sub=1,socket=1179649,
+2023/8/27_17:30:14--玩家请求登陆大联盟，userid=1,scoketid=1179649
+2023/8/27_17:30:14--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:30:14--OnEventDataBase wRequestID=110,dwcontextid=1179649
+2023/8/27_17:30:14--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:30:14--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:30:14--OnEventDataBase wRequestID=423,dwcontextid=1179649
+2023/8/27_17:30:16--ptdtai OnEventTCPNetworkShut dwSocketID=1179649,wBindIndex=1
+2023/8/27_17:30:19--ptdt OnEventTCPNetworkBind dwSocketID=1245185,wBindIndex=1
+2023/8/27_17:30:19--大联盟收到包，main=2,sub=1,socket=1245185,
+2023/8/27_17:30:19--玩家请求登陆大联盟，userid=1,scoketid=1245185
+2023/8/27_17:30:19--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:30:19--OnEventDataBase wRequestID=110,dwcontextid=1245185
+2023/8/27_17:30:19--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:30:19--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:30:19--OnEventDataBase wRequestID=423,dwcontextid=1245185
+2023/8/27_17:30:22--ptdtai OnEventTCPNetworkShut dwSocketID=1245185,wBindIndex=1
+2023/8/27_17:30:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:30:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:30:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:30:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:31:3--ptdt OnEventTCPNetworkBind dwSocketID=1310721,wBindIndex=1
+2023/8/27_17:31:3--大联盟收到包，main=2,sub=1,socket=1310721,
+2023/8/27_17:31:3--玩家请求登陆大联盟，userid=1,scoketid=1310721
+2023/8/27_17:31:3--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:31:3--OnEventDataBase wRequestID=110,dwcontextid=1310721
+2023/8/27_17:31:3--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:31:3--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:31:3--OnEventDataBase wRequestID=423,dwcontextid=1310721
+2023/8/27_17:31:7--ptdtai OnEventTCPNetworkShut dwSocketID=1310721,wBindIndex=1
+2023/8/27_17:31:9--ptdt OnEventTCPNetworkBind dwSocketID=1376257,wBindIndex=1
+2023/8/27_17:31:9--大联盟收到包，main=2,sub=1,socket=1376257,
+2023/8/27_17:31:9--玩家请求登陆大联盟，userid=1,scoketid=1376257
+2023/8/27_17:31:9--玩家请求登陆大联盟1，userid=1
+2023/8/27_17:31:9--OnEventDataBase wRequestID=110,dwcontextid=1376257
+2023/8/27_17:31:9--玩家userid=1登陆，俱乐部数量=1
+2023/8/27_17:31:9--玩家1在俱乐部0=100000的身份=1,队长=0
+2023/8/27_17:31:9--OnEventDataBase wRequestID=423,dwcontextid=1376257
+2023/8/27_17:31:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:31:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:31:32--大联盟收到包，main=3,sub=1,socket=1376257,
+2023/8/27_17:31:32--大联盟收到包，main=1,sub=110,socket=1376257,
+2023/8/27_17:31:32--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_17:31:32--大联盟收到包，main=1,sub=110,socket=1376257,
+2023/8/27_17:31:32--OnEventTCPSocketRead wServiceID=2,mainid=8,subid=202
+2023/8/27_17:31:36--大联盟收到包，main=3,sub=2,socket=1376257,
+2023/8/27_17:31:51--ptdtai OnEventTCPNetworkShut dwSocketID=1376257,wBindIndex=1
+2023/8/27_17:31:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:31:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:32:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:32:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:32:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:32:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:33:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:33:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:33:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_17:33:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:33:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:34:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:34:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:34:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:34:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:35:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:35:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:35:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:35:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:36:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:36:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:36:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:36:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:37:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:37:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:36--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:37--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:47:38--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:48:16--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:48:16--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:48:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:48:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:48:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:48:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:49:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:49:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:49:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:49:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:50:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:50:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:50:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:50:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:51:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:51:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:51:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:51:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:52:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:52:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:52:54--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:52:55--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:53:24--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:53:25--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=111
+2023/8/27_17:53:35--OnEventTCPSocketRead wServiceID=1,mainid=5,subid=300
+2023/8/27_17:53:44--OnEventTCPSocketRead wServiceID=1,mainid=2,subid=114

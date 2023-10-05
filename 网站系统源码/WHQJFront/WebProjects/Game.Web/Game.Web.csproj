@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF35B803-F7AA-4237-A715-A55EE1BD25EF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game.Web</RootNamespace>
+    <AssemblyName>Game.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AopSdk">
+      <HintPath>..\..\..\Library\AopSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNetPager">
+      <HintPath>..\..\..\Library\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\Library\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Game.Kernel">
+      <HintPath>..\..\..\Library\Game.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Game.Utils">
+      <HintPath>..\..\..\Library\Game.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="HttpHelper1.4">
+      <HintPath>..\..\..\Library\HttpHelper1.4.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\Library\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="Authorize.aspx" />
+    <Content Include="Card\Index.aspx" />
+    <Content Include="Card\setPassword.aspx" />
+    <Content Include="Card\v2\assets\css\inputStyle.css" />
+    <Content Include="Card\v2\assets\css\main.css" />
+    <Content Include="Card\v2\build.js" />
+    <Content Include="Card\v2\diamond.png" />
+    <Content Include="Card\v2\gold.png" />
+    <Content Include="Card\v2\index.html" />
+    <Content Include="Card\v2\vendor.js" />
+    <Content Include="Card\v2\vendors~build.js" />
+    <Content Include="Card\v2\vendors~build~vendor.js" />
+    <Content Include="Card\v2\assets\images\arrow-left.png" />
+    <Content Include="Card\v2\assets\images\arrow-right.png" />
+    <Content Include="Card\v2\assets\images\close.png" />
+    <Content Include="Card\v2\assets\images\diamond.png" />
+    <Content Include="Card\v2\assets\images\face.png" />
+    <Content Include="Card\v2\assets\images\fail.png" />
+    <Content Include="Card\v2\assets\images\gift1.png" />
+    <Content Include="Card\v2\assets\images\gold.png" />
+    <Content Include="Card\v2\assets\images\icon-1.png" />
+    <Content Include="Card\v2\assets\images\icon-2.png" />
+    <Content Include="Card\v2\assets\images\icon-3.png" />
+    <Content Include="Card\v2\assets\images\icon-4.png" />
+    <Content Include="Card\v2\assets\images\icon-5.png" />
+    <Content Include="Card\v2\assets\images\icon-6.png" />
+    <Content Include="Card\v2\assets\images\icon-7.png" />
+    <Content Include="Card\v2\assets\images\icon-8.png" />
+    <Content Include="Card\v2\assets\images\icon-9.png" />
+    <Content Include="Card\v2\assets\images\success.png" />
+    <Content Include="css\Agentsharestyle.css" />
+    <Content Include="css\friendshare.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\mindex.css" />
+    <Content Include="css\roomshare.css" />
+    <Content Include="css\weixin.css" />
+    <Content Include="error.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="HAuthorize.aspx" />
+    <Content Include="HTicket.aspx" />
+    <Content Include="image\custom.png" />
+    <Content Include="image\diamond.png" />
+    <Content Include="image\disband.png" />
+    <Content Include="image\download-btn.png" />
+    <Content Include="image\download-title-h5.png" />
+    <Content Include="image\download-title-lua.png" />
+    <Content Include="image\enter-bg.png" />
+    <Content Include="image\enter-btn.png" />
+    <Content Include="image\enter-title-bg.png" />
+    <Content Include="image\enter.png" />
+    <Content Include="image\face.png" />
+    <Content Include="image\fixed-a-bg.png" />
+    <Content Include="image\fox-cry.png" />
+    <Content Include="image\gamelist-bg.png" />
+    <Content Include="image\head.png" />
+    <Content Include="image\hotline.png" />
+    <Content Include="image\invite-bg.png" />
+    <Content Include="image\invite_bg.png" />
+    <Content Include="image\item1.png" />
+    <Content Include="image\item2.png" />
+    <Content Include="image\item3.png" />
+    <Content Include="image\jjb-qrcode.png" />
+    <Content Include="image\line.png" />
+    <Content Include="image\live_weixin.png" />
+    <Content Include="image\mobilelogo.png" />
+    <Content Include="image\phone.png" />
+    <Content Include="image\qj_bg.jpg" />
+    <Content Include="image\qj_btn.png" />
+    <Content Include="image\qq.png" />
+    <Content Include="image\qqbtn.png" />
+    <Content Include="image\qq_pc.png" />
+    <Content Include="image\qr-title.png" />
+    <Content Include="image\qr.png" />
+    <Content Include="image\recieve.png" />
+    <Content Include="image\saoyisao.png" />
+    <Content Include="image\share.png" />
+    <Content Include="image\sharelua_bg.png" />
+    <Content Include="image\Sharenew_bg.png" />
+    <Content Include="image\share_bg.png" />
+    <Content Include="image\telbtn.png" />
+    <Content Include="image\tel_pc.png" />
+    <Content Include="image\title-bg.png" />
+    <Content Include="image\title.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\agenctsharereset.js" />
+    <Content Include="js\baidumap\baidumap.js" />
+    <Content Include="js\commom.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery\1.11.3\jquery.min.js" />
+    <Content Include="js\mindex.js" />
+    <Content Include="js\reset.js" />
+    <Content Include="js\share.js" />
+    <Content Include="js\slider\slider.css" />
+    <Content Include="js\slider\slider.js" />
+    <Content Include="js\weixin.js" />
+    <Content Include="js\zepto\1.1.6\zepto.min.js" />
+    <Content Include="Mobile\AgentShareLink.aspx" />
+    <Content Include="Mobile\AgentShareLinkLua.aspx" />
+    <Content Include="Mobile\DownLoad.aspx" />
+    <Content Include="Mobile\GroupShareLink.aspx" />
+    <Content Include="Mobile\Index.aspx" />
+    <Content Include="Mobile\MoblieVideoInfo.aspx" />
+    <Content Include="Mobile\ShareLinkNew.aspx" />
+    <Content Include="Mobile\WebPay.aspx" />
+    <Content Include="Notify\H5Alipay.aspx" />
+    <Content Include="Notify\JftPay.aspx" />
+    <Content Include="Mobile\Pay\LqReturn.aspx" />
+    <Content Include="Mobile\RoomLink.aspx" />
+    <Content Include="Mobile\ShareLink.aspx" />
+    <Content Include="Mobile\WxRegister.aspx" />
+    <Content Include="Notify\Alipay.aspx" />
+    <Content Include="Notify\Apple.aspx" />
+    <Content Include="Notify\jftycPay.aspx" />
+    <Content Include="Notify\LqPay.aspx" />
+    <Content Include="Notify\WxApp.aspx" />
+    <Content Include="Notify\WxWeb.aspx" />
+    <Content Include="Shop\WHShop.ashx" />
+    <Content Include="Spread\assets\css\agent\proxy.css" />
+    <Content Include="Spread\assets\css\reset.css" />
+    <Content Include="Spread\assets\js\fontReset.js" />
+    <Content Include="Spread\assets\js\utils\fetch.min.js" />
+    <Content Include="Spread\assets\js\utils\promise.min.js" />
+    <Content Include="Spread\index.html" />
+    <Content Include="U3D\index.aspx" />
+    <Content Include="U3D\Mobile\DownLoad.aspx" />
+    <Content Include="U3D\Mobile\index.aspx" />
+    <Content Include="Mobile\ScanCodeAuthorize.aspx" />
+    <Content Include="Mobile\WxScanLogin.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorize.aspx.cs">
+      <DependentUpon>Authorize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authorize.aspx.designer.cs">
+      <DependentUpon>Authorize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Card\DataStruct\AgentStruct.cs" />
+    <Compile Include="Card\DataHandler.ashx.cs">
+      <DependentUpon>DataHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Card\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Card\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Card\setPassword.aspx.cs">
+      <DependentUpon>setPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Card\setPassword.aspx.designer.cs">
+      <DependentUpon>setPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HAuthorize.aspx.cs">
+      <DependentUpon>HAuthorize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HAuthorize.aspx.designer.cs">
+      <DependentUpon>HAuthorize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\JFTPay.cs" />
+    <Compile Include="Helper\JFTYCModel.cs" />
+    <Compile Include="Helper\JFTYCPay.cs" />
+    <Compile Include="Helper\LQPay.cs" />
+    <Compile Include="Helper\AlipayHelper.cs" />
+    <Compile Include="Helper\Log4Net.cs" />
+    <Compile Include="Helper\SafeXmlDocument.cs" />
+    <Compile Include="Helper\WxAuthorize.cs" />
+    <Compile Include="Helper\WxHttpService.cs" />
+    <Compile Include="Helper\WxPayHelper.cs" />
+    <Compile Include="HTicket.aspx.cs">
+      <DependentUpon>HTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTicket.aspx.designer.cs">
+      <DependentUpon>HTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\AgentShareLink.aspx.cs">
+      <DependentUpon>AgentShareLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\AgentShareLink.aspx.designer.cs">
+      <DependentUpon>AgentShareLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\AgentShareLinkLua.aspx.cs">
+      <DependentUpon>AgentShareLinkLua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\AgentShareLinkLua.aspx.designer.cs">
+      <DependentUpon>AgentShareLinkLua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\DownLoad.aspx.cs">
+      <DependentUpon>DownLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\DownLoad.aspx.designer.cs">
+      <DependentUpon>DownLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\GroupShareLink.aspx.cs">
+      <DependentUpon>GroupShareLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\GroupShareLink.aspx.designer.cs">
+      <DependentUpon>GroupShareLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\MoblieVideoInfo.aspx.cs">
+      <DependentUpon>MoblieVideoInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\MoblieVideoInfo.aspx.designer.cs">
+      <DependentUpon>MoblieVideoInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\ShareLinkNew.aspx.cs">
+      <DependentUpon>ShareLinkNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\ShareLinkNew.aspx.designer.cs">
+      <DependentUpon>ShareLinkNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\WebPay.aspx.cs">
+      <DependentUpon>WebPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\WebPay.aspx.designer.cs">
+      <DependentUpon>WebPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\H5Alipay.aspx.cs">
+      <DependentUpon>H5Alipay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\H5Alipay.aspx.designer.cs">
+      <DependentUpon>H5Alipay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\JftPay.aspx.cs">
+      <DependentUpon>JftPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\JftPay.aspx.designer.cs">
+      <DependentUpon>JftPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pay\LqReturn.aspx.cs">
+      <DependentUpon>LqReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pay\LqReturn.aspx.designer.cs">
+      <DependentUpon>LqReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\RoomLink.aspx.cs">
+      <DependentUpon>RoomLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\RoomLink.aspx.designer.cs">
+      <DependentUpon>RoomLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\ShareLink.aspx.cs">
+      <DependentUpon>ShareLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\ShareLink.aspx.designer.cs">
+      <DependentUpon>ShareLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\WxRegister.aspx.cs">
+      <DependentUpon>WxRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\WxRegister.aspx.designer.cs">
+      <DependentUpon>WxRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\Alipay.aspx.cs">
+      <DependentUpon>Alipay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\Alipay.aspx.designer.cs">
+      <DependentUpon>Alipay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\Apple.aspx.cs">
+      <DependentUpon>Apple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\Apple.aspx.designer.cs">
+      <DependentUpon>Apple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\jftycPay.aspx.cs">
+      <DependentUpon>jftycPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\jftycPay.aspx.designer.cs">
+      <DependentUpon>jftycPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\LqPay.aspx.cs">
+      <DependentUpon>LqPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\LqPay.aspx.designer.cs">
+      <DependentUpon>LqPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\WxApp.aspx.cs">
+      <DependentUpon>WxApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\WxApp.aspx.designer.cs">
+      <DependentUpon>WxApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notify\WxWeb.aspx.cs">
+      <DependentUpon>WxWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notify\WxWeb.aspx.designer.cs">
+      <DependentUpon>WxWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shop\WHShop.ashx.cs">
+      <DependentUpon>WHShop.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Spread\DataHandle.ashx.cs">
+      <DependentUpon>DataHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="U3D\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="U3D\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="U3D\Mobile\DownLoad.aspx.cs">
+      <DependentUpon>DownLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="U3D\Mobile\DownLoad.aspx.designer.cs">
+      <DependentUpon>DownLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="U3D\Mobile\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="U3D\Mobile\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\ScanCodeAuthorize.aspx.cs">
+      <DependentUpon>ScanCodeAuthorize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\ScanCodeAuthorize.aspx.designer.cs">
+      <DependentUpon>ScanCodeAuthorize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="U3D\Shop\WHShop.ashx.cs">
+      <DependentUpon>WHShop.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\WxScanLogin.aspx.cs">
+      <DependentUpon>WxScanLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\WxScanLogin.aspx.designer.cs">
+      <DependentUpon>WxScanLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WS\DownImage.ashx.cs">
+      <DependentUpon>DownImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WS\LogInterface.ashx.cs">
+      <DependentUpon>LogInterface.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WS\NewMoblieInterface.ashx.cs">
+      <DependentUpon>NewMoblieInterface.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WS\UserFace.ashx.cs">
+      <DependentUpon>UserFace.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="log4net.config" />
+    <Content Include="Card\DataHandler.ashx" />
+    <Content Include="WS\NewMoblieInterface.ashx" />
+    <Content Include="WS\UserFace.ashx" />
+    <Content Include="Spread\DataHandle.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Services\Game.Entity\Game.Entity.csproj">
+      <Project>{814f2036-7826-4944-b81f-296c14e244f2}</Project>
+      <Name>Game.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Services\Game.Facade\Game.Facade.csproj">
+      <Project>{fca5515f-85c3-41a6-97bf-433e82954d12}</Project>
+      <Name>Game.Facade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Spread\dist\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\WHQJFront.pubxml" />
+    <Content Include="WS\DownImage.ashx" />
+    <Content Include="U3D\Shop\WHShop.ashx" />
+    <Content Include="WS\LogInterface.ashx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4778/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

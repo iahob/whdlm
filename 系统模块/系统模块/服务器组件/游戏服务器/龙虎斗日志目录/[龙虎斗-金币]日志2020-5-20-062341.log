@@ -1,0 +1,12 @@
+房间号0,2020/5/20_6:23:41--5-20 6:23:41 |  FIRST_SETIDI_FREE, gamestatus=0
+
+房间号0,2020/5/20_6:23:48--5-20 6:23:48 |  SETIDI_PLACE_JETTON, gamestatus=100
+
+房间号0,2020/5/20_6:24:8--6:24:8, GAMEENDwUserIndex=0, cbTimeLeave=10,CardArray1=41,CardArray2=53,lUserScore=0
+
+房间号0,2020/5/20_6:24:8--5-20 6:24:8 |  SEND_SUB_S_GAME_END = 101
+
+房间号0,2020/5/20_6:24:8--5-20 6:24:8 |  SETIDI_GAME_END, gamestatus=101
+
+房间号0,2020/5/20_6:25:53--5-20 6:25:53 |  m_cbFreeTime = 5
+

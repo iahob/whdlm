@@ -1,0 +1,41 @@
+
+action_145.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_flare_00000
+  rotate: false
+  xy: 612, 110
+  size: 102, 104
+  orig: 128, 128
+  offset: 14, 15
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 211, 212
+  orig: 214, 214
+  offset: 1, 0
+  index: -1
+hu
+  rotate: false
+  xy: 410, 78
+  size: 200, 136
+  orig: 225, 155
+  offset: 25, 18
+  index: -1
+long
+  rotate: false
+  xy: 215, 53
+  size: 193, 161
+  orig: 219, 165
+  offset: 1, 1
+  index: -1
+zi
+  rotate: false
+  xy: 215, 2
+  size: 129, 49
+  orig: 131, 50
+  offset: 1, 1
+  index: -1

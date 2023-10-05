@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  ClientControlItemSink.cpp
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(66): warning C4244: “return”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(466): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(471): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(476): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(481): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(486): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(491): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(496): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\clientcontrolitemsink.cpp(501): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+  ClientControl.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\projects\trunk\server\Server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\Debug_Unicode\LuxuryCarClientDebug.dll) does not match the Linker's OutputFile property value (D:\projects\trunk\server\Server\运行\Debug\unicode\LuxuryCarClientDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  ClientControl.vcxproj -> D:\projects\trunk\server\Server\游戏组件\大连客户\豪车俱乐部_金币版\客户端控制\Debug_Unicode\LuxuryCarClientDebug.dll
+  ClientControl.vcxproj -> Debug_Unicode\LuxuryCarClientDebug.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

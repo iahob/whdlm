@@ -1,0 +1,46 @@
+16-18-14-58: OnEventTCPNetworkShut userid = 1 断线 
+16-18-14-58: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-18-14-58: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-18-14-58: PerformStandUpAction userid = 1 起立 
+16-18-14-58: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-18-14-58: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-18-14-58: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-18-14-58: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-18-14-58: PerformStandUpAction userid = 1 离开 
+16-18-14-58: PerformStandUpAction userid = 1 cbUserStatus = 2 离开 
+16-18-28-3: OnEventTCPNetworkShut userid = 1 断线 
+16-18-28-3: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-18-28-3: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-18-28-3: PerformStandUpAction userid = 1 起立 
+16-18-28-3: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-18-28-3: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-18-28-3: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-18-28-3: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-18-28-3: PerformStandUpAction userid = 1 离开 
+16-18-28-3: PerformStandUpAction userid = 1 cbUserStatus = 2 离开 
+16-18-29-45: PerformStandUpAction userid = 580 起立 
+16-18-29-45: PerformStandUpAction userid = 1550 起立 
+16-18-29-45: PerformStandUpAction userid = 493 起立 
+16-18-29-45: PerformStandUpAction userid = 314 起立 
+16-18-29-45: PerformStandUpAction userid = 1586 起立 
+16-18-29-45: JudePersonalStandUp userid = 1586 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-18-29-45: PerformStandUpAction userid = 1586  bStand = 0 起立 1 
+16-18-29-45: JudePersonalStandUp userid = 1586 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-18-29-45: PerformStandUpAction userid = 1586 userid = 1586 起立 2 
+16-18-29-45: PerformStandUpAction userid = 1586 离开 
+16-18-29-45: PerformStandUpAction userid = 1586 cbUserStatus = 2 离开 
+16-18-29-45: PerformStandUpAction userid = 580 起立 
+16-18-29-45: PerformStandUpAction userid = 1550 起立 
+16-18-29-45: PerformStandUpAction userid = 493 起立 
+16-18-29-45: PerformStandUpAction userid = 314 起立 
+16-18-29-45: PerformStandUpAction userid = 1088 起立 
+16-18-29-45: PerformStandUpAction userid = 752 起立 
+16-18-29-45: PerformStandUpAction userid = 829 起立 
+16-18-29-45: PerformStandUpAction userid = 1095 起立 
+16-18-29-45: PerformStandUpAction userid = 1719 起立 
+16-18-29-45: PerformStandUpAction userid = 1886 起立 
+16-18-29-45: PerformStandUpAction userid = 232 起立 
+16-18-29-45: PerformStandUpAction userid = 365 起立 
+16-18-29-45: PerformStandUpAction userid = 696 起立 
+16-18-29-45: PerformStandUpAction userid = 539 起立 
+16-18-29-45: PerformStandUpAction userid = 1620 起立 

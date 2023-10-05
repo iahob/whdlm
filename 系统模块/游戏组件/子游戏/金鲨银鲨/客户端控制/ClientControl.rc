@@ -1,0 +1,182 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientControl.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "ClientControl.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ClientControl.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLIENT_CONTROL_EX DIALOGEX 0, 0, 529, 353
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "控制局数",IDC_STATIC_TIMES,278,58,42,8
+    COMBOBOX        IDC_COMBO_TIMES,347,56,62,55,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "确定",IDC_BUTTON_OK,391,172,49,12
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,444,172,52,12
+    PUSHBUTTON      "确定",IDC_BUTTON_RESET,274,171,51,12
+    PUSHBUTTON      "确定",IDC_BUTTON_SYN,333,172,49,12
+    CONTROL         "金鲨",IDC_CHECK_JINSHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,393,86,29,10
+    CONTROL         "走兽",IDC_CHECK_ZOUSHOU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,336,87,32,10
+    CONTROL         "飞禽",IDC_CHECK_FEIQIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,87,32,10
+    CONTROL         "熊猫",IDC_CHECK_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,119,32,10
+    CONTROL         "猴子",IDC_CHECK_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,392,119,32,10
+    CONTROL         "孔雀",IDC_CHECK_5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,150,32,10
+    CONTROL         "老鹰",IDC_CHECK_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,278,149,32,10
+    CONTROL         "狮子",IDC_CHECK_0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,277,119,32,10
+    CONTROL         "银鲨",IDC_CHECK_YINSHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,453,87,32,10
+    CONTROL         "兔子",IDC_CHECK_3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,453,119,32,10
+    CONTROL         "鸽子",IDC_CHECK_6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,392,151,32,10
+    CONTROL         "燕子",IDC_CHECK_7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,454,151,32,10
+    LTEXT           "库存值：",IDC_STATIC_NOTIC3,57,73,32,8
+    LTEXT           "库存衰减值：",IDC_STATIC_NOTIC4,41,98,48,8
+    EDITTEXT        IDC_EDIT_STORAGE,111,68,64,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_DEDUCT,109,95,65,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "变更库存",IDC_BTN_UPDATE_STORAGE,122,131,50,14
+    PUSHBUTTON      "刷新显示",IDC_BTN_UPDATE_STORAGE2,39,132,50,14
+    GROUPBOX        "库存控制",IDC_STATIC,14,28,234,170
+    GROUPBOX        "玩家控制",IDC_STATIC,255,27,249,171
+    CONTROL         "",IDC_LIST_USER_BET,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_TABSTOP,26,239,465,78,WS_EX_STATICEDGE
+	CONTROL         "", IDC_LIST_USER_BET_ALL, "SysListView32", LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSCROLL | LVS_NOCOLUMNHEADER | WS_TABSTOP, 28, 317, 465, 11, WS_EX_STATICEDGE
+    GROUPBOX        "玩家下注",IDC_STATIC,14,202,491,134
+    EDITTEXT        IDC_EDIT_USER_ID,27,215,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查询",IDC_BTN_USER_BET_QUERY,137,215,50,14
+    PUSHBUTTON      "全部",IDC_BTN_USER_BET_ALL,207,215,50,14
+    EDITTEXT        IDC_EDIT_STORAGE_START,110,47,81,13,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CLIENT_CONTROL_EX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 517
+        BOTTOMMARGIN, 342
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientControl.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

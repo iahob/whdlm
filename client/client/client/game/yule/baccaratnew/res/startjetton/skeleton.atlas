@@ -1,0 +1,271 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L-xian
+  rotate: true
+  xy: 2, 133
+  size: 254, 256
+  orig: 256, 256
+  offset: 2, 0
+  index: -1
+Lizi_L
+  rotate: false
+  xy: 2, 1699
+  size: 1054, 342
+  orig: 1054, 342
+  offset: 0, 0
+  index: -1
+Lizi_R
+  rotate: true
+  xy: 507, 654
+  size: 1043, 333
+  orig: 1043, 333
+  offset: 0, 0
+  index: -1
+R-xian
+  rotate: true
+  xy: 806, 2
+  size: 254, 256
+  orig: 256, 256
+  offset: 2, 0
+  index: -1
+guangci
+  rotate: false
+  xy: 2, 1193
+  size: 503, 504
+  orig: 503, 504
+  offset: 0, 0
+  index: -1
+guangquan
+  rotate: true
+  xy: 1058, 1464
+  size: 577, 565
+  orig: 577, 565
+  offset: 0, 0
+  index: -1
+vs
+  rotate: false
+  xy: 842, 1490
+  size: 203, 207
+  orig: 209, 208
+  offset: 3, 0
+  index: -1
+xulie/xulie_00000
+  rotate: false
+  xy: 2, 791
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00001
+  rotate: false
+  xy: 2, 389
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00002
+  rotate: false
+  xy: 842, 1062
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00003
+  rotate: false
+  xy: 842, 660
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00004
+  rotate: false
+  xy: 842, 258
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00005
+  rotate: false
+  xy: 404, 252
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00006
+  rotate: false
+  xy: 1244, 1062
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00007
+  rotate: false
+  xy: 1625, 1641
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00008
+  rotate: false
+  xy: 1244, 660
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00009
+  rotate: false
+  xy: 1244, 258
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00010
+  rotate: false
+  xy: 1646, 1239
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00011
+  rotate: false
+  xy: 1646, 837
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00012
+  rotate: false
+  xy: 1646, 435
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00013
+  rotate: false
+  xy: 1646, 33
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/xulie_00014
+  rotate: false
+  xy: 2, 1610
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00015
+  rotate: false
+  xy: 2, 1208
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00016
+  rotate: false
+  xy: 404, 1610
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00017
+  rotate: false
+  xy: 2, 806
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00018
+  rotate: false
+  xy: 404, 1208
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00019
+  rotate: false
+  xy: 806, 1610
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00020
+  rotate: false
+  xy: 2, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00021
+  rotate: false
+  xy: 404, 806
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00022
+  rotate: false
+  xy: 806, 1208
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00023
+  rotate: false
+  xy: 1208, 1610
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00024
+  rotate: false
+  xy: 2, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00025
+  rotate: false
+  xy: 404, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00026
+  rotate: false
+  xy: 806, 806
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00027
+  rotate: false
+  xy: 1208, 1208
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00028
+  rotate: false
+  xy: 1610, 1610
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+xulie/xulie_00029
+  rotate: false
+  xy: 404, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1

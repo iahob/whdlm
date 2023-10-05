@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body,h1,h2,h3,h4,h5,h6,table,ul,ol,dl,input,textarea,select,form,fieldset,legend,dt,dd,a{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+i,em{font-style:normal;}
+h1,h2,h3,b,strong{font-weight:100;}
+img{border:0;}
+input{outline:none;}
+.clear:after{content:"."; display:block; height:0; overflow:hidden; visibility:hidden;clear:both;}
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {font-size: 12px;}
+.fn-left{
+  float: left;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft Yahei, SimHei, tahoma, arial, Hiragino Sans GB, SimSun, sans-serif";
+}
+
+.ui-container{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.ui-bg{
+  width: 100%;
+  position: relative;
+  display: block;
+  z-index: -100;
+}
+
+.ui-qrcode{
+  width: 2.7rem;
+  height: 2.7rem;
+  position: absolute;
+  top: 9.68rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  text-align: center;
+  padding: 0.1rem 0.05rem 0.1rem 0.1rem;
+}
+
+.ui-qrcode>img{
+  width: 2.7rem;
+}
+
+
+
+@media screen and (min-width:768px){
+  .ui-qrcode{
+    top: 9.98rem;
+  }
+}
+@media screen and (min-width:1024px){
+  .ui-qrcode{
+    width: 3.7rem;
+    height: 3.7rem;
+    top: 13.25rem;
+  }
+  .ui-qrcode>img{
+    width: 3.7rem;
+  }
+}

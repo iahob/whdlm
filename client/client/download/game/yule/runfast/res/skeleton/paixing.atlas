@@ -1,0 +1,83 @@
+
+paixing.png
+size: 765,317
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 614, 161
+  size: 142, 74
+  orig: 142, 74
+  offset: 0, 0
+  index: -1
+33
+  rotate: false
+  xy: 616, 239
+  size: 145, 74
+  orig: 145, 74
+  offset: 0, 0
+  index: -1
+3d1
+  rotate: false
+  xy: 384, 83
+  size: 205, 74
+  orig: 205, 74
+  offset: 0, 0
+  index: -1
+3d2
+  rotate: false
+  xy: 404, 161
+  size: 206, 74
+  orig: 206, 74
+  offset: 0, 0
+  index: -1
+4d3
+  rotate: false
+  xy: 404, 239
+  size: 208, 74
+  orig: 208, 74
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 4, 20
+  size: 214, 100
+  orig: 230, 100
+  offset: 16, 0
+  index: -1
+k
+  rotate: false
+  xy: 4, 229
+  size: 396, 84
+  orig: 405, 100
+  offset: 3, 2
+  index: -1
+ld
+  rotate: false
+  xy: 384, 5
+  size: 140, 74
+  orig: 140, 74
+  offset: 0, 0
+  index: -1
+neiquan
+  rotate: true
+  xy: 593, 4
+  size: 153, 154
+  orig: 155, 155
+  offset: 2, 1
+  index: -1
+shunzi
+  rotate: true
+  xy: 294, 50
+  size: 175, 86
+  orig: 175, 86
+  offset: 0, 0
+  index: -1
+zz
+  rotate: false
+  xy: 4, 124
+  size: 286, 101
+  orig: 286, 101
+  offset: 0, 0
+  index: -1

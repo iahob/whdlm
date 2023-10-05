@@ -1,0 +1,22 @@
+﻿  Stdafx.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\whqj\trunk\server\server\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameLogic.cpp
+  AndroidService.cpp
+  AndroidUserItemSink.cpp
+AndroidUserItemSink.cpp(669): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(670): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(687): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(690): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(691): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(694): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(697): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(713): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\WHQJ\trunk\server\Server\游戏组件\大连客户\红黑大战\机器人服务\Release_Unicode\RedBlackBattleAndroid.dll) does not match the Linker's OutputFile property value (D:\WHQJ\trunk\server\Server\运行\Release\Unicode\RedBlackBattleAndroid.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\RedBlackBattleAndroid.lib 和对象 Release_Unicode\RedBlackBattleAndroid.exp
+RedBlackBattleAndroid.exp : warning LNK4070: .EXP 中的 /OUT:AndroidService.dll 指令与输出文件名“../../../../运行/Release/Unicode/RedBlackBattleAndroid.dll”不同；忽略指令
+  AndroidService.vcxproj -> D:\WHQJ\trunk\server\Server\游戏组件\大连客户\红黑大战\机器人服务\Release_Unicode\RedBlackBattleAndroid.dll
+  AndroidService.vcxproj -> Release_Unicode\RedBlackBattleAndroid.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode\ 已经存在。
+  已复制         1 个文件。

@@ -1,0 +1,32 @@
+{
+"skeleton": { "hash": "cbGWeBO2Cp0CfC83SYKuys4W35A", "spine": "3.6.53", "width": 52, "height": 54, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "jiantou", "parent": "root" }
+],
+"slots": [
+	{ "name": "tubiao", "bone": "jiantou", "attachment": "tubiao" }
+],
+"skins": {
+	"default": {
+		"tubiao": {
+			"tubiao": { "width": 52, "height": 54 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"jiantou": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 90 },
+					{ "time": 0.4, "angle": 180 },
+					{ "time": 0.6, "angle": -90 },
+					{ "time": 0.8, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

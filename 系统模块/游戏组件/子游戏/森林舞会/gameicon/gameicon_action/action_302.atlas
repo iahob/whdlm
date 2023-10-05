@@ -1,0 +1,55 @@
+
+action_302.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L-shai
+  rotate: false
+  xy: 424, 103
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+R-shai
+  rotate: false
+  xy: 368, 81
+  size: 54, 64
+  orig: 54, 64
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 26
+  size: 211, 214
+  orig: 214, 214
+  offset: 1, 0
+  index: -1
+fa
+  rotate: true
+  xy: 368, 147
+  size: 93, 122
+  orig: 93, 122
+  offset: 0, 0
+  index: -1
+pai
+  rotate: false
+  xy: 215, 80
+  size: 151, 160
+  orig: 151, 160
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 394, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 215, 27
+  size: 177, 51
+  orig: 179, 52
+  offset: 1, 1
+  index: -1

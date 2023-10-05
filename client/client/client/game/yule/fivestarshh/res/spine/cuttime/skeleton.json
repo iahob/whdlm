@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "FeiId3hcM0zvKNezasLD6HTV3XA", "spine": "3.6.53", "width": 1334, "height": 750, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "xulie", "parent": "root" }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "xulie", "bone": "xulie", "attachment": "5" }
+],
+"skins": {
+	"default": {
+		"xulie": {
+			"0": { "width": 39, "height": 45 },
+			"1": { "width": 39, "height": 45 },
+			"2": { "width": 39, "height": 45 },
+			"3": { "width": 39, "height": 45 },
+			"4": { "width": 39, "height": 45 },
+			"5": { "width": 37, "height": 45 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"xulie": {
+				"attachment": [
+					{ "time": 0, "name": "5" },
+					{ "time": 1, "name": "4" },
+					{ "time": 2, "name": "3" },
+					{ "time": 3, "name": "2" },
+					{ "time": 4, "name": "1" },
+					{ "time": 5, "name": "0" }
+				]
+			}
+		},
+		"bones": {
+			"xulie": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.5, "y": 1.5 },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.5, "y": 1.5 },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 2.5, "x": 1.8, "y": 1.8 },
+					{ "time": 3, "x": 1, "y": 1 },
+					{ "time": 3.5, "x": 1.8, "y": 1.8 },
+					{ "time": 4, "x": 1, "y": 1 },
+					{ "time": 4.5, "x": 1.8, "y": 1.8 },
+					{ "time": 5, "x": 1, "y": 1 },
+					{ "time": 5.5, "x": 1.8, "y": 1.8 },
+					{ "time": 6, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

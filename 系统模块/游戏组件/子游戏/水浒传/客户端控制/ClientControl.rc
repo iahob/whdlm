@@ -1,0 +1,248 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientControl.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "水浒传控制客户端"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "WaterMarginClientControl.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "WaterMarginClientControl.dll"
+            VALUE "ProductName", "水浒传控制客户端"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLIENT_CONTROL DIALOGEX 0, 0, 585, 434
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "全局库存衰减值：",IDC_STATIC,25,165,75,10
+    EDITTEXT        IDC_EDIT_STORAGE_DEDUCT_ROOM,109,163,87,12,
+                    ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "全局库存上限值1：",IDC_STATIC,25,180,75,10
+    LTEXT           "全局玩家赢分概率：",IDC_STATIC,25,195,75,10
+    EDITTEXT        IDC_EDIT_STORAGE_MAX1_ROOM,109,178,87,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MUL1_ROOM,109,193,87,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "全局库存上限值2：",IDC_STATIC,25,210,75,10
+    LTEXT           "全局玩家赢分概率：",IDC_STATIC,25,224,75,10
+    EDITTEXT        IDC_EDIT_STORAGE_MAX2_ROOM,109,208,87,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MUL2_ROOM,109,222,87,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "‰",IDC_STATIC,211,165,11,8
+    LTEXT           "%",IDC_STATIC,211,197,8,8
+    LTEXT           "%",IDC_STATIC,211,225,8,8
+    PUSHBUTTON      "",IDC_BUTTON_MODIFY_ROOMCONFIG,106,273,46,12
+    LTEXT           "",IDC_STATIC_START_STORAGE_TABLE,23,46,221,8
+    GROUPBOX        "全局库存控制（对该房间所有桌子有效）",IDC_STATIC,15,149,
+                    234,140
+    GROUPBOX        "玩家控制",IDC_STATIC,257,34,313,255
+    CONTROL         "玩家ID",IDC_RADIO_GAMEID,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,275,176,48,11
+    CONTROL         "玩家昵称",IDC_RADIO_NICKNAME,"Button",
+                    BS_AUTORADIOBUTTON,328,176,48,11
+    LTEXT           "玩家昵称：",IDC_STATIC_NAME,392,177,41,8
+    PUSHBUTTON      "查询",IDC_BTN_USER_BET_QUERY,526,175,36,12
+    PUSHBUTTON      "控制",IDC_BT_CONTINUE_WIN,473,191,26,12
+    PUSHBUTTON      "连输",IDC_BT_CONTINUE_LOST,501,191,29,12,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",IDC_BT_CONTINUE_CANCEL,533,191,28,12,NOT 
+                    WS_VISIBLE
+    LTEXT           "玩家描述：",IDC_STATIC,271,230,41,8
+    LTEXT           "局数：",IDC_STATIC,409,194,25,8
+    EDITTEXT        IDC_EDIT_CONTROL_COUNT,437,192,27,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "控制描述：",IDC_STATIC,429,230,41,8
+    EDITTEXT        IDC_EDIT_USER_ID,435,175,75,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RICHEDIT_USERDESCRIPTION,"RichEdit20A",
+                    ES_MULTILINE | ES_READONLY | WS_BORDER | WS_TABSTOP,271,
+                    243,140,41
+    CONTROL         "",IDC_RICHEDIT_USERCONTROL,"RichEdit20A",ES_MULTILINE | 
+                    ES_READONLY | WS_BORDER | WS_TABSTOP,416,243,140,41
+    LTEXT           "控制操作记录：",IDC_STATIC,15,292,57,8
+    GROUPBOX        "房间库存统计",IDC_STATIC,15,34,234,109
+    CTEXT           "",IDC_STATIC_ROOMCONFIG_INFO,22,264,223,8
+    CONTROL         "",IDC_LIST_ROOMUSER,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_TABSTOP,271,49,285,120,WS_EX_STATICEDGE
+    CONTROL         "",IDC_RICHEDIT_OPERATION_RECORD,"RichEdit20A",
+                    ES_MULTILINE | ES_READONLY | WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP,15,305,555,117
+    COMBOBOX        IDC_COMBO_COUNT,314,192,35,97,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TYPE,354,192,48,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "控制类型：",IDC_STATIC,271,194,41,8
+    PUSHBUTTON      "",IDC_BUTTON_UPDATE_STORAGE_TABLE,195,125,46,12
+    LTEXT           "设置房间库存：",IDC_STATIC,35,129,57,8
+    EDITTEXT        IDC_EDIT_CURRENT_STORAGE_TABLE,97,126,87,12,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "初始房间总库存：",IDC_STATIC,27,58,65,8
+    LTEXT           "",IDC_STATIC_ROOM_STORAGE_CURRENT,97,81,85,8
+    LTEXT           "",IDC_STATIC_SYSTEM_WINLOSE,97,91,85,8
+    LTEXT           "当前房间总库存：",IDC_STATIC,27,80,65,8
+    LTEXT           "",IDC_STATIC_ROOM_STORAGE_INPUT,97,68,85,8
+    LTEXT           "系统总输赢：",IDC_STATIC,43,91,49,8
+    LTEXT           "房间库存投入：",IDC_STATIC,35,69,57,8
+    PUSHBUTTON      "",IDC_BUTTON_ROOM_ADVANCE,195,91,46,12,NOT WS_VISIBLE
+    CTEXT           "",IDC_STATIC_STORAGEINFO_TABLE,21,112,223,8
+    LTEXT           "小游戏中奖概率：",IDC_STATIC_ZHONG_JIANG,270,213,65,8
+    EDITTEXT        IDC_EDIT_ZHONGJIANG,335,209,50,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,389,211,8,8
+    LTEXT           "",IDC_STATIC_ROOM_STORAGE_START,97,57,85,8
+    LTEXT           "衰减比例：",IDC_STATIC,407,212,41,8
+    EDITTEXT        IDC_EDIT_ZHONGJIANG_JIAN,455,210,50,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,510,212,8,8
+    LTEXT           "比倍中奖概率：",IDC_STATIC,25,238,75,10
+    EDITTEXT        IDC_EDIT_GAME_TWO,109,236,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "%",IDC_STATIC,142,239,8,8
+    LTEXT           "小玛丽中奖概率：",IDC_STATIC,25,252,75,10
+    EDITTEXT        IDC_EDIT_GAME_THREE,109,251,29,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "%",IDC_STATIC,227,251,8,8
+    LTEXT           "%",IDC_STATIC,142,252,8,8
+    EDITTEXT        IDC_EDIT_GAME_TWO_DEDUCT,192,236,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GAME_THREE_DEDUCT,192,249,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "%",IDC_STATIC,227,238,8,8
+    LTEXT           "衰减比例：",IDC_STATIC,151,239,41,10
+    LTEXT           "衰减比例：",IDC_STATIC,151,251,41,8
+    LTEXT           "",IDC_STATIC_SYSTEM_RECOVER,97,103,85,8
+    LTEXT           "系统库存回收：",IDC_STATIC,35,104,57,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CLIENT_CONTROL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 584
+        BOTTOMMARGIN, 433
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientControl.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

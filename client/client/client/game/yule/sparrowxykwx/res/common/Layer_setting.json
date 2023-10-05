@@ -1,0 +1,354 @@
+{
+  "ID": "eb0d264a-fe25-487a-b18f-b5a6a9eb21f4",
+  "Version": "3.10.0.0",
+  "Name": "Layer_setting",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/kwx_img_mask_uni.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 440,
+            "Scale9OriginY": 247,
+            "Scale9Width": 454,
+            "Scale9Height": 256,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 677.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5075,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -10.0,
+            "Tag": 11,
+            "ActionTag": 2128637081,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "setting/kwx_img_setting_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 677.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5075,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5105,
+              "Y": 0.5653
+            },
+            "LeftMargin": 336.5,
+            "RightMargin": 316.5,
+            "TopMargin": 163.0,
+            "BottomMargin": 163.0,
+            "Tag": 6,
+            "ActionTag": 85194457,
+            "Size": {
+              "X": 681.0,
+              "Y": 424.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "setting/kwx_btn_on_2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "setting/kwx_btn_on.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 139,
+            "Scale9Height": 67,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 777.2985,
+              "Y": 392.0579
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5827,
+              "Y": 0.5227
+            },
+            "PreSize": {
+              "X": 0.1267,
+              "Y": 0.1187
+            },
+            "LeftMargin": 692.7985,
+            "RightMargin": 472.2015,
+            "TopMargin": 313.4421,
+            "BottomMargin": 347.5579,
+            "Tag": 7,
+            "ActionTag": 1301678132,
+            "Size": {
+              "X": 169.0,
+              "Y": 89.0
+            },
+            "Name": "Button_effect",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "setting/kwx_btn_off_2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "setting/kwx_btn_off.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 139,
+            "Scale9Height": 67,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 777.2985,
+              "Y": 292.5432
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5827,
+              "Y": 0.3901
+            },
+            "PreSize": {
+              "X": 0.1267,
+              "Y": 0.1187
+            },
+            "LeftMargin": 692.7985,
+            "RightMargin": 472.2015,
+            "TopMargin": 412.9568,
+            "BottomMargin": 248.0432,
+            "Tag": 8,
+            "ActionTag": 888884019,
+            "Size": {
+              "X": 169.0,
+              "Y": 89.0
+            },
+            "Name": "Button_music",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "common/kwx_btn_quit_2_uni.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "common/kwx_btn_quit_uni.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 48,
+            "Scale9Height": 56,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1002.7872,
+              "Y": 574.5005
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7517,
+              "Y": 0.766
+            },
+            "PreSize": {
+              "X": 0.0585,
+              "Y": 0.104
+            },
+            "LeftMargin": 963.7872,
+            "RightMargin": 292.2128,
+            "TopMargin": 136.4995,
+            "BottomMargin": 535.5005,
+            "Tag": 9,
+            "ActionTag": 647899105,
+            "Size": {
+              "X": 78.0,
+              "Y": 78.0
+            },
+            "Name": "Button_quit",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../setting/kwx_btn_off.png",
+        "../setting/kwx_btn_off_2.png",
+        "../setting/kwx_btn_on.png",
+        "../setting/kwx_btn_on_2.png",
+        "../setting/kwx_img_setting_bg.png",
+        "kwx_btn_quit_2_uni.png",
+        "kwx_btn_quit_uni.png",
+        "kwx_img_mask_uni.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

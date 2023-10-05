@@ -1,0 +1,52 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  WHThread.cpp
+  WHSha1.cpp
+  WHService.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\whservice.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\string.h(134): note: 参见“strcpy”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\whservice.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\stdio.h(1764): note: 参见“sprintf”的声明
+  WHRegKey.cpp
+  WHMD5CheckSum.cpp
+  WHIniData.cpp
+  WHEncrypt.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\whencrypt.cpp(359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\stdio.h(1764): note: 参见“sprintf”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\whencrypt.cpp(389): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\corecrt_wstdio.h(1803): note: 参见“swprintf”的声明
+  WHDataQueue.cpp
+  WHDataLocker.cpp
+  WHCommandLine.cpp
+  WHBase64.cpp
+  ServiceCore.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\服务核心.dll) does not match the Linker's OutputFile property value (D:\Space\Github\旗舰大联盟\系统模块\运行\Debug\Ansi\ServiceCoreD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(服务核心) does not match the Linker's OutputFile property value (ServiceCoreD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+ServiceCore.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../链接库/Ansi/ServiceCoreD.lib 和对象 ../../链接库/Ansi/ServiceCoreD.exp
+ZLibD.lib(Adler32.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Adler32.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Compress.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Compress.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Deflate.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Deflate.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Infblock.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Infblock.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Infcodes.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Infcodes.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Inffast.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Inffast.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Inflate.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Inflate.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Inftrees.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Inftrees.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Infutil.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Infutil.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Trees.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Trees.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Uncompr.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Uncompr.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+ZLibD.lib(Zutil.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Zutil.obj)”或在“D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  ServiceCore.vcxproj -> D:\Space\Github\旗舰大联盟\系统模块\系统模块\公共组件\服务核心\Debug\服务核心.dll
+  ServiceCore.vcxproj -> Debug\服务核心.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+  系统找不到指定的文件。
+  系统找不到指定的文件。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\服务器组件\Debug\Ansi
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy /y ..\..\..\运行\Debug\Ansi\服务核心.dll ..\..\..\发布组件\服务器组件\Debug\Ansi\服务核心.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy /y ..\..\..\运行\Debug\Ansi\服务核心.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\服务核心.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd”已退出，代码为 1。

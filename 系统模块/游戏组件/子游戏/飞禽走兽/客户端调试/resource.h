@@ -1,0 +1,96 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ 生成的包含文件。
+// 供 ClientDebug.rc 使用
+//
+#define IDD_DIALOG_MAIN                 3100
+#define IDD_CUSTOM_GENERAL              3101
+#define IDD_CUSTOM_ADVANCED             3102
+#define IDC_STATIC_SHOW                 3103
+#define IDC_TAB_CUSTOM                  3104
+#define IDC_STATIC1                     3319
+#define IDC_STATIC2                     3320
+#define IDC_STATIC3                     3321
+#define IDC_STATIC4                     3322
+#define IDC_STATIC5                     3323
+#define IDC_STATIC6                     3324
+#define IDC_STATIC7                     3325
+#define IDC_STATIC8                     3326
+#define IDC_EDIT_CONFIG_SYSSTORAGE      4000
+#define IDC_EDIT_CONFIG_PLAYERSTORAGE   4001
+#define IDC_EDIT_CONFIG_PARAMETER_K     4002
+#define IDC_CHECK_SYSCTRL_STORAGE_DEADLINE 4003
+#define IDC_STATIC_SETDESC              4004
+#define IDC_BUTTON_SETRULE              4005
+#define IDC_STATIC_CUR_SYSSTORAGE       4006
+#define IDC_STATIC_CUR_PLAYERSTORAGE    4007
+#define IDC_STATIC_CUR_PARAMETER_K      4008
+#define IDC_STATIC_SYS_CTRLDESC         4009
+#define IDC_STATIC_SYSCTRL_RESETCOUNT   4010
+#define IDC_STATIC_SYSCTRL_DEADLINELIMIT 4011
+#define IDC_STATIC_SYSCTRL_SYSWIN       4012
+#define IDC_STATIC_SYSCTRL_PLAYERWIN    4013
+#define IDC_EDIT_ROOMCTRL_SYSSTORAGE    4014
+#define IDC_EDIT_ROOMCTRL_PLAYERSTORAGE 4015
+#define IDC_EDIT_ROOMCTRL_PARAMETER_K   4016
+#define IDC_CHECK_ROOMCTRL_STORAGE_DEADLINE 4017
+#define IDC_BTN_SET_ROOMCTRL            4018
+#define IDC_STATIC_ROOMCTRL_ID          4019
+#define IDC_STATIC_ROOMCTRL_SYSSTORAGE  4020
+#define IDC_STATIC_ROOMCTRL_PLAYERSTORAGE 4021
+#define IDC_STATIC_ROOM_CTRLDESC        4022
+#define IDC_STATIC_ROOMCTRL_PARAMETER_K 4023
+#define IDC_STATIC_ROOMCTRL_DEADLINELIMIT 4024
+#define IDC_STATIC_ROOMCTRL_SYSWIN      4025
+#define IDC_STATIC_ROOMCTRL_PLAYERWIN   4026
+#define IDC_RADIO_TU_ZI                 4027
+#define IDC_RADIO_YAN_ZI                4028
+#define IDC_RADIO_GE_ZI                 4029
+#define IDC_RADIO_KONG_QUE              4030
+#define IDC_RADIO_LAO_YING              4031
+#define IDC_RADIO_SHI_ZI                4032
+#define IDC_RADIO_XIONG_MAO             4033
+#define IDC_RADIO_HOU_ZI                4034
+#define IDC_RADIO_SHA_YU                4035
+#define IDC_RADIO_FEI_QIN               4036
+#define IDC_RADIO_ZOU_SHOU              4037
+#define IDC_RADIO_GLOD_SHA              4038
+#define IDC_RADIO_SYS_LOST              4039
+#define IDC_RADIO_SYS_WIN               4040
+#define IDC_COMBO_TIMES                 4041
+#define IDC_BTN_SET_AREACTRL            4042
+#define IDC_STATIC_CONTROL_INFO         4043
+#define IDC_STATIC_AREACTRL_POS         4044
+#define IDC_STATIC_AREACTRL_ID          4045
+#define IDC_STATIC_AREACTRL_REMAINCOUNT 4046
+#define IDC_STATIC_AREACTRL_SYSWIN      4047
+#define IDC_STATIC_AREACTRL_PLAYERWIN   4048
+#define IDC_BTN_CANCEL_AREACTRL         4049
+#define IDC_STATIC_AREACTRL_CONFIGCOUNT 4050
+#define IDC_LIST_SYSSTORAGE             4100
+#define IDC_STATIC_LIST_SYSSTORAGE_SYSWIN 4101
+#define IDC_STATIC_LIST_SYSSTORAGE_PLAYERWIN 4102
+#define IDC_LIST_ROOM                   4103
+#define IDC_STATIC_LIST_ROOM_SYSWIN     4104
+#define IDC_STATIC_LIST_ROOM_PLAYERWIN  4105
+#define IDC_BTN_CANCEL_ROOMCTRL         4106
+#define IDC_LIST_AREACTRL               4107
+#define IDC_STATIC_LIST_AREACTRL_SYSWIN 4108
+#define IDC_STATIC_LIST_AREACTRL_PLAYERWIN 4109
+#define IDC_EDIT_USER_ID                4110
+#define IDC_STATIC_TOTAL_SYSWIN         4111
+#define IDC_BTN_USER_BET_QUERY          4112
+#define IDC_STATICT_TOTAL_PLAYERWIN     4113
+#define IDC_BTN_USER_BET_ALL            4114
+#define IDC_LIST_USER_BET               4115
+#define IDC_STATIC_BEGIN_RECORDTIME     4116
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        3305
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         3319
+#define _APS_NEXT_SYMED_VALUE           3305
+#endif
+#endif

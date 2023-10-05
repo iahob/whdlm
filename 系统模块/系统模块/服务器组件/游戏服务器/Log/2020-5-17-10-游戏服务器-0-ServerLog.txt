@@ -1,0 +1,10 @@
+17-10-51-20: OnEventTCPNetworkShut userid = 1 断线 
+17-10-51-20: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+17-10-51-20: OnEventTCPNetworkShut userid = 1 断线 处理 
+17-10-51-20: PerformStandUpAction userid = 1 起立 
+17-10-51-20: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+17-10-51-20: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+17-10-51-20: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+17-10-51-20: PerformStandUpAction userid = 1 userid = 1 起立 2 
+17-10-51-58: PerformStandUpAction userid = 1 离开 
+17-10-51-58: PerformStandUpAction userid = 1 cbUserStatus = 2 离开 

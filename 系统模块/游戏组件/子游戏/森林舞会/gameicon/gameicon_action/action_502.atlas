@@ -1,0 +1,83 @@
+
+action_502.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: true
+  xy: 2, 32
+  size: 222, 302
+  orig: 222, 302
+  offset: 0, 0
+  index: -1
+K
+  rotate: true
+  xy: 306, 32
+  size: 222, 302
+  orig: 222, 302
+  offset: 0, 0
+  index: -1
+L-jb
+  rotate: false
+  xy: 1471, 153
+  size: 48, 48
+  orig: 50, 50
+  offset: 2, 2
+  index: -1
+Q
+  rotate: true
+  xy: 610, 32
+  size: 222, 302
+  orig: 222, 302
+  offset: 0, 0
+  index: -1
+R-jb
+  rotate: false
+  xy: 1651, 233
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+R-jb2
+  rotate: true
+  xy: 914, 2
+  size: 38, 36
+  orig: 39, 37
+  offset: 1, 1
+  index: -1
+di
+  rotate: false
+  xy: 914, 42
+  size: 211, 212
+  orig: 214, 214
+  offset: 1, 2
+  index: -1
+hua
+  rotate: false
+  xy: 1299, 131
+  size: 170, 123
+  orig: 174, 126
+  offset: 1, 1
+  index: -1
+pai
+  rotate: false
+  xy: 1127, 119
+  size: 170, 135
+  orig: 172, 136
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 1127, 40
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 1471, 203
+  size: 178, 51
+  orig: 178, 51
+  offset: 0, 0
+  index: -1

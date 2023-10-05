@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ÓÎÏ··þÎñÆ÷", "GameServer.vcxproj", "{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Unicode = Debug_Unicode
+		Release = Release
+		Release_Unicode = Release_Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Debug.ActiveCfg = Debug|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Debug.Build.0 = Debug|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Debug_Unicode.ActiveCfg = Debug_Unicode|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Debug_Unicode.Build.0 = Debug_Unicode|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Release.ActiveCfg = Release|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Release.Build.0 = Release|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Release_Unicode.ActiveCfg = Release_Unicode|Win32
+		{BA45E0F8-FEB6-4261-82EB-2D79FED441FC}.Release_Unicode.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

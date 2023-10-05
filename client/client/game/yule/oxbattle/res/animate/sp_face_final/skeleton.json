@@ -1,0 +1,297 @@
+{
+"skeleton": { "hash": "ajlKfImTsxIfR/QBh68ZRPSIZ+4", "spine": "3.6.53", "width": 1366.88, "height": 750, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Effect", "parent": "root" },
+	{ "name": "bg", "parent": "root", "x": 584.62, "y": 143.46 },
+	{ "name": "guang", "parent": "Effect" },
+	{ "name": "guang2", "parent": "Effect" },
+	{ "name": "guang3", "parent": "Effect" },
+	{ "name": "guang4", "parent": "Effect" },
+	{ "name": "guang5", "parent": "Effect" },
+	{ "name": "xulie", "parent": "Effect", "scaleX": 1.201, "scaleY": 1.201 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "guang", "bone": "guang", "attachment": "guang" },
+	{ "name": "guang2", "bone": "guang2", "attachment": "guang" },
+	{ "name": "guang3", "bone": "guang3", "attachment": "guang" },
+	{ "name": "guang4", "bone": "guang4", "attachment": "guang" },
+	{ "name": "guang5", "bone": "guang5", "attachment": "guang" },
+	{ "name": "xulie", "bone": "xulie", "attachment": "xulie/star_00010" }
+],
+"skins": {
+	"default": {
+		"guang": {
+			"guang": { "width": 137, "height": 136 }
+		},
+		"guang2": {
+			"guang": { "width": 137, "height": 136 }
+		},
+		"guang3": {
+			"guang": { "width": 137, "height": 136 }
+		},
+		"guang4": {
+			"guang": { "width": 137, "height": 136 }
+		},
+		"guang5": {
+			"guang": { "width": 137, "height": 136 }
+		},
+		"xulie": {
+			"xulie/star_00001": { "width": 192, "height": 172 },
+			"xulie/star_00002": { "width": 192, "height": 172 },
+			"xulie/star_00003": { "width": 192, "height": 172 },
+			"xulie/star_00004": { "width": 192, "height": 172 },
+			"xulie/star_00005": { "width": 192, "height": 172 },
+			"xulie/star_00006": { "width": 192, "height": 172 },
+			"xulie/star_00007": { "width": 192, "height": 172 },
+			"xulie/star_00008": { "width": 192, "height": 172 },
+			"xulie/star_00009": { "width": 192, "height": 172 },
+			"xulie/star_00010": { "width": 192, "height": 172 },
+			"xulie/star_00011": { "width": 192, "height": 172 },
+			"xulie/star_00012": { "width": 192, "height": 172 },
+			"xulie/star_00013": { "width": 192, "height": 172 },
+			"xulie/star_00014": { "width": 192, "height": 172 },
+			"xulie/star_00015": { "width": 192, "height": 172 },
+			"xulie/star_00016": { "width": 192, "height": 172 },
+			"xulie/star_00017": { "width": 192, "height": 172 },
+			"xulie/star_00018": { "width": 192, "height": 172 },
+			"xulie/star_00019": { "width": 192, "height": 172 },
+			"xulie/star_00020": { "width": 192, "height": 172 },
+			"xulie/star_00021": { "width": 192, "height": 172 },
+			"xulie/star_00022": { "width": 192, "height": 172 },
+			"xulie/star_00023": { "width": 192, "height": 172 },
+			"xulie/star_00024": { "width": 192, "height": 172 },
+			"xulie/star_00025": { "width": 192, "height": 172 },
+			"xulie/star_00026": { "width": 192, "height": 172 },
+			"xulie/star_00027": { "width": 192, "height": 172 },
+			"xulie/star_00028": { "width": 192, "height": 172 },
+			"xulie/star_00029": { "width": 192, "height": 172 },
+			"xulie/star_00030": { "width": 192, "height": 172 },
+			"xulie/star_00031": { "width": 192, "height": 172 },
+			"xulie/star_00032": { "width": 192, "height": 172 },
+			"xulie/star_00033": { "width": 192, "height": 172 },
+			"xulie/star_00034": { "width": 192, "height": 172 },
+			"xulie/star_00035": { "width": 192, "height": 172 },
+			"xulie/star_00036": { "width": 192, "height": 172 },
+			"xulie/star_00037": { "width": 192, "height": 172 },
+			"xulie/star_00038": { "width": 192, "height": 172 },
+			"xulie/star_00039": { "width": 192, "height": 172 },
+			"xulie/star_00040": { "width": 192, "height": 172 },
+			"xulie/star_00041": { "width": 192, "height": 172 },
+			"xulie/star_00042": { "width": 192, "height": 172 },
+			"xulie/star_00043": { "width": 192, "height": 172 },
+			"xulie/star_00044": { "width": 192, "height": 172 },
+			"xulie/star_00045": { "width": 192, "height": 172 },
+			"xulie/star_00046": { "width": 192, "height": 172 },
+			"xulie/star_00047": { "width": 192, "height": 172 },
+			"xulie/star_00048": { "width": 192, "height": 172 },
+			"xulie/star_00049": { "width": 192, "height": 172 },
+			"xulie/star_00050": { "width": 192, "height": 172 },
+			"xulie/star_00051": { "width": 192, "height": 172 },
+			"xulie/star_00052": { "width": 192, "height": 172 },
+			"xulie/star_00053": { "width": 192, "height": 172 },
+			"xulie/star_00054": { "width": 192, "height": 172 },
+			"xulie/star_00055": { "width": 192, "height": 172 },
+			"xulie/star_00056": { "width": 192, "height": 172 },
+			"xulie/star_00057": { "width": 192, "height": 172 },
+			"xulie/star_00058": { "width": 192, "height": 172 },
+			"xulie/star_00059": { "width": 192, "height": 172 },
+			"xulie/star_00060": { "width": 192, "height": 172 },
+			"xulie/star_00061": { "width": 192, "height": 172 },
+			"xulie/star_00062": { "width": 192, "height": 172 },
+			"xulie/star_00063": { "width": 192, "height": 172 },
+			"xulie/star_00064": { "width": 192, "height": 172 },
+			"xulie/star_00065": { "width": 192, "height": 172 },
+			"xulie/star_00066": { "width": 192, "height": 172 },
+			"xulie/star_00067": { "width": 192, "height": 172 },
+			"xulie/star_00068": { "width": 192, "height": 172 },
+			"xulie/star_00069": { "width": 192, "height": 172 },
+			"xulie/star_00070": { "width": 192, "height": 172 },
+			"xulie/star_00071": { "width": 192, "height": 172 },
+			"xulie/star_00072": { "width": 192, "height": 172 },
+			"xulie/star_00073": { "width": 192, "height": 172 },
+			"xulie/star_00074": { "width": 192, "height": 172 },
+			"xulie/star_00075": { "width": 192, "height": 172 },
+			"xulie/star_00076": { "width": 192, "height": 172 },
+			"xulie/star_00077": { "width": 192, "height": 172 },
+			"xulie/star_00078": { "width": 192, "height": 172 },
+			"xulie/star_00079": { "width": 192, "height": 172 },
+			"xulie/star_00080": { "width": 192, "height": 172 },
+			"xulie/star_00081": { "width": 192, "height": 172 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"guang": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"guang2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff00" }
+				]
+			},
+			"guang3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				]
+			},
+			"guang4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				]
+			},
+			"guang5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1.0667, "color": "ffffff00" }
+				]
+			},
+			"xulie": {
+				"attachment": [
+					{ "time": 0, "name": "xulie/star_00001" },
+					{ "time": 0.0333, "name": "xulie/star_00002" },
+					{ "time": 0.0667, "name": "xulie/star_00003" },
+					{ "time": 0.1, "name": "xulie/star_00004" },
+					{ "time": 0.1333, "name": "xulie/star_00005" },
+					{ "time": 0.1667, "name": "xulie/star_00006" },
+					{ "time": 0.2, "name": "xulie/star_00007" },
+					{ "time": 0.2333, "name": "xulie/star_00008" },
+					{ "time": 0.2667, "name": "xulie/star_00009" },
+					{ "time": 0.3, "name": "xulie/star_00010" },
+					{ "time": 0.3333, "name": "xulie/star_00011" },
+					{ "time": 0.3667, "name": "xulie/star_00012" },
+					{ "time": 0.4, "name": "xulie/star_00013" },
+					{ "time": 0.4333, "name": "xulie/star_00014" },
+					{ "time": 0.4667, "name": "xulie/star_00015" },
+					{ "time": 0.5, "name": "xulie/star_00016" },
+					{ "time": 0.5333, "name": "xulie/star_00017" },
+					{ "time": 0.5667, "name": "xulie/star_00018" },
+					{ "time": 0.6, "name": "xulie/star_00019" },
+					{ "time": 0.6333, "name": "xulie/star_00020" },
+					{ "time": 0.6667, "name": "xulie/star_00021" },
+					{ "time": 0.7, "name": "xulie/star_00022" },
+					{ "time": 0.7333, "name": "xulie/star_00023" },
+					{ "time": 0.7667, "name": "xulie/star_00024" },
+					{ "time": 0.8, "name": "xulie/star_00025" },
+					{ "time": 0.8333, "name": "xulie/star_00026" },
+					{ "time": 0.8667, "name": "xulie/star_00027" },
+					{ "time": 0.9, "name": "xulie/star_00028" },
+					{ "time": 0.9333, "name": "xulie/star_00029" },
+					{ "time": 0.9667, "name": "xulie/star_00030" },
+					{ "time": 1, "name": "xulie/star_00031" },
+					{ "time": 1.0333, "name": "xulie/star_00032" },
+					{ "time": 1.0667, "name": "xulie/star_00033" },
+					{ "time": 1.1, "name": "xulie/star_00034" },
+					{ "time": 1.1333, "name": "xulie/star_00035" },
+					{ "time": 1.1667, "name": "xulie/star_00036" },
+					{ "time": 1.2, "name": "xulie/star_00037" },
+					{ "time": 1.2333, "name": "xulie/star_00038" },
+					{ "time": 1.2667, "name": "xulie/star_00039" },
+					{ "time": 1.3, "name": "xulie/star_00040" },
+					{ "time": 1.3333, "name": "xulie/star_00041" },
+					{ "time": 1.3667, "name": "xulie/star_00042" },
+					{ "time": 1.4, "name": "xulie/star_00043" },
+					{ "time": 1.4333, "name": "xulie/star_00044" },
+					{ "time": 1.4667, "name": "xulie/star_00045" },
+					{ "time": 1.5, "name": "xulie/star_00046" },
+					{ "time": 1.5333, "name": "xulie/star_00047" },
+					{ "time": 1.5667, "name": "xulie/star_00048" },
+					{ "time": 1.6, "name": "xulie/star_00049" },
+					{ "time": 1.6333, "name": "xulie/star_00050" },
+					{ "time": 1.6667, "name": "xulie/star_00051" },
+					{ "time": 1.7, "name": "xulie/star_00052" },
+					{ "time": 1.7333, "name": "xulie/star_00053" },
+					{ "time": 1.7667, "name": "xulie/star_00054" },
+					{ "time": 1.8, "name": "xulie/star_00055" },
+					{ "time": 1.8333, "name": "xulie/star_00056" },
+					{ "time": 1.8667, "name": "xulie/star_00057" },
+					{ "time": 1.9, "name": "xulie/star_00058" },
+					{ "time": 1.9333, "name": "xulie/star_00059" },
+					{ "time": 1.9667, "name": "xulie/star_00060" },
+					{ "time": 2, "name": "xulie/star_00061" },
+					{ "time": 2.0333, "name": "xulie/star_00062" },
+					{ "time": 2.0667, "name": "xulie/star_00063" },
+					{ "time": 2.1, "name": "xulie/star_00064" },
+					{ "time": 2.1333, "name": "xulie/star_00065" },
+					{ "time": 2.1667, "name": "xulie/star_00066" },
+					{ "time": 2.2, "name": "xulie/star_00067" },
+					{ "time": 2.2333, "name": "xulie/star_00068" },
+					{ "time": 2.2667, "name": "xulie/star_00069" },
+					{ "time": 2.3, "name": "xulie/star_00070" },
+					{ "time": 2.3333, "name": "xulie/star_00071" },
+					{ "time": 2.3667, "name": "xulie/star_00072" },
+					{ "time": 2.4, "name": "xulie/star_00073" },
+					{ "time": 2.4333, "name": "xulie/star_00074" },
+					{ "time": 2.4667, "name": "xulie/star_00075" },
+					{ "time": 2.5, "name": "xulie/star_00076" },
+					{ "time": 2.5333, "name": "xulie/star_00077" },
+					{ "time": 2.5667, "name": "xulie/star_00078" },
+					{ "time": 2.6, "name": "xulie/star_00079" },
+					{ "time": 2.6333, "name": "xulie/star_00080" },
+					{ "time": 2.6667, "name": "xulie/star_00081" },
+					{ "time": 2.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guang": {
+				"scale": [
+					{ "time": 0, "x": 0.919, "y": 0.919 },
+					{ "time": 0.5, "x": 1.653, "y": 1.653 }
+				]
+			},
+			"guang2": {
+				"scale": [
+					{ "time": 0, "x": 0.919, "y": 0.919, "curve": "stepped" },
+					{ "time": 0.1, "x": 0.919, "y": 0.919 },
+					{ "time": 0.6, "x": 1.653, "y": 1.653 }
+				]
+			},
+			"guang3": {
+				"scale": [
+					{ "time": 0, "x": 0.919, "y": 0.919, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0.919, "y": 0.919 },
+					{ "time": 0.7667, "x": 1.653, "y": 1.653 }
+				]
+			},
+			"guang4": {
+				"scale": [
+					{ "time": 0, "x": 0.919, "y": 0.919, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.919, "y": 0.919 },
+					{ "time": 0.9, "x": 1.653, "y": 1.653 }
+				]
+			},
+			"guang5": {
+				"scale": [
+					{ "time": 0, "x": 0.919, "y": 0.919, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0.919, "y": 0.919 },
+					{ "time": 1.0667, "x": 1.653, "y": 1.653 }
+				]
+			}
+		}
+	}
+}
+}

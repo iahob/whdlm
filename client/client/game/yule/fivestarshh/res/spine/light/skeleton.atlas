@@ -1,0 +1,271 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/guang_00001
+  rotate: false
+  xy: 1763, 1620
+  size: 256, 356
+  orig: 448, 492
+  offset: 98, 72
+  index: -1
+xulie/guang_00005
+  rotate: false
+  xy: 1440, 611
+  size: 296, 433
+  orig: 448, 492
+  offset: 84, 48
+  index: -1
+xulie/guang_00006
+  rotate: false
+  xy: 1743, 613
+  size: 300, 447
+  orig: 448, 492
+  offset: 80, 44
+  index: -1
+xulie/guang_00007
+  rotate: false
+  xy: 1743, 1062
+  size: 302, 448
+  orig: 448, 492
+  offset: 80, 44
+  index: -1
+xulie/guang_00009
+  rotate: false
+  xy: 1425, 76
+  size: 376, 457
+  orig: 448, 492
+  offset: 9, 35
+  index: -1
+xulie/guang_00017
+  rotate: false
+  xy: 1425, 1512
+  size: 336, 464
+  orig: 448, 492
+  offset: 64, 12
+  index: -1
+xulie/guang_00019
+  rotate: false
+  xy: 1094, 535
+  size: 344, 464
+  orig: 448, 492
+  offset: 56, 12
+  index: -1
+xulie/guang_00020
+  rotate: false
+  xy: 1097, 1031
+  size: 338, 464
+  orig: 448, 492
+  offset: 62, 14
+  index: -1
+xulie/guang_00021
+  rotate: false
+  xy: 1079, 27
+  size: 344, 474
+  orig: 448, 492
+  offset: 58, 8
+  index: -1
+xulie/guang_00022
+  rotate: false
+  xy: 741, 1495
+  size: 344, 481
+  orig: 448, 492
+  offset: 58, 10
+  index: -1
+xulie/guang_00023
+  rotate: false
+  xy: 372, 5
+  size: 348, 490
+  orig: 448, 492
+  offset: 58, 1
+  index: -1
+xulie/guang_00024
+  rotate: false
+  xy: 739, 1001
+  size: 356, 481
+  orig: 448, 492
+  offset: 50, 4
+  index: -1
+xulie/guang_00025
+  rotate: false
+  xy: 738, 503
+  size: 354, 485
+  orig: 448, 492
+  offset: 54, 3
+  index: -1
+xulie/guang_00026
+  rotate: false
+  xy: 722, 6
+  size: 355, 489
+  orig: 448, 492
+  offset: 54, 3
+  index: -1
+xulie/guang_00027
+  rotate: false
+  xy: 375, 1484
+  size: 364, 492
+  orig: 448, 492
+  offset: 46, 0
+  index: -1
+xulie/guang_00028
+  rotate: false
+  xy: 375, 1484
+  size: 364, 492
+  orig: 448, 492
+  offset: 46, 0
+  index: -1
+xulie/guang_00029
+  rotate: false
+  xy: 372, 990
+  size: 365, 492
+  orig: 448, 492
+  offset: 49, 0
+  index: -1
+xulie/guang_00030
+  rotate: false
+  xy: 372, 990
+  size: 365, 492
+  orig: 448, 492
+  offset: 49, 0
+  index: -1
+xulie/guang_00031
+  rotate: false
+  xy: 2, 990
+  size: 368, 492
+  orig: 448, 492
+  offset: 48, 0
+  index: -1
+xulie/guang_00032
+  rotate: false
+  xy: 2, 496
+  size: 368, 492
+  orig: 448, 492
+  offset: 48, 0
+  index: -1
+xulie/guang_00033
+  rotate: false
+  xy: 2, 1484
+  size: 371, 492
+  orig: 448, 492
+  offset: 45, 0
+  index: -1
+xulie/guang_00034
+  rotate: false
+  xy: 2, 2
+  size: 368, 492
+  orig: 448, 492
+  offset: 48, 0
+  index: -1
+xulie/guang_00035
+  rotate: false
+  xy: 372, 497
+  size: 364, 491
+  orig: 448, 492
+  offset: 50, 0
+  index: -1
+xulie/guang_00036
+  rotate: false
+  xy: 1087, 1497
+  size: 336, 479
+  orig: 448, 492
+  offset: 64, 12
+  index: -1
+xulie/guang_00037
+  rotate: false
+  xy: 1437, 1046
+  size: 304, 464
+  orig: 448, 492
+  offset: 80, 12
+  index: -1
+
+skeleton2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/guang_00002
+  rotate: false
+  xy: 368, 491
+  size: 352, 380
+  orig: 448, 492
+  offset: 48, 59
+  index: -1
+xulie/guang_00003
+  rotate: false
+  xy: 1668, 1343
+  size: 360, 415
+  orig: 448, 492
+  offset: 40, 50
+  index: -1
+xulie/guang_00004
+  rotate: false
+  xy: 1668, 1343
+  size: 360, 415
+  orig: 448, 492
+  offset: 40, 50
+  index: -1
+xulie/guang_00008
+  rotate: true
+  xy: 755, 1095
+  size: 325, 449
+  orig: 448, 492
+  offset: 59, 43
+  index: -1
+xulie/guang_00010
+  rotate: false
+  xy: 2, 874
+  size: 366, 432
+  orig: 448, 492
+  offset: 39, 28
+  index: -1
+xulie/guang_00011
+  rotate: false
+  xy: 387, 1326
+  size: 366, 432
+  orig: 448, 492
+  offset: 39, 28
+  index: -1
+xulie/guang_00012
+  rotate: false
+  xy: 370, 873
+  size: 329, 433
+  orig: 448, 492
+  offset: 72, 28
+  index: -1
+xulie/guang_00013
+  rotate: false
+  xy: 2, 2
+  size: 357, 434
+  orig: 448, 492
+  offset: 64, 28
+  index: -1
+xulie/guang_00014
+  rotate: false
+  xy: 2, 438
+  size: 364, 434
+  orig: 448, 492
+  offset: 64, 28
+  index: -1
+xulie/guang_00015
+  rotate: false
+  xy: 2, 1308
+  size: 383, 450
+  orig: 448, 492
+  offset: 64, 26
+  index: -1
+xulie/guang_00016
+  rotate: true
+  xy: 755, 1422
+  size: 336, 456
+  orig: 448, 492
+  offset: 64, 20
+  index: -1
+xulie/guang_00018
+  rotate: true
+  xy: 1213, 1425
+  size: 333, 453
+  orig: 448, 492
+  offset: 63, 19
+  index: -1

@@ -1,0 +1,76 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02/0
+  rotate: false
+  xy: 696, 231
+  size: 261, 234
+  orig: 261, 234
+  offset: 0, 0
+  index: -1
+02/1
+  rotate: false
+  xy: 2, 327
+  size: 345, 346
+  orig: 345, 346
+  offset: 0, 0
+  index: -1
+02/2
+  rotate: false
+  xy: 2, 675
+  size: 351, 346
+  orig: 351, 346
+  offset: 0, 0
+  index: -1
+02/3
+  rotate: false
+  xy: 355, 686
+  size: 339, 335
+  orig: 339, 335
+  offset: 0, 0
+  index: -1
+02/4
+  rotate: false
+  xy: 355, 354
+  size: 339, 330
+  orig: 339, 330
+  offset: 0, 0
+  index: -1
+02/5
+  rotate: false
+  xy: 2, 2
+  size: 337, 323
+  orig: 337, 323
+  offset: 0, 0
+  index: -1
+02/6
+  rotate: false
+  xy: 696, 725
+  size: 321, 296
+  orig: 321, 296
+  offset: 0, 0
+  index: -1
+02/7
+  rotate: false
+  xy: 592, 18
+  size: 237, 211
+  orig: 237, 211
+  offset: 0, 0
+  index: -1
+arcane_hydra_spiral
+  rotate: false
+  xy: 349, 116
+  size: 241, 236
+  orig: 256, 256
+  offset: 10, 10
+  index: -1
+quan
+  rotate: false
+  xy: 696, 467
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

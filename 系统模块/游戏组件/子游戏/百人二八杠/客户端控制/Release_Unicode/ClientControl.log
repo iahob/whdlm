@@ -1,0 +1,6 @@
+﻿  ClientControl.cpp
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\客户端控制\stdafx.h(47): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory
+  ClientControlItemSink.cpp
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\客户端控制\stdafx.h(47): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory
+  stdafx.cpp
+g:\work\guangdong\server\游戏组件\官方游戏\百人二八杠\客户端控制\stdafx.h(47): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\SDKCondition.h”: No such file or directory

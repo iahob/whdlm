@@ -1,0 +1,93 @@
+﻿  Stdafx.cpp
+g:\work\qjdlm\服务端\游戏组件\开发库\include\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameServerManager.cpp
+g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(235): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“CHAR *”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(235): note: 请考虑在格式字符串中使用“%hs”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(235): note: 请考虑在格式字符串中使用“%Ts”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(235): note: 如果需要 C99 标准语义，请考虑定义 _CRT_STDIO_ISO_WIDE_SPECIFIERS
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(212): note: 编译类 模板 成员函数“bool CTempldateHelper<IGameServiceManager>::CreateInstance(void)”时
+  g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\gameservermanager.cpp(125): note: 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IGameServiceManager>::CreateInstance(void)”的引用
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(305): note: 参见对正在编译的函数 模板 实例化“_Ty2 **std::_Uninitialized_move_al_unchecked1<ObserverImplBase*,ObserverImplBase*,std::allocator<_Ty>>(_Ty1 *,_Ty1 *,_Ty2 *,std::_Wrap_alloc<std::allocator<_Ty>> &,std::_Really_trivial_ptr_iterator_tag,std::true_type)”的引用
+          with
+          [
+              _Ty2=ObserverImplBase *,
+              _Ty=ObserverImplBase *,
+              _Ty1=ObserverImplBase *
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(318): note: 参见对正在编译的函数 模板 实例化“_FwdIt **std::_Uninitialized_move_al_unchecked<_Iter,_Iter,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _FwdIt=ObserverImplBase **,
+              _Iter=ObserverImplBase **,
+              _Ty=ObserverImplBase *,
+              _InIt=ObserverImplBase **
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1660): note: 参见对正在编译的函数 模板 实例化“_FwdIt **std::_Uninitialized_move<_Iter,ObserverImplBase**,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _FwdIt=ObserverImplBase **,
+              _Iter=ObserverImplBase **,
+              _Ty=ObserverImplBase *,
+              _InIt=ObserverImplBase **
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1605): note: 参见对正在编译的函数 模板 实例化“ObserverImplBase **std::vector<ObserverImplBase *,std::allocator<_Ty>>::_Umove<ObserverImplBase**>(_Iter,_Iter,ObserverImplBase **)”的引用
+          with
+          [
+              _Ty=ObserverImplBase *,
+              _Iter=ObserverImplBase **
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1605): note: 参见对正在编译的函数 模板 实例化“ObserverImplBase **std::vector<ObserverImplBase *,std::allocator<_Ty>>::_Umove<ObserverImplBase**>(_Iter,_Iter,ObserverImplBase **)”的引用
+          with
+          [
+              _Ty=ObserverImplBase *,
+              _Iter=ObserverImplBase **
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1601): note: 编译类 模板 成员函数“void std::vector<ObserverImplBase *,std::allocator<_Ty>>::_Reallocate(unsigned int)”时
+          with
+          [
+              _Ty=ObserverImplBase *
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1631): note: 参见对正在编译的函数 模板 实例化“void std::vector<ObserverImplBase *,std::allocator<_Ty>>::_Reallocate(unsigned int)”的引用
+          with
+          [
+              _Ty=ObserverImplBase *
+          ]
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\control\uimenu.h(192): note: 参见对正在编译的类 模板 实例化“std::vector<ObserverImplBase *,std::allocator<_Ty>>”的引用
+          with
+          [
+              _Ty=ObserverImplBase *
+          ]
+g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(243): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“CHAR *”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(243): note: 请考虑在格式字符串中使用“%hs”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(243): note: 请考虑在格式字符串中使用“%Ts”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(243): note: 如果需要 C99 标准语义，请考虑定义 _CRT_STDIO_ISO_WIDE_SPECIFIERS
+g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(254): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“CHAR *”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(254): note: 请考虑在格式字符串中使用“%hs”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(254): note: 请考虑在格式字符串中使用“%Ts”
+  g:\work\qjdlm\服务端\游戏组件\开发库\include\module.h(254): note: 如果需要 C99 标准语义，请考虑定义 _CRT_STDIO_ISO_WIDE_SPECIFIERS
+  GameServer.cpp
+  GameLogic.cpp
+  DlgCustomRule.cpp
+  正在生成代码...
+  TableFrameSink.cpp
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(687): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(772): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(746): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(746): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 2 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(746): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 3 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(867): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(867): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 2 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(867): warning C4477: “_snwprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 3 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(1462): warning C4477: “_snwprintf_s”: 格式字符串“%I64d”需要类型“__int64”的参数，但可变参数 1 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(1462): warning C4477: “_snwprintf_s”: 格式字符串“%I64d”需要类型“__int64”的参数，但可变参数 2 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(1462): warning C4477: “_snwprintf_s”: 格式字符串“%I64d”需要类型“__int64”的参数，但可变参数 3 拥有了类型“CString”
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(2452): warning C4477: “_snwprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LONGLONG”
+  g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(2452): note: 请考虑在格式字符串中使用“%lld”
+  g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\tableframesink.cpp(2452): note: 请考虑在格式字符串中使用“%I64d”
+DlgCustomRule.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../../../运行/Debug/Unicode/GameServer.lib 和对象 ../../../../运行/Debug/Unicode/GameServer.exp
+  GameServer.vcxproj -> G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\新百家乐\游戏服务器\../../../../运行/Debug/Unicode/BaccaratNewServer.dll
+  GameServer.vcxproj -> ../../../../运行/Debug/Unicode/BaccaratNewServer.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

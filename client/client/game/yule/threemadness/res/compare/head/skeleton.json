@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "vrf3ulgJ6D8C0Kal/XSzlpfRhgs", "spine": "3.6.53", "width": 184, "height": 156, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "xulie", "parent": "root" }
+],
+"slots": [
+	{ "name": "xulie", "bone": "xulie", "attachment": "shibai_00012", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"xulie": {
+			"shibai_00000": { "width": 184, "height": 156 },
+			"shibai_00001": { "width": 184, "height": 156 },
+			"shibai_00002": { "width": 184, "height": 156 },
+			"shibai_00003": { "width": 184, "height": 156 },
+			"shibai_00004": { "width": 184, "height": 156 },
+			"shibai_00005": { "width": 184, "height": 156 },
+			"shibai_00006": { "width": 184, "height": 156 },
+			"shibai_00007": { "width": 184, "height": 156 },
+			"shibai_00008": { "width": 184, "height": 156 },
+			"shibai_00009": { "width": 184, "height": 156 },
+			"shibai_00010": { "width": 184, "height": 156 },
+			"shibai_00011": { "width": 184, "height": 156 },
+			"shibai_00012": { "width": 184, "height": 156 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"xulie": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "shibai_00000" },
+					{ "time": 0.0667, "name": "shibai_00001" },
+					{ "time": 0.1, "name": "shibai_00002" },
+					{ "time": 0.1333, "name": "shibai_00003" },
+					{ "time": 0.1667, "name": "shibai_00004" },
+					{ "time": 0.2, "name": "shibai_00005" },
+					{ "time": 0.2333, "name": "shibai_00006" },
+					{ "time": 0.2667, "name": "shibai_00007" },
+					{ "time": 0.3, "name": "shibai_00008" },
+					{ "time": 0.3333, "name": "shibai_00009" },
+					{ "time": 0.3667, "name": "shibai_00010" },
+					{ "time": 0.4, "name": "shibai_00011" },
+					{ "time": 0.4333, "name": "shibai_00012" },
+					{ "time": 0.4667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

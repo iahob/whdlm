@@ -1,0 +1,17 @@
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Socket.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Socket.pdb
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Entity.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Facade.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Utils.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\websocket-sharp.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.IData.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Kernel.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Data.dll
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Entity.pdb
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Facade.pdb
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.IData.pdb
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\Game.Data.pdb
+G:\SVN\DLM\web\Common\Game.Socket\obj\Debug\Game.Socket.dll
+G:\SVN\DLM\web\Common\Game.Socket\obj\Debug\Game.Socket.pdb
+G:\SVN\DLM\web\Common\Game.Socket\obj\Debug\Game.Socket.csprojResolveAssemblyReference.cache
+G:\SVN\DLM\web\Common\Game.Socket\bin\Debug\websocket-sharp.pdb

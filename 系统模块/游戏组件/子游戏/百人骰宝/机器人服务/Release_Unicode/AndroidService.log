@@ -1,0 +1,24 @@
+﻿  Stdafx.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\guangdong\server\游戏组件\开发库\include\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  AndroidService.cpp
+  AndroidUserItemSink.cpp
+AndroidUserItemSink.cpp(793): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(794): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(811): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(814): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(815): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(818): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(821): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(837): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(898): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): note: 参见“_snwscanf”的声明
+  GameLogic.cpp
+  正在生成代码...
+g:\work\guangdong\server\游戏组件\官方游戏\百人骰宝\游戏服务器\gamelogic.cpp(257): warning C4700: 使用了未初始化的局部变量“cbRecord”
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(G:\Work\GuangDong\Server\游戏组件\官方游戏\百人骰宝\机器人服务\Release_Unicode\机器人服务.dll) does not match the Linker's OutputFile property value (G:\Work\GuangDong\Server\运行\Release\Unicode\SicBoBattleAndroid.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(机器人服务) does not match the Linker's OutputFile property value (SicBoBattleAndroid). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\机器人服务.lib 和对象 Release_Unicode\机器人服务.exp
+机器人服务.exp : warning LNK4070: .EXP 中的 /OUT:AndroidService.dll 指令与输出文件名“../../../../运行/Release/Unicode/SicBoBattleAndroid.dll”不同；忽略指令
+  AndroidService.vcxproj -> G:\Work\GuangDong\Server\游戏组件\官方游戏\百人骰宝\机器人服务\Release_Unicode\机器人服务.dll
+  AndroidService.vcxproj -> Release_Unicode\机器人服务.pdb (Full PDB)

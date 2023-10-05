@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AndroidUserItemSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\basiclogger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalCfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableFrameSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAnimal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\pugixml.cpp">
+      <Filter>pugixml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AndroidUserItemSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\basiclogger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sdtime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strhelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAnimal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableFrameSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugiconfig.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugixml.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\消息定义\CMD_Baccarat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{a30ea802-e7b2-48e3-b234-801016751e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{2a5d52fc-449d-4d9b-8c2f-aa507d9793e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{b63e796d-3c88-4f82-8e42-fe64ef90cb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pugixml">
+      <UniqueIdentifier>{2aeea703-4e64-4c44-bc93-5a7730da4072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\GameServer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res\GameServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

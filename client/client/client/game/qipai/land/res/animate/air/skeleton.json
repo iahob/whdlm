@@ -1,0 +1,144 @@
+{
+"skeleton": { "hash": "VCWR4vAPDeo3TRp4B8TEpV54oyw", "spine": "3.6.53", "width": 2693.79, "height": 1096.19, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "feiji", "parent": "root", "rotation": 16.45, "x": 847.04, "y": 302.35 },
+	{ "name": "15", "parent": "feiji", "x": 617.24, "y": -26.45 },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "canliu", "parent": "root", "rotation": 14.06, "x": 65.54, "y": 24.18 },
+	{ "name": "chakan", "parent": "root", "x": 2280.2 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "flight", "bone": "feiji", "attachment": "flight" },
+	{ "name": "15", "bone": "15", "attachment": "xulie/lizi_00013" },
+	{ "name": "canliu", "bone": "canliu", "attachment": "xulie/lizi_00015" }
+],
+"skins": {
+	"default": {
+		"15": {
+			"xulie/lizi_00006": { "width": 1144, "height": 224 },
+			"xulie/lizi_00007": { "width": 1144, "height": 224 },
+			"xulie/lizi_00008": { "width": 1144, "height": 224 },
+			"xulie/lizi_00009": { "width": 1144, "height": 224 },
+			"xulie/lizi_00010": { "width": 1144, "height": 224 },
+			"xulie/lizi_00011": { "width": 1144, "height": 224 },
+			"xulie/lizi_00012": { "width": 1144, "height": 224 },
+			"xulie/lizi_00013": { "width": 1144, "height": 224 },
+			"xulie/lizi_00014": { "width": 1144, "height": 224 },
+			"xulie/lizi_00015": { "width": 1144, "height": 224 },
+			"xulie/lizi_00016": { "width": 1144, "height": 224 },
+			"xulie/lizi_00017": { "width": 1144, "height": 224 },
+			"xulie/lizi_00018": { "width": 1144, "height": 224 },
+			"xulie/lizi_00019": { "width": 1144, "height": 224 },
+			"xulie/lizi_00020": { "width": 1144, "height": 224 },
+			"xulie/lizi_00021": { "width": 1144, "height": 224 },
+			"xulie/lizi_00022": { "width": 1144, "height": 224 },
+			"xulie/lizi_00023": { "width": 1144, "height": 224 }
+		},
+		"canliu": {
+			"xulie/lizi_00006": { "width": 1144, "height": 224 },
+			"xulie/lizi_00007": { "width": 1144, "height": 224 },
+			"xulie/lizi_00008": { "width": 1144, "height": 224 },
+			"xulie/lizi_00009": { "width": 1144, "height": 224 },
+			"xulie/lizi_00010": { "width": 1144, "height": 224 },
+			"xulie/lizi_00011": { "width": 1144, "height": 224 },
+			"xulie/lizi_00012": { "width": 1144, "height": 224 },
+			"xulie/lizi_00013": { "width": 1144, "height": 224 },
+			"xulie/lizi_00014": { "width": 1144, "height": 224 },
+			"xulie/lizi_00015": { "width": 1144, "height": 224 },
+			"xulie/lizi_00016": { "width": 1144, "height": 224 },
+			"xulie/lizi_00017": { "width": 1144, "height": 224 },
+			"xulie/lizi_00018": { "width": 1144, "height": 224 },
+			"xulie/lizi_00019": { "width": 1144, "height": 224 },
+			"xulie/lizi_00020": { "width": 1144, "height": 224 },
+			"xulie/lizi_00021": { "width": 1144, "height": 224 },
+			"xulie/lizi_00022": { "width": 1144, "height": 224 },
+			"xulie/lizi_00023": { "width": 1144, "height": 224 }
+		},
+		"flight": {
+			"flight": { "width": 375, "height": 220 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"15": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1667, "name": "xulie/lizi_00006" },
+					{ "time": 0.2333, "name": "xulie/lizi_00007" },
+					{ "time": 0.3, "name": "xulie/lizi_00008" },
+					{ "time": 0.3667, "name": "xulie/lizi_00009" },
+					{ "time": 0.4333, "name": "xulie/lizi_00010" },
+					{ "time": 0.5, "name": "xulie/lizi_00011" },
+					{ "time": 0.5667, "name": "xulie/lizi_00012" },
+					{ "time": 0.6333, "name": "xulie/lizi_00013" },
+					{ "time": 0.7, "name": "xulie/lizi_00014" },
+					{ "time": 0.7667, "name": "xulie/lizi_00015" },
+					{ "time": 0.8333, "name": "xulie/lizi_00016" },
+					{ "time": 0.9, "name": "xulie/lizi_00017" },
+					{ "time": 0.9667, "name": "xulie/lizi_00018" },
+					{ "time": 1.0333, "name": "xulie/lizi_00019" },
+					{ "time": 1.1, "name": "xulie/lizi_00020" },
+					{ "time": 1.1667, "name": "xulie/lizi_00021" },
+					{ "time": 1.2333, "name": "xulie/lizi_00022" },
+					{ "time": 1.3, "name": "xulie/lizi_00023" },
+					{ "time": 1.3667, "name": "xulie/lizi_00023" },
+					{ "time": 1.4333, "name": "xulie/lizi_00023" },
+					{ "time": 1.5, "name": "xulie/lizi_00023" },
+					{ "time": 1.5667, "name": "xulie/lizi_00023" },
+					{ "time": 1.6333, "name": null }
+				]
+			},
+			"canliu": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8667, "name": "xulie/lizi_00018" },
+					{ "time": 1.2667, "name": "xulie/lizi_00022" }
+				]
+			},
+			"flight": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"feiji": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -73.1 },
+					{ "time": 1.3333, "x": -1704.7, "y": -487.53 }
+				]
+			},
+			"canliu": {
+				"translate": [
+					{ "time": 0.5333, "x": 732.6, "y": 193.73 },
+					{ "time": 0.8667, "x": 323.97, "y": 99.31 },
+					{ "time": 1.2667, "x": -45.85, "y": 12.19 },
+					{ "time": 1.6333, "x": -71.32, "y": 6.53 }
+				]
+			}
+		}
+	}
+}
+}

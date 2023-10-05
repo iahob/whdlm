@@ -1,0 +1,10 @@
+﻿  GameLogic.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+g:\work\guangdong\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+DlgCustomRule.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../../../运行/Debug/Unicode/GameServer.lib 和对象 ../../../../运行/Debug/Unicode/GameServer.exp
+GameServer.exp : warning LNK4070: .EXP 中的 /OUT:GameServer.dll 指令与输出文件名“../../../../运行/Debug/Unicode/510KEXServer.DLL”不同；忽略指令
+  GameServer.vcxproj -> G:\Work\GuangDong\Server\游戏组件\收来的\新510K\游戏服务器\../../../../运行/Debug/Unicode/510KEXServer.dll
+  GameServer.vcxproj -> ../../../../运行/Debug/Unicode/510KEXServer.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

@@ -1,0 +1,9 @@
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\bin\Debug\Game.IData.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\bin\Debug\Game.IData.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\bin\Debug\Game.Entity.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\bin\Debug\Game.Kernel.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\bin\Debug\Game.Utils.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\bin\Debug\Game.Entity.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\obj\Debug\Game.IData.csprojResolveAssemblyReference.cache
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\obj\Debug\Game.IData.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.IData\obj\Debug\Game.IData.pdb

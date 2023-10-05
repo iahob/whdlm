@@ -1,0 +1,14 @@
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\bin\Release\Game.Entity.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\bin\Release\Game.Entity.pdb
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\bin\Release\Game.Utils.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.csprojResolveAssemblyReference.cache
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.dll
+G:\SVN\DLM\web\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.pdb
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\bin\Release\Game.Entity.dll
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\bin\Release\Game.Entity.pdb
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\bin\Release\Game.Utils.dll
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.csproj.AssemblyReference.cache
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.csproj.CoreCompileInputs.cache
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.csproj.CopyComplete
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.dll
+D:\Space\Github\旗舰大联盟\网站系统源码\WHQJAdmin\Services\Game.Entity\obj\Release\Game.Entity.pdb

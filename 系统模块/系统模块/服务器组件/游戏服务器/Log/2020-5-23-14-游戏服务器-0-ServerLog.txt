@@ -1,0 +1,10 @@
+23-14-3-42: OnEventTCPNetworkShut userid = 1 断线 
+23-14-3-42: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+23-14-3-42: OnEventTCPNetworkShut userid = 1 断线 处理 
+23-14-3-42: PerformStandUpAction userid = 1 起立 
+23-14-3-42: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 1  bWillJoinStatus = 0 起立 1 
+23-14-3-42: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+23-14-3-42: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 1  bWillJoinStatus = 0 起立 1 
+23-14-3-42: PerformStandUpAction userid = 1 userid = 1 起立 2 
+23-14-3-42: PerformStandUpAction userid = 1 离开 
+23-14-3-42: PerformStandUpAction userid = 1 cbUserStatus = 2 离开 

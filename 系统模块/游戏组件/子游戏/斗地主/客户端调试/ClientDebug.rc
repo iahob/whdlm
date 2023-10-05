@@ -1,0 +1,180 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientDebug.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "斗地主调试客户端"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "LandClientDebug.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "LandClientDebug.dll"
+            VALUE "ProductName", "斗地主调试客户端"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLIENT_DEBUG DIALOGEX 0, 0, 409, 252
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "新增",IDC_BT_ADD_DEBUG,206,225,43,14
+    PUSHBUTTON      "修改",IDC_BT_MODIFY_DEBUG,274,225,43,14
+    PUSHBUTTON      "删除",IDC_BT_DELETE_DEBUG,342,225,43,14
+    EDITTEXT        IDC_EDIT_TABLE_ID,60,195,37,12,ES_AUTOHSCROLL | ES_NUMBER
+	CONTROL         "", IDC_LIST_TABLE, "SysListView32", LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP, 16, 57, 378, 132, WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_CARD_LEVEL,60,210,37,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "好牌等级：",IDC_STATIC,18,212,41,8
+    LTEXT           "出牌概率：",IDC_STATIC_ZHONG_JIANG,18,227,41,8
+    EDITTEXT        IDC_EDIT_CARD_CHANCE,60,225,37,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,99,227,8,8
+    PUSHBUTTON      "刷新列表",IDC_BT_QUERY_TABLE_LIST,138,225,43,14
+    LTEXT           "桌子号：",IDC_STATIC,26,197,33,8
+    COMBOBOX        IDC_COMBO_START_HOUR,263,195,28,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "开始时间：",IDC_STATIC,221,197,41,8
+    LTEXT           "时",IDC_STATIC,294,197,9,8
+    COMBOBOX        IDC_COMBO_START_MINUTE,305,195,28,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "分",IDC_STATIC,336,197,9,8
+    COMBOBOX        IDC_COMBO_START_SCEOND,350,195,28,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "秒",IDC_STATIC,381,195,9,8
+    COMBOBOX        IDC_COMBO_END_HOUR,263,210,28,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "结束时间：",IDC_STATIC,221,212,41,8
+    LTEXT           "时",IDC_STATIC,293,212,9,8
+    COMBOBOX        IDC_COMBO_END_MINUTE,305,210,28,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "分",IDC_STATIC,335,212,9,8
+    COMBOBOX        IDC_COMBO_END_SCEOND,350,210,28,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "秒",IDC_STATIC,381,210,9,8
+	CONTROL         "", IDC_LIST_HISTORY_TABLE, "SysListView32", LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_TABSTOP, 16, 57, 378, 132, WS_EX_STATICEDGE
+    PUSHBUTTON      "调试记录",IDC_BT_HISTORY_TABLE,71,31,43,14
+    PUSHBUTTON      "当前调试",IDC_BT_CUR_TABLE,13,31,43,14,WS_DISABLED
+    GROUPBOX        "当前调试",IDC_STATIC_TIP,12,47,385,195
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CLIENT_DEBUG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 365
+        BOTTOMMARGIN, 251
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientDebug.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

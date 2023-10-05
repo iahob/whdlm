@@ -1,0 +1,650 @@
+﻿生成启动时间为 2021/5/28 23:05:35。
+     1>项目“D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\libcocos2d.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\OpenalSoft\prebuilt\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\MP3Decoder\prebuilt\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\OggDecoder\prebuilt\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\sqlite3\libraries\win32\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\..\..\external\chipmunk\prebuilt\win32\debug-lib\*.*" "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 4 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 3 个文件
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 6 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\\" /LIBPATH:"D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\\" sqlite3.lib libcurl_imp.lib websockets.lib libmpg123.lib libogg.lib libvorbis.lib libvorbisfile.lib OpenAL32.lib libbullet.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /DEF:"cocos2d.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.lib" /MACHINE:X86 /SAFESEH /DLL Debug.win32\AssetsManager.obj
+         Debug.win32\AssetsManagerEx.obj
+         Debug.win32\CCEventAssetsManagerEx.obj
+         Debug.win32\CCEventListenerAssetsManagerEx.obj
+         Debug.win32\Manifest.obj
+         Debug.win32\CCControl.obj
+         Debug.win32\CCControlButton.obj
+         Debug.win32\CCControlColourPicker.obj
+         Debug.win32\CCControlHuePicker.obj
+         Debug.win32\CCControlPotentiometer.obj
+         Debug.win32\CCControlSaturationBrightnessPicker.obj
+         Debug.win32\CCControlSlider.obj
+         Debug.win32\CCControlStepper.obj
+         Debug.win32\CCControlSwitch.obj
+         Debug.win32\CCControlUtils.obj
+         Debug.win32\CCInvocation.obj
+         Debug.win32\CCScrollView.obj
+         Debug.win32\CCTableView.obj
+         Debug.win32\CCTableViewCell.obj
+         Debug.win32\CCParticle3DAffector.obj
+         Debug.win32\CCParticle3DEmitter.obj
+         Debug.win32\CCParticle3DRender.obj
+         Debug.win32\CCParticleSystem3D.obj
+         Debug.win32\CCPUAffector.obj
+         Debug.win32\CCPUAffectorManager.obj
+         Debug.win32\CCPUAffectorTranslator.obj
+         Debug.win32\CCPUAlignAffector.obj
+         Debug.win32\CCPUAlignAffectorTranslator.obj
+         Debug.win32\CCPUBaseCollider.obj
+         Debug.win32\CCPUBaseColliderTranslator.obj
+         Debug.win32\CCPUBaseForceAffector.obj
+         Debug.win32\CCPUBaseForceAffectorTranslator.obj
+         Debug.win32\CCPUBeamRender.obj
+         Debug.win32\CCPUBehaviour.obj
+         Debug.win32\CCPUBehaviourManager.obj
+         Debug.win32\CCPUBehaviourTranslator.obj
+         Debug.win32\CCPUBillboardChain.obj
+         Debug.win32\CCPUBoxCollider.obj
+         Debug.win32\CCPUBoxColliderTranslator.obj
+         Debug.win32\CCPUBoxEmitter.obj
+         Debug.win32\CCPUBoxEmitterTranslator.obj
+         Debug.win32\CCPUCircleEmitter.obj
+         Debug.win32\CCPUCircleEmitterTranslator.obj
+         Debug.win32\CCPUCollisionAvoidanceAffector.obj
+         Debug.win32\CCPUCollisionAvoidanceAffectorTranslator.obj
+         Debug.win32\CCPUColorAffector.obj
+         Debug.win32\CCPUColorAffectorTranslator.obj
+         Debug.win32\CCPUDoAffectorEventHandler.obj
+         Debug.win32\CCPUDoAffectorEventHandlerTranslator.obj
+         Debug.win32\CCPUDoEnableComponentEventHandler.obj
+         Debug.win32\CCPUDoEnableComponentEventHandlerTranslator.obj
+         Debug.win32\CCPUDoExpireEventHandler.obj
+         Debug.win32\CCPUDoExpireEventHandlerTranslator.obj
+         Debug.win32\CCPUDoFreezeEventHandler.obj
+         Debug.win32\CCPUDoFreezeEventHandlerTranslator.obj
+         Debug.win32\CCPUDoPlacementParticleEventHandler.obj
+         Debug.win32\CCPUDoPlacementParticleEventHandlerTranslator.obj
+         Debug.win32\CCPUDoScaleEventHandler.obj
+         Debug.win32\CCPUDoScaleEventHandlerTranslator.obj
+         Debug.win32\CCPUDoStopSystemEventHandler.obj
+         Debug.win32\CCPUDoStopSystemEventHandlerTranslator.obj
+         Debug.win32\CCPUDynamicAttribute.obj
+         Debug.win32\CCPUDynamicAttributeTranslator.obj
+         Debug.win32\CCPUEmitter.obj
+         Debug.win32\CCPUEmitterManager.obj
+         Debug.win32\CCPUEmitterTranslator.obj
+         Debug.win32\CCPUEventHandler.obj
+         Debug.win32\CCPUEventHandlerManager.obj
+         Debug.win32\CCPUEventHandlerTranslator.obj
+         Debug.win32\CCPUFlockCenteringAffector.obj
+         Debug.win32\CCPUFlockCenteringAffectorTranslator.obj
+         Debug.win32\CCPUForceField.obj
+         Debug.win32\CCPUForceFieldAffector.obj
+         Debug.win32\CCPUForceFieldAffectorTranslator.obj
+         Debug.win32\CCPUGeometryRotator.obj
+         Debug.win32\CCPUGeometryRotatorTranslator.obj
+         Debug.win32\CCPUGravityAffector.obj
+         Debug.win32\CCPUGravityAffectorTranslator.obj
+         Debug.win32\CCPUInterParticleCollider.obj
+         Debug.win32\CCPUInterParticleColliderTranslator.obj
+         Debug.win32\CCPUJetAffector.obj
+         Debug.win32\CCPUJetAffectorTranslator.obj
+         Debug.win32\CCPULineAffector.obj
+         Debug.win32\CCPULineAffectorTranslator.obj
+         Debug.win32\CCPULinearForceAffector.obj
+         Debug.win32\CCPULinearForceAffectorTranslator.obj
+         Debug.win32\CCPULineEmitter.obj
+         Debug.win32\CCPULineEmitterTranslator.obj
+         Debug.win32\CCPUListener.obj
+         Debug.win32\CCPUMaterialManager.obj
+         Debug.win32\CCPUMaterialTranslator.obj
+         Debug.win32\CCPUMeshSurfaceEmitter.obj
+         Debug.win32\CCPUMeshSurfaceEmitterTranslator.obj
+         Debug.win32\CCPUNoise.obj
+         Debug.win32\CCPUObserver.obj
+         Debug.win32\CCPUObserverManager.obj
+         Debug.win32\CCPUObserverTranslator.obj
+         Debug.win32\CCPUOnClearObserver.obj
+         Debug.win32\CCPUOnClearObserverTranslator.obj
+         Debug.win32\CCPUOnCollisionObserver.obj
+         Debug.win32\CCPUOnCollisionObserverTranslator.obj
+         Debug.win32\CCPUOnCountObserver.obj
+         Debug.win32\CCPUOnCountObserverTranslator.obj
+         Debug.win32\CCPUOnEmissionObserver.obj
+         Debug.win32\CCPUOnEmissionObserverTranslator.obj
+         Debug.win32\CCPUOnEventFlagObserver.obj
+         Debug.win32\CCPUOnEventFlagObserverTranslator.obj
+         Debug.win32\CCPUOnExpireObserver.obj
+         Debug.win32\CCPUOnExpireObserverTranslator.obj
+         Debug.win32\CCPUOnPositionObserver.obj
+         Debug.win32\CCPUOnPositionObserverTranslator.obj
+         Debug.win32\CCPUOnQuotaObserver.obj
+         Debug.win32\CCPUOnQuotaObserverTranslator.obj
+         Debug.win32\CCPUOnRandomObserver.obj
+         Debug.win32\CCPUOnRandomObserverTranslator.obj
+         Debug.win32\CCPUOnTimeObserver.obj
+         Debug.win32\CCPUOnTimeObserverTranslator.obj
+         Debug.win32\CCPUOnVelocityObserver.obj
+         Debug.win32\CCPUOnVelocityObserverTranslator.obj
+         Debug.win32\CCPUParticleFollower.obj
+         Debug.win32\CCPUParticleFollowerTranslator.obj
+         Debug.win32\CCPUParticleSystem3D.obj
+         Debug.win32\CCPUParticleSystem3DTranslator.obj
+         Debug.win32\CCPUPathFollower.obj
+         Debug.win32\CCPUPathFollowerTranslator.obj
+         Debug.win32\CCPUPlane.obj
+         Debug.win32\CCPUPlaneCollider.obj
+         Debug.win32\CCPUPlaneColliderTranslator.obj
+         Debug.win32\CCPUPointEmitter.obj
+         Debug.win32\CCPUPointEmitterTranslator.obj
+         Debug.win32\CCPUPositionEmitter.obj
+         Debug.win32\CCPUPositionEmitterTranslator.obj
+         Debug.win32\CCPURandomiser.obj
+         Debug.win32\CCPURandomiserTranslator.obj
+         Debug.win32\CCPURender.obj
+         Debug.win32\CCPURendererTranslator.obj
+         Debug.win32\CCPURibbonTrail.obj
+         Debug.win32\CCPURibbonTrailRender.obj
+         Debug.win32\CCPUScaleAffector.obj
+         Debug.win32\CCPUScaleAffectorTranslator.obj
+         Debug.win32\CCPUScaleVelocityAffector.obj
+         Debug.win32\CCPUScaleVelocityAffectorTranslator.obj
+         Debug.win32\CCPUScriptCompiler.obj
+         Debug.win32\CCPUScriptLexer.obj
+         Debug.win32\CCPUScriptParser.obj
+         Debug.win32\CCPUScriptTranslator.obj
+         Debug.win32\CCPUSimpleSpline.obj
+         Debug.win32\CCPUSineForceAffector.obj
+         Debug.win32\CCPUSineForceAffectorTranslator.obj
+         Debug.win32\CCPUSlaveBehaviour.obj
+         Debug.win32\CCPUSlaveBehaviourTranslator.obj
+         Debug.win32\CCPUSlaveEmitter.obj
+         Debug.win32\CCPUSlaveEmitterTranslator.obj
+         Debug.win32\CCPUSphere.obj
+         Debug.win32\CCPUSphereCollider.obj
+         Debug.win32\CCPUSphereColliderTranslator.obj
+         Debug.win32\CCPUSphereSurfaceEmitter.obj
+         Debug.win32\CCPUSphereSurfaceEmitterTranslator.obj
+         Debug.win32\CCPUTechniqueTranslator.obj
+         Debug.win32\CCPUTextureAnimator.obj
+         Debug.win32\CCPUTextureAnimatorTranslator.obj
+         Debug.win32\CCPUTextureRotator.obj
+         Debug.win32\CCPUTextureRotatorTranslator.obj
+         Debug.win32\CCPUTranslateManager.obj
+         Debug.win32\CCPUUtil.obj
+         Debug.win32\CCPUVelocityMatchingAffector.obj
+         Debug.win32\CCPUVelocityMatchingAffectorTranslator.obj
+         Debug.win32\CCPUVertexEmitter.obj
+         Debug.win32\CCPUVortexAffector.obj
+         Debug.win32\CCPUVortexAffectorTranslator.obj
+         Debug.win32\CCPhysicsDebugNode.obj
+         Debug.win32\CCPhysicsSprite.obj
+         Debug.win32\clipper.obj
+         Debug.win32\ConvertUTF.obj
+         Debug.win32\ConvertUTFWrapper.obj
+         Debug.win32\edtaa3func.obj
+         Debug.win32\flatc.obj
+         Debug.win32\idl_gen_cpp.obj
+         Debug.win32\idl_gen_fbs.obj
+         Debug.win32\idl_gen_general.obj
+         Debug.win32\idl_gen_go.obj
+         Debug.win32\idl_gen_text.obj
+         Debug.win32\idl_parser.obj
+         Debug.win32\shapes.obj
+         Debug.win32\advancing_front.obj
+         Debug.win32\cdt.obj
+         Debug.win32\sweep.obj
+         Debug.win32\sweep_context.obj
+         Debug.win32\tinyxml2.obj
+         Debug.win32\ioapi_mem.obj
+         Debug.win32\ioapi.obj
+         Debug.win32\unzip.obj
+         Debug.win32\xxhash.obj
+         Debug.win32\CCAABB.obj
+         Debug.win32\CCAnimate3D.obj
+         Debug.win32\CCAnimation3D.obj
+         Debug.win32\CCAttachNode.obj
+         Debug.win32\CCBillBoard.obj
+         Debug.win32\CCBundle3D.obj
+         Debug.win32\CCBundleReader.obj
+         Debug.win32\CCFrustum.obj
+         Debug.win32\CCMesh.obj
+         Debug.win32\CCMeshSkin.obj
+         Debug.win32\CCMeshVertexIndexData.obj
+         Debug.win32\CCMotionStreak3D.obj
+         Debug.win32\CCOBB.obj
+         Debug.win32\CCObjLoader.obj
+         Debug.win32\CCPlane.obj
+         Debug.win32\CCRay.obj
+         Debug.win32\CCSkeleton3D.obj
+         Debug.win32\CCSkybox.obj
+         Debug.win32\CCSprite3D.obj
+         Debug.win32\CCSprite3DMaterial.obj
+         Debug.win32\CCTerrain.obj
+         Debug.win32\AudioEngine.obj
+         Debug.win32\AudioCache.obj
+         "Debug.win32\AudioEngine-win32.obj"
+         Debug.win32\AudioPlayer.obj
+         Debug.win32\MciPlayer.obj
+         Debug.win32\SimpleAudioEngine.obj
+         Debug.win32\CCAllocatorDiagnostics.obj
+         Debug.win32\CCAllocatorGlobal.obj
+         Debug.win32\CCAllocatorGlobalNewDelete.obj
+         Debug.win32\atitc.obj
+         Debug.win32\base64.obj
+         Debug.win32\CCAsyncTaskPool.obj
+         Debug.win32\CCAutoreleasePool.obj
+         Debug.win32\ccCArray.obj
+         Debug.win32\CCConfiguration.obj
+         Debug.win32\CCConsole.obj
+         Debug.win32\CCData.obj
+         Debug.win32\CCDataVisitor.obj
+         Debug.win32\CCDirector.obj
+         Debug.win32\CCEvent.obj
+         Debug.win32\CCEventAcceleration.obj
+         Debug.win32\CCEventCustom.obj
+         Debug.win32\CCEventDispatcher.obj
+         Debug.win32\CCEventFocus.obj
+         Debug.win32\CCEventKeyboard.obj
+         Debug.win32\CCEventListener.obj
+         Debug.win32\CCEventListenerAcceleration.obj
+         Debug.win32\CCEventListenerCustom.obj
+         Debug.win32\CCEventListenerFocus.obj
+         Debug.win32\CCEventListenerKeyboard.obj
+         Debug.win32\CCEventListenerMouse.obj
+         Debug.win32\CCEventListenerTouch.obj
+         Debug.win32\CCEventMouse.obj
+         Debug.win32\CCEventTouch.obj
+         Debug.win32\ccFPSImages.obj
+         Debug.win32\CCIMEDispatcher.obj
+         Debug.win32\CCNinePatchImageParser.obj
+         Debug.win32\CCStencilStateManager.obj
+         Debug.win32\CCNS.obj
+         Debug.win32\CCProfiling.obj
+         Debug.win32\CCProperties.obj
+         Debug.win32\ccRandom.obj
+         Debug.win32\CCRef.obj
+         Debug.win32\CCScheduler.obj
+         Debug.win32\CCScriptSupport.obj
+         Debug.win32\CCTouch.obj
+         Debug.win32\ccTypes.obj
+         Debug.win32\CCUserDefault.obj
+         Debug.win32\ccUTF8.obj
+         Debug.win32\ccUtils.obj
+         Debug.win32\CCValue.obj
+         Debug.win32\etc1.obj
+         Debug.win32\pvr.obj
+         Debug.win32\ObjectFactory.obj
+         Debug.win32\s3tc.obj
+         Debug.win32\TGAlib.obj
+         Debug.win32\ZipUtils.obj
+         Debug.win32\cocos2d.obj
+         Debug.win32\CCArray.obj
+         Debug.win32\CCDeprecated.obj
+         Debug.win32\CCDictionary.obj
+         Debug.win32\CCNotificationCenter.obj
+         Debug.win32\CCSet.obj
+         Debug.win32\CCString.obj
+         Debug.win32\CCBAnimationManager.obj
+         Debug.win32\CCBFileLoader.obj
+         Debug.win32\CCBKeyframe.obj
+         Debug.win32\CCBReader.obj
+         Debug.win32\CCBSequence.obj
+         Debug.win32\CCBSequenceProperty.obj
+         Debug.win32\CCControlButtonLoader.obj
+         Debug.win32\CCControlLoader.obj
+         Debug.win32\CCLabelBMFontLoader.obj
+         Debug.win32\CCLabelTTFLoader.obj
+         Debug.win32\CCLayerColorLoader.obj
+         Debug.win32\CCLayerGradientLoader.obj
+         Debug.win32\CCLayerLoader.obj
+         Debug.win32\CCMenuItemImageLoader.obj
+         Debug.win32\CCMenuItemLoader.obj
+         Debug.win32\CCNode+CCBRelativePositioning.obj
+         Debug.win32\CCNodeLoader.obj
+         Debug.win32\CCNodeLoaderLibrary.obj
+         Debug.win32\CCParticleSystemQuadLoader.obj
+         Debug.win32\CCScale9SpriteLoader.obj
+         Debug.win32\CCScrollViewLoader.obj
+         Debug.win32\CCSpriteLoader.obj
+         Debug.win32\CCActionTimeline.obj
+         Debug.win32\CCActionTimelineCache.obj
+         Debug.win32\CCActionTimelineNode.obj
+         Debug.win32\CCBoneNode.obj
+         Debug.win32\CCFrame.obj
+         Debug.win32\CCSkeletonNode.obj
+         Debug.win32\CCSkinNode.obj
+         Debug.win32\CCTimeLine.obj
+         Debug.win32\CSLoader.obj
+         Debug.win32\CCActionFrame.obj
+         Debug.win32\CCActionFrameEasing.obj
+         Debug.win32\CCActionManagerEx.obj
+         Debug.win32\CCActionNode.obj
+         Debug.win32\CCActionObject.obj
+         Debug.win32\CCArmature.obj
+         Debug.win32\CCArmatureAnimation.obj
+         Debug.win32\CCArmatureDataManager.obj
+         Debug.win32\CCArmatureDefine.obj
+         Debug.win32\CCBatchNode.obj
+         Debug.win32\CCBone.obj
+         Debug.win32\CCColliderDetector.obj
+         Debug.win32\CCComAttribute.obj
+         Debug.win32\CCComAudio.obj
+         Debug.win32\CCComController.obj
+         Debug.win32\CCComRender.obj
+         Debug.win32\CCDataReaderHelper.obj
+         Debug.win32\CCDatas.obj
+         Debug.win32\CCDecorativeDisplay.obj
+         Debug.win32\CCDisplayFactory.obj
+         Debug.win32\CCDisplayManager.obj
+         Debug.win32\CCInputDelegate.obj
+         Debug.win32\CCComExtensionData.obj
+         Debug.win32\CCProcessBase.obj
+         Debug.win32\CCSGUIReader.obj
+         Debug.win32\CCSkin.obj
+         Debug.win32\CCSpriteFrameCacheHelper.obj
+         Debug.win32\CCSSceneReader.obj
+         Debug.win32\CCTransformHelp.obj
+         Debug.win32\CCTween.obj
+         Debug.win32\CCUtilMath.obj
+         Debug.win32\CocoLoader.obj
+         Debug.win32\CocoStudio.obj
+         Debug.win32\DictionaryHelper.obj
+         Debug.win32\FlatBuffersSerialize.obj
+         Debug.win32\TriggerBase.obj
+         Debug.win32\TriggerMng.obj
+         Debug.win32\TriggerObj.obj
+         Debug.win32\WidgetCallBackHandlerProtocol.obj
+         Debug.win32\ArmatureNodeReader.obj
+         Debug.win32\ButtonReader.obj
+         Debug.win32\CheckBoxReader.obj
+         Debug.win32\ComAudioReader.obj
+         Debug.win32\GameMapReader.obj
+         Debug.win32\GameNode3DReader.obj
+         Debug.win32\ImageViewReader.obj
+         Debug.win32\LayoutReader.obj
+         Debug.win32\Light3DReader.obj
+         Debug.win32\ListViewReader.obj
+         Debug.win32\LoadingBarReader.obj
+         Debug.win32\NodeReaderDefine.obj
+         Debug.win32\NodeReaderProtocol.obj
+         Debug.win32\NodeReader.obj
+         Debug.win32\PageViewReader.obj
+         Debug.win32\ParticleReader.obj
+         Debug.win32\ProjectNodeReader.obj
+         Debug.win32\ScrollViewReader.obj
+         Debug.win32\SingleNodeReader.obj
+         Debug.win32\BoneNodeReader.obj
+         Debug.win32\SkeletonNodeReader.obj
+         Debug.win32\SliderReader.obj
+         Debug.win32\SpriteReader.obj
+         Debug.win32\TextAtlasReader.obj
+         Debug.win32\TextBMFontReader.obj
+         Debug.win32\TextFieldReader.obj
+         Debug.win32\TextReader.obj
+         Debug.win32\Node3DReader.obj
+         Debug.win32\Sprite3DReader.obj
+         Debug.win32\UserCameraReader.obj
+         Debug.win32\Particle3DReader.obj
+         Debug.win32\WidgetReader.obj
+         Debug.win32\CCAffineTransform.obj
+         Debug.win32\CCGeometry.obj
+         Debug.win32\CCVertex.obj
+         Debug.win32\Mat4.obj
+         Debug.win32\MathUtil.obj
+         Debug.win32\Quaternion.obj
+         Debug.win32\TransformUtils.obj
+         Debug.win32\Vec2.obj
+         Debug.win32\Vec3.obj
+         Debug.win32\Vec4.obj
+         Debug.win32\CCNavMesh.obj
+         Debug.win32\CCNavMeshAgent.obj
+         Debug.win32\CCNavMeshDebugDraw.obj
+         Debug.win32\CCNavMeshObstacle.obj
+         Debug.win32\CCNavMeshUtils.obj
+         "Debug.win32\CCDownloader-curl.obj"
+         Debug.win32\CCDownloader.obj
+         Debug.win32\HttpClient.obj
+         Debug.win32\SocketIO.obj
+         Debug.win32\WebSocket.obj
+         Debug.win32\CCPhysics3D.obj
+         Debug.win32\CCPhysics3DComponent.obj
+         Debug.win32\CCPhysics3DConstraint.obj
+         Debug.win32\CCPhysics3DDebugDrawer.obj
+         Debug.win32\CCPhysics3DObject.obj
+         Debug.win32\CCPhysics3DShape.obj
+         Debug.win32\CCPhysics3DWorld.obj
+         Debug.win32\CCPhysicsSprite3D.obj
+         Debug.win32\CCPhysicsBody.obj
+         Debug.win32\CCPhysicsContact.obj
+         Debug.win32\CCPhysicsJoint.obj
+         Debug.win32\CCPhysicsShape.obj
+         Debug.win32\CCPhysicsWorld.obj
+         Debug.win32\CCFileUtils.obj
+         Debug.win32\CCGLView.obj
+         Debug.win32\CCImage.obj
+         Debug.win32\CCSAXParser.obj
+         Debug.win32\CCThread.obj
+         "Debug.win32\CCGLViewImpl-desktop.obj"
+         "Debug.win32\CCApplication-win32.obj"
+         "Debug.win32\CCCommon-win32.obj"
+         "Debug.win32\CCDevice-win32.obj"
+         "Debug.win32\CCFileUtils-win32.obj"
+         "Debug.win32\CCStdC-win32.obj"
+         Debug.win32\CCBatchCommand.obj
+         Debug.win32\CCCustomCommand.obj
+         Debug.win32\CCFrameBuffer.obj
+         Debug.win32\CCGLProgram.obj
+         Debug.win32\CCGLProgramCache.obj
+         Debug.win32\CCGLProgramState.obj
+         Debug.win32\CCGLProgramStateCache.obj
+         Debug.win32\ccGLStateCache.obj
+         Debug.win32\CCGroupCommand.obj
+         Debug.win32\CCMaterial.obj
+         Debug.win32\CCMeshCommand.obj
+         Debug.win32\CCPass.obj
+         Debug.win32\CCPrimitive.obj
+         Debug.win32\CCPrimitiveCommand.obj
+         Debug.win32\CCQuadCommand.obj
+         Debug.win32\CCRenderCommand.obj
+         Debug.win32\CCRenderer.obj
+         Debug.win32\CCRenderState.obj
+         Debug.win32\ccShaders.obj
+         Debug.win32\CCTechnique.obj
+         Debug.win32\CCTexture2D.obj
+         Debug.win32\CCTextureAtlas.obj
+         Debug.win32\CCTextureCache.obj
+         Debug.win32\CCTextureCube.obj
+         Debug.win32\CCTrianglesCommand.obj
+         Debug.win32\CCVertexAttribBinding.obj
+         Debug.win32\CCVertexIndexBuffer.obj
+         Debug.win32\CCVertexIndexData.obj
+         Debug.win32\LocalStorage.obj
+         Debug.win32\CocosGUI.obj
+         Debug.win32\UIButton.obj
+         Debug.win32\UIAbstractCheckButton.obj
+         Debug.win32\UICheckBox.obj
+         Debug.win32\UIRadioButton.obj
+         Debug.win32\UIDeprecated.obj
+         Debug.win32\UIEditBox.obj
+         "Debug.win32\UIEditBoxImpl-win32.obj"
+         Debug.win32\UIHBox.obj
+         Debug.win32\UIHelper.obj
+         Debug.win32\UIImageView.obj
+         Debug.win32\UILayout.obj
+         Debug.win32\UILayoutComponent.obj
+         Debug.win32\UILayoutManager.obj
+         Debug.win32\UILayoutParameter.obj
+         Debug.win32\UIListView.obj
+         Debug.win32\UILoadingBar.obj
+         Debug.win32\UIPageView.obj
+         Debug.win32\UIPageViewIndicator.obj
+         Debug.win32\UIRelativeBox.obj
+         Debug.win32\UIRichText.obj
+         Debug.win32\UIScale9Sprite.obj
+         Debug.win32\UIScrollView.obj
+         Debug.win32\UIScrollViewBar.obj
+         Debug.win32\UISlider.obj
+         Debug.win32\UIText.obj
+         Debug.win32\UITextAtlas.obj
+         Debug.win32\UITextBMFont.obj
+         Debug.win32\UITextField.obj
+         Debug.win32\UIVBox.obj
+         Debug.win32\UIWebView.obj
+         Debug.win32\UIWidget.obj
+         Debug.win32\CCAction.obj
+         Debug.win32\CCActionCamera.obj
+         Debug.win32\CCActionCatmullRom.obj
+         Debug.win32\CCActionEase.obj
+         Debug.win32\CCActionGrid.obj
+         Debug.win32\CCActionGrid3D.obj
+         Debug.win32\CCActionInstant.obj
+         Debug.win32\CCActionInterval.obj
+         Debug.win32\CCActionManager.obj
+         Debug.win32\CCActionPageTurn3D.obj
+         Debug.win32\CCActionProgressTimer.obj
+         Debug.win32\CCActionTiledGrid.obj
+         Debug.win32\CCActionTween.obj
+         Debug.win32\CCAnimation.obj
+         Debug.win32\CCAnimationCache.obj
+         Debug.win32\CCAtlasNode.obj
+         Debug.win32\CCAutoPolygon.obj
+         Debug.win32\CCCamera.obj
+         Debug.win32\CCCameraBackgroundBrush.obj
+         Debug.win32\CCClippingNode.obj
+         Debug.win32\CCClippingRectangleNode.obj
+         Debug.win32\CCComponent.obj
+         Debug.win32\CCComponentContainer.obj
+         Debug.win32\CCDrawingPrimitives.obj
+         Debug.win32\CCDrawNode.obj
+         Debug.win32\CCFastTMXLayer.obj
+         Debug.win32\CCFastTMXTiledMap.obj
+         Debug.win32\CCFontAtlas.obj
+         Debug.win32\CCFontAtlasCache.obj
+         Debug.win32\CCFontCharMap.obj
+         Debug.win32\CCFontFNT.obj
+         Debug.win32\CCFontFreeType.obj
+         Debug.win32\CCGLBufferedNode.obj
+         Debug.win32\CCGrabber.obj
+         Debug.win32\CCGrid.obj
+         Debug.win32\CCLabel.obj
+         Debug.win32\CCLabelAtlas.obj
+         Debug.win32\CCLabelBMFont.obj
+         Debug.win32\CCLabelTextFormatter.obj
+         Debug.win32\CCLabelTTF.obj
+         Debug.win32\CCLayer.obj
+         Debug.win32\CCLight.obj
+         Debug.win32\CCMenu.obj
+         Debug.win32\CCMenuItem.obj
+         Debug.win32\CCMotionStreak.obj
+         Debug.win32\CCNode.obj
+         Debug.win32\CCNodeGrid.obj
+         Debug.win32\CCParallaxNode.obj
+         Debug.win32\CCParticleBatchNode.obj
+         Debug.win32\CCParticleExamples.obj
+         Debug.win32\CCParticleSystem.obj
+         Debug.win32\CCParticleSystemQuad.obj
+         Debug.win32\CCProgressTimer.obj
+         Debug.win32\CCProtectedNode.obj
+         Debug.win32\CCRenderTexture.obj
+         Debug.win32\CCScene.obj
+         Debug.win32\CCSprite.obj
+         Debug.win32\CCSpriteBatchNode.obj
+         Debug.win32\CCSpriteFrame.obj
+         Debug.win32\CCSpriteFrameCache.obj
+         Debug.win32\CCTextFieldTTF.obj
+         Debug.win32\CCTileMapAtlas.obj
+         Debug.win32\CCTMXLayer.obj
+         Debug.win32\CCTMXObjectGroup.obj
+         Debug.win32\CCTMXTiledMap.obj
+         Debug.win32\CCTMXXMLParser.obj
+         Debug.win32\CCTransition.obj
+         Debug.win32\CCTransitionPageTurn.obj
+         Debug.win32\CCTransitionProgress.obj
+         Debug.win32\CCTweenFunction.obj
+         "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libbox2d.lib"
+         "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.lib"
+         "D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\librecast.lib"
+     1>libbullet.lib(btAlignedAllocator.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+            正在创建库 D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.lib 和对象 D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.exp
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libjpeg.lib(jcapimin.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcapimin.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcapistd.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcapistd.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcarith.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcarith.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcparam.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcparam.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatadst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdatadst.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcinit.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcinit.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmaster.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmaster.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmarker.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmarker.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmainct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmainct.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcprepct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcprepct.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccoefct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jccoefct.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccolor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jccolor.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcsample.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcsample.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jchuff.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jchuff.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcdctmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcdctmgr.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctfst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctfst.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctflt.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctflt.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctint.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctint.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapimin.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdapimin.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapistd.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdapistd.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdarith.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdarith.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatasrc.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdatasrc.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmaster.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmaster.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdinput.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdinput.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmarker.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmarker.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdhuff.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdhuff.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmainct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmainct.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcoefct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdcoefct.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdpostct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdpostct.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jddctmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jddctmgr.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctfst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctfst.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctflt.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctflt.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctint.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctint.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdsample.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdsample.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcolor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdcolor.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant1.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jquant1.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant2.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jquant2.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmerge.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmerge.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jaricom.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jaricom.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcomapi.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcomapi.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jutils.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jutils.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jerror.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jerror.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jmemmgr.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemnobs.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jmemnobs.obj)”或在“D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         libcocos2d.vcxproj -> D:\whdlm\client\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.dll
+     1>已完成生成项目“D:\whdlm\client\frameworks\cocos2d-x\cocos\2d\libcocos2d.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:43.60

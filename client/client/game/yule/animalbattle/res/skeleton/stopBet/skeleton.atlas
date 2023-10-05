@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+count_num_1
+  rotate: false
+  xy: 2, 2
+  size: 50, 124
+  orig: 51, 124
+  offset: 1, 0
+  index: -1
+count_num_2
+  rotate: true
+  xy: 54, 46
+  size: 80, 126
+  orig: 82, 126
+  offset: 1, 0
+  index: -1
+count_num_3
+  rotate: false
+  xy: 773, 286
+  size: 82, 126
+  orig: 83, 127
+  offset: 1, 1
+  index: -1
+daojishi_1
+  rotate: false
+  xy: 2, 128
+  size: 264, 257
+  orig: 300, 300
+  offset: 23, 19
+  index: -1
+daojishi_2
+  rotate: true
+  xy: 268, 126
+  size: 259, 246
+  orig: 300, 300
+  offset: 25, 24
+  index: -1
+daojishi_3
+  rotate: false
+  xy: 861, 274
+  size: 253, 236
+  orig: 300, 300
+  offset: 27, 29
+  index: -1
+daojishi_4
+  rotate: false
+  xy: 516, 172
+  size: 255, 240
+  orig: 300, 300
+  offset: 27, 27
+  index: -1
+daojishi_5
+  rotate: true
+  xy: 1610, 277
+  size: 233, 238
+  orig: 300, 300
+  offset: 39, 29
+  index: -1
+daojishi_6
+  rotate: true
+  xy: 1369, 278
+  size: 232, 239
+  orig: 300, 300
+  offset: 39, 29
+  index: -1
+daojishi_7
+  rotate: false
+  xy: 1116, 278
+  size: 251, 232
+  orig: 300, 300
+  offset: 16, 33
+  index: -1
+daojishi_8
+  rotate: false
+  xy: 1850, 321
+  size: 178, 189
+  orig: 300, 300
+  offset: 43, 73
+  index: -1
+kaishi_di
+  rotate: false
+  xy: 2, 387
+  size: 509, 123
+  orig: 509, 123
+  offset: 0, 0
+  index: -1
+tingzhixiazhu
+  rotate: false
+  xy: 513, 414
+  size: 346, 96
+  orig: 346, 96
+  offset: 0, 0
+  index: -1

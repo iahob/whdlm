@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ide-support">
+      <UniqueIdentifier>{797ea23a-4774-4f5a-8aec-c1998a50abfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LuaAssert">
+      <UniqueIdentifier>{b1662f0a-6c48-424d-95ce-70d0269dfc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GlobalDefine">
+      <UniqueIdentifier>{f2f5fb9c-423b-42eb-bddf-fea3e7b42ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LuaAssert\Gif">
+      <UniqueIdentifier>{8536f420-08c9-4e2c-b06a-8fd096e1c279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LuaAssert\Gif\gif_lib">
+      <UniqueIdentifier>{2bfe07e4-664a-4d5b-b4c7-69c4d04dac54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SocketService">
+      <UniqueIdentifier>{6cc14514-e611-4bb9-9eaa-265dc324a6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cjson">
+      <UniqueIdentifier>{fb65e12c-2ef3-480b-aa26-8d8f43870be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cryptk">
+      <UniqueIdentifier>{a10113b4-8f66-47a0-b626-c505cff33ea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua_module_register.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cjson\lua_cjson.h">
+      <Filter>Classes\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cjson\fpconv.h">
+      <Filter>Classes\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cjson\strbuf.h">
+      <Filter>Classes\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cjson\lua_extensions.h">
+      <Filter>Classes\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\lua_debugger.h">
+      <Filter>Classes\ide-support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\CodeIDESupport.h">
+      <Filter>Classes\ide-support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\RuntimeLuaImpl.h">
+      <Filter>Classes\ide-support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\SimpleConfigParser.h">
+      <Filter>Classes\ide-support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\CMD_Data.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\ImageToByte.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Integer64.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\LuaAssert.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalDefine\Define.h">
+      <Filter>Classes\GlobalDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\ClientSocket.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientKernel.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\DownAsset.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\FileAsset.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\UnZipAsset.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\CurlAsset.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\LogAsset.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\ry_MD5.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\CircleBy.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\QR_Encode.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\QrNode.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\AESEncrypt.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\AudioRecorder\AudioRecorder.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\Bitmap.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\CacheGif.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\GifBase.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\GifMacros.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\GIFMovie.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\GifUtils.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\InstantGif.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\Movie.h">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\gif_lib\gif_hash.h">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\gif_lib\gif_lib.h">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\Gif\gif_lib\gif_lib_private.h">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LuaAssert\PageTurn.h">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\Cipher.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\FileCompress.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\Heap.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\HuffmanTree.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\MCKernel.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\MobileClientKernel.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\packet.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\SocketService.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketService\TCPSocket.h">
+      <Filter>Classes\SocketService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EncryptManager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\aes.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\cryptk_conf.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\cryptk_utils.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\cryptk_wrapper.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\endian_portable.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\fastest_csv_parser.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\libb64.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\mathext.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\md5.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\md6.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\nsconv.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\politedef.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\string_view.hpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cryptk\xxbswap.h">
+      <Filter>Classes\cryptk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cjson\lua_cjson.c">
+      <Filter>Classes\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cjson\fpconv.c">
+      <Filter>Classes\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cjson\strbuf.c">
+      <Filter>Classes\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cjson\lua_extensions.c">
+      <Filter>Classes\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\lua_debugger.c">
+      <Filter>Classes\ide-support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\RuntimeLuaImpl.cpp">
+      <Filter>Classes\ide-support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\SimpleConfigParser.cpp">
+      <Filter>Classes\ide-support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\CMD_Data.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\ImageToByte.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\LuaAssert.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\ClientSocket.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientKernel.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\UnZipAsset.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\DownAsset.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\CurlAsset.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\LogAsset.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\ry_MD5.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\CircleBy.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\QR_Encode.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\QrNode.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\AESEncrypt.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\AudioRecorder\AudioRecorder.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\Bitmap.cpp">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\CacheGif.cpp">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\GifBase.cpp">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\GifMovie.cpp">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\InstantGif.cpp">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\Movie.cpp">
+      <Filter>Classes\LuaAssert\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\gif_lib\dgif_lib.c">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\gif_lib\gif_err.c">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\gif_lib\gif_font.c">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\gif_lib\gif_hash.c">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\gif_lib\gifalloc.c">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\Gif\gif_lib\quantize.c">
+      <Filter>Classes\LuaAssert\Gif\gif_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LuaAssert\PageTurn.cpp">
+      <Filter>Classes\LuaAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SocketService\Cipher.cpp">
+      <Filter>Classes\SocketService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SocketService\MCKernel.cpp">
+      <Filter>Classes\SocketService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SocketService\MobileClientKernel.cpp">
+      <Filter>Classes\SocketService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SocketService\SocketService.cpp">
+      <Filter>Classes\SocketService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SocketService\TCPSocket.cpp">
+      <Filter>Classes\SocketService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EncryptManager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cryptk\aes_core.cpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cryptk\cryptk_utils.cpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cryptk\cryptk_wrapper.cpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cryptk\libb64.cpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cryptk\md5.cpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cryptk\md6.cpp">
+      <Filter>Classes\cryptk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

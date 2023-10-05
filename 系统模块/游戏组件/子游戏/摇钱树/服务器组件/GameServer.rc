@@ -1,0 +1,530 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameServer.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "鳄鱼劈鱼服务器组件"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "LandServer.dll"
+            VALUE "OriginalFilename", "LandServer.dll"
+            VALUE "ProductName", "鳄鱼劈鱼服务器组件"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_RULE DIALOGEX 0, 0, 344, 1816
+STYLE DS_SETFONT | WS_CHILD | WS_VSCROLL
+EXSTYLE WS_EX_CONTEXTHELP
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    GROUPBOX        "房间配置",IDC_STATIC,7,7,319,45
+    CONTROL         "千炮",IDC_RADIO_ROOM_1,"Button",BS_AUTORADIOBUTTON,98,
+                    27,32,10
+    CONTROL         "模拟",IDC_RADIO_ROOM_2,"Button",BS_AUTORADIOBUTTON,207,
+                    27,32,10
+    GROUPBOX        "倍数配置",IDC_STATIC,7,73,319,60
+    EDITTEXT        IDC_EDIT_MUL_1,59,89,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MUL_2,146,89,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MUL_3,233,89,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MUL_4,59,110,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MUL_5,146,110,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MUL_6,233,110,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "调试配置",IDC_STATIC_CON,7,157,319,103
+    GROUPBOX        "子弹配置",IDC_STATIC,7,591,319,468
+    GROUPBOX        "场景配置",IDC_STATIC,7,393,319,60
+    RTEXT           "创建时间：",IDC_STATIC,16,419,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_CRE_1,58,419,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "创建数量：",IDC_STATIC,125,419,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_CRE_2,167,419,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "维持时间：",IDC_STATIC,234,419,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_CRE_3,276,419,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "活动配置",IDC_STATIC,7,475,319,92
+    EDITTEXT        IDC_EDIT_ACT_1,58,497,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "激光条件：",IDC_STATIC,16,497,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ACT_2,167,497,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ACT_3,276,497,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "金龟条件：",IDC_STATIC,125,497,42,12,SS_CENTERIMAGE
+    RTEXT           "爆炸条件：",IDC_STATIC,234,497,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ACT_4,58,519,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "螃蟹条件：",IDC_STATIC,16,519,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ACT_6,58,541,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ACT_7,167,541,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "转盘条件：",IDC_STATIC,16,541,42,12,SS_CENTERIMAGE
+    RTEXT           "转盘底分：",IDC_STATIC,125,541,42,12,SS_CENTERIMAGE
+    CTEXT           "一号配置",IDC_STATIC,34,615,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_BUL_1,167,613,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_2,276,613,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "子弹价格：",IDC_STATIC,125,613,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,613,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_BUL_3,58,637,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "子弹冷却：",IDC_STATIC,16,637,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_BUL_4,167,637,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_5,276,637,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "子弹射程：",IDC_STATIC,125,637,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,637,42,12,SS_CENTERIMAGE
+    CTEXT           "二号配置",IDC_STATIC,34,671,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_BUL_6,167,669,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_7,276,669,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "子弹价格：",IDC_STATIC,125,669,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,669,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,693,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,693,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,693,42,12,SS_CENTERIMAGE
+    CTEXT           "三号配置",IDC_STATIC,34,727,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹价格：",IDC_STATIC,125,725,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,725,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,749,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,749,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,749,42,12,SS_CENTERIMAGE
+    CTEXT           "四号配置",IDC_STATIC,34,785,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹价格：",IDC_STATIC,125,783,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,783,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,807,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,807,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,807,42,12,SS_CENTERIMAGE
+    CTEXT           "五号配置",IDC_STATIC,34,841,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹价格：",IDC_STATIC,125,839,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,839,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,863,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,863,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,863,42,12,SS_CENTERIMAGE
+    CTEXT           "六号配置",IDC_STATIC,34,897,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹价格：",IDC_STATIC,125,895,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,895,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,919,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,919,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,919,42,12,SS_CENTERIMAGE
+    CTEXT           "七号配置",IDC_STATIC,34,951,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹价格：",IDC_STATIC,125,949,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,949,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,973,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,973,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,973,42,12,SS_CENTERIMAGE
+    CTEXT           "八号配置",IDC_STATIC,34,1005,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹价格：",IDC_STATIC,125,1003,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹速度：",IDC_STATIC,234,1003,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹冷却：",IDC_STATIC,16,1027,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹射程：",IDC_STATIC,125,1027,42,12,SS_CENTERIMAGE
+    RTEXT           "子弹范围：",IDC_STATIC,234,1027,42,12,SS_CENTERIMAGE
+    GROUPBOX        "道具配置",IDC_STATIC,7,1079,319,104
+    CTEXT           "道具价格",IDC_STATIC,34,1103,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PRO_1,167,1103,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PRO_2,276,1103,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "冰网：",IDC_STATIC,125,1103,42,12,SS_CENTERIMAGE
+    RTEXT           "破冰器：",IDC_STATIC,234,1103,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PRO_3,58,1129,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "混浊剂：",IDC_STATIC,16,1129,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PRO_4,167,1129,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PRO_5,276,1129,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "穿甲弹：",IDC_STATIC,125,1129,42,12,SS_CENTERIMAGE
+    RTEXT           "弹射弹：",IDC_STATIC,234,1129,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PRO_6,58,1155,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "追踪弹：",IDC_STATIC,16,1155,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PRO_7,167,1155,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PRO_8,276,1155,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "散弹：",IDC_STATIC,125,1155,42,12,SS_CENTERIMAGE
+    RTEXT           "加速弹：",IDC_STATIC,234,1155,42,12,SS_CENTERIMAGE
+    GROUPBOX        "鱼配置",IDC_STATIC,7,1207,319,488
+    CTEXT           "小黄鱼",IDC_STATIC,26,1224,57,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_FIS_1,167,1224,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_2,234,1224,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1224,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1224,10,12,SS_CENTERIMAGE
+    CTEXT           "小蓝鱼",IDC_STATIC,26,1249,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1249,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1249,10,12,SS_CENTERIMAGE
+    CTEXT           "小丑鱼",IDC_STATIC,26,1274,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1274,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1274,10,12,SS_CENTERIMAGE
+    CTEXT           "丝鲈鱼",IDC_STATIC,26,1299,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1299,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1299,10,12,SS_CENTERIMAGE
+    CTEXT           "灯笼鱼",IDC_STATIC,26,1324,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1324,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1324,10,12,SS_CENTERIMAGE
+    CTEXT           "水母鱼",IDC_STATIC,26,1349,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1349,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1349,10,12,SS_CENTERIMAGE
+    CTEXT           "神仙鱼",IDC_STATIC,26,1374,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1374,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1374,10,12,SS_CENTERIMAGE
+    CTEXT           "八爪鱼",IDC_STATIC,26,1399,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1399,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1399,10,12,SS_CENTERIMAGE
+    CTEXT           "海龟",IDC_STATIC,26,1424,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1424,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1424,10,12,SS_CENTERIMAGE
+    CTEXT           "水母",IDC_STATIC,26,1449,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1449,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1449,10,12,SS_CENTERIMAGE
+    CTEXT           "巨齿鲨",IDC_STATIC,26,1474,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1474,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1474,10,12,SS_CENTERIMAGE
+    CTEXT           "蝙蝠鱼",IDC_STATIC,26,1499,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1499,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1499,10,12,SS_CENTERIMAGE
+    GROUPBOX        "奖牌配置",IDC_STATIC,7,1709,319,67
+    RTEXT           "奖牌条件：",IDC_STATIC,91,1729,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_MED_1,146,1729,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MED_2,202,1729,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "～",IDC_STATIC,190,1729,8,12,SS_CENTERIMAGE
+    RTEXT           "奖牌数量：",IDC_STATIC,91,1749,42,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_MED_3,146,1749,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MED_4,202,1749,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "～",IDC_STATIC,190,1749,8,12,SS_CENTERIMAGE
+    PUSHBUTTON      "默认配置",IDC_BUTTON_DEFAULT,7,1796,50,14,NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ACT_5,167,519,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "美人鱼条件：",IDC_STATIC,116,519,51,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_BUL_8,58,693,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_9,167,693,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_10,276,693,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_11,167,724,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_12,276,724,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_13,58,748,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_14,167,748,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_15,276,748,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_16,167,783,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_17,276,783,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_18,58,807,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_19,167,807,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_20,276,807,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_21,167,838,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_22,276,838,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_23,58,862,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_24,167,862,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_25,276,862,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_26,167,894,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_27,276,894,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_28,58,918,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_29,167,918,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_30,276,918,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_31,167,948,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_32,276,948,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_33,58,972,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_34,167,972,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_35,276,972,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_36,167,1002,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_37,276,1002,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_38,58,1026,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_39,167,1026,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BUL_40,276,1026,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    CTEXT           "海豚",IDC_STATIC,26,1524,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1524,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1524,10,12,SS_CENTERIMAGE
+    CTEXT           "鲨鱼",IDC_STATIC,26,1549,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1549,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1549,10,12,SS_CENTERIMAGE
+    CTEXT           "蓝鲸",IDC_STATIC,26,1574,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1574,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1574,10,12,SS_CENTERIMAGE
+    CTEXT           "银鲸",IDC_STATIC,26,1599,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1599,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1599,10,12,SS_CENTERIMAGE
+    CTEXT           "金鲸",IDC_STATIC,26,1624,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1624,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1624,10,12,SS_CENTERIMAGE
+    CTEXT           "美人鱼",IDC_STATIC,26,1649,57,12,SS_CENTERIMAGE
+    RTEXT           "捕获倍数：",IDC_STATIC,125,1649,42,12,SS_CENTERIMAGE
+    RTEXT           "～",IDC_STATIC,214,1649,10,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_FIS_3,167,1249,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_4,235,1249,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_5,167,1274,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_6,235,1274,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_7,167,1299,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_8,235,1299,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_9,167,1324,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_10,235,1324,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_11,167,1349,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_12,235,1349,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_13,167,1374,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_14,235,1374,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_15,167,1399,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_16,235,1399,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_17,167,1424,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_18,235,1424,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_19,167,1449,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_20,235,1449,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_21,167,1474,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_22,235,1474,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_23,167,1499,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_24,235,1499,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_25,167,1524,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_26,235,1524,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_27,167,1549,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_28,235,1549,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_29,167,1574,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_30,235,1574,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_31,167,1599,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_32,235,1599,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_33,167,1624,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_34,235,1624,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_35,167,1649,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIS_36,235,1649,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CON_1,94,177,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CON_2,243,177,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CON_3,94,204,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CON_4,243,204,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CON_5,94,231,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CON_6,243,231,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "房间库存：",IDC_STATIC,51,177,42,12,SS_CENTERIMAGE
+    RTEXT           "抽水比例：",IDC_STATIC,201,177,42,12,SS_CENTERIMAGE
+    RTEXT           "超难启动：",IDC_STATIC,51,204,42,12,SS_CENTERIMAGE
+    RTEXT           "简单启动：",IDC_STATIC,50,231,42,12,SS_CENTERIMAGE
+    RTEXT           "超简启动：",IDC_STATIC,201,231,42,12,SS_CENTERIMAGE
+    RTEXT           "困难启动：",IDC_STATIC,201,204,42,12,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_RULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        VERTGUIDE, 98
+        VERTGUIDE, 207
+        VERTGUIDE, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 1810
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+SERVER_ICON             ICON                    "res\\GameClient.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameServer.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

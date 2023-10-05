@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FishYQSAndroidService", "AI组件\AndroidService.vcxproj", "{AE3489C8-3640-4BFD-9932-C650C40F2A9F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "摇钱树设置", "FishConfig\FishConfig.vcxproj", "{3BB55F03-B56B-470D-94EF-E30343B50647}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FishYQSServer", "服务器组件\GameServer.vcxproj", "{1A981C20-4D88-40F8-BC3E-F2F258C5082C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "调试客户端", "客户端调试\ClientDebug.vcxproj", "{6ABD8204-D845-47C2-87BA-1EE3055BBF79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|Win32 = Debug_Unicode|Win32
+		Release_Unicode_Map|Win32 = Release_Unicode_Map|Win32
+		Release_Unicode|Win32 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE3489C8-3640-4BFD-9932-C650C40F2A9F}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{AE3489C8-3640-4BFD-9932-C650C40F2A9F}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{AE3489C8-3640-4BFD-9932-C650C40F2A9F}.Release_Unicode_Map|Win32.ActiveCfg = Release_Unicode|Win32
+		{AE3489C8-3640-4BFD-9932-C650C40F2A9F}.Release_Unicode_Map|Win32.Build.0 = Release_Unicode|Win32
+		{AE3489C8-3640-4BFD-9932-C650C40F2A9F}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{AE3489C8-3640-4BFD-9932-C650C40F2A9F}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{3BB55F03-B56B-470D-94EF-E30343B50647}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{3BB55F03-B56B-470D-94EF-E30343B50647}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{3BB55F03-B56B-470D-94EF-E30343B50647}.Release_Unicode_Map|Win32.ActiveCfg = Release_Unicode|Win32
+		{3BB55F03-B56B-470D-94EF-E30343B50647}.Release_Unicode_Map|Win32.Build.0 = Release_Unicode|Win32
+		{3BB55F03-B56B-470D-94EF-E30343B50647}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{3BB55F03-B56B-470D-94EF-E30343B50647}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{1A981C20-4D88-40F8-BC3E-F2F258C5082C}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{1A981C20-4D88-40F8-BC3E-F2F258C5082C}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{1A981C20-4D88-40F8-BC3E-F2F258C5082C}.Release_Unicode_Map|Win32.ActiveCfg = Release_Unicode_Map|Win32
+		{1A981C20-4D88-40F8-BC3E-F2F258C5082C}.Release_Unicode_Map|Win32.Build.0 = Release_Unicode_Map|Win32
+		{1A981C20-4D88-40F8-BC3E-F2F258C5082C}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{1A981C20-4D88-40F8-BC3E-F2F258C5082C}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{6ABD8204-D845-47C2-87BA-1EE3055BBF79}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{6ABD8204-D845-47C2-87BA-1EE3055BBF79}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{6ABD8204-D845-47C2-87BA-1EE3055BBF79}.Release_Unicode_Map|Win32.ActiveCfg = Release_Unicode|Win32
+		{6ABD8204-D845-47C2-87BA-1EE3055BBF79}.Release_Unicode_Map|Win32.Build.0 = Release_Unicode|Win32
+		{6ABD8204-D845-47C2-87BA-1EE3055BBF79}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{6ABD8204-D845-47C2-87BA-1EE3055BBF79}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

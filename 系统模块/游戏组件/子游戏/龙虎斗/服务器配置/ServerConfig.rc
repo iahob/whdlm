@@ -1,0 +1,270 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ServerConfig.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServerConfig.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "龙虎斗服务器配置组件"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "龙虎斗服务器配置组件"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "DragonTigerBattleConfig.exe"
+            VALUE "ProductName", "龙虎斗服务器配置组件"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 364
+        BOTTOMMARGIN, 464
+    END
+
+    IDD_CUSTOM_ADVANCED, DIALOG
+    BEGIN
+    END
+
+    IDD_CUSTOM_GENERAL, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 367, 473
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "龙虎斗配置工具"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "默认值",IDC_BUTTON_DEFAULT,7,450,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "保存配置",IDC_BUTTON_SAVE,308,450,50,14
+    PUSHBUTTON      "读取配置",IDC_BUTTON_READ,252,450,50,14
+    CONTROL         "",IDC_TAB_CUSTOM,"SysTabControl32",0x0,3,1,361,443
+    CTEXT           "子窗口显示区域",IDC_STATIC_SHOW,6,24,354,415,SS_CENTERIMAGE
+END
+
+IDD_CUSTOM_ADVANCED DIALOGEX 0, 0, 362, 559
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VSCROLL | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_GRADESEL,81,25,48,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "收放表",IDC_STATIC,15,11,312,262
+    CONTROL         "",IDC_LIST_TABLE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,34,110,199,110
+    LTEXT           "选择档位：",IDC_STATIC,32,29,41,8
+    PUSHBUTTON      "上一张",IDC_BUTTON_TABLE_BEFORE,59,247,50,14,BS_MULTILINE
+    PUSHBUTTON      "下一张",IDC_BUTTON_TABLE_NEXT,163,247,50,14,BS_MULTILINE
+    LTEXT           "当前第",IDC_STATIC_TABLEDESC,34,93,198,8
+    LTEXT           "选择序号：",IDC_STATIC,32,53,41,8
+    COMBOBOX        IDC_COMBO_LINE,81,49,48,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DEBUG_VALUE,255,111,51,13,ES_AUTOHSCROLL
+    LTEXT           "设置额度：",IDC_STATIC,255,96,41,8
+    LTEXT           "设置难度：",IDC_STATIC,255,144,41,8
+    EDITTEXT        IDC_EDIT_DIFFICULTY,255,161,51,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TABLESEL,203,25,48,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "选择表：",IDC_STATIC,158,29,33,8
+    GROUPBOX        "流水对应收放表配置(编辑完点击设置按钮)",IDC_STATIC,17,276,312,97
+    LTEXT           "档位1：",IDC_STATIC,29,291,29,8
+    LTEXT           "档位2：",IDC_STATIC,30,307,29,8
+    LTEXT           "档位3：",IDC_STATIC,29,323,29,8
+    LTEXT           "档位4：",IDC_STATIC,29,338,29,8
+    LTEXT           "档位4：",IDC_STATIC,29,353,29,8
+    LTEXT           "~~~~",IDC_STATIC,137,291,22,8
+    LTEXT           "~~~~",IDC_STATIC,138,307,22,8
+    LTEXT           "~~~~",IDC_STATIC,137,323,22,8
+    LTEXT           "~~~~",IDC_STATIC,137,338,22,8
+    LTEXT           "~~~~",IDC_STATIC,137,353,22,8
+    LTEXT           "无上限",IDC_STATIC,182,353,25,8
+    LTEXT           "0",IDC_STATIC,67,291,8,8
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MAX0,182,291,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MIN1,68,307,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MAX1,183,307,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MIN2,67,323,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MAX2,182,323,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MIN3,67,338,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MAX3,182,338,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GRADEINDEX_MIN4,67,353,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "库存范围对应收放表类型(请先选择档位,编辑完点击设置按钮)",IDC_STATIC,17,378,312,166
+    LTEXT           "前10%收表：",IDC_STATIC,31,397,48,8
+    LTEXT           "11%~20%收表：",IDC_STATIC,31,414,61,8
+    LTEXT           "21%~30%收表：",IDC_STATIC,31,430,61,8
+    LTEXT           "31%~40%收表：",IDC_STATIC,31,445,61,8
+    LTEXT           "平衡表：",IDC_STATIC,31,462,33,8
+    LTEXT           "31%~40%放表：",IDC_STATIC,31,479,61,8
+    LTEXT           "21%~30%放表：",IDC_STATIC,31,495,61,8
+    LTEXT           "11%~20%放表：",IDC_STATIC,31,511,61,8
+    LTEXT           "前10%放表：",IDC_STATIC,31,531,48,8
+    LTEXT           "~~~~",IDC_STATIC,169,398,22,8
+    LTEXT           "0",IDC_STATIC,101,397,8,8
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_0,205,397,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_1,101,414,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "~~~~",IDC_STATIC,169,414,22,8
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_1,205,414,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_2,101,430,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_3,101,445,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_4,101,462,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_5,101,479,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_6,101,495,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_7,101,511,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MIN_8,101,526,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_2,205,430,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_3,205,445,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_4,205,462,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_5,205,479,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_6,205,495,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STORAGE_MAX_7,205,511,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "无上限",IDC_STATIC,203,531,25,8
+    LTEXT           "~~~~",IDC_STATIC,169,430,22,8
+    LTEXT           "~~~~",IDC_STATIC,169,445,22,8
+    LTEXT           "~~~~",IDC_STATIC,169,462,22,8
+    LTEXT           "~~~~",IDC_STATIC,169,479,22,8
+    LTEXT           "~~~~",IDC_STATIC,169,495,22,8
+    LTEXT           "~~~~",IDC_STATIC,169,511,22,8
+    LTEXT           "~~~~",IDC_STATIC,169,531,22,8
+    PUSHBUTTON      "设置",IDC_BUTTON_SETGRADERANGE,267,354,50,14,BS_MULTILINE
+    PUSHBUTTON      "设置",IDC_BUTTON_SETSTORAGERANGE,269,525,50,14,BS_MULTILINE
+END
+
+IDD_CUSTOM_GENERAL DIALOGEX 0, 0, 345, 240
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "库存/抽水/奖池",IDC_STATIC,8,12,329,66
+    LTEXT           "设置库存：",IDC_STATIC,19,29,41,8
+    EDITTEXT        IDC_EDIT_CONFIG_STORAGE,77,29,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "库存转移比例：",IDC_STATIC,164,29,57,8
+    LTEXT           "抽水转移比例：",IDC_STATIC,164,47,57,8
+    EDITTEXT        IDC_EDIT_TRANS_STORPER,228,29,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_TRANS_CHARGEPER,228,47,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,283,29,8,8
+    LTEXT           "%",IDC_STATIC,283,47,8,8
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ServerConfig.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

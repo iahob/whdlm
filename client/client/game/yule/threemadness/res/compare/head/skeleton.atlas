@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shibai_00000
+  rotate: false
+  xy: 162, 108
+  size: 147, 146
+  orig: 184, 156
+  offset: 26, 0
+  index: -1
+shibai_00001
+  rotate: false
+  xy: 162, 108
+  size: 147, 146
+  orig: 184, 156
+  offset: 26, 0
+  index: -1
+shibai_00002
+  rotate: false
+  xy: 2, 108
+  size: 158, 146
+  orig: 184, 156
+  offset: 16, 0
+  index: -1
+shibai_00003
+  rotate: false
+  xy: 437, 129
+  size: 128, 125
+  orig: 184, 156
+  offset: 32, 15
+  index: -1
+shibai_00004
+  rotate: false
+  xy: 437, 2
+  size: 128, 125
+  orig: 184, 156
+  offset: 32, 15
+  index: -1
+shibai_00005
+  rotate: false
+  xy: 567, 7
+  size: 115, 120
+  orig: 184, 156
+  offset: 31, 20
+  index: -1
+shibai_00006
+  rotate: false
+  xy: 567, 129
+  size: 115, 125
+  orig: 184, 156
+  offset: 29, 19
+  index: -1
+shibai_00007
+  rotate: false
+  xy: 311, 118
+  size: 124, 136
+  orig: 184, 156
+  offset: 20, 12
+  index: -1
+shibai_00008
+  rotate: false
+  xy: 2, 8
+  size: 96, 98
+  orig: 184, 156
+  offset: 48, 28
+  index: -1
+shibai_00009
+  rotate: false
+  xy: 100, 10
+  size: 92, 96
+  orig: 184, 156
+  offset: 48, 28
+  index: -1
+shibai_00010
+  rotate: false
+  xy: 684, 157
+  size: 94, 97
+  orig: 184, 156
+  offset: 48, 28
+  index: -1
+shibai_00011
+  rotate: false
+  xy: 684, 61
+  size: 91, 94
+  orig: 184, 156
+  offset: 49, 30
+  index: -1
+shibai_00012
+  rotate: false
+  xy: 780, 171
+  size: 81, 83
+  orig: 184, 156
+  offset: 53, 35
+  index: -1

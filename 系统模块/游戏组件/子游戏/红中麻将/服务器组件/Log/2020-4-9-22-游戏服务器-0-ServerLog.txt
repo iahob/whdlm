@@ -1,0 +1,6 @@
+9-22-2-36: OnEventTCPNetworkShut userid = 1 断线 
+9-22-2-36: OnEventTCPNetworkShut userid = 1 wTableID = 65535 wDrawCount = 0 断线 
+9-22-2-36: OnEventTCPNetworkShut userid = 1 断线 离开房间 
+9-22-9-21: OnEventTCPNetworkShut userid = 1 断线 
+9-22-9-21: OnEventTCPNetworkShut userid = 1 wTableID = 65535 wDrawCount = 0 断线 
+9-22-9-21: OnEventTCPNetworkShut userid = 1 断线 离开房间 

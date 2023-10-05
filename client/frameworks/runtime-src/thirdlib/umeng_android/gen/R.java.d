@@ -1,0 +1,22 @@
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\gen\com\umeng_social_sdk_res_lib\R.java \
+ : G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_back_icon.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_btn_bg.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_copy.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_copyurl.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_delete.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_edit_bg.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_fav.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_menu_default.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_more.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_share_music.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_share_video.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_share_web.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_wechat.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\drawable\umeng_socialize_wxcircle.png \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\layout\socialize_share_menu_item.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\layout\umeng_socialize_oauth_dialog.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\layout-sw550dp-large\umeng_socialize_oauth_dialog.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\values\umeng_socialize_colors.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\values\umeng_socialize_strings.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\res\values\umeng_socialize_style.xml \
+G:\laok\client\frameworks\runtime-src\thirdlib\umeng_android\bin\AndroidManifest.xml \

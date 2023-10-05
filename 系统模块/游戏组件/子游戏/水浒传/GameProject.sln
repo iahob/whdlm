@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "游戏服务器", "服务器组件\GameServer.vcxproj", "{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "服务器调试", "服务器控制\ServerControl.vcxproj", "{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "客户端调试-水浒传", "客户端控制\ClientControl.vcxproj", "{EC7FAE99-84B3-479A-9053-4C2997E4927F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "机器人服务", "机器人服务\AndroidService.vcxproj", "{2F4F6198-A94E-4440-9E73-C50A42A23FA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|x86 = Debug_Unicode|x86
+		Debug|x86 = Debug|x86
+		Release_Unicode|x86 = Release_Unicode|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Debug_Unicode|x86.ActiveCfg = Debug_Unicode|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Debug_Unicode|x86.Build.0 = Debug_Unicode|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Debug|x86.Build.0 = Debug|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Release_Unicode|x86.ActiveCfg = Release_Unicode|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Release_Unicode|x86.Build.0 = Release_Unicode|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Release|x86.ActiveCfg = Release|Win32
+		{0EE07A13-113B-42EC-BB56-1EF0EF3809A0}.Release|x86.Build.0 = Release|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Debug_Unicode|x86.ActiveCfg = Debug_Unicode|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Debug_Unicode|x86.Build.0 = Debug_Unicode|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Debug|x86.Build.0 = Debug|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Release_Unicode|x86.ActiveCfg = Release_Unicode|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Release_Unicode|x86.Build.0 = Release_Unicode|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Release|x86.ActiveCfg = Release|Win32
+		{C4F562F8-FCCD-48CE-B2BC-DC69E7B22024}.Release|x86.Build.0 = Release|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Debug_Unicode|x86.ActiveCfg = Debug_Unicode|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Debug_Unicode|x86.Build.0 = Debug_Unicode|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Debug|x86.Build.0 = Debug|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Release_Unicode|x86.ActiveCfg = Release_Unicode|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Release_Unicode|x86.Build.0 = Release_Unicode|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Release|x86.ActiveCfg = Release|Win32
+		{EC7FAE99-84B3-479A-9053-4C2997E4927F}.Release|x86.Build.0 = Release|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Debug_Unicode|x86.ActiveCfg = Debug_Unicode|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Debug_Unicode|x86.Build.0 = Debug_Unicode|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Debug|x86.Build.0 = Debug|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Release_Unicode|x86.ActiveCfg = Release_Unicode|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Release_Unicode|x86.Build.0 = Release_Unicode|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Release|x86.ActiveCfg = Release|Win32
+		{2F4F6198-A94E-4440-9E73-C50A42A23FA6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

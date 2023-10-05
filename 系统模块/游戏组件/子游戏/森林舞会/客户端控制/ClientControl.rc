@@ -1,0 +1,262 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientControl.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "昊谭科技"
+            VALUE "CompanyName", "昊谭科技"
+            VALUE "FileDescription", "森林王国客户端AC系统"
+            VALUE "FileVersion", "6.6.0.3"
+            VALUE "InternalName", "ClientControl.dll"
+            VALUE "LegalCopyright", "昊谭科技"
+            VALUE "LegalTrademarks", "昊谭科技"
+            VALUE "OriginalFilename", "ClientControl.dll"
+            VALUE "PrivateBuild", "昊谭科技"
+            VALUE "ProductName", "森林王国客户端AC系统"
+            VALUE "ProductVersion", "6.6.0.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CLIENT_CONTROL_EX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 222
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLIENT_CONTROL_EX DIALOGEX 0, 0, 415, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "森林王国控制端"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_USER,35,5,80,164,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ANIMAL_TOTAL_WIN,199,5,54,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RED_LION,35,26,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_RED_PANDA,115,26,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_RED_MONKEY,197,26,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_RED_RABBIT,277,26,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_BANKER,346,26,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_GREEN_LION,35,44,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_GREEN_PANDA,115,44,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_GREEN_MONKEY,197,44,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_GREEN_RABBIT,277,44,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_PLAYER,346,44,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_YELLOW_LION,35,63,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_YELLOW_PANDA,115,63,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_YELLOW_MONKEY,197,63,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_YELLOW_RABBIT,277,63,54,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_TIE,346,63,54,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "单色单动物",IDC_RADIO_SCSA,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,35,88,56,8
+    CONTROL         "单色多动物",IDC_RADIO_SCMA,"Button",BS_AUTORADIOBUTTON,
+                    35,138,56,8
+    CONTROL         "多色单动物",IDC_RADIO_MCSA,"Button",BS_AUTORADIOBUTTON,
+                    35,157,56,8
+    CONTROL         "红狮",IDC_RADIO_RED_LION,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,115,88,32,10
+    CONTROL         "绿狮",IDC_RADIO_GREEN_LION,"Button",BS_AUTORADIOBUTTON,
+                    115,103,32,10
+    CONTROL         "黄狮",IDC_RADIO_YELLOW_LION,"Button",BS_AUTORADIOBUTTON,
+                    115,117,32,10
+    CONTROL         "红熊",IDC_RADIO_RED_PANDA,"Button",BS_AUTORADIOBUTTON,
+                    175,88,32,10
+    CONTROL         "绿熊",IDC_RADIO_GREEN_PANDA,"Button",BS_AUTORADIOBUTTON,
+                    175,103,32,10
+    CONTROL         "黄熊",IDC_RADIO_YELLOW_PANDA,"Button",
+                    BS_AUTORADIOBUTTON,175,117,32,10
+    CONTROL         "红猴",IDC_RADIO_RED_MONKEY,"Button",BS_AUTORADIOBUTTON,
+                    237,88,32,10
+    CONTROL         "绿猴",IDC_RADIO_GREEN_MONKEY,"Button",
+                    BS_AUTORADIOBUTTON,237,103,32,10
+    CONTROL         "黄猴",IDC_RADIO_YELLOW_MONKEY,"Button",
+                    BS_AUTORADIOBUTTON,237,117,32,10
+    CONTROL         "红兔",IDC_RADIO_RED_RABBIT,"Button",BS_AUTORADIOBUTTON,
+                    295,88,32,10
+    CONTROL         "绿兔",IDC_RADIO_GREEN_RABBIT,"Button",
+                    BS_AUTORADIOBUTTON,295,103,32,10
+    CONTROL         "黄兔",IDC_RADIO_YELLOW_RABBIT,"Button",
+                    BS_AUTORADIOBUTTON,295,117,32,10
+    CONTROL         "红色",IDC_RADIO_RED,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,115,138,32,10
+    CONTROL         "绿色",IDC_RADIO_GREEN,"Button",BS_AUTORADIOBUTTON,175,
+                    138,32,10
+    CONTROL         "黄色",IDC_RADIO_YELLOW,"Button",BS_AUTORADIOBUTTON,237,
+                    138,32,10
+    CONTROL         "狮子",IDC_RADIO_LION,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,115,157,32,10
+    CONTROL         "熊猫",IDC_RADIO_PANDA,"Button",BS_AUTORADIOBUTTON,175,
+                    157,32,10
+    CONTROL         "猴子",IDC_RADIO_MONKEY,"Button",BS_AUTORADIOBUTTON,237,
+                    157,32,10
+    CONTROL         "兔子",IDC_RADIO_RABBIT,"Button",BS_AUTORADIOBUTTON,295,
+                    157,32,10
+    CONTROL         "庄",IDC_RADIO_BANKER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,115,177,24,10
+    CONTROL         "闲",IDC_RADIO_PLAYER,"Button",BS_AUTORADIOBUTTON,175,
+                    177,24,10
+    CONTROL         "和",IDC_RADIO_TIE,"Button",BS_AUTORADIOBUTTON,237,177,
+                    24,10
+    PUSHBUTTON      "控制",IDC_BUTTON_CONTROL,144,208,50,14
+    LTEXT           "用户",IDC_STATIC_USER,13,6,17,8
+    LTEXT           "库存值",IDC_STATIC_ANIMAL_TOTAL_WIN,170,7,25,8
+    LTEXT           "红狮",IDC_STATIC_RED_LION,13,28,17,8
+    LTEXT           "红猴",IDC_STATIC_RED_MONKEY,175,28,17,8
+    LTEXT           "庄闲和",IDC_STATIC_ENJOY,63,177,25,8
+    LTEXT           "绿狮",IDC_STATIC_GREEN_LION,13,47,17,8
+    LTEXT           "黄狮",IDC_STATIC_YELLOW_LION,13,64,17,8
+    LTEXT           "红熊",IDC_STATIC_RED_PANDA,93,28,17,8
+    LTEXT           "绿熊",IDC_STATIC_GREEN_PANDA,93,47,17,8
+    LTEXT           "黄熊",IDC_STATIC_YELLOW_PANDA,93,64,17,8
+    LTEXT           "绿猴",IDC_STATIC_GREEN_MONKEY,175,47,17,8
+    LTEXT           "黄猴",IDC_STATIC_YELLOW_MONKEY,175,64,17,8
+    LTEXT           "红兔",IDC_STATIC_RED_RABBIT,255,28,17,8
+    LTEXT           "绿兔",IDC_STATIC_GREEN_RABBIT,255,47,17,8
+    LTEXT           "黄兔",IDC_STATIC_YELLOW_RABBIT,255,64,17,8
+    LTEXT           "闲",IDC_STATIC_PLAYER,335,47,9,8
+    LTEXT           "和",IDC_STATIC_TIE,335,64,9,8
+    LTEXT           "庄",IDC_STATIC_BANKER,335,28,9,8
+    PUSHBUTTON      "获取全局信息",IDC_BUTTON_GETINFO,199,208,65,14
+    EDITTEXT        IDC_EDIT_ANIMAL_TOTAL_LOST,305,5,36,14,ES_AUTOHSCROLL
+    LTEXT           "库存衰减值",IDC_STATIC_ANIMAL_TOTAL_LOST,261,7,41,8
+    PUSHBUTTON      "更新库存",IDC_BUTTON_UPDATE_STORAGE,353,5,46,14
+    CTEXT           "",IDC_STATIC_ACK,90,196,235,8
+    LTEXT           "%",IDC_STATIC,341,8,8,8
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientControl.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

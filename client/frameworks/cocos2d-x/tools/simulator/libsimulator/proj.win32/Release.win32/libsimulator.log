@@ -1,0 +1,64 @@
+﻿  CCHTTPRequest.cpp
+  DeviceEx-win32.cpp
+  PlayerEditBoxServiceWin.cpp
+  PlayerFileDialogServiceWin.cpp
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warning C4091: “typedef ”: 没有声明变量时忽略“tagGPFIDL_FLAGS”的左侧
+  PlayerMenuServiceWin.cpp
+  PlayerMessageBoxServiceWin.cpp
+  PlayerTaskServiceWin.cpp
+  PlayerWin.cpp
+  ProjectConfig.cpp
+  SimulatorConfig.cpp
+  AppEvent.cpp
+  AppLang.cpp
+  PlayerMenuServiceProtocol.cpp
+  PlayerProtocol.cpp
+  PlayerServiceProtocol.cpp
+  PlayerSettings.cpp
+  PlayerTaskServiceProtocol.cpp
+  PlayerUtils.cpp
+  extension_set.cc
+  generated_message_util.cc
+  正在生成代码...
+  正在编译...
+  coded_stream.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl_lite.cc
+..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc(157): warning C4018: “<”: 有符号/无符号不匹配
+..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc(177): warning C4018: “<=”: 有符号/无符号不匹配
+  message_lite.cc
+  repeated_field.cc
+  atomicops_internals_x86_gcc.cc
+  atomicops_internals_x86_msvc.cc
+  common.cc
+..\lib\protobuf-lite\google\protobuf\stubs\common.cc(377): warning C4018: “<”: 有符号/无符号不匹配
+  once.cc
+  stringprintf.cc
+..\lib\protobuf-lite\google\protobuf\stubs\stringprintf.cc(152): warning C4018: “<”: 有符号/无符号不匹配
+  wire_format_lite.cc
+  ConfigParser.cpp
+..\lib\runtime\ConfigParser.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+  ConnectWaitLayer.cpp
+  ConsoleCommand.cpp
+  FileServer.cpp
+..\lib\runtime\FileServer.cpp(144): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+  ..\lib\runtime\FileServer.cpp(144): note: 请考虑在格式字符串中使用“%ls”
+  ..\lib\runtime\FileServer.cpp(144): note: 请考虑在格式字符串中使用“%lls”
+  ..\lib\runtime\FileServer.cpp(144): note: 请考虑在格式字符串中使用“%Ls”
+  ..\lib\runtime\FileServer.cpp(144): note: 请考虑在格式字符串中使用“%ws”
+  Landscape_png.cpp
+  PlayDisable_png.cpp
+  PlayEnable_png.cpp
+  Portrait_png.cpp
+  Protos.pb.cc
+  正在生成代码...
+  正在编译...
+  Runtime.cpp
+  RuntimeCCSImpl.cpp
+  RuntimeProtocol.cpp
+  Shine_png.cpp
+  VisibleRect.cpp
+  Runtime_win32.cpp
+  stdafx.cpp
+  正在生成代码...
+  libsimulator.vcxproj -> G:\Work\QJDLM\moble\frameworks\runtime-src\proj.win32\Release.win32\libsimulator.lib

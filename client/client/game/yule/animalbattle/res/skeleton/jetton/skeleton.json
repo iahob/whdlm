@@ -1,0 +1,89 @@
+{
+"skeleton": { "hash": "NEAF4EzgU/b0sAP4sYc6VavexIU", "spine": "3.6.53", "width": 1334, "height": 750, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "kuang", "parent": "root" },
+	{ "name": "kuang2", "parent": "root" },
+	{ "name": "zi", "parent": "root" },
+	{ "name": "zi2", "parent": "root" }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "kaishi_di", "bone": "kuang", "attachment": "kaishi_di" },
+	{ "name": "kaishi_di2", "bone": "kuang2", "attachment": "kaishi_di", "blend": "additive" },
+	{ "name": "tingzhixiazhu", "bone": "zi", "attachment": "tingzhixiazhu" },
+	{ "name": "tingzhixiazhu2", "bone": "zi2", "attachment": "tingzhixiazhu", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"kaishi_di": {
+			"kaishi_di": { "width": 509, "height": 123 }
+		},
+		"kaishi_di2": {
+			"kaishi_di": { "width": 509, "height": 123 }
+		},
+		"tingzhixiazhu": {
+			"tingzhixiazhu": { "width": 345, "height": 95 }
+		},
+		"tingzhixiazhu2": {
+			"tingzhixiazhu": { "width": 345, "height": 95 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"kaishi_di2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"tingzhixiazhu": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"tingzhixiazhu2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"kuang": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"kuang2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.542, "y": 1.542 }
+				]
+			},
+			"zi": {
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"zi2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	}
+}
+}

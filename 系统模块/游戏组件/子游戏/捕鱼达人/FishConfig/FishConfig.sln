@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FishConfig", "FishConfig.vcxproj", "{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Unicode = Debug_Unicode
+		Release = Release
+		Release_Unicode = Release_Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Debug.ActiveCfg = Debug|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Debug.Build.0 = Debug|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Debug_Unicode.ActiveCfg = Debug_Unicode|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Debug_Unicode.Build.0 = Debug_Unicode|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Release.ActiveCfg = Release|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Release.Build.0 = Release|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Release_Unicode.ActiveCfg = Release_Unicode|Win32
+		{B63C0BB8-17FC-4F32-ACB1-DC9AE176D949}.Release_Unicode.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

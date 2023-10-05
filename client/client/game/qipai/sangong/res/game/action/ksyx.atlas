@@ -1,0 +1,34 @@
+
+ksyx.png
+size: 273,495
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 4, 47
+  size: 444, 90
+  orig: 444, 90
+  offset: 0, 0
+  index: -1
+ksbp
+  rotate: true
+  xy: 186, 127
+  size: 364, 83
+  orig: 364, 83
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 98, 4
+  size: 159, 119
+  orig: 159, 119
+  offset: 0, 0
+  index: -1
+yxks
+  rotate: true
+  xy: 98, 127
+  size: 364, 84
+  orig: 364, 84
+  offset: 0, 0
+  index: -1

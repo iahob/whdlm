@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "d5i+KqPDiNhAx57XhELmN+eYiLU", "spine": "3.6.53", "width": 246.14, "height": 45, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dian", "parent": "root", "x": 107.88 },
+	{ "name": "dian2", "parent": "root", "x": 122.75 },
+	{ "name": "dian3", "parent": "root", "x": 137.64 },
+	{ "name": "zi", "parent": "root" }
+],
+"slots": [
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "dian", "bone": "dian", "attachment": "dian" },
+	{ "name": "dian2", "bone": "dian2", "attachment": "dian" },
+	{ "name": "dian3", "bone": "dian3", "attachment": "dian" }
+],
+"skins": {
+	"default": {
+		"dian": {
+			"dian": { "width": 15, "height": 16 }
+		},
+		"dian2": {
+			"dian": { "width": 15, "height": 16 }
+		},
+		"dian3": {
+			"dian": { "width": 15, "height": 16 }
+		},
+		"zi": {
+			"zi": { "width": 202, "height": 45 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"dian": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"dian2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			},
+			"dian3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

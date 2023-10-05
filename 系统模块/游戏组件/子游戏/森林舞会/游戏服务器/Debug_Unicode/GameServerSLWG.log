@@ -1,0 +1,83 @@
+﻿  Stdafx.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+  tinystr.cpp
+  TestAnimal.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  pugixml.cpp
+  log.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  basiclogger.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\include\basiclogger.cpp(76): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\include\basiclogger.cpp(202): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\include\basiclogger.cpp(218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\include\basiclogger.cpp(233): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\include\basiclogger.cpp(252): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  GameServerManager.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  GameServer.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  gamelogic.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\gamelogic.cpp(448): warning C4018: “<”: 有符号/无符号不匹配
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\gamelogic.cpp(911): warning C4244: “+=”: 从“double”转换到“INT64”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\gamelogic.cpp(1526): warning C4018: “>”: 有符号/无符号不匹配
+  AnimalCfg.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(79): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(80): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(81): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(82): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(83): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(126): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(127): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(128): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(129): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(130): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(131): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(132): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(133): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(134): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(135): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(136): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(145): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(146): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(147): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(148): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(149): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(169): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(170): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(171): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(199): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(200): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(273): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(274): warning C4244: “=”: 从“double”转换到“UINT32”，可能丢失数据
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(577): warning C4018: “>=”: 有符号/无符号不匹配
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(591): warning C4018: “>=”: 有符号/无符号不匹配
+  AndroidUserItemSink.cpp
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  正在生成代码...
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(501): warning C4172: 返回局部变量或临时变量的地址: v
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(525): warning C4172: 返回局部变量或临时变量的地址: stAnimalCfg
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\animalcfg.cpp(534): warning C4172: 返回局部变量或临时变量的地址: st
+  TableFrameSink.cpp
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(824): warning C4129: “%”: 不可识别的字符转义序列
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(824): warning C4778: “_snwprintf_s”: 格式字符串“%”未终止
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1813): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: 参见“_snprintf”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1824): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: 参见“_snprintf”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1833): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: 参见“_snprintf”的声明
+AndroidUserItemSink.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+    正在创建库 Debug_Unicode/Server_3DSLWG.lib 和对象 Debug_Unicode/Server_3DSLWG.exp
+  GameServerSLWG.vcxproj -> G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\../../../../运行/Debug_Unicode/Server_3DSLWG.dll
+  GameServerSLWG.vcxproj -> Debug_Unicode\Server_3DSLWG.pdb (Full PDB)

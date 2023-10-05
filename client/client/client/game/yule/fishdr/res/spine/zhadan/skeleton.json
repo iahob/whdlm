@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "fEtWCtvDxQoFPXEHMdZSUeoSPHg", "spine": "3.6.53", "width": 1334, "height": 896.88, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "02", "parent": "root", "y": -8.3, "scaleX": 1.206, "scaleY": 1.206 },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "quan", "parent": "root", "scaleX": 1.701, "scaleY": 1.701 },
+	{ "name": "quan2", "parent": "root", "scaleX": 1.142, "scaleY": 1.142 },
+	{ "name": "xuanwo", "parent": "root", "scaleX": 2.02, "scaleY": 2.02 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "arcane_hydra_spiral", "bone": "xuanwo", "attachment": "arcane_hydra_spiral" },
+	{ "name": "02", "bone": "02", "attachment": "02/1", "blend": "additive" },
+	{ "name": "quan", "bone": "quan", "color": "ffffffa4", "attachment": "quan", "blend": "additive" },
+	{ "name": "quan2", "bone": "quan2", "color": "ffffffa4", "attachment": "quan", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"02": {
+			"02/0": { "width": 261, "height": 234 },
+			"02/1": { "width": 345, "height": 346 },
+			"02/2": { "width": 351, "height": 346 },
+			"02/3": { "width": 339, "height": 335 },
+			"02/4": { "width": 339, "height": 330 },
+			"02/5": { "width": 337, "height": 323 },
+			"02/6": { "width": 321, "height": 296 },
+			"02/7": { "width": 237, "height": 211 }
+		},
+		"arcane_hydra_spiral": {
+			"arcane_hydra_spiral": { "width": 256, "height": 256 }
+		},
+		"quan": {
+			"quan": { "width": 256, "height": 256 }
+		},
+		"quan2": {
+			"quan": { "width": 256, "height": 256 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"02": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.3667, "name": "02/0" },
+					{ "time": 0.4667, "name": "02/1" },
+					{ "time": 0.5667, "name": "02/2" },
+					{ "time": 0.6667, "name": "02/3" },
+					{ "time": 0.7667, "name": "02/4" },
+					{ "time": 0.8667, "name": "02/5" },
+					{ "time": 0.9667, "name": "02/6" },
+					{ "time": 1.0667, "name": "02/7" },
+					{ "time": 1.1667, "name": null }
+				]
+			},
+			"arcane_hydra_spiral": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"quan": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffff1b" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"quan2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffff1b" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"xuanwo": {
+				"rotate": [
+					{ "time": 0, "angle": 137.21 },
+					{ "time": 0.3333, "angle": -18.62 }
+				]
+			},
+			"quan": {
+				"scale": [
+					{ "time": 0, "x": 0.882, "y": 0.882, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.882, "y": 0.882 },
+					{ "time": 1, "x": 1.74, "y": 1.74 }
+				]
+			},
+			"quan2": {
+				"scale": [
+					{ "time": 0, "x": 1.314, "y": 1.314, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1.314, "y": 1.314 },
+					{ "time": 1.3333, "x": 1.74, "y": 1.74 }
+				]
+			}
+		}
+	}
+}
+}

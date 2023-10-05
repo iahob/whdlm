@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/behit_huojian_01
+  rotate: true
+  xy: 911, 1227
+  size: 167, 102
+  orig: 778, 540
+  offset: 302, 48
+  index: -1
+xulie/behit_huojian_02
+  rotate: true
+  xy: 795, 163
+  size: 221, 133
+  orig: 778, 540
+  offset: 290, 41
+  index: -1
+xulie/behit_huojian_03
+  rotate: false
+  xy: 695, 610
+  size: 261, 197
+  orig: 778, 540
+  offset: 288, 30
+  index: -1
+xulie/behit_huojian_04
+  rotate: true
+  xy: 695, 809
+  size: 319, 248
+  orig: 778, 540
+  offset: 263, 34
+  index: -1
+xulie/behit_huojian_05
+  rotate: false
+  xy: 565, 1130
+  size: 344, 264
+  orig: 778, 540
+  offset: 246, 34
+  index: -1
+xulie/behit_huojian_06
+  rotate: true
+  xy: 422, 609
+  size: 468, 271
+  orig: 778, 540
+  offset: 209, 40
+  index: -1
+xulie/behit_huojian_07
+  rotate: true
+  xy: 474, 11
+  size: 596, 319
+  orig: 778, 540
+  offset: 114, 40
+  index: -1
+xulie/behit_huojian_08
+  rotate: true
+  xy: 612, 1396
+  size: 622, 378
+  orig: 778, 540
+  offset: 64, 40
+  index: -1
+xulie/behit_huojian_09
+  rotate: true
+  xy: 2, 487
+  size: 590, 418
+  orig: 778, 540
+  offset: 95, 40
+  index: -1
+xulie/behit_huojian_10
+  rotate: false
+  xy: 2, 1569
+  size: 608, 449
+  orig: 778, 540
+  offset: 77, 37
+  index: -1
+xulie/behit_huojian_11
+  rotate: false
+  xy: 2, 1079
+  size: 561, 488
+  orig: 778, 540
+  offset: 130, 49
+  index: -1
+xulie/behit_huojian_12
+  rotate: false
+  xy: 2, 12
+  size: 470, 473
+  orig: 778, 540
+  offset: 266, 64
+  index: -1
+xulie/behit_huojian_13
+  rotate: false
+  xy: 795, 386
+  size: 196, 222
+  orig: 778, 540
+  offset: 413, 318
+  index: -1
+zha
+  rotate: true
+  xy: 795, 2
+  size: 159, 188
+  orig: 159, 188
+  offset: 0, 0
+  index: -1

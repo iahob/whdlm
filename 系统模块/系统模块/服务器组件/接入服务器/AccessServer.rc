@@ -1,0 +1,194 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\AccessServer.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AccessServer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_ACCESS_SERVER DIALOGEX 0, 0, 285, 197
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TRACE_MESSAGE,"RichEdit20W",ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | WS_BORDER | WS_VSCROLL,0,4,284,168,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "启动服务",IDC_START_SERVICE,11,178,49,15
+    PUSHBUTTON      "停止服务",IDC_STOP_SERVICE,79,178,49,15,WS_DISABLED
+    DEFPUSHBUTTON   "系统配置",IDC_LOAD_OPTION,149,178,49,15,WS_DISABLED
+    PUSHBUTTON      "退出系统",IDCANCEL,221,178,49,15
+END
+
+IDD_ACCESS_OPTION DIALOGEX 0, 0, 336, 284
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "服务配置"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_ACCESS_NAME,83,173,191,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_ACCESS_ID,83,192,53,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAX_CONNECT,212,192,63,13,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVICE_PORT,83,212,53,13,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVICE_ADDR,212,212,63,13,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "添 加",IDC_BT_ADD_ACCESS,29,255,65,19
+    PUSHBUTTON      "修 改",IDC_BT_MODIFY_ACCESS,107,255,62,19
+    PUSHBUTTON      "删 除",IDC_BT_DELETE_ACCESS,177,255,59,19
+    DEFPUSHBUTTON   "退 出",IDC_BT_QUIT,245,255,63,19
+    LTEXT           "接入标识：",IDC_STATIC,39,194,40,8,WS_TABSTOP
+    GROUPBOX        "配置列表",IDC_STATIC,4,3,330,276
+    CONTROL         "",IDC_LIST_ACCESS_INFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER,15,20,299,125
+    LTEXT           "服务端口：",IDC_STATIC,39,214,40,8
+    GROUPBOX        "配置信息",IDC_STATIC,16,156,298,78
+    LTEXT           "最大连接：",IDC_STATIC,168,194,41,8
+    LTEXT           "接入名称：",IDC_STATIC,39,176,41,8
+    LTEXT           "服务地址：",IDC_STATIC,168,214,40,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 8,1,0,1
+ PRODUCTVERSION 8,1,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "藏宝库It社区28xin.com"
+            VALUE "CompanyName", "藏宝库It社区28xin.com"
+            VALUE "FileDescription", "接入服务器"
+            VALUE "FileVersion", "8, 1, 0, 1"
+            VALUE "InternalName", "ClubServer.exe"
+            VALUE "LegalCopyright", "藏宝库It社区保留所有权利。"
+            VALUE "OriginalFilename", "ClubServer.exe"
+            VALUE "ProductName", "接入服务器"
+            VALUE "ProductVersion", "8, 1, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_ACCESS_SERVER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 284
+    END
+
+    IDD_ACCESS_OPTION, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 280
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\AccessServer.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

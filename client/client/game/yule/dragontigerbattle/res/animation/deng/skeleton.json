@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "dZm4BgqICz6HDNlCRB/k6ZylDcQ", "spine": "3.6.53", "width": 1334, "height": 750, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Up", "parent": "root" },
+	{ "name": "denglong", "parent": "root", "x": 517.06, "y": 167.33 },
+	{ "name": "down", "parent": "root" },
+	{ "name": "guang", "parent": "denglong", "x": 3.78, "y": -57.34, "scaleX": 1.082, "scaleY": 1.082 },
+	{ "name": "shen", "parent": "denglong", "x": -0.18, "y": -89.75 }
+],
+"slots": [
+	{ "name": "down", "bone": "down" },
+	{ "name": "denglong", "bone": "denglong", "attachment": "denglong" },
+	{ "name": "guang", "bone": "guang", "attachment": "guang", "blend": "additive" },
+	{ "name": "up", "bone": "Up" },
+	{ "name": "denglong_shen", "bone": "shen", "attachment": "denglong_shen" }
+],
+"skins": {
+	"default": {
+		"denglong": {
+			"denglong": { "x": 3.7, "y": -41.53, "width": 47, "height": 96 }
+		},
+		"denglong_shen": {
+			"denglong_shen": { "x": 3.98, "y": -35.8, "width": 29, "height": 72 }
+		},
+		"guang": {
+			"guang": { "width": 75, "height": 104 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"guang": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffff68" },
+					{ "time": 4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"denglong": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 2, "angle": -6.19 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"shen": {
+				"rotate": [
+					{ "time": 0, "angle": -5.85 },
+					{ "time": 2, "angle": -21.23 },
+					{ "time": 4, "angle": -5.85 }
+				]
+			}
+		}
+	}
+}
+}

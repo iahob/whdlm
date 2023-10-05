@@ -1,0 +1,90 @@
+
+action_520.png
+size: 752,211
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+q
+  rotate: false
+  xy: 208, 64
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+qq
+  rotate: false
+  xy: 4, 4
+  size: 200, 203
+  orig: 200, 203
+  offset: 0, 0
+  index: -1
+qq_000
+  rotate: true
+  xy: 355, 122
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_001
+  rotate: true
+  xy: 385, 33
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_002
+  rotate: true
+  xy: 434, 122
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_003
+  rotate: true
+  xy: 464, 33
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_004
+  rotate: true
+  xy: 513, 122
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_005
+  rotate: true
+  xy: 543, 33
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_006
+  rotate: true
+  xy: 592, 122
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+qq_007
+  rotate: true
+  xy: 622, 34
+  size: 84, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 671, 130
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 208, 14
+  size: 173, 46
+  orig: 173, 46
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ÓÎÏ·Â¼Ïñ", "GameVideo.vcxproj", "{83AC84F0-9345-4558-B265-6555EBF7024F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Unicode = Debug_Unicode
+		Release = Release
+		Release_Unicode = Release_Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Debug.ActiveCfg = Debug|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Debug.Build.0 = Debug|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Debug_Unicode.ActiveCfg = Debug_Unicode|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Debug_Unicode.Build.0 = Debug_Unicode|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Release.ActiveCfg = Release|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Release.Build.0 = Release|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Release_Unicode.ActiveCfg = Release_Unicode|Win32
+		{83AC84F0-9345-4558-B265-6555EBF7024F}.Release_Unicode.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

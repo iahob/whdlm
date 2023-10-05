@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>sangong/game_end_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{1245,747}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1245,747}</string>
+			</dict>
+			<key>sangong/game_end_flagowner.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,944},{103,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,73}</string>
+			</dict>
+			<key>sangong/game_end_flagwin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{350,747},{83,83}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{83,83}</string>
+			</dict>
+			<key>sangong/game_end_user.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,747},{350,197}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,197}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>sangong_gameend.png</string>
+			<key>realTextureFileName</key>
+			<string>sangong_gameend.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

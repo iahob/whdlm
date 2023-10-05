@@ -1,0 +1,55 @@
+
+action_122.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+K
+  rotate: true
+  xy: 306, 2
+  size: 222, 302
+  orig: 222, 302
+  offset: 0, 0
+  index: -1
+Q
+  rotate: true
+  xy: 2, 2
+  size: 222, 302
+  orig: 222, 302
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 610, 12
+  size: 211, 212
+  orig: 214, 214
+  offset: 1, 0
+  index: -1
+pai
+  rotate: false
+  xy: 823, 89
+  size: 187, 135
+  orig: 187, 139
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 1104, 147
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+tao
+  rotate: false
+  xy: 1012, 122
+  size: 90, 102
+  orig: 91, 104
+  offset: 1, 0
+  index: -1
+zi
+  rotate: false
+  xy: 823, 37
+  size: 106, 50
+  orig: 108, 51
+  offset: 1, 1
+  index: -1

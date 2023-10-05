@@ -1,0 +1,83 @@
+{
+"skeleton": { "hash": "i43rjh93a4lqaSaw6Q6vXP9fviU", "spine": "3.6.53", "width": 1334, "height": 750, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Effect", "parent": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "xulie", "parent": "Effect", "x": 13.91, "y": -38.11, "scaleX": 0.669, "scaleY": 0.669 },
+	{ "name": "zi", "parent": "Effect" },
+	{ "name": "zi-guang", "parent": "Effect", "y": -49.23 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "start", "bone": "zi", "attachment": "start" },
+	{ "name": "start_filter_00000", "bone": "zi-guang", "attachment": "start_filter_00000", "blend": "additive" },
+	{ "name": "xulie", "bone": "xulie", "attachment": "xulie/anim_start_04", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"start": {
+			"start": { "width": 563, "height": 209 }
+		},
+		"start_filter_00000": {
+			"start_filter_00000": { "width": 818, "height": 136 }
+		},
+		"xulie": {
+			"xulie/anim_start_01": { "width": 957, "height": 97 },
+			"xulie/anim_start_02": { "width": 956, "height": 97 },
+			"xulie/anim_start_03": { "width": 957, "height": 97 },
+			"xulie/anim_start_04": { "width": 956, "height": 97 },
+			"xulie/anim_start_05": { "width": 957, "height": 98 },
+			"xulie/anim_start_06": { "width": 956, "height": 98 },
+			"xulie/anim_start_07": { "width": 957, "height": 97 },
+			"xulie/anim_start_08": { "width": 956, "height": 97 },
+			"xulie/anim_start_09": { "width": 957, "height": 97 },
+			"xulie/anim_start_10": { "width": 956, "height": 97 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"xulie": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffff2e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1667, "name": "xulie/anim_start_01" },
+					{ "time": 0.3, "name": "xulie/anim_start_03" },
+					{ "time": 0.4333, "name": "xulie/anim_start_05" },
+					{ "time": 0.5333, "name": "xulie/anim_start_07" },
+					{ "time": 0.6667, "name": "xulie/anim_start_09" },
+					{ "time": 0.8, "name": "xulie/anim_start_02" },
+					{ "time": 0.9333, "name": "xulie/anim_start_04" },
+					{ "time": 1.0667, "name": "xulie/anim_start_06" },
+					{ "time": 1.2, "name": "xulie/anim_start_08" },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"zi": {
+				"translate": [
+					{ "time": 0, "x": -961.41, "y": 0 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": 0, "y": 0 },
+					{ "time": 1.5, "x": 982.14, "y": 0 }
+				]
+			},
+			"zi-guang": {
+				"translate": [
+					{ "time": 0, "x": -961.41, "y": 0 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": 0, "y": 0 },
+					{ "time": 1.5, "x": 982.14, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

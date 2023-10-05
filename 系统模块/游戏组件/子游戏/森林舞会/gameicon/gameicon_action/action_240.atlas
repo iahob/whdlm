@@ -1,0 +1,69 @@
+
+action_240.png
+size: 758,214
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 599, 98
+  size: 112, 155
+  orig: 112, 155
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: false
+  xy: 687, 21
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 545, 4
+  size: 56, 78
+  orig: 56, 78
+  offset: 0, 0
+  index: -1
+let
+  rotate: false
+  xy: 687, 57
+  size: 65, 37
+  orig: 65, 37
+  offset: 0, 0
+  index: -1
+let2
+  rotate: false
+  xy: 605, 8
+  size: 78, 86
+  orig: 78, 86
+  offset: 0, 0
+  index: -1
+q
+  rotate: false
+  xy: 4, 7
+  size: 200, 203
+  orig: 200, 203
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 208, 13
+  size: 199, 197
+  orig: 199, 197
+  offset: 0, 0
+  index: -1
+zhuan
+  rotate: false
+  xy: 411, 86
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1
+zi
+  rotate: false
+  xy: 411, 37
+  size: 130, 45
+  orig: 130, 45
+  offset: 0, 0
+  index: -1

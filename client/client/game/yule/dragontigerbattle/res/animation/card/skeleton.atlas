@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2/CardWin01
+  rotate: true
+  xy: 781, 3
+  size: 59, 75
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin02
+  rotate: true
+  xy: 2, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin03
+  rotate: true
+  xy: 80, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin04
+  rotate: true
+  xy: 158, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin05
+  rotate: true
+  xy: 858, 2
+  size: 60, 74
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin06
+  rotate: true
+  xy: 236, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin07
+  rotate: true
+  xy: 314, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin08
+  rotate: true
+  xy: 392, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin09
+  rotate: true
+  xy: 470, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin10
+  rotate: true
+  xy: 548, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin11
+  rotate: true
+  xy: 626, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+2/CardWin12
+  rotate: true
+  xy: 704, 2
+  size: 60, 75
+  orig: 60, 76
+  offset: 0, 0
+  index: -1

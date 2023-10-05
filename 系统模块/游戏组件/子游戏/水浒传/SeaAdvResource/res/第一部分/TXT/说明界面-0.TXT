@@ -1,0 +1,5 @@
+_T("00")
+_T("01")
+_T("progress_bar")
+_T("progress_bar_bg")
+_T("ÍË³ö°ïÖú")

@@ -1,0 +1,233 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameServer.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "襄阳卡五星服务器组件"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "SparrowKWXServer.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "SparrowKWXServer.dll"
+            VALUE "ProductName", "襄阳卡五星服务器组件"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM_RULE DIALOGEX 0, 0, 345, 193
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "叫漂时间：",IDC_STATIC,23,28,42,8
+    LTEXT           "出牌时间：",IDC_STATIC,23,45,41,9
+    EDITTEXT        IDC_CALL_PIAO,72,26,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OUT_CARD,72,43,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（默认 20 秒，有效范围 5 - 60 秒）",IDC_STATIC,127,29,129,8
+    LTEXT           "（默认 30 秒，有效范围 5 - 60 秒）",IDC_STATIC,127,45,128,8
+    LTEXT           "操作时间：",IDC_STATIC,23,60,41,9
+    EDITTEXT        IDC_OPERATE,72,59,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（默认 20 秒，有效范围 5 - 60 秒）",IDC_STATIC,127,61,128,8
+    LTEXT           "开始时间：",IDC_STATIC,23,12,42,8
+    EDITTEXT        IDC_START,71,9,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（默认 30 秒，有效范围 5 - 60 秒）",IDC_STATIC,127,13,129,8
+END
+
+IDD_PERSONAL_RULE DIALOGEX 0, 0, 345, 230
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "约战房定制规则",IDC_STATIC,6,7,333,113
+    EDITTEXT        IDC_TIME_START_GAME5,52,27,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "局数1：",IDC_STATIC,23,29,28,8
+    EDITTEXT        IDC_TIME_START_GAME6,125,27,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "人数1：",IDC_STATIC,95,29,29,8
+    EDITTEXT        IDC_TIME_START_GAME7,203,27,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "费用1：",IDC_STATIC,173,29,29,8
+    EDITTEXT        IDC_TIME_START_GAME8,283,27,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "初始分1：",IDC_STATIC,243,29,37,8
+    EDITTEXT        IDC_TIME_START_GAME9,53,46,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "局数2：",IDC_STATIC,23,48,28,8
+    EDITTEXT        IDC_TIME_START_GAME10,125,46,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "人数2：",IDC_STATIC,95,48,29,8
+    EDITTEXT        IDC_TIME_START_GAME11,203,46,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "费用2：",IDC_STATIC,173,48,29,8
+    EDITTEXT        IDC_TIME_START_GAME12,283,46,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "初始分2：",IDC_STATIC,243,48,37,8
+    EDITTEXT        IDC_TIME_START_GAME13,53,65,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "局数3：",IDC_STATIC,23,67,28,8
+    EDITTEXT        IDC_TIME_START_GAME14,125,65,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "人数3：",IDC_STATIC,95,67,29,8
+    EDITTEXT        IDC_TIME_START_GAME15,203,65,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "费用3：",IDC_STATIC,173,67,29,8
+    EDITTEXT        IDC_TIME_START_GAME16,283,65,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "初始分3：",IDC_STATIC,243,67,37,8
+    EDITTEXT        IDC_TIME_START_GAME17,53,84,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "局数4：",IDC_STATIC,23,86,28,8
+    EDITTEXT        IDC_TIME_START_GAME18,125,84,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "人数4：",IDC_STATIC,95,86,29,8
+    EDITTEXT        IDC_TIME_START_GAME19,203,84,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "费用4：",IDC_STATIC,173,86,29,8
+    EDITTEXT        IDC_TIME_START_GAME20,283,84,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "初始分4：",IDC_STATIC,243,86,37,8
+    GROUPBOX        "底分配置 ",IDC_STATIC,6,127,333,60
+    EDITTEXT        IDC_TIME_START_GAME21,53,101,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "局数5：",IDC_STATIC,23,103,28,8
+    EDITTEXT        IDC_TIME_START_GAME22,125,101,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "人数5：",IDC_STATIC,95,103,29,8
+    EDITTEXT        IDC_TIME_START_GAME23,203,101,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "费用5：",IDC_STATIC,173,103,29,8
+    EDITTEXT        IDC_TIME_START_GAME24,283,101,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "初始分5：",IDC_STATIC,243,103,37,8
+    EDITTEXT        IDC_EDIT1,50,143,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分1：",IDC_STATIC,19,145,29,8
+    EDITTEXT        IDC_EDIT2,130,143,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分2：",IDC_STATIC,99,145,29,8
+    EDITTEXT        IDC_EDIT3,219,143,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分3：",IDC_STATIC,189,145,29,8
+    EDITTEXT        IDC_EDIT4,50,165,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分4：",IDC_STATIC,20,167,29,8
+    EDITTEXT        IDC_EDIT6,129,164,38,14,ES_AUTOHSCROLL
+    LTEXT           "底分5：",IDC_STATIC,99,166,29,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CUSTOM_RULE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 344
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_PERSONAL_RULE, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+SERVER_ICON             ICON                    "res\\GameClient.ico"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameServer.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

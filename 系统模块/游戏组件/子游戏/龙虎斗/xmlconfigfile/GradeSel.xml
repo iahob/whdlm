@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+	<row GradeSelID="1" RoomTotalBetMin="0" RoomTotalBetMax="30000"></row>
+	<row GradeSelID="2" RoomTotalBetMin="50001" RoomTotalBetMax="250000"></row>
+	<row GradeSelID="3" RoomTotalBetMin="250001" RoomTotalBetMax="500000"></row>
+	<row GradeSelID="4" RoomTotalBetMin="500001" RoomTotalBetMax="1000000"></row>
+	<row GradeSelID="5" RoomTotalBetMin="1000001" RoomTotalBetMax="-1"></row>
+</rows>

@@ -1,0 +1,246 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameServer.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "斗地主服务器组件"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "LandServer.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "LandServer.dll"
+            VALUE "ProductName", "斗地主服务器组件"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM_RULE DIALOGEX 0, 0, 345, 230
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TIME_START_GAME,66,23,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_CALL_SCORE,66,40,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_HEAD_OUT_CARD,66,57,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_OUT_CARD,66,74,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_MAX_SCORE_TIMES,66,120,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_FLEE_SCORE_TIMES,66,136,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "逃跑补偿：若玩家逃跑，将玩家逃跑的所罚的积分补偿给其他玩家",IDC_FLEE_SCORE_PATCH,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,23,185,248,10
+    LTEXT           "开始时间：",IDC_STATIC,23,25,41,8
+    LTEXT           "叫分时间：",IDC_STATIC,23,42,41,8
+    LTEXT           "首出时间：",IDC_STATIC,23,59,41,8
+    LTEXT           "出牌时间：",IDC_STATIC,23,76,41,8
+    LTEXT           "最大倍数：",IDC_STATIC,22,123,41,8
+    LTEXT           "（默认 30 秒，有效范围 5 - 60 秒）",IDC_STATIC,121,26,137,8
+    LTEXT           "（默认 20 秒，有效范围 5 - 60 秒）",IDC_STATIC,121,43,137,8
+    LTEXT           "（默认 30 秒，有效范围 5 - 60 秒）",IDC_STATIC,121,60,137,8
+    LTEXT           "（默认 20 秒，有效范围 5 - 60 秒）",IDC_STATIC,121,77,137,8
+    LTEXT           "（默认 32 倍，有效范围 32 -  512 倍）",IDC_STATIC,121,122,149,8
+    GROUPBOX        "时间调试",IDC_STATIC,6,7,333,90
+    GROUPBOX        "游戏调试",IDC_STATIC,6,104,333,119
+    LTEXT           "逃跑倍数：",IDC_STATIC,22,140,41,8
+    LTEXT           "（默认 12 倍，有效范围 2 -  512 倍）",IDC_STATIC,121,138,145,8
+    LTEXT           "备注说明：玩家逃跑，罚倍将按“逃跑倍数”与“炸弹翻倍”中较大的计算",IDC_STATIC,23,157,265,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,19,176,306,1
+    LTEXT           "断线托管延时：",IDC_STATIC,22,208,57,8
+    EDITTEXT        IDC_EDIT_TRUSTEEDELAY_TIME,85,204,29,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "(适用于普通金币场和金币房卡，有效时间2-6秒)",IDC_STATIC,123,208,173,8
+END
+
+IDD_PERSONAL_RULE DIALOGEX 0, 0, 345, 193
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "约战房定制规则",IDC_STATIC,5,71,333,113,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME5,51,91,25,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "局数1：",IDC_STATIC,23,93,28,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME6,125,91,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "人数1：",IDC_STATIC,95,93,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME7,203,91,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "费用1：",IDC_STATIC,173,93,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME8,283,91,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "初始分1：",IDC_STATIC,243,93,37,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME9,53,110,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "局数2：",IDC_STATIC,23,112,28,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME10,125,110,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "人数2：",IDC_STATIC,95,112,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME11,203,110,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "费用2：",IDC_STATIC,173,112,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME12,283,110,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "初始分2：",IDC_STATIC,243,112,37,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME13,53,129,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "局数3：",IDC_STATIC,23,131,28,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME14,125,129,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "人数3：",IDC_STATIC,95,131,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME15,203,129,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "费用3：",IDC_STATIC,173,131,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME16,283,129,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "初始分3：",IDC_STATIC,243,131,37,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME17,53,148,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "局数4：",IDC_STATIC,23,150,28,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME18,125,148,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "人数4：",IDC_STATIC,95,150,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME19,203,148,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "费用4：",IDC_STATIC,173,150,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME20,283,148,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "初始分4：",IDC_STATIC,243,150,37,8,NOT WS_VISIBLE | WS_DISABLED
+    GROUPBOX        "底分配置 ",IDC_STATIC,5,5,333,60
+    EDITTEXT        IDC_TIME_START_GAME21,53,165,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "局数5：",IDC_STATIC,23,167,28,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME22,125,165,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "人数5：",IDC_STATIC,95,167,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME23,203,165,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "费用5：",IDC_STATIC,173,167,29,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_TIME_START_GAME24,283,165,24,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "初始分5：",IDC_STATIC,243,167,37,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_EDIT1,50,21,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "底分1：",IDC_STATIC,19,23,29,8
+    EDITTEXT        IDC_EDIT2,130,21,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "底分2：",IDC_STATIC,99,23,29,8
+    EDITTEXT        IDC_EDIT3,219,21,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "底分3：",IDC_STATIC,189,23,29,8
+    EDITTEXT        IDC_EDIT4,50,43,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "底分4：",IDC_STATIC,20,45,29,8
+    EDITTEXT        IDC_EDIT6,129,42,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "底分5：",IDC_STATIC,99,44,29,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+SERVER_ICON             ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CUSTOM_RULE, DIALOG
+    BEGIN
+    END
+
+    IDD_PERSONAL_RULE, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameServer.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

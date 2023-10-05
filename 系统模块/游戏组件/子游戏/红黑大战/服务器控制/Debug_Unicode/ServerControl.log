@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  ServerControlItemSink.cpp
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器控制\servercontrolitemsink.cpp(62): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器控制\servercontrolitemsink.cpp(62): error C3861: “IsGameCheatUser”: 找不到标识符
+  ServerControl.cpp
+  GameLogic.cpp
+  正在生成代码...

@@ -1,0 +1,15 @@
+13-10-29-35: OnEventTCPNetworkShut userid = 1004 断线 
+13-10-29-35: OnEventTCPNetworkShut userid = 1004 wTableID = 65535 wDrawCount = 0 断线 
+13-10-29-35: OnEventTCPNetworkShut userid = 1004 断线 离开房间 
+13-10-34-28: OnEventTCPNetworkShut userid = 1004 断线 
+13-10-34-28: OnEventTCPNetworkShut userid = 1004 wTableID = 0 wDrawCount = 0 断线 
+13-10-34-28: OnEventTCPNetworkShut userid = 1004 断线 处理 
+13-10-35-12: PerformStandUpAction userid = 5 起立 
+13-10-35-12: JudePersonalStandUp userid = 5 cbUserStatus = 5  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+13-10-35-12: PerformStandUpAction userid = 5  bStand = 0 起立 1 
+13-10-35-12: PerformStandUpAction userid = 5 userid = 5 起立 2 
+13-10-35-12: PerformStandUpAction userid = 5 离开 
+13-10-35-12: PerformStandUpAction userid = 5 cbUserStatus = 5 离开 
+13-10-35-12: OnEventTCPNetworkShut userid = 5 断线 
+13-10-35-12: OnEventTCPNetworkShut userid = 5 wTableID = 65535 wDrawCount = 0 断线 
+13-10-35-12: OnEventTCPNetworkShut userid = 5 断线 离开房间 

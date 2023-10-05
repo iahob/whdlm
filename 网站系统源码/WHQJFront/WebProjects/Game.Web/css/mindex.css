@@ -1,0 +1,218 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, table, ul, ol, dl, input, textarea, select, form, fieldset, legend, dt, dd, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+i, em {
+    font-style: normal;
+}
+
+h1, h2, h3, b, strong {
+    font-weight: 100;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    font-size: 12px;
+}
+
+.fn-left {
+    float: left;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    font-family: "微软雅黑";
+    /* background: url('../images/bg_phone.png') top no-repeat ; */
+    /* background-size: cover; */
+}
+
+
+.ui-page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.ui-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    z-index: -100;
+}
+
+.ui-logo {
+    width: 7.24rem;
+    position: absolute;
+    left: 50%;
+    top: 1.56rem;
+    margin-left: -3.62rem;
+}
+
+.ui-qrcode {
+    width: 3.08rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.54rem;
+    top: 7.09rem;
+}
+
+.ui-btn {
+    display: block;
+    width: 2.94rem;
+    height: 1.3rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.47rem;
+    top:10.1rem;
+}
+.index {
+    height: 0.8rem;
+    top: 10.5rem;
+}
+
+    .ui-btn > img {
+        width: 100%;
+        height: 100%;
+    }
+
+.ui-abroadbtn {
+    display: block;
+    width: 2.94rem;
+    height: 1.3rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.47rem;
+    top: 11.3rem;
+}
+
+.ui-abroadbtn > img {
+    width: 100%;
+    height: 100%;
+}
+
+.ui-product {
+    width: 8.09rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -4.045rem;
+    top: 12.3rem;
+}
+
+
+.ui-footer {
+    width: 100%;
+    height:1.46rem;
+    background: #fffdfb;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    line-height: 1.46rem;
+}
+
+    .ui-footer > a {
+        width: 49.3%;
+        height: 100%;
+        display: inline-block;
+        font-size: 0.36rem;
+        text-align: center;
+        /* line-height: 1.46rem; */
+        color: #5d5d69;
+    }
+
+        .ui-footer > a > img {
+            width: 0.6rem;
+            vertical-align: middle;
+            margin-right: 0.19rem;
+        }
+
+.ui-line {
+    width: 0.02rem;
+    height: 1.26rem;
+    margin-top: 0.14rem;
+}
+.service_title {
+    width: 100%;
+    height: 35px;
+    background: #676b71;
+    font-size: 16px;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+}
+
+@media screen and (min-height: 812px) and (max-height: 813px) {
+    /* body {
+      height: 812px;
+  } */
+    .ui-footer {
+        height: 1.73rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* body {
+      height: 1366px;
+  } */
+    .ui-bg {
+        height: 1366px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1025px) {
+    /* body {
+      height: 1800px;
+  } */
+    .ui-bg {
+        height: 1800px;
+    }
+}
+@media screen and (max-height: 481px) {
+    .ui-bg {
+        height: 558px;
+    }
+}

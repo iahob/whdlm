@@ -1,0 +1,71 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: 控制客户端, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\RSP000001.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /YX"stdafx.h" /Fp"Debug/RedNineBattleClientControl.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\ClientControlItemSink.cpp
+.\ClientControl.cpp
+]
+Creating command line "cl.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\RSP000001.rsp /nologo"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\RSP000002.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /Yc"stdafx.h" /Fp"Debug/RedNineBattleClientControl.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\stdafx.cpp
+]
+Creating command line "cl.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\RSP000002.rsp /nologo"
+Creating command line "rc.exe /d "_DEBUG" /d "_AFXDLL" /l 0x804 /I "Debug" /fo"Debug/ClientControl.res" .\ClientControl.rc"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\RSP000003.rsp" with contents
+[
+/OUT:"../../../运行/Debug/RedNineBattleClientControl.dll" /INCREMENTAL /NOLOGO /DLL /DEF:".\ClientControl.def" /DEBUG /PDB:"Debug/控制客户端.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/ClientControl.lib" /MACHINE:X86
+.\Debug\ClientControl.obj
+.\Debug\ClientControlItemSink.obj
+.\Debug\stdafx.obj
+.\Debug\ClientControl.res
+]
+Creating command line "link.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\RSP000003.rsp"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\BAT000004.bat" with contents
+[
+@echo off
+mkdir ..\..\..\发布组件\客户端组件\Debug
+copy /y ..\..\..\运行\Debug\RedNineBattleClientControl.dll ..\..\..\发布组件\客户端组件\Debug\RedNineBattleClientControl.dll
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Post-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\BAT000004.bat"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+ClientControlItemSink.cpp
+ClientControl.cpp
+Compiling resources...
+Linking...
+LINK : LNK6004: ../../../运行/Debug/RedNineBattleClientControl.dll not found or not built by the last incremental link; performing full link
+   Creating library Debug/ClientControl.lib and object Debug/ClientControl.exp
+ClientControl.exp : warning LNK4070: /OUT:ClientControl.dll directive in .EXP differs from output filename '../../../运行/Debug/RedNineBattleClientControl.dll'; ignoring directive
+Performing Post-Build Event...
+子目录或文件 ..\..\..\发布组件\客户端组件\Debug 已经存在。
+已复制         1 个文件。
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\客户端控制\Debug\BuildLog.htm"
+控制客户端 - 0 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

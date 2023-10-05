@@ -1,0 +1,8 @@
+﻿  ClientControlItemSink.cpp
+ClientControlItemSink.cpp(352): warning C4244: “=”: 从“UINT64”转换到“DWORD”，可能丢失数据
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\森林舞会\客户端控制\Release_Unicode\控制客户端.dll) does not match the Linker's OutputFile property value (G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\森林舞会\Unicode\3DSLWGClientControl.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(控制客户端) does not match the Linker's OutputFile property value (3DSLWGClientControl). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\ClientControl.lib 和对象 Release_Unicode\ClientControl.exp
+ClientControl.exp : warning LNK4070: .EXP 中的 /OUT:ClientControl.dll 指令与输出文件名“../Unicode/3DSLWGClientControl.dll”不同；忽略指令
+  ClientControl.vcxproj -> G:\Work\QJDLM\服务端\游戏组件\旗舰版游戏\森林舞会\客户端控制\Release_Unicode\控制客户端.dll
+  ClientControl.vcxproj -> Release_Unicode\控制客户端.pdb (Full PDB)

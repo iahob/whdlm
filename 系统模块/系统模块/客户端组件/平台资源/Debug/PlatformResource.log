@@ -1,0 +1,15 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  PlatformResourceManager.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  PlatformResource.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\平台资源\Debug\平台资源.dll) does not match the Linker's OutputFile property value (D:\Space\Github\旗舰大联盟\系统模块\运行\Debug\Ansi\PlatformResourceD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(平台资源) does not match the Linker's OutputFile property value (PlatformResourceD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+PlatformResource.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../链接库/Ansi/PlatformResourceD.lib 和对象 ../../链接库/Ansi/PlatformResourceD.exp
+PlatformResourceManager.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class CStdString __thiscall CStdString::operator+(char const *)const " (__imp_??HCStdString@@QBE?AV0@PBD@Z)，该符号在函数 "public: virtual bool __thiscall CPlatformResourceManager::LoadDefaultResource(char const *,struct HINSTANCE__ *)" (?LoadDefaultResource@CPlatformResourceManager@@UAE_NPBDPAUHINSTANCE__@@@Z) 中被引用
+PlatformResourceManager.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl CPaintManagerUI::ReleaseZip(void)" (__imp_?ReleaseZip@CPaintManagerUI@@SAXXZ)，该符号在函数 "public: virtual __thiscall CPlatformResourceManager::~CPlatformResourceManager(void)" (??1CPlatformResourceManager@@UAE@XZ) 中被引用
+../../../运行/Debug/Ansi/PlatformResourceD.dll : fatal error LNK1120: 2 个无法解析的外部命令

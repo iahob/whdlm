@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\客户端控制\stdafx.h(79): fatal error C1083: 无法打开包括文件: “..\..\..\..\系统模块\客户端组件\游戏框架\GameFrameHead.h”: No such file or directory

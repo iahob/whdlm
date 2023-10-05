@@ -1,0 +1,41 @@
+
+nz1.png
+size: 143,85
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 86, 50
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+1
+  rotate: true
+  xy: 109, 29
+  size: 17, 30
+  orig: 17, 30
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 110, 51
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 86, 15
+  size: 19, 31
+  orig: 19, 31
+  offset: 0, 0
+  index: -1
+nz
+  rotate: false
+  xy: 4, 4
+  size: 78, 77
+  orig: 78, 77
+  offset: 0, 0
+  index: -1

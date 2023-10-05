@@ -1,0 +1,90 @@
+
+action_516.png
+size: 615,287
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+att
+  rotate: true
+  xy: 2, 85
+  size: 200, 203
+  orig: 214, 214
+  offset: 7, 5
+  index: -1
+g
+  rotate: false
+  xy: 480, 50
+  size: 133, 49
+  orig: 133, 49
+  offset: 0, 0
+  index: -1
+gg
+  rotate: true
+  xy: 392, 79
+  size: 206, 86
+  orig: 208, 89
+  offset: 1, 1
+  index: -1
+l1
+  rotate: false
+  xy: 207, 10
+  size: 162, 114
+  orig: 170, 114
+  offset: 0, 0
+  index: -1
+l2
+  rotate: false
+  xy: 2, 2
+  size: 82, 81
+  orig: 82, 86
+  offset: 0, 5
+  index: -1
+l3
+  rotate: true
+  xy: 86, 5
+  size: 28, 66
+  orig: 28, 70
+  offset: 0, 4
+  index: -1
+l4
+  rotate: true
+  xy: 161, 15
+  size: 68, 43
+  orig: 68, 43
+  offset: 0, 0
+  index: -1
+r1
+  rotate: true
+  xy: 207, 126
+  size: 159, 183
+  orig: 159, 183
+  offset: 0, 0
+  index: -1
+r2
+  rotate: false
+  xy: 371, 85
+  size: 8, 39
+  orig: 25, 50
+  offset: 8, 0
+  index: -1
+r3
+  rotate: true
+  xy: 86, 35
+  size: 48, 73
+  orig: 48, 73
+  offset: 0, 0
+  index: -1
+r4
+  rotate: false
+  xy: 371, 13
+  size: 106, 64
+  orig: 106, 64
+  offset: 0, 0
+  index: -1
+zhuan
+  rotate: true
+  xy: 480, 101
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1

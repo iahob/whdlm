@@ -1,0 +1,70 @@
+{
+	"comment": "登陆ip地址",
+	"login_ip":"172.16.0.210",
+
+	"comment": "登陆端口",
+	"login_port":8600,
+
+	"comment": "好友端口",
+	"friend_port":8630,
+
+	"comment": "url地址",
+	"http_url":"http://ry.webfox.com",
+
+	"comment": "分享标题",
+	"share_title": "游戏大厅",
+
+	"comment": "游戏大厅",
+	"share_content": "来自游戏大厅的分享",
+
+	"comment": "友盟appkey",
+	"share_appkey": "56dfc4d567e58ecbf2001ede",
+
+	"comment": "微信appid",
+	"wechat_appid" : "wx6aba2abb10a381c6",
+
+	"comment": "微信secret",
+	"wechat_secret": "72cbe4cd9fb44d7086becd3901c55dfb",
+
+	"comment": "微信商户id",
+	"wechat_partnerid": "1366599802",
+
+	"comment": "微信支付密钥",
+	"wechat_paykey": "daf1a278ababbe2361b997fc8053ae9f",
+
+	"comment": "支付宝商户id",
+	"alipay_partnerid": "2088211548234518",
+
+	"comment": "支付宝收款id",
+	"alipay_sellerid": "WHNetPayID@foxuc.cn",
+
+	"comment": "支付宝rsa密钥",
+	"alipay_rsa": "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKY0Hmny7UCXppOg8Qryc18zUZSAE9TbkBIBrxfMx1BPs5/hswl57XHMJTqVW4lUNgFwy/9QdEM/tYswl4Jav8KqHuB4GIUk6+k8hTCzl2tDHTPEnx0Iw5sb+dS3lJOA1Q9JOnoOz9zZXGyzJWMDKzNewUZX4br82K+l8WhLiMqHAgMBAAECgYEAjahKa98jnDQlRBqel8gB0Zh55eor/PaOmupYhB6Dms3zuUezQ1ZqrN1ktcPrWuctiJjNJnU6Qr8gStxFplMWsMKB0JfEs+ZIAk4Qo7ZFeAEcJtVYMm2785TKU5xjxcgrcQK9ICYKajOQG8Jv0HV6kUtJLSKHdKNZH7cc65TNwaECQQDSajjCpixEMyIDh0RYzCol7DogNmo6deUJ7PFgJr3k2eEsGycBLE7DK9jgwYAaZnMEllKwm+A3ljTUtTVYXZvZAkEAyjXmt+y8BeQHxRwXBMh1GfuCctWASFuLxlRhvR7eH/enqiINRoxyOMpVK0abEY/qGGYbnBsZOYOxEgSq6Gt9XwJAaQUHS2+xDGERCv3KiR9tsfvTjxxZrNAG/ws59imgAccVcfQjZZx9uz/5QUSS8ZpMse9tWiSSpmvb9oZzF6WxEQJAEMW/yWm9fs+XRWY7Eo5+CBWwkE3dQiM1yNGe+czhp80m/xmr+DoWD1fZEKnemupRBI0TpTMqOHcP7OquMnEYCQJAKoVniHoTaKZm3NYtVgPuy7DmpLtUusLhR4/iEYTAo/pnmQCmUXDkI+zXAyP2zSmOkEOAkE43R3H10/oAc4qvww==",
+
+	"comment": "竣付通支付密钥",
+	"jft_paykey": "7C58BF230735F33906392694006A757E",
+
+	"comment": "竣付通商户id",
+	"jft_partnerid": "10200613",
+
+	"comment": "竣付通应用id",
+	"jft_appid": "20161018111009481249",
+
+	"comment": "aes 密钥",
+	"jft_aeskey": "ffbe58771d477b5550daa589c2519398",
+
+	"comment": "aes 向量",
+	"jft_aesvec": "8f76fd45cc7da253",
+
+	"comment": "编译码",
+	"compilation": "8C3AC3BC-EB40-462f-B436-4BBB141FC7F9",
+
+	"comment": "游戏名称",
+	"game_title": "荣耀大厅",
+
+	"comment": "",
+	"app_version": 0,
+
+	"comment": "",
+	"client_version": 0
+}

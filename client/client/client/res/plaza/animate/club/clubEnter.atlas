@@ -1,0 +1,230 @@
+
+clubEnter.png
+size: 863,1035
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Major league
+  rotate: true
+  xy: 817, 551
+  size: 223, 27
+  orig: 223, 27
+  offset: 0, 0
+  index: -1
+Major league_00000
+  rotate: false
+  xy: 264, 6
+  size: 28, 22
+  orig: 260, 31
+  offset: 18, 7
+  index: -1
+Major league_00001
+  rotate: true
+  xy: 298, 324
+  size: 62, 25
+  orig: 260, 31
+  offset: 18, 4
+  index: -1
+Major league_00002
+  rotate: true
+  xy: 773, 449
+  size: 103, 27
+  orig: 260, 31
+  offset: 18, 2
+  index: -1
+Major league_00003
+  rotate: false
+  xy: 2, 3
+  size: 132, 25
+  orig: 260, 31
+  offset: 28, 2
+  index: -1
+Major league_00004
+  rotate: false
+  xy: 136, 6
+  size: 126, 22
+  orig: 260, 31
+  offset: 71, 2
+  index: -1
+Major league_00005
+  rotate: true
+  xy: 744, 257
+  size: 127, 25
+  orig: 260, 31
+  offset: 106, 2
+  index: -1
+Major league_00006
+  rotate: true
+  xy: 773, 352
+  size: 95, 27
+  orig: 260, 31
+  offset: 147, 2
+  index: -1
+Major league_00007
+  rotate: false
+  xy: 373, 9
+  size: 56, 25
+  orig: 260, 31
+  offset: 186, 4
+  index: -1
+d
+  rotate: false
+  xy: 2, 660
+  size: 293, 373
+  orig: 293, 373
+  offset: 0, 0
+  index: -1
+d_00002
+  rotate: false
+  xy: 771, 261
+  size: 80, 62
+  orig: 293, 396
+  offset: 111, 174
+  index: -1
+d_00003
+  rotate: false
+  xy: 656, 44
+  size: 156, 132
+  orig: 293, 396
+  offset: 69, 132
+  index: -1
+d_00004
+  rotate: false
+  xy: 574, 386
+  size: 197, 166
+  orig: 293, 396
+  offset: 49, 113
+  index: -1
+d_00005
+  rotate: false
+  xy: 593, 554
+  size: 222, 220
+  orig: 293, 396
+  offset: 33, 86
+  index: -1
+d_00006
+  rotate: false
+  xy: 593, 776
+  size: 265, 257
+  orig: 293, 396
+  offset: 14, 70
+  index: -1
+d_00007
+  rotate: false
+  xy: 298, 388
+  size: 274, 297
+  orig: 293, 396
+  offset: 10, 50
+  index: -1
+d_00008
+  rotate: true
+  xy: 2, 30
+  size: 280, 321
+  orig: 293, 396
+  offset: 7, 43
+  index: -1
+gg
+  rotate: true
+  xy: 656, 178
+  size: 206, 86
+  orig: 208, 89
+  offset: 1, 1
+  index: -1
+h
+  rotate: false
+  xy: 449, 30
+  size: 105, 59
+  orig: 105, 59
+  offset: 0, 0
+  index: -1
+h_00001
+  rotate: true
+  xy: 325, 2
+  size: 32, 46
+  orig: 105, 59
+  offset: 0, 0
+  index: -1
+h_00002
+  rotate: true
+  xy: 814, 124
+  size: 52, 46
+  orig: 105, 59
+  offset: 0, 0
+  index: -1
+h_00003
+  rotate: true
+  xy: 802, 396
+  size: 73, 59
+  orig: 105, 59
+  offset: 0, 0
+  index: -1
+h_00004
+  rotate: true
+  xy: 802, 471
+  size: 78, 59
+  orig: 105, 59
+  offset: 15, 0
+  index: -1
+h_00005
+  rotate: true
+  xy: 802, 325
+  size: 69, 59
+  orig: 105, 59
+  offset: 36, 0
+  index: -1
+h_00006
+  rotate: true
+  xy: 560, 39
+  size: 54, 59
+  orig: 105, 59
+  offset: 51, 0
+  index: -1
+h_00007
+  rotate: false
+  xy: 822, 214
+  size: 29, 45
+  orig: 105, 59
+  offset: 76, 0
+  index: -1
+j1
+  rotate: false
+  xy: 297, 687
+  size: 294, 346
+  orig: 294, 346
+  offset: 0, 0
+  index: -1
+j2
+  rotate: false
+  xy: 2, 312
+  size: 294, 346
+  orig: 294, 346
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 560, 95
+  size: 289, 94
+  orig: 289, 94
+  offset: 0, 0
+  index: -1
+ss
+  rotate: true
+  xy: 744, 178
+  size: 77, 76
+  orig: 80, 80
+  offset: 3, 4
+  index: -1
+wz
+  rotate: true
+  xy: 449, 91
+  size: 295, 109
+  orig: 295, 109
+  offset: 0, 0
+  index: -1
+wz_00000
+  rotate: true
+  xy: 325, 36
+  size: 350, 122
+  orig: 350, 129
+  offset: 0, 7
+  index: -1

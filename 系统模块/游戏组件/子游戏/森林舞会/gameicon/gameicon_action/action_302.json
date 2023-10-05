@@ -1,0 +1,142 @@
+{
+"skeleton": { "hash": "EYJM3m8PFiajgT8IU2I90A8FHpM", "spine": "3.6.53", "width": 214, "height": 214, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "pai", "parent": "root", "x": 36.86, "y": -67.39 },
+	{ "name": "L-shai", "parent": "pai", "x": -42.89, "y": 73.92 },
+	{ "name": "R-shai", "parent": "pai", "x": -45.9, "y": 73.5 },
+	{ "name": "chakan", "parent": "root", "x": 1599.9 },
+	{ "name": "di", "parent": "root" },
+	{ "name": "fa", "parent": "pai", "x": -108.86, "y": 70.27 },
+	{ "name": "star", "parent": "pai", "x": -8.5, "y": 35.41 },
+	{ "name": "zhuan", "parent": "root", "y": 6.74, "scaleX": 1.093, "scaleY": 1.093 },
+	{ "name": "zi", "parent": "root", "y": -58.54 }
+],
+"slots": [
+	{ "name": "di", "bone": "di", "attachment": "di" },
+	{ "name": "zhuan", "bone": "zhuan", "blend": "additive" },
+	{ "name": "pai", "bone": "pai", "attachment": "pai" },
+	{ "name": "fa", "bone": "fa", "attachment": "fa" },
+	{ "name": "R-shai", "bone": "R-shai", "attachment": "R-shai" },
+	{ "name": "L-shai", "bone": "L-shai", "attachment": "L-shai" },
+	{ "name": "star", "bone": "star", "attachment": "star", "blend": "additive" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" }
+],
+"skins": {
+	"default": {
+		"L-shai": {
+			"L-shai": { "x": 3.68, "y": -37.35, "width": 42, "height": 42 }
+		},
+		"R-shai": {
+			"R-shai": { "x": 43.7, "y": -30.15, "width": 54, "height": 64 }
+		},
+		"di": {
+			"di": { "width": 214, "height": 214 }
+		},
+		"fa": {
+			"fa": { "x": 91.01, "y": 41.47, "width": 93, "height": 122 }
+		},
+		"pai": {
+			"pai": { "x": -61.16, "y": 88.79, "width": 151, "height": 160 }
+		},
+		"star": {
+			"star": { "width": 77, "height": 77 }
+		},
+		"zi": {
+			"zi": { "width": 179, "height": 52 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"zhuan": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00" },
+					{ "time": 5, "color": "ffffffff" },
+					{ "time": 6.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zhuan": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.6667, "angle": 180 },
+					{ "time": 3.3333, "angle": 0 },
+					{ "time": 5, "angle": 180 },
+					{ "time": 6.6667, "angle": 0 }
+				]
+			},
+			"star": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 2.3333, "angle": -134.31 },
+					{ "time": 5.0667, "angle": 0 },
+					{ "time": 6.0667, "angle": -134.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 10.32, "y": -10.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 },
+					{ "time": 1.8333, "x": 1, "y": 1 },
+					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.0667, "x": 0, "y": 0 },
+					{ "time": 5.5667, "x": 1, "y": 1 },
+					{ "time": 6.0667, "x": 0, "y": 0 }
+				]
+			},
+			"pai": {
+				"scale": [
+					{ "time": 0, "x": 0.967, "y": 0.967 },
+					{ "time": 1.5, "x": 1.086, "y": 1.086 },
+					{ "time": 3, "x": 0.967, "y": 0.967 },
+					{ "time": 4.5, "x": 1.086, "y": 1.086 },
+					{ "time": 6, "x": 0.967, "y": 0.967 }
+				]
+			},
+			"L-shai": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.471, "y": 1.471 },
+					{ "time": 3, "x": 1, "y": 1 },
+					{ "time": 4.5, "x": 1.471, "y": 1.471 },
+					{ "time": 6, "x": 1, "y": 1 }
+				]
+			},
+			"fa": {
+				"scale": [
+					{ "time": 0, "x": 0.838, "y": 0.838 },
+					{ "time": 1.5, "x": 1.048, "y": 1.048 },
+					{ "time": 2.9667, "x": 0.838, "y": 0.838 },
+					{ "time": 4.5, "x": 1.048, "y": 1.048 },
+					{ "time": 6, "x": 0.838, "y": 0.838, "curve": "stepped" },
+					{ "time": 6.1, "x": 0.838, "y": 0.838 },
+					{ "time": 6.2333, "x": 0.993, "y": 0.993 },
+					{ "time": 6.3667, "x": 0.838, "y": 0.838 },
+					{ "time": 6.5, "x": 0.993, "y": 0.993 },
+					{ "time": 6.6333, "x": 0.838, "y": 0.838 },
+					{ "time": 6.7667, "x": 0.993, "y": 0.993 },
+					{ "time": 6.9, "x": 0.838, "y": 0.838, "curve": "stepped" },
+					{ "time": 10.9, "x": 0.838, "y": 0.838 }
+				]
+			},
+			"R-shai": {
+				"scale": [
+					{ "time": 0, "x": 1.187, "y": 1.187 },
+					{ "time": 1, "x": 1.033, "y": 1.033 },
+					{ "time": 2.5, "x": 1.366, "y": 1.366 },
+					{ "time": 4, "x": 1.033, "y": 1.033 },
+					{ "time": 5.0667, "x": 1.366, "y": 1.366 },
+					{ "time": 6, "x": 1.187, "y": 1.187 }
+				]
+			}
+		}
+	}
+}
+}

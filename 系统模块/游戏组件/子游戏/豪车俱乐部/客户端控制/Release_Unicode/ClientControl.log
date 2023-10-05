@@ -1,0 +1,31 @@
+﻿  ClientControl.cpp
+  ClientControlItemSink.cpp
+ClientControlItemSink.cpp(66): warning C4244: “return”: 从“LONGLONG”转换到“int”，可能丢失数据
+ClientControlItemSink.cpp(466): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(471): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(476): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(481): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(486): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(491): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(496): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+ClientControlItemSink.cpp(501): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(I:\WHQJGame\Server\游戏组件\H客户\豪车俱乐部\客户端控制\Release_Unicode\LuxuryCarClientControl.dll) does not match the Linker's OutputFile property value (I:\WHQJGame\Server\游戏组件\运行\Release\Unicode\LuxuryCarClientControl.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\ClientControl.lib 和对象 Release_Unicode\ClientControl.exp
+ClientControl.exp : warning LNK4070: .EXP 中的 /OUT:ClientControl.dll 指令与输出文件名“../../../运行/Release/Unicode/LuxuryCarClientControl.dll”不同；忽略指令
+  ClientControl.vcxproj -> I:\WHQJGame\Server\游戏组件\H客户\豪车俱乐部\客户端控制\Release_Unicode\LuxuryCarClientControl.dll
+  ClientControl.vcxproj -> Release_Unicode\LuxuryCarClientControl.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\客户端组件\Release\Unicode 已经存在。
+  系统找不到指定的文件。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\客户端组件\Release\Unicode
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy /y ..\..\..\..\运行\Release\Unicode\LuxuryCarClientControl.dll ..\..\..\发布组件\客户端组件\Release\Unicode\LuxuryCarClientControl.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd”已退出，代码为 1。

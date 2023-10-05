@@ -1,0 +1,238 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientDebug.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "红包扫雷调试客户端"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "HBSLClientDebug.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "HBSLClientDebug.dll"
+            VALUE "ProductName", "红包扫雷调试客户端"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM_GENERAL DIALOGEX 0, 0, 669, 345
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "库存配置",IDC_STATIC,5,77,326,165
+    LTEXT           "配置系统库存：",IDC_STATIC,23,92,57,8
+    EDITTEXT        IDC_EDIT_SYSTEM_STORAGE,81,89,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "执行",IDC_BUTTON_CUR_STORAGE,125,127,69,14
+    GROUPBOX        "玩家调试",IDC_STATIC,6,175,655,166,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_USER_GAME_ID,141,184,51,13,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "配置玩家ID：",IDC_STATIC,83,185,48,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_USER_SYSTEM_STORAGE,141,203,51,13,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "配置系统库存：",IDC_STATIC,83,205,57,8,NOT WS_VISIBLE
+    PUSHBUTTON      "执行",IDC_BTN_SET_USER_STORAGE,478,203,69,14,NOT WS_VISIBLE
+    GROUPBOX        "房间调试",IDC_STATIC,335,77,326,165
+    EDITTEXT        IDC_EDIT_USER_USER_STORAGE,268,203,51,13,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "配置玩家库存：",IDC_STATIC,209,205,57,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_ROOM_SYSTEM_STORAGE,411,90,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "配置系统库存：",IDC_STATIC,353,93,57,8
+    LTEXT           "配置玩家库存：",IDC_STATIC,479,90,57,8
+    EDITTEXT        IDC_EDIT_ROOM_USER_STORAGE,537,89,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,193,225,8,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_USER_STORAGE,207,89,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "配置玩家库存：",IDC_STATIC,149,90,57,8
+    EDITTEXT        IDC_EDIT_PARAMETER_K,81,107,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "配置调节系数：",IDC_STATIC,23,109,57,8
+    LTEXT           "配置调节系数：",IDC_STATIC,353,109,57,8
+    LTEXT           "%",IDC_STATIC,463,111,8,8
+    EDITTEXT        IDC_EDIT_ROOM_PARAMETER_K,411,106,51,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "配置调节系数：",IDC_STATIC,83,225,57,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_USER_PARAMETER_K,141,222,51,13,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,133,110,8,8
+    LTEXT           "中奖概率：",IDC_STATIC_ONE_THERE,269,89,60,8
+    LTEXT           "中奖概率：",IDC_STATIC_ROOM,599,90,60,8
+    PUSHBUTTON      "执行",IDC_BTN_SET_ROOM_STORAGE,477,127,69,14
+    LTEXT           "中奖概率：",IDC_STATIC_USER,209,185,76,8,NOT WS_VISIBLE
+    CONTROL         "库存截止(当系统库存为0时,剩余玩家库存消除)",IDC_CHECK_SYS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,109,180,10
+    GROUPBOX        "统计",IDC_STATIC,5,144,326,98
+    GROUPBOX        "统计",IDC_STATIC,335,144,326,98
+    CONTROL         "库存截止(当系统库存为0时,剩余玩家库存消除)",IDC_CHECK_ROOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,479,109,180,10
+    LTEXT           "",IDC_STATIC_SYSTEM_INFO_R,179,166,149,66
+    LTEXT           "",IDC_STATIC_ROOM_INFO_L,351,165,149,66
+    CONTROL         "库存截止(当系统库存为0时,剩余玩家库存消除)",IDC_CHECK_USER,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,209,225,180,10
+    GROUPBOX        "玩家调试",IDC_STATIC,6,243,655,98,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_USER_INFO_L,78,257,161,73,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_SYSTEM_INFO_L,21,166,149,66
+    LTEXT           "",IDC_STATIC_ROOM_INFO_R,510,165,149,66
+    LTEXT           "",IDC_STATIC_USER_INFO_R,256,257,161,73,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_USER_INFO_RR,433,257,161,73,NOT WS_VISIBLE
+END
+
+IDD_CUSTOM_ADVANCED DIALOGEX 0, 0, 669, 345
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "房间调试",IDC_STATIC,3,156,659,145
+    GROUPBOX        "玩家调试",IDC_STATIC,342,45,327,165,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_ROOM_HISTORY,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,166,649,110
+    CONTROL         "",IDC_LIST_USER_HISTORY,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,346,55,319,133
+    GROUPBOX        "库存配置",IDC_STATIC,3,5,659,145
+    CONTROL         "",IDC_LIST_SYS_HISTORY,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,15,649,110
+    PUSHBUTTON      "刷新日志",IDC_BUTTON_REFRESH_HISTORY,349,215,57,13,NOT WS_VISIBLE
+    LTEXT           "系统总输赢：0\t\t\t\t\t 玩家总输赢：0",IDC_STATIC_SYSTEM_INFO,184,132,303,8
+    LTEXT           "系统总输赢：0\t\t\t\t\t 玩家总输赢：0",IDC_STATIC_ROOM_INFO,186,284,303,8
+    LTEXT           "系统总输赢：0\t\t\t\t\t 玩家总输赢：0",IDC_STATIC_USER_INFO,348,196,266,8,NOT WS_VISIBLE
+    LTEXT           "服务器启动时间：0",IDC_STATIC_DEBUG_START_TIME,90,321,164,8
+    LTEXT           "系统总收益：0",IDC_STATIC_ALL_SYSTEM_INFO,268,322,164,8
+    LTEXT           "玩家总收益：0",IDC_STATIC_ALL_USER_INFO,444,325,164,8
+    PUSHBUTTON      "取消",IDC_BUTTON_ROOM_CANCEL,615,282,39,13
+    PUSHBUTTON      "取消",IDC_BUTTON_USER_CANCEL,626,192,39,13,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 669, 357
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "红包扫雷调试器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB_CUSTOM,"SysTabControl32",0x0,0,0,668,354
+    CTEXT           "子窗口显示区域",IDC_STATIC_SHOW,0,11,669,345,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CUSTOM_GENERAL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 668
+        BOTTOMMARGIN, 344
+    END
+
+    IDD_CUSTOM_ADVANCED, DIALOG
+    BEGIN
+        RIGHTMARGIN, 668
+        BOTTOMMARGIN, 312
+    END
+
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 668
+        BOTTOMMARGIN, 356
+        HORZGUIDE, 206
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientDebug.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

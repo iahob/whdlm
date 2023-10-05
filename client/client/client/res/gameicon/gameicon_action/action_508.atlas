@@ -1,0 +1,76 @@
+
+action_508.png
+size: 625,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+att
+  rotate: false
+  xy: 2, 90
+  size: 208, 210
+  orig: 214, 214
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 348, 112
+  size: 185, 58
+  orig: 185, 58
+  offset: 0, 0
+  index: -1
+gg
+  rotate: false
+  xy: 2, 2
+  size: 206, 86
+  orig: 208, 89
+  offset: 1, 1
+  index: -1
+h
+  rotate: true
+  xy: 348, 2
+  size: 108, 119
+  orig: 108, 119
+  offset: 0, 0
+  index: -1
+h_00000
+  rotate: true
+  xy: 469, 2
+  size: 108, 119
+  orig: 108, 119
+  offset: 0, 0
+  index: -1
+k
+  rotate: true
+  xy: 546, 161
+  size: 60, 69
+  orig: 60, 69
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 546, 223
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 398, 172
+  size: 128, 146
+  orig: 137, 146
+  offset: 0, 0
+  index: -1
+t_00000
+  rotate: false
+  xy: 212, 46
+  size: 134, 128
+  orig: 137, 146
+  offset: 3, 18
+  index: -1
+zhuan
+  rotate: false
+  xy: 212, 176
+  size: 184, 124
+  orig: 184, 128
+  offset: 0, 1
+  index: -1

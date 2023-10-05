@@ -1,0 +1,40 @@
+.distpicker-address-wrapper {
+  width: 80%;
+  color: #9caebf;
+  }
+  
+  .distpicker-address-wrapper ul {
+    margin: 0;
+    padding: 0;
+   }
+   .distpicker-address-wrapper ul li {
+    list-style: none;
+  }
+  .distpicker-address-wrapper  select {
+    width: 100px;
+    padding: .5rem .75rem;
+    height: 30px;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #fff;
+    background-color: #3e1a61;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    }
+    .distpicker-address-wrapper  select  option {
+      font-weight: normal;
+      display: block;
+      white-space: pre;
+      min-height: 1.2em;
+      padding: 0px 2px 1px;
+    }
+
+   

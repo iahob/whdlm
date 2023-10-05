@@ -1,0 +1,200 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientControl.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "龙虎斗控制客户端"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "DragonTigerClientControl.dll"
+            VALUE "OriginalFilename", "DragonTigerClientControl.dll"
+            VALUE "ProductName", "龙虎斗控制客户端"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLIENT_CONTROL DIALOGEX 0, 0, 522, 355
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "房间起始库存：",IDC_STATIC,28,47,67,8
+    LTEXT           "",IDC_STATIC_ROOMSTART_STORAGE,101,47,90,8
+    LTEXT           "房间当前库存：",IDC_STATIC,28,60,67,8
+    LTEXT           "",IDC_STATIC_ROOMCURRENT_STORAGE,101,60,90,8
+    LTEXT           "设置房间库存：",IDC_STATIC,28,77,67,8
+    EDITTEXT        IDC_EDIT_ROOMCURRENT_STORAGE,101,73,92,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "房间衰减值：",IDC_STATIC,28,92,67,8
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_DEDUCT,101,90,92,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "‰",IDC_STATIC,199,92,11,8
+    LTEXT           "房间库存上限值1：",IDC_STATIC,28,107,67,8
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MAX1,101,105,92,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "玩家赢分概率：",IDC_STATIC,28,122,67,8
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MUL1,101,119,92,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "房间库存上限值2：",IDC_STATIC,28,135,67,8
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MAX2,101,133,92,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "玩家赢分概率：",IDC_STATIC,28,150,67,8
+    EDITTEXT        IDC_EDIT_ROOMSTORAGE_MUL2,101,147,92,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,199,120,8,8
+    LTEXT           "%",IDC_STATIC,199,149,8,8
+    CTEXT           "",IDC_STATIC_STORAGEINFO,17,167,229,8
+    PUSHBUTTON      "",IDC_BUTTON_UPDATE_STORAGE,63,179,36,12
+    PUSHBUTTON      "",IDC_BUTTON_MODIFY_STORAGE,137,179,36,12
+    GROUPBOX        "库存控制",IDC_STATIC,15,32,234,170
+    GROUPBOX        "玩家控制",IDC_STATIC,256,31,249,171
+    LTEXT           "控制局数：",IDC_STATIC,273,89,41,8
+    EDITTEXT        IDC_EDIT_CONTROL_COUNT,323,87,65,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "控制",IDC_BT_CONTINUE_WIN,306,120,36,12
+    PUSHBUTTON      "取消",IDC_BT_CONTINUE_CANCEL,385,120,36,12
+    LTEXT           "控制描述：",IDC_STATIC,273,145,41,8
+    CONTROL         "",IDC_RICHEDIT_USERCONTROL,"RichEdit20W",ES_MULTILINE | ES_READONLY | WS_BORDER | WS_TABSTOP,273,158,185,35
+    LTEXT           "控制区域：",IDC_STATIC,273,60,41,8
+    GROUPBOX        "玩家下注",IDC_STATIC,15,209,491,134
+    CONTROL         "",IDC_LIST_USER_BET,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_TABSTOP,28,240,465,78,WS_EX_STATICEDGE
+    CONTROL         "",IDC_LIST_USER_BET_ALL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSCROLL | LVS_NOCOLUMNHEADER | WS_TABSTOP,28,317,465,11,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_USER_ID,28,222,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查询",IDC_BTN_USER_BET_QUERY,138,222,50,14
+    PUSHBUTTON      "全部",IDC_BTN_USER_BET_ALL,208,222,50,14
+    CONTROL         "红",IDC_CHECK_RED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,319,60,37,10
+    CONTROL         "黑",IDC_CHECK_BLACK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,365,60,37,10
+    CONTROL         "牌型",IDC_CHECK_POKER_TYPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,411,60,37,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CLIENT_CONTROL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 521
+        BOTTOMMARGIN, 354
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CLIENT_CONTROL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientControl.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

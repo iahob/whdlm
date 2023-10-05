@@ -1,0 +1,7 @@
+# view res/layout/socialize_share_menu_item.xml #generated:8
+-keep class com.umeng.socialize.shareboard.SocializeImageView { <init>(...); }
+
+# onClick res/layout/umeng_socialize_oauth_dialog.xml #generated:23
+# onClick sw550dp-large-v13\res/layout-sw550dp-large-v13/umeng_socialize_oauth_dialog.xml #generated:21
+-keepclassmembers class * { *** onCancel(...); }
+

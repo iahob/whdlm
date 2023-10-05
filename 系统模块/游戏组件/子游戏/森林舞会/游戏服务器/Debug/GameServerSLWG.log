@@ -1,0 +1,19 @@
+﻿  GameServerManager.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+g:\work\qjdlm\服务端\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
+  TableFrameSink.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(164): error C2664: “int swscanf_s(const wchar_t *const ,const wchar_t *const ,...)”: 无法将参数 1 从“TCHAR [32]”转换为“const wchar_t *const ”
+  g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(164): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(824): warning C4129: “%”: 不可识别的字符转义序列
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(824): warning C4778: “_snprintf_s”: 格式字符串“%”未终止
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1355): error C2664: “int _snwprintf_s(wchar_t *const ,const std::size_t,const std::size_t,const wchar_t *const ,...)”: 无法将参数 1 从“TCHAR [32]”转换为“wchar_t *const ”
+  g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1355): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1813): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: 参见“_snprintf”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1824): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: 参见“_snprintf”的声明
+g:\work\qjdlm\服务端\游戏组件\旗舰版游戏\森林舞会\游戏服务器\tableframesink.cpp(1833): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: 参见“_snprintf”的声明

@@ -1,0 +1,69 @@
+
+feiji.png
+size: 586,517
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feiji
+  rotate: true
+  xy: 250, 124
+  size: 389, 227
+  orig: 459, 303
+  offset: 49, 36
+  index: -1
+feiji2
+  rotate: true
+  xy: 4, 92
+  size: 421, 242
+  orig: 459, 303
+  offset: 8, 36
+  index: -1
+fj
+  rotate: false
+  xy: 404, 17
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+k
+  rotate: false
+  xy: 4, 4
+  size: 396, 84
+  orig: 405, 100
+  offset: 3, 2
+  index: -1
+pq_00001
+  rotate: false
+  xy: 250, 95
+  size: 81, 25
+  orig: 100, 100
+  offset: 9, 31
+  index: -1
+pq_00002
+  rotate: false
+  xy: 335, 95
+  size: 72, 25
+  orig: 100, 100
+  offset: 9, 32
+  index: -1
+pq_00003
+  rotate: false
+  xy: 481, 98
+  size: 72, 52
+  orig: 100, 100
+  offset: 8, 25
+  index: -1
+pq_00004
+  rotate: true
+  xy: 540, 154
+  size: 69, 35
+  orig: 100, 100
+  offset: 12, 28
+  index: -1
+zz
+  rotate: true
+  xy: 481, 227
+  size: 286, 101
+  orig: 286, 101
+  offset: 0, 0
+  index: -1

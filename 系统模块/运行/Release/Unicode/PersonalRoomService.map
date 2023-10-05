@@ -1,0 +1,1528 @@
+ PersonalRoomService
+
+ Timestamp is 651e7f9d (Thu Oct  5 17:19:25 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000020H .text$di                CODE
+ 0001:00000020 0000a3c0H .text$mn                CODE
+ 0001:0000a3e0 00000130H .text$x                 CODE
+ 0001:0000a510 0000000aH .text$yd                CODE
+ 0002:00000000 0000015cH .idata$5                DATA
+ 0002:0000015c 00000004H .00cfg                  DATA
+ 0002:00000160 00000004H .CRT$XCA                DATA
+ 0002:00000164 00000004H .CRT$XCL                DATA
+ 0002:00000168 00000000H .CRT$XCU                DATA
+ 0002:00000168 00000004H .CRT$XCZ                DATA
+ 0002:0000016c 00000004H .CRT$XIA                DATA
+ 0002:00000170 00000004H .CRT$XIC                DATA
+ 0002:00000174 00000004H .CRT$XIZ                DATA
+ 0002:00000178 00000004H .CRT$XLA                DATA
+ 0002:0000017c 00000004H .CRT$XLZ                DATA
+ 0002:00000180 00000004H .CRT$XPA                DATA
+ 0002:00000184 00000004H .CRT$XPZ                DATA
+ 0002:00000188 00000004H .CRT$XTA                DATA
+ 0002:0000018c 00000004H .CRT$XTZ                DATA
+ 0002:00000190 00003534H .rdata                  DATA
+ 0002:000036c4 00000018H .rdata$T                DATA
+ 0002:000036dc 00000594H .rdata$r                DATA
+ 0002:00003c70 00000024H .rdata$sxdata           DATA
+ 0002:00003c94 000003c8H .rdata$zzzdbg           DATA
+ 0002:0000405c 00000004H .rtc$IAA                DATA
+ 0002:00004060 00000004H .rtc$IZZ                DATA
+ 0002:00004064 00000004H .rtc$TAA                DATA
+ 0002:00004068 00000008H .rtc$TZZ                DATA
+ 0002:00004070 00000430H .xdata$x                DATA
+ 0002:00004494 00000000H ATL$__a                 DATA
+ 0002:00004494 00000000H ATL$__z                 DATA
+ 0002:000044a0 00000610H .edata                  DATA
+ 0002:00004ab0 00000104H .idata$2                DATA
+ 0002:00004bb4 00000014H .idata$3                DATA
+ 0002:00004bc8 0000015cH .idata$4                DATA
+ 0002:00004d24 00000650H .idata$6                DATA
+ 0003:00000000 00000074H .data                   DATA
+ 0003:00000074 0000024cH .data$r                 DATA
+ 0003:000002c0 00002418H .bss                    DATA
+ 0004:00000000 00000054H .gfids$y                DATA
+ 0005:00000000 00000004H .tls                    DATA
+ 0005:00000004 00000004H .tls$                   DATA
+ 0005:00000008 00000001H .tls$ZZZ                DATA
+ 0006:00000000 000000a0H .rsrc$01                DATA
+ 0006:000000a0 00000530H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000009       ___safe_se_handler_count   00000009     <absolute>
+ 0000:0000002c       __tls_array                0000002c     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000020       ??0WHLogControl@@QAE@XZ    10001020 f   Log.obj
+ 0001:00000030       ??1WHLogControl@@QAE@XZ    10001030 f   Log.obj
+ 0001:00000040       ?SetLogStatus@WHLogControl@@SAXE@Z 10001040 f   Log.obj
+ 0001:00000050       ?GetLogStatus@WHLogControl@@SAEXZ 10001050 f   Log.obj
+ 0001:00000060       ?LogPrintf@WHLogControl@@SAXGPADPBDZZ 10001060 f   Log.obj
+ 0001:00000290       ?LogPrintf@WHLogControl@@SAXGPA_WPB_WZZ 10001290 f   Log.obj
+ 0001:000005a0       ??$__vcrt_va_start_verify_argument_type@PB_W@@YAXXZ 100015a0 f i Log.obj
+ 0001:000005a0       ??$__vcrt_va_start_verify_argument_type@QB_W@@YAXXZ 100015a0 f i Log.obj
+ 0001:000005a0       ??$__vcrt_va_start_verify_argument_type@PBD@@YAXXZ 100015a0 f i Log.obj
+ 0001:000005b0       ??$sprintf_s@$0BAE@@@YAHAAY0BAE@DPBDZZ 100015b0 f i Log.obj
+ 0001:000005e0       ??$sprintf_s@$0EAA@@@YAHAAY0EAA@DPBDZZ 100015e0 f i Log.obj
+ 0001:00000610       ___local_stdio_printf_options 10001610 f i Log.obj
+ 0001:00000620       __vfwprintf_s_l            10001620 f i Log.obj
+ 0001:00000650       __vsnprintf                10001650 f i Log.obj
+ 0001:00000670       __vsnprintf_l              10001670 f i Log.obj
+ 0001:000006d0       __vsnwprintf               100016d0 f i Log.obj
+ 0001:000006f0       __vsnwprintf_l             100016f0 f i Log.obj
+ 0001:00000750       __vsprintf_s_l             10001750 f i Log.obj
+ 0001:000007a0       _fwprintf_s                100017a0 f i Log.obj
+ 0001:000007e0       _vsprintf_s                100017e0 f i Log.obj
+ 0001:00000830       ??0CPersonalRoomGame@@QAE@XZ 10001830 f   PersonalRoomGame.obj
+ 0001:000008e0       ??1CPersonalRoomGame@@UAE@XZ 100018e0 f   PersonalRoomGame.obj
+ 0001:00000a00       ?QueryInterface@CPersonalRoomGame@@UAEPAXABU_GUID@@K@Z 10001a00 f   PersonalRoomGame.obj
+ 0001:00000b20       ?OnStartService@CPersonalRoomGame@@UAEXXZ 10001b20 f   PersonalRoomGame.obj
+ 0001:00000b30       ?BindTableFrame@CPersonalRoomGame@@UAE_NPAUITableFrame@@G@Z 10001b30 f   PersonalRoomGame.obj
+ 0001:00000c90       ?InitPersonalRooomInterface@CPersonalRoomGame@@UAE_NAAUtagPersonalRoomManagerParameter@@@Z 10001c90 f   PersonalRoomGame.obj
+ 0001:00000d80       ?OnEventTimer@CPersonalRoomGame@@UAE_NKI@Z 10001d80 f   PersonalRoomGame.obj
+ 0001:00000d90       ?OnEventDataBase@CPersonalRoomGame@@UAE_NGPAUIServerUserItem@@PAXGK@Z 10001d90 f   PersonalRoomGame.obj
+ 0001:00000ee0       ?OnEventSocketPersonalRoom@CPersonalRoomGame@@UAE_NGPAXGPAUIServerUserItem@@K@Z 10001ee0 f   PersonalRoomGame.obj
+ 0001:00000fe0       ?OnEventUserItemScore@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@E@Z 10001fe0 f   PersonalRoomGame.obj
+ 0001:00001700       ?OnEventUserItemGameData@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@E@Z 10002700 f   PersonalRoomGame.obj
+ 0001:00001740       ?OnEventUserItemStatus@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@GG@Z 10002740 f   PersonalRoomGame.obj
+ 0001:000017b0       ?OnEventUserItemRight@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@KKE@Z 100027b0 f   PersonalRoomGame.obj
+ 0001:000017f0       ?OnEventUserLogon@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@@Z 100027f0 f   PersonalRoomGame.obj
+ 0001:00001800       ?OnEventUserLogout@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@@Z 10002800 f   PersonalRoomGame.obj
+ 0001:00001810       ?OnEventUserLogonFinish@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@@Z 10002810 f   PersonalRoomGame.obj
+ 0001:00001820       ?OnEventGameStart@CPersonalRoomGame@@UAE_NPAUITableFrame@@G@Z 10002820 f   PersonalRoomGame.obj
+ 0001:00001830       ?PersonalRoomWriteJoinInfo@CPersonalRoomGame@@UAEXKGGKKPA_W@Z 10002830 f   PersonalRoomGame.obj
+ 0001:00001a00       ?OnEventGameEnd@CPersonalRoomGame@@UAE_NPAUITableFrame@@GPAUIServerUserItem@@E@Z 10002a00 f   PersonalRoomGame.obj
+ 0001:00001a10       ?OnEventGameEnd@CPersonalRoomGame@@UAE_NGGKAAKHPAEU_SYSTEMTIME@@PAUtagPersonalUserScoreInfo@@HE@Z 10002a10 f   PersonalRoomGame.obj
+ 0001:00002ed0       ?PersonalPayRoomCard@CPersonalRoomGame@@UAE_NKGGKK@Z 10003ed0 f   PersonalRoomGame.obj
+ 0001:000030e0       ?OnActionUserSitDown@CPersonalRoomGame@@UAE_NGGPAUIServerUserItem@@_N@Z 100040e0 f   PersonalRoomGame.obj
+ 0001:000030f0       ?OnActionUserStandUp@CPersonalRoomGame@@UAE_NGGPAUIServerUserItem@@_N@Z 100040f0 f   PersonalRoomGame.obj
+ 0001:00003100       ?OnActionUserOnReady@CPersonalRoomGame@@UAE_NGGPAUIServerUserItem@@PAXG@Z 10004100 f   PersonalRoomGame.obj
+ 0001:00003110       ?OnTCPNetworkSubCreateTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 10004110 f   PersonalRoomGame.obj
+ 0001:00003ab0       ?OnTCPNetworkSubAICreateTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 10004ab0 f   PersonalRoomGame.obj
+ 0001:00004200       ?OnTCPNetworkSubCancelRequest@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 10005200 f   PersonalRoomGame.obj
+ 0001:000043c0       ?OnTCPNetworkSubRequestReply@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 100053c0 f   PersonalRoomGame.obj
+ 0001:000044e0       ?OnTCPNetworkSubHostDissumeTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 100054e0 f   PersonalRoomGame.obj
+ 0001:00004620       ?OnTCPNetworkSubQueryJoinInfo@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 10005620 f   PersonalRoomGame.obj
+ 0001:000047b0       ?OnDBCreateSucess@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 100057b0 f   PersonalRoomGame.obj
+ 0001:00005ad0       ?OnDBAICreateSucess@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10006ad0 f   PersonalRoomGame.obj
+ 0001:00006a00       ?OnDBCreateFailure@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10007a00 f   PersonalRoomGame.obj
+ 0001:00006bd0       ?OnDBCancelCreateTable@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10007bd0 f   PersonalRoomGame.obj
+ 0001:00006ef0       ?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10007ef0 f   PersonalRoomGame.obj
+ 0001:00007050       ?OnDBDissumeTableResult@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10008050 f   PersonalRoomGame.obj
+ 0001:00007180       ?OnDBCurrenceRoomCardAndBeant@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10008180 f   PersonalRoomGame.obj
+ 0001:00007260       ?OnDBCurrenceGroupFee@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10008260 f   PersonalRoomGame.obj
+ 0001:000072f0       ?OnTCPSocketMainServiceInfo@CPersonalRoomGame@@UAE_NGPAXG@Z 100082f0 f   PersonalRoomGame.obj
+ 0001:00007950       ??$sprintf_s@$0BG@@@YAHAAY0BG@DPBDZZ 10008950 f i PersonalRoomGame.obj
+ 0001:00007980       ??0?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAE@XZ 10008980 f i PersonalRoomGame.obj
+ 0001:000079c0       ??0CMD_CS_C_CreateTable@@QAE@XZ 100089c0 f i PersonalRoomGame.obj
+ 0001:000079e0       ??0CMD_CS_C_DismissTable@@QAE@XZ 100089e0 f i PersonalRoomGame.obj
+ 0001:00007a00       ??0CMD_GR_DissumeTable@@QAE@XZ 10008a00 f i PersonalRoomGame.obj
+ 0001:00007a30       ??0IPersonalRoomEventSink@@QAE@XZ 10008a30 f i PersonalRoomGame.obj
+ 0001:00007a50       ??0IPersonalRoomItem@@QAE@XZ 10008a50 f i PersonalRoomGame.obj
+ 0001:00007a70       ??0IServerUserItemSink@@QAE@XZ 10008a70 f i PersonalRoomGame.obj
+ 0001:00007a90       ??0IUnknownEx@@QAE@XZ      10008a90 f i PersonalRoomGame.obj
+ 0001:00007ab0       ??0tagPersonalTableInfo@@QAE@XZ 10008ab0 f i PersonalRoomGame.obj
+ 0001:00007ae0       ??0tagPersonalUserScoreInfo@@QAE@XZ 10008ae0 f i PersonalRoomGame.obj
+ 0001:00007b00       ??1?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@UAE@XZ 10008b00 f i PersonalRoomGame.obj
+ 0001:00007b60       ??2@YAPAXIPAX@Z            10008b60 f i PersonalRoomGame.obj
+ 0001:00007b70       ??_E?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@UAEPAXI@Z 10008b70 f i PersonalRoomGame.obj
+ 0001:00007b70       ??_G?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@UAEPAXI@Z 10008b70 f i PersonalRoomGame.obj
+ 0001:00007ba0       ??_GCPersonalRoomGame@@UAEPAXI@Z 10008ba0 f i PersonalRoomGame.obj
+ 0001:00007ba0       ??_ECPersonalRoomGame@@UAEPAXI@Z 10008ba0 f i PersonalRoomGame.obj
+ 0001:00007bd0       ??_H@YGXPAXIIP6EPAX0@Z@Z   10008bd0 f i PersonalRoomGame.obj
+ 0001:00007c00       ?Add@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAEHABQAUtagPersonalTableParameter@@@Z 10008c00 f i PersonalRoomGame.obj
+ 0001:00007c30       ?AllocMemory@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAEXH@Z 10008c30 f i PersonalRoomGame.obj
+ 0001:00007d30       ?GetAt@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAEAAPAUtagPersonalTableParameter@@H@Z 10008d30 f i PersonalRoomGame.obj
+ 0001:00007d60       ?GetBuildVer@@YAEK@Z       10008d60 f i PersonalRoomGame.obj
+ 0001:00007d80       ?GetCount@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QBEHXZ 10008d80 f i PersonalRoomGame.obj
+ 0001:00007da0       ?GetMainVer@@YAEK@Z        10008da0 f i PersonalRoomGame.obj
+ 0001:00007db0       ?GetProductVer@@YAEK@Z     10008db0 f i PersonalRoomGame.obj
+ 0001:00007dd0       ?GetSubVer@@YAEK@Z         10008dd0 f i PersonalRoomGame.obj
+ 0001:00007df0       ?InterfaceVersionCompare@@YA_NKK@Z 10008df0 f i PersonalRoomGame.obj
+ 0001:00007ea0       ?IsImmediateWriteScore@CServerRule@@SA_NK@Z 10008ea0 f i PersonalRoomGame.obj
+ 0001:00007ed0       ?IsSuportGroup@CServerRule@@SA_NK@Z 10008ed0 f i PersonalRoomGame.obj
+ 0001:00007ef5       ?QueryInterface@CPersonalRoomGame@@W3AEPAXABU_GUID@@K@Z 10008ef5 f i PersonalRoomGame.obj
+ 0001:00007efd       ?QueryInterface@CPersonalRoomGame@@W7AEPAXABU_GUID@@K@Z 10008efd f i PersonalRoomGame.obj
+ 0001:00007f10       ?Release@CPersonalRoomGame@@UAEXXZ 10008f10 f i PersonalRoomGame.obj
+ 0001:00007f4a       ?Release@CPersonalRoomGame@@W3AEXXZ 10008f4a f i PersonalRoomGame.obj
+ 0001:00007f52       ?Release@CPersonalRoomGame@@W7AEXXZ 10008f52 f i PersonalRoomGame.obj
+ 0001:00007f60       ?RemoveAll@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAEXXZ 10008f60 f i PersonalRoomGame.obj
+ 0001:00007fc0       ?SetAtGrow@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAEXHABQAUtagPersonalTableParameter@@@Z 10008fc0 f i PersonalRoomGame.obj
+ 0001:00008010       ?SetSize@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@QAEXH@Z 10009010 f i PersonalRoomGame.obj
+ 0001:000080e0       _==                        100090e0 f i PersonalRoomGame.obj
+ 0001:00008110       _IsEqualGUID               10009110 f i PersonalRoomGame.obj
+ 0001:00008150       _ExtRawDllMain@12          10009150 f   PersonalRoomServer.obj
+ 0001:000081b0       _DllMain@12                100091b0 f   PersonalRoomServer.obj
+ 0001:00008230       ??2CObject@@SGPAXI@Z       10009230 f i PersonalRoomServer.obj
+ 0001:00008250       ??B?$CTypedSimpleList@PAUCRuntimeClass@@@@QAEPAUCRuntimeClass@@XZ 10009250 f i PersonalRoomServer.obj
+ 0001:00008250       ??B?$CTypedSimpleList@PAVCOleObjectFactory@@@@QAEPAVCOleObjectFactory@@XZ 10009250 f i PersonalRoomServer.obj
+ 0001:00008270       ?GetHead@CSimpleList@@QBEPAXXZ 10009270 f i PersonalRoomServer.obj
+ 0001:00008280       ??0CPersonalRoomServiceManager@@QAE@XZ 10009280 f   PersonalRoomServiceManager.obj
+ 0001:000082b0       ??1CPersonalRoomServiceManager@@UAE@XZ 100092b0 f   PersonalRoomServiceManager.obj
+ 0001:00008350       ?QueryInterface@CPersonalRoomServiceManager@@UAEPAXABU_GUID@@K@Z 10009350 f   PersonalRoomServiceManager.obj
+ 0001:000083d0       ?StopService@CPersonalRoomServiceManager@@UAE_NXZ 100093d0 f   PersonalRoomServiceManager.obj
+ 0001:000083e0       ?StartService@CPersonalRoomServiceManager@@UAE_NXZ 100093e0 f   PersonalRoomServiceManager.obj
+ 0001:00008420       ?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z 10009420 f   PersonalRoomServiceManager.obj
+ 0001:00008530       ?BindTableFrame@CPersonalRoomServiceManager@@UAE_NPAUITableFrame@@G@Z 10009530 f   PersonalRoomServiceManager.obj
+ 0001:00008570       ?InitPersonalRooomInterface@CPersonalRoomServiceManager@@UAE_NAAUtagPersonalRoomManagerParameter@@@Z 10009570 f   PersonalRoomServiceManager.obj
+ 0001:000085b0       ?OnEventTimer@CPersonalRoomServiceManager@@UAE_NKI@Z 100095b0 f   PersonalRoomServiceManager.obj
+ 0001:000085f0       ?OnEventDataBase@CPersonalRoomServiceManager@@UAE_NGPAUIServerUserItem@@PAXGK@Z 100095f0 f   PersonalRoomServiceManager.obj
+ 0001:00008640       ?OnEventSocketPersonalRoom@CPersonalRoomServiceManager@@UAE_NGPAXGPAUIServerUserItem@@K@Z 10009640 f   PersonalRoomServiceManager.obj
+ 0001:00008690       ?OnTCPSocketMainServiceInfo@CPersonalRoomServiceManager@@UAE_NGPAXG@Z 10009690 f   PersonalRoomServiceManager.obj
+ 0001:000086d0       ?OnEventUserLogon@CPersonalRoomServiceManager@@UAE_NPAUIServerUserItem@@@Z 100096d0 f   PersonalRoomServiceManager.obj
+ 0001:00008710       ?OnEventUserLogout@CPersonalRoomServiceManager@@UAE_NPAUIServerUserItem@@@Z 10009710 f   PersonalRoomServiceManager.obj
+ 0001:00008750       ?OnEventUserLogonFinish@CPersonalRoomServiceManager@@UAE_NPAUIServerUserItem@@@Z 10009750 f   PersonalRoomServiceManager.obj
+ 0001:00008790       ?GetServerUserItemSink@CPersonalRoomServiceManager@@UAEPAUIUnknownEx@@XZ 10009790 f   PersonalRoomServiceManager.obj
+ 0001:000087e0       _CreatePersonalRoomServiceManager 100097e0 f   PersonalRoomServiceManager.obj
+ 0001:00008940       ??0CPersonalRoomServiceManager@@QAE@ABV0@@Z 10009940 f i PersonalRoomServiceManager.obj
+ 0001:00008990       ??0IPersonalRoomServiceManager@@QAE@ABU0@@Z 10009990 f i PersonalRoomServiceManager.obj
+ 0001:000089c0       ??0IPersonalRoomServiceManager@@QAE@XZ 100099c0 f i PersonalRoomServiceManager.obj
+ 0001:000089e0       ??0IUnknownEx@@QAE@ABU0@@Z 100099e0 f i PersonalRoomServiceManager.obj
+ 0001:00008a00       ??4CPersonalRoomServiceManager@@QAEAAV0@ABV0@@Z 10009a00 f i PersonalRoomServiceManager.obj
+ 0001:00008a40       ??4IPersonalRoomServiceManager@@QAEAAU0@ABU0@@Z 10009a40 f i PersonalRoomServiceManager.obj
+ 0001:00008a60       ??4IUnknownEx@@QAEAAU0@ABU0@@Z 10009a60 f i PersonalRoomServiceManager.obj
+ 0001:00008a70       ??_ECPersonalRoomServiceManager@@UAEPAXI@Z 10009a70 f i PersonalRoomServiceManager.obj
+ 0001:00008b20       ?Release@CPersonalRoomServiceManager@@UAEXXZ 10009b20 f i PersonalRoomServiceManager.obj
+ 0001:00008b60       ?Init@CComCriticalSection@ATL@@QAEJXZ 10009b60 f i Stdafx.obj
+ 0001:00008ba0       ?_AtlInitializeCriticalSectionEx@ATL@@YAHPAU_RTL_CRITICAL_SECTION@@KK@Z 10009ba0 f i Stdafx.obj
+ 0001:00008bc0       _HRESULT_FROM_WIN32        10009bc0 f i Stdafx.obj
+ 0001:00008c00       ??0CPersonalTableFrameHook@@QAE@XZ 10009c00 f   TableFrameHook.obj
+ 0001:00008c60       ??1CPersonalTableFrameHook@@UAE@XZ 10009c60 f   TableFrameHook.obj
+ 0001:00008c80       ?QueryInterface@CPersonalTableFrameHook@@UAEPAXABU_GUID@@K@Z 10009c80 f   TableFrameHook.obj
+ 0001:00008d30       ?SetPersonalRoomEventSink@CPersonalTableFrameHook@@UAE_NPAUIUnknownEx@@@Z 10009d30 f   TableFrameHook.obj
+ 0001:00008d80       ?InitTableFrameHook@CPersonalTableFrameHook@@UAE_NPAUIUnknownEx@@@Z 10009d80 f   TableFrameHook.obj
+ 0001:00008df0       ?OnEventGameStart@CPersonalTableFrameHook@@UAE_NG@Z 10009df0 f   TableFrameHook.obj
+ 0001:00008e30       ?PersonalRoomWriteJoinInfo@CPersonalTableFrameHook@@UAEXKGGKKPA_W@Z 10009e30 f   TableFrameHook.obj
+ 0001:00008e80       ?OnEventGameEnd@CPersonalTableFrameHook@@UAE_NGPAUIServerUserItem@@E@Z 10009e80 f   TableFrameHook.obj
+ 0001:00008ed0       ?OnEventGameEnd@CPersonalTableFrameHook@@UAE_NGGKAAKHPAEU_SYSTEMTIME@@PAUtagPersonalUserScoreInfo@@HE@Z 10009ed0 f   TableFrameHook.obj
+ 0001:00008f40       ?OnActionUserSitDown@CPersonalTableFrameHook@@UAE_NGPAUIServerUserItem@@_N@Z 10009f40 f   TableFrameHook.obj
+ 0001:00008f90       ?OnActionUserStandUp@CPersonalTableFrameHook@@UAE_NGPAUIServerUserItem@@_N@Z 10009f90 f   TableFrameHook.obj
+ 0001:00008fe0       ?OnActionUserOnReady@CPersonalTableFrameHook@@UAE_NGPAUIServerUserItem@@PAXG@Z 10009fe0 f   TableFrameHook.obj
+ 0001:00009030       ?PersonalPayRoomCard@CPersonalTableFrameHook@@UAE_NKGGKK@Z 1000a030 f   TableFrameHook.obj
+ 0001:00009080       ??0IPersonalTableFrameHook@@QAE@XZ 1000a080 f i TableFrameHook.obj
+ 0001:000090a0       ??0ITableUserAction@@QAE@XZ 1000a0a0 f i TableFrameHook.obj
+ 0001:000090c0       ??_ECPersonalTableFrameHook@@UAEPAXI@Z 1000a0c0 f i TableFrameHook.obj
+ 0001:000090c0       ??_GCPersonalTableFrameHook@@UAEPAXI@Z 1000a0c0 f i TableFrameHook.obj
+ 0001:000090f0       ?OnActionUserConnect@CPersonalTableFrameHook@@UAE_NGPAUIServerUserItem@@@Z 1000a0f0 f i TableFrameHook.obj
+ 0001:000090f0       ?OnActionUserOffLine@CPersonalTableFrameHook@@UAE_NGPAUIServerUserItem@@@Z 1000a0f0 f i TableFrameHook.obj
+ 0001:000090f0       ?OnEventAndroidUserHangingNotify@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@_N@Z 1000a0f0 f i PersonalRoomGame.obj
+ 0001:000090f0       ?OnEventAndroidUserGradeNotify@CPersonalRoomGame@@UAE_NPAUIServerUserItem@@G@Z 1000a0f0 f i PersonalRoomGame.obj
+ 0001:000090ff       ?QueryInterface@CPersonalTableFrameHook@@W3AEPAXABU_GUID@@K@Z 1000a0ff f i TableFrameHook.obj
+ 0001:00009110       ?Release@CPersonalTableFrameHook@@UAEXXZ 1000a110 f i TableFrameHook.obj
+ 0001:0000914a       ?Release@CPersonalTableFrameHook@@W3AEXXZ 1000a14a f i TableFrameHook.obj
+ 0001:00009152       @__security_check_cookie@4 1000a152 f   MSVCRT:_secchk_.obj
+ 0001:00009170       __chkstk                   1000a170 f   MSVCRT:chkstk.obj
+ 0001:00009170       __alloca_probe             1000a170 f   MSVCRT:chkstk.obj
+ 0001:0000919d       ??3@YAXPAX@Z               1000a19d f   MSVCRT:delete_scalar.obj
+ 0001:000091a2       ??2@YAPAXI@Z               1000a1a2 f   MSVCRT:new_scalar.obj
+ 0001:000091d5       ??3@YAXPAXI@Z              1000a1d5 f   MSVCRT:delete_scalar_size.obj
+ 0001:000091e3       ??_U@YAPAXI@Z              1000a1e3 f   MSVCRT:new_array.obj
+ 0001:000091ec       ??_V@YAXPAX@Z              1000a1ec f   MSVCRT:delete_array.obj
+ 0001:00009200       __alldiv                   1000a200 f   MSVCRT:lldiv.obj
+ 0001:000092b0       __allmul                   1000a2b0 f   MSVCRT:llmul.obj
+ 0001:000092e4       ??_Gtype_info@@UAEPAXI@Z   1000a2e4 f i MSVCRT:std_type_info_static.obj
+ 0001:000092e4       ??_Etype_info@@UAEPAXI@Z   1000a2e4 f i MSVCRT:std_type_info_static.obj
+ 0001:00009307       ??_M@YGXPAXIIP6EX0@Z@Z     1000a307 f   MSVCRT:ehvecdtr.obj
+ 0001:00009381       ?__ArrayUnwind@@YGXPAXIIP6EX0@Z@Z 1000a381 f   MSVCRT:ehvecdtr.obj
+ 0001:000093ee       ??_V@YAXPAXI@Z             1000a3ee f   MSVCRT:delete_array_size.obj
+ 0001:00009440       ___scrt_acquire_startup_lock 1000a440 f   MSVCRT:utility.obj
+ 0001:00009475       ___scrt_dllmain_after_initialize_c 1000a475 f   MSVCRT:utility.obj
+ 0001:000094a0       ___scrt_dllmain_before_initialize_c 1000a4a0 f   MSVCRT:utility.obj
+ 0001:000094ae       ___scrt_dllmain_crt_thread_attach 1000a4ae f   MSVCRT:utility.obj
+ 0001:000094cd       ___scrt_dllmain_crt_thread_detach 1000a4cd f   MSVCRT:utility.obj
+ 0001:000094da       ___scrt_dllmain_exception_filter 1000a4da f   MSVCRT:utility.obj
+ 0001:0000950d       ___scrt_dllmain_uninitialize_c 1000a50d f   MSVCRT:utility.obj
+ 0001:00009530       ___scrt_dllmain_uninitialize_critical 1000a530 f   MSVCRT:utility.obj
+ 0001:0000953d       ___scrt_initialize_crt     1000a53d f   MSVCRT:utility.obj
+ 0001:00009576       ___scrt_initialize_onexit_tables 1000a576 f   MSVCRT:utility.obj
+ 0001:0000960d       ___scrt_is_nonwritable_in_current_image 1000a60d f   MSVCRT:utility.obj
+ 0001:00009697       ___scrt_release_startup_lock 1000a697 f   MSVCRT:utility.obj
+ 0001:000096b4       ___scrt_uninitialize_crt   1000a6b4 f   MSVCRT:utility.obj
+ 0001:000096dc       __onexit                   1000a6dc f   MSVCRT:utility.obj
+ 0001:00009717       _atexit                    1000a717 f   MSVCRT:utility.obj
+ 0001:000097ec       ??$__crt_fast_encode_pointer@P6GXPAU_RTL_CONDITION_VARIABLE@@@Z@@YAP6GXPAU_RTL_CONDITION_VARIABLE@@@ZQ6GX0@Z@Z 1000a7ec f i MSVCRT:thread_safe_statics.obj
+ 0001:000097ec       ??$__crt_fast_encode_pointer@P6GHPAU_RTL_CONDITION_VARIABLE@@PAU_RTL_CRITICAL_SECTION@@K@Z@@YAP6GHPAU_RTL_CONDITION_VARIABLE@@PAU_RTL_CRITICAL_SECTION@@K@ZQ6GH01K@Z@Z 1000a7ec f i MSVCRT:thread_safe_statics.obj
+ 0001:00009b2d       __DllMainCRTStartup@12     1000ab2d f   MSVCRT:dll_dllmain.obj
+ 0001:00009b50       ___raise_securityfailure   1000ab50 f   MSVCRT:gs_report.obj
+ 0001:00009b78       ___report_gsfailure        1000ab78 f   MSVCRT:gs_report.obj
+ 0001:00009c73       ??0bad_alloc@std@@QAE@ABV01@@Z 1000ac73 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009c8e       ??0bad_alloc@std@@QAE@XZ   1000ac8e f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009ca6       ??0bad_array_new_length@std@@QAE@ABV01@@Z 1000aca6 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009cc1       ??0bad_array_new_length@std@@QAE@XZ 1000acc1 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009cd9       ??0exception@std@@QAE@ABV01@@Z 1000acd9 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d05       ??1bad_array_new_length@std@@UAE@XZ 1000ad05 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d05       ??1bad_alloc@std@@UAE@XZ   1000ad05 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d16       ??_Ebad_alloc@std@@UAEPAXI@Z 1000ad16 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d16       ??_Gbad_alloc@std@@UAEPAXI@Z 1000ad16 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d16       ??_Gbad_array_new_length@std@@UAEPAXI@Z 1000ad16 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d16       ??_Eexception@std@@UAEPAXI@Z 1000ad16 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d16       ??_Gexception@std@@UAEPAXI@Z 1000ad16 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d16       ??_Ebad_array_new_length@std@@UAEPAXI@Z 1000ad16 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d43       ?__scrt_throw_std_bad_alloc@@YAXXZ 1000ad43 f   MSVCRT:throw_bad_alloc.obj
+ 0001:00009d60       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 1000ad60 f   MSVCRT:throw_bad_alloc.obj
+ 0001:00009d7d       ?what@exception@std@@UBEPBDXZ 1000ad7d f i MSVCRT:throw_bad_alloc.obj
+ 0001:00009d8a       @_guard_check_icall@4      1000ad8a f i MSVCRT:checkcfg.obj
+ 0001:00009d90       __SEH_prolog4              1000ad90 f   MSVCRT:_sehprolg4_.obj
+ 0001:00009dd6       __SEH_epilog4              1000add6 f   MSVCRT:_sehprolg4_.obj
+ 0001:00009deb       __except_handler4          1000adeb f   MSVCRT:_chandler4gs_.obj
+ 0001:00009e0e       ___isa_available_init      1000ae0e f   MSVCRT:_cpu_disp_.obj
+ 0001:00009fb2       __get_startup_argv_mode    1000afb2 f   MSVCRT:argv_mode.obj
+ 0001:00009fb6       ___scrt_is_ucrt_dll_in_use 1000afb6 f   MSVCRT:ucrt_detection.obj
+ 0001:00009fc2       ___scrt_fastfail           1000afc2 f   MSVCRT:utility_desktop.obj
+ 0001:0000a0dd       ___security_init_cookie    1000b0dd f   MSVCRT:gs_support.obj
+ 0001:0000a179       ?__scrt_initialize_type_info@@YAXXZ 1000b179 f   MSVCRT:tncleanup.obj
+ 0001:0000a185       ?__scrt_uninitialize_type_info@@YAXXZ 1000b185 f   MSVCRT:tncleanup.obj
+ 0001:0000a191       ___local_stdio_scanf_options 1000b191 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000a197       ___scrt_initialize_default_local_stdio_options 1000b197 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000a1b4       ___scrt_get_dyn_tls_init_callback 1000b1b4 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000a1ba       __RTC_Initialize           1000b1ba f   MSVCRT:_initsect_.obj
+ 0001:0000a1e5       __RTC_Terminate            1000b1e5 f   MSVCRT:_initsect_.obj
+ 0001:0000a210       @_guard_check_icall_nop@4  1000b210 f i MSVCRT:guard_support.obj
+ 0001:0000a212       ?AfxThrowInvalidArgException@@YGXXZ 1000b212 f   mfc140u:mfc140u.dll
+ 0001:0000a218       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000b218 f   mfc140u:mfc140u.dll
+ 0001:0000a21e       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000b21e f   mfc140u:mfc140u.dll
+ 0001:0000a224       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000b224 f   mfc140u:mfc140u.dll
+ 0001:0000a22a       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000b22a f   mfc140u:mfc140u.dll
+ 0001:0000a230       _IsProcessorFeaturePresent@4 1000b230 f   kernel32:KERNEL32.dll
+ 0001:0000a236       ??0CAtlBaseModule@ATL@@QAE@XZ 1000b236 f   atls:atlbase.obj
+ 0001:0000a289       ??0_ATL_BASE_MODULE70@ATL@@QAE@XZ 1000b289 f i atls:atlbase.obj
+ 0001:0000a2ac       ??1CAtlBaseModule@ATL@@QAE@XZ 1000b2ac f   atls:atlbase.obj
+ 0001:0000a2c2       ?RemoveAll@?$CSimpleArray@PAUHINSTANCE__@@V?$CSimpleArrayEqualHelper@PAUHINSTANCE__@@@ATL@@@ATL@@QAEXXZ 1000b2c2 f i atls:atlbase.obj
+ 0001:0000a2e0       _memset                    1000b2e0 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a2e6       __purecall                 1000b2e6 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a2ec       _memcmp                    1000b2ec f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a2f2       _memcpy                    1000b2f2 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a2f8       ___CxxFrameHandler3        1000b2f8 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a2fe       __CxxThrowException@8      1000b2fe f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a304       ___vcrt_InitializeCriticalSectionEx 1000b304 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a30a       ___std_exception_copy      1000b30a f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a310       ___std_exception_destroy   1000b310 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a316       __except_handler4_common   1000b316 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a31c       ___std_type_info_destroy_list 1000b31c f   vcruntime:VCRUNTIME140.dll
+ 0001:0000a322       _strlen                    1000b322 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000a328       _free                      1000b328 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000a32e       __callnewh                 1000b32e f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000a334       _malloc                    1000b334 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000a33a       _terminate                 1000b33a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a340       __seh_filter_dll           1000b340 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a346       __configure_narrow_argv    1000b346 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a34c       __initialize_narrow_environment 1000b34c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a352       __initialize_onexit_table  1000b352 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a358       __register_onexit_function 1000b358 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a35e       __execute_onexit_table     1000b35e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a364       __crt_atexit               1000b364 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a36a       __cexit                    1000b36a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a370       __initterm                 1000b370 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a376       __initterm_e               1000b376 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000a380       __SEH_prolog4_GS           1000b380 f   MSVCRT:_sehprolg4gs_.obj
+ 0001:0000a3c9       __SEH_epilog4_GS           1000b3c9 f   MSVCRT:_sehprolg4gs_.obj
+ 0001:0000a3da       ___scrt_stub_for_acrt_initialize 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___scrt_stub_for_acrt_uninitialize_critical 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___acrt_uninitialize_critical 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___acrt_uninitialize       1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___acrt_thread_detach      1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___scrt_stub_for_acrt_thread_detach 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___acrt_thread_attach      1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___vcrt_initialize         1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___scrt_stub_for_acrt_thread_attach 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___vcrt_uninitialize_critical 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___vcrt_thread_detach      1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___vcrt_uninitialize       1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___scrt_stub_for_acrt_uninitialize 1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___vcrt_thread_attach      1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3da       ___acrt_initialize         1000b3da f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3dd       ___scrt_stub_for_is_c_termination_complete 1000b3dd f   MSVCRT:ucrt_stubs.obj
+ 0001:0000a3dd       __is_c_termination_complete 1000b3dd f   MSVCRT:ucrt_stubs.obj
+ 0002:00000000       __imp__GetSystemTimeAsFileTime@4 1000c000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__InitializeSListHead@4 1000c004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentThreadId@0 1000c008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetCurrentProcessId@0 1000c00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetLocalTime@4      1000c010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__OutputDebugStringW@4 1000c014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__lstrcmpW@8          1000c018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__lstrcmpiW@8         1000c01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__lstrcpynW@12        1000c020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__lstrlenW@4          1000c024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetLastError@0      1000c028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InitializeCriticalSectionAndSpinCount@8 1000c02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__DeleteCriticalSection@4 1000c030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__CloseHandle@4       1000c034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__CreateEventW@16     1000c038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetModuleHandleW@4  1000c03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetProcAddress@8    1000c040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__UnhandledExceptionFilter@4 1000c044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__SetUnhandledExceptionFilter@4 1000c048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetCurrentProcess@0 1000c04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__TerminateProcess@8  1000c050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__IsProcessorFeaturePresent@4 1000c054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__IsDebuggerPresent@0 1000c058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__QueryPerformanceCounter@4 1000c05c     kernel32:KERNEL32.dll
+ 0002:00000060       \177KERNEL32_NULL_THUNK_DATA 1000c060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp_?TraceString@CTraceService@@SA_NPB_WW4enTraceLevel@@@Z 1000c064     KernelEngine:KernelEngine.dll
+ 0002:00000068       \177KernelEngine_NULL_THUNK_DATA 1000c068     KernelEngine:KernelEngine.dll
+ 0002:0000006c       __imp__wsprintfW           1000c06c     user32:USER32.dll
+ 0002:00000070       \177USER32_NULL_THUNK_DATA 1000c070     user32:USER32.dll
+ 0002:00000074       __imp____std_exception_copy 1000c074     vcruntime:VCRUNTIME140.dll
+ 0002:00000078       __imp____std_exception_destroy 1000c078     vcruntime:VCRUNTIME140.dll
+ 0002:0000007c       __imp____std_type_info_destroy_list 1000c07c     vcruntime:VCRUNTIME140.dll
+ 0002:00000080       __imp___except_handler4_common 1000c080     vcruntime:VCRUNTIME140.dll
+ 0002:00000084       __imp____vcrt_InitializeCriticalSectionEx 1000c084     vcruntime:VCRUNTIME140.dll
+ 0002:00000088       __imp___CxxThrowException@8 1000c088     vcruntime:VCRUNTIME140.dll
+ 0002:0000008c       __imp____CxxFrameHandler3  1000c08c     vcruntime:VCRUNTIME140.dll
+ 0002:00000090       __imp__memset              1000c090     vcruntime:VCRUNTIME140.dll
+ 0002:00000094       __imp___purecall           1000c094     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp__memcmp              1000c098     vcruntime:VCRUNTIME140.dll
+ 0002:0000009c       __imp__memcpy              1000c09c     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       \177VCRUNTIME140_NULL_THUNK_DATA 1000c0a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a4       __imp___wmkdir             1000c0a4     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0002:000000a8       __imp___mkdir              1000c0a8     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0002:000000ac       \177api-ms-win-crt-filesystem-l1-1-0_NULL_THUNK_DATA 1000c0ac     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0002:000000b0       __imp__free                1000c0b0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000b4       __imp__malloc              1000c0b4     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000b8       __imp___callnewh           1000c0b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000bc       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 1000c0bc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp___wsetlocale         1000c0c0     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:000000c4       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 1000c0c4     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:000000c8       __imp___crt_atexit         1000c0c8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000cc       __imp___execute_onexit_table 1000c0cc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d0       __imp___register_onexit_function 1000c0d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d4       __imp___cexit              1000c0d4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d8       __imp___initialize_narrow_environment 1000c0d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000dc       __imp___configure_narrow_argv 1000c0dc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       __imp___seh_filter_dll     1000c0e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e4       __imp___initialize_onexit_table 1000c0e4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__terminate           1000c0e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000ec       __imp___initterm_e         1000c0ec     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp___initterm           1000c0f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f4       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 1000c0f4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__fwrite              1000c0f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000fc       __imp____stdio_common_vfwprintf_s 1000c0fc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000100       __imp____stdio_common_vsprintf_s 1000c100     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000104       __imp____stdio_common_vsprintf 1000c104     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000108       __imp___wfopen_s           1000c108     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000010c       __imp__fopen               1000c10c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000110       __imp__fclose              1000c110     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000114       __imp____stdio_common_vswprintf 1000c114     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000118       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 1000c118     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000011c       __imp__strlen              1000c11c     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000120       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 1000c120     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000124       __imp___time64             1000c124     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00000128       \177api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA 1000c128     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:0000012c       __imp__rand                1000c12c     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000130       __imp__srand               1000c130     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000134       \177api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA 1000c134     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000138       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000c138     mfc140u:mfc140u.dll
+ 0002:0000013c       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000c13c     mfc140u:mfc140u.dll
+ 0002:00000140       __imp_?Find@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBEHPB_WH@Z 1000c140     mfc140u:mfc140u.dll
+ 0002:00000144       __imp_??1?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ 1000c144     mfc140u:mfc140u.dll
+ 0002:00000148       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000c148     mfc140u:mfc140u.dll
+ 0002:0000014c       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000c14c     mfc140u:mfc140u.dll
+ 0002:00000150       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@PB_W@Z 1000c150     mfc140u:mfc140u.dll
+ 0002:00000154       __imp_?AfxThrowInvalidArgException@@YGXXZ 1000c154     mfc140u:mfc140u.dll
+ 0002:00000158       \177mfc140u_NULL_THUNK_DATA 1000c158     mfc140u:mfc140u.dll
+ 0002:0000015c       ___guard_check_icall_fptr  1000c15c     MSVCRT:guard_support.obj
+ 0002:00000160       ___xc_a                    1000c160     MSVCRT:initializers.obj
+ 0002:00000168       ___xc_z                    1000c168     MSVCRT:initializers.obj
+ 0002:0000016c       ___xi_a                    1000c16c     MSVCRT:initializers.obj
+ 0002:00000174       ___xi_z                    1000c174     MSVCRT:initializers.obj
+ 0002:00000178       ___xl_a                    1000c178     MSVCRT:tlssup.obj
+ 0002:0000017c       ___xl_z                    1000c17c     MSVCRT:tlssup.obj
+ 0002:00000180       ___xp_a                    1000c180     MSVCRT:initializers.obj
+ 0002:00000184       ___xp_z                    1000c184     MSVCRT:initializers.obj
+ 0002:00000188       ___xt_a                    1000c188     MSVCRT:initializers.obj
+ 0002:0000018c       ___xt_z                    1000c18c     MSVCRT:initializers.obj
+ 0002:00001804       ??_7IUnknownEx@@6B@        1000d804     PersonalRoomGame.obj
+ 0002:00001810       ??_7IServerUserItemSink@@6B@ 1000d810     PersonalRoomGame.obj
+ 0002:00001834       ??_7IPersonalRoomItem@@6B@ 1000d834     PersonalRoomGame.obj
+ 0002:00001868       ??_7IPersonalRoomEventSink@@6B@ 1000d868     PersonalRoomGame.obj
+ 0002:00001894       ??_7?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@6B@ 1000d894     PersonalRoomGame.obj
+ 0002:0000189c       ??_7CPersonalRoomGame@@6BIPersonalRoomItem@@@ 1000d89c     PersonalRoomGame.obj
+ 0002:000018d4       ??_7CPersonalRoomGame@@6BIPersonalRoomEventSink@@@ 1000d8d4     PersonalRoomGame.obj
+ 0002:00001900       ??_7CPersonalRoomGame@@6BIServerUserItemSink@@@ 1000d900     PersonalRoomGame.obj
+ 0002:00001920       __pRawDllMain              1000d920     PersonalRoomServer.obj
+ 0002:00001974       ??_7IPersonalRoomServiceManager@@6B@ 1000d974     PersonalRoomServiceManager.obj
+ 0002:000019b4       ??_7CPersonalRoomServiceManager@@6B@ 1000d9b4     PersonalRoomServiceManager.obj
+ 0002:000033c8       ?m_wPlayerCount@CPersonalTableFrameHook@@1GB 1000f3c8     TableFrameHook.obj
+ 0002:00003400       ??_7ITableUserAction@@6B@  1000f400     TableFrameHook.obj
+ 0002:00003420       ??_7IPersonalTableFrameHook@@6B@ 1000f420     TableFrameHook.obj
+ 0002:00003448       ??_7CPersonalTableFrameHook@@6BIPersonalTableFrameHook@@@ 1000f448     TableFrameHook.obj
+ 0002:00003474       ??_7CPersonalTableFrameHook@@6BITableUserAction@@@ 1000f474     TableFrameHook.obj
+ 0002:00003494       ??_7type_info@@6B@         1000f494     MSVCRT:std_type_info_static.obj
+ 0002:00003498       ??_C@_1BK@MGMFAEKH@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000f498     MSVCRT:thread_safe_statics.obj
+ 0002:000034b4       ??_C@_0BM@HLJJNPAH@InitializeConditionVariable?$AA@ 1000f4b4     MSVCRT:thread_safe_statics.obj
+ 0002:000034d0       ??_C@_0BJ@JEBJOJFJ@SleepConditionVariableCS?$AA@ 1000f4d0     MSVCRT:thread_safe_statics.obj
+ 0002:000034ec       ??_C@_0BJ@PGPPEPCC@WakeAllConditionVariable?$AA@ 1000f4ec     MSVCRT:thread_safe_statics.obj
+ 0002:00003508       __pDefaultRawDllMain       1000f508     MSVCRT:dll_dllmain.obj
+ 0002:00003518       ??_7exception@std@@6B@     1000f518     MSVCRT:throw_bad_alloc.obj
+ 0002:00003520       ??_C@_0BC@EOODALEL@Unknown?5exception?$AA@ 1000f520     MSVCRT:throw_bad_alloc.obj
+ 0002:00003538       ??_7bad_alloc@std@@6B@     1000f538     MSVCRT:throw_bad_alloc.obj
+ 0002:00003540       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000f540     MSVCRT:throw_bad_alloc.obj
+ 0002:00003554       ??_7bad_array_new_length@std@@6B@ 1000f554     MSVCRT:throw_bad_alloc.obj
+ 0002:0000355c       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length?$AA@ 1000f55c     MSVCRT:throw_bad_alloc.obj
+ 0002:00003574       _GUID_ATLVer110            1000f574     atls:atlbase.obj
+ 0002:00003588       ??_C@_1IC@ONKHOIDK@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAc?$AAr?$AAi@ 1000f588     atls:atlbase.obj
+ 0002:00003668       __load_config_used         1000f668     MSVCRT:loadcfg.obj
+ 0002:000036c4       __tls_used                 1000f6c4     MSVCRT:tlssup.obj
+ 0002:000036dc       ??_R4IUnknownEx@@6B@       1000f6dc     PersonalRoomGame.obj
+ 0002:000036f0       ??_R3IUnknownEx@@8         1000f6f0     PersonalRoomGame.obj
+ 0002:00003700       ??_R2IUnknownEx@@8         1000f700     PersonalRoomGame.obj
+ 0002:00003708       ??_R1A@?0A@EA@IUnknownEx@@8 1000f708     PersonalRoomGame.obj
+ 0002:00003724       ??_R4IServerUserItemSink@@6B@ 1000f724     PersonalRoomGame.obj
+ 0002:00003738       ??_R3IServerUserItemSink@@8 1000f738     PersonalRoomGame.obj
+ 0002:00003748       ??_R2IServerUserItemSink@@8 1000f748     PersonalRoomGame.obj
+ 0002:00003754       ??_R1A@?0A@EA@IServerUserItemSink@@8 1000f754     PersonalRoomGame.obj
+ 0002:00003770       ??_R4IPersonalRoomItem@@6B@ 1000f770     PersonalRoomGame.obj
+ 0002:00003784       ??_R3IPersonalRoomItem@@8  1000f784     PersonalRoomGame.obj
+ 0002:00003794       ??_R2IPersonalRoomItem@@8  1000f794     PersonalRoomGame.obj
+ 0002:000037a0       ??_R1A@?0A@EA@IPersonalRoomItem@@8 1000f7a0     PersonalRoomGame.obj
+ 0002:000037bc       ??_R4IPersonalRoomEventSink@@6B@ 1000f7bc     PersonalRoomGame.obj
+ 0002:000037d0       ??_R3IPersonalRoomEventSink@@8 1000f7d0     PersonalRoomGame.obj
+ 0002:000037e0       ??_R2IPersonalRoomEventSink@@8 1000f7e0     PersonalRoomGame.obj
+ 0002:000037ec       ??_R1A@?0A@EA@IPersonalRoomEventSink@@8 1000f7ec     PersonalRoomGame.obj
+ 0002:00003808       ??_R4?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@6B@ 1000f808     PersonalRoomGame.obj
+ 0002:0000381c       ??_R3?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@8 1000f81c     PersonalRoomGame.obj
+ 0002:0000382c       ??_R2?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@8 1000f82c     PersonalRoomGame.obj
+ 0002:00003834       ??_R1A@?0A@EA@?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@8 1000f834     PersonalRoomGame.obj
+ 0002:00003850       ??_R4CPersonalRoomGame@@6BIPersonalRoomItem@@@ 1000f850     PersonalRoomGame.obj
+ 0002:00003864       ??_R3CPersonalRoomGame@@8  1000f864     PersonalRoomGame.obj
+ 0002:00003874       ??_R2CPersonalRoomGame@@8  1000f874     PersonalRoomGame.obj
+ 0002:00003894       ??_R1A@?0A@EA@CPersonalRoomGame@@8 1000f894     PersonalRoomGame.obj
+ 0002:000038b0       ??_R1A@?0A@EC@IUnknownEx@@8 1000f8b0     PersonalRoomGame.obj
+ 0002:000038cc       ??_R13?0A@EA@IPersonalRoomEventSink@@8 1000f8cc     PersonalRoomGame.obj
+ 0002:000038e8       ??_R13?0A@EC@IUnknownEx@@8 1000f8e8     PersonalRoomGame.obj
+ 0002:00003904       ??_R17?0A@EA@IServerUserItemSink@@8 1000f904     PersonalRoomGame.obj
+ 0002:00003920       ??_R17?0A@EC@IUnknownEx@@8 1000f920     PersonalRoomGame.obj
+ 0002:0000393c       ??_R4CPersonalRoomGame@@6BIPersonalRoomEventSink@@@ 1000f93c     PersonalRoomGame.obj
+ 0002:00003950       ??_R4CPersonalRoomGame@@6BIServerUserItemSink@@@ 1000f950     PersonalRoomGame.obj
+ 0002:00003964       ??_R4IPersonalRoomServiceManager@@6B@ 1000f964     PersonalRoomServiceManager.obj
+ 0002:00003978       ??_R3IPersonalRoomServiceManager@@8 1000f978     PersonalRoomServiceManager.obj
+ 0002:00003988       ??_R2IPersonalRoomServiceManager@@8 1000f988     PersonalRoomServiceManager.obj
+ 0002:00003994       ??_R1A@?0A@EA@IPersonalRoomServiceManager@@8 1000f994     PersonalRoomServiceManager.obj
+ 0002:000039b0       ??_R4CPersonalRoomServiceManager@@6B@ 1000f9b0     PersonalRoomServiceManager.obj
+ 0002:000039c4       ??_R3CPersonalRoomServiceManager@@8 1000f9c4     PersonalRoomServiceManager.obj
+ 0002:000039d4       ??_R2CPersonalRoomServiceManager@@8 1000f9d4     PersonalRoomServiceManager.obj
+ 0002:000039e4       ??_R1A@?0A@EA@CPersonalRoomServiceManager@@8 1000f9e4     PersonalRoomServiceManager.obj
+ 0002:00003a00       ??_R4ITableUserAction@@6B@ 1000fa00     TableFrameHook.obj
+ 0002:00003a14       ??_R3ITableUserAction@@8   1000fa14     TableFrameHook.obj
+ 0002:00003a24       ??_R2ITableUserAction@@8   1000fa24     TableFrameHook.obj
+ 0002:00003a30       ??_R1A@?0A@EA@ITableUserAction@@8 1000fa30     TableFrameHook.obj
+ 0002:00003a4c       ??_R4IPersonalTableFrameHook@@6B@ 1000fa4c     TableFrameHook.obj
+ 0002:00003a60       ??_R3IPersonalTableFrameHook@@8 1000fa60     TableFrameHook.obj
+ 0002:00003a70       ??_R2IPersonalTableFrameHook@@8 1000fa70     TableFrameHook.obj
+ 0002:00003a7c       ??_R1A@?0A@EA@IPersonalTableFrameHook@@8 1000fa7c     TableFrameHook.obj
+ 0002:00003a98       ??_R4CPersonalTableFrameHook@@6BIPersonalTableFrameHook@@@ 1000fa98     TableFrameHook.obj
+ 0002:00003aac       ??_R3CPersonalTableFrameHook@@8 1000faac     TableFrameHook.obj
+ 0002:00003abc       ??_R2CPersonalTableFrameHook@@8 1000fabc     TableFrameHook.obj
+ 0002:00003ad4       ??_R1A@?0A@EA@CPersonalTableFrameHook@@8 1000fad4     TableFrameHook.obj
+ 0002:00003af0       ??_R13?0A@EN@ITableUserAction@@8 1000faf0     TableFrameHook.obj
+ 0002:00003b0c       ??_R13?0A@EL@IUnknownEx@@8 1000fb0c     TableFrameHook.obj
+ 0002:00003b28       ??_R4CPersonalTableFrameHook@@6BITableUserAction@@@ 1000fb28     TableFrameHook.obj
+ 0002:00003b3c       ??_R4type_info@@6B@        1000fb3c     MSVCRT:std_type_info_static.obj
+ 0002:00003b50       ??_R3type_info@@8          1000fb50     MSVCRT:std_type_info_static.obj
+ 0002:00003b60       ??_R2type_info@@8          1000fb60     MSVCRT:std_type_info_static.obj
+ 0002:00003b68       ??_R1A@?0A@EA@type_info@@8 1000fb68     MSVCRT:std_type_info_static.obj
+ 0002:00003b84       ??_R4exception@std@@6B@    1000fb84     MSVCRT:throw_bad_alloc.obj
+ 0002:00003b98       ??_R3exception@std@@8      1000fb98     MSVCRT:throw_bad_alloc.obj
+ 0002:00003ba8       ??_R2exception@std@@8      1000fba8     MSVCRT:throw_bad_alloc.obj
+ 0002:00003bb0       ??_R1A@?0A@EA@exception@std@@8 1000fbb0     MSVCRT:throw_bad_alloc.obj
+ 0002:00003bcc       ??_R4bad_alloc@std@@6B@    1000fbcc     MSVCRT:throw_bad_alloc.obj
+ 0002:00003be0       ??_R3bad_alloc@std@@8      1000fbe0     MSVCRT:throw_bad_alloc.obj
+ 0002:00003bf0       ??_R2bad_alloc@std@@8      1000fbf0     MSVCRT:throw_bad_alloc.obj
+ 0002:00003bfc       ??_R1A@?0A@EA@bad_alloc@std@@8 1000fbfc     MSVCRT:throw_bad_alloc.obj
+ 0002:00003c18       ??_R4bad_array_new_length@std@@6B@ 1000fc18     MSVCRT:throw_bad_alloc.obj
+ 0002:00003c2c       ??_R3bad_array_new_length@std@@8 1000fc2c     MSVCRT:throw_bad_alloc.obj
+ 0002:00003c3c       ??_R2bad_array_new_length@std@@8 1000fc3c     MSVCRT:throw_bad_alloc.obj
+ 0002:00003c4c       ??_R1A@?0A@EA@bad_array_new_length@std@@8 1000fc4c     MSVCRT:throw_bad_alloc.obj
+ 0002:00003c70       ___safe_se_handler_table   1000fc70     <linker-defined>
+ 0002:0000405c       ___rtc_iaa                 1001005c     MSVCRT:_initsect_.obj
+ 0002:00004060       ___rtc_izz                 10010060     MSVCRT:_initsect_.obj
+ 0002:00004064       ___rtc_taa                 10010064     MSVCRT:_initsect_.obj
+ 0002:00004068       ___rtc_tzz                 10010068     MSVCRT:_initsect_.obj
+ 0002:000042f0       __TI2PA_W                  100102f0     PersonalRoomServiceManager.obj
+ 0002:00004300       __CTA2PA_W                 10010300     PersonalRoomServiceManager.obj
+ 0002:0000430c       __CT??_R0PA_W@84           1001030c     PersonalRoomServiceManager.obj
+ 0002:00004328       __CT??_R0PAX@84            10010328     PersonalRoomServiceManager.obj
+ 0002:00004404       __TI2?AVbad_alloc@std@@    10010404     MSVCRT:throw_bad_alloc.obj
+ 0002:00004414       __CTA2?AVbad_alloc@std@@   10010414     MSVCRT:throw_bad_alloc.obj
+ 0002:00004420       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 10010420     MSVCRT:throw_bad_alloc.obj
+ 0002:0000443c       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1001043c     MSVCRT:throw_bad_alloc.obj
+ 0002:00004458       __TI3?AVbad_array_new_length@std@@ 10010458     MSVCRT:throw_bad_alloc.obj
+ 0002:00004468       __CTA3?AVbad_array_new_length@std@@ 10010468     MSVCRT:throw_bad_alloc.obj
+ 0002:00004478       __CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12 10010478     MSVCRT:throw_bad_alloc.obj
+ 0002:00004ab0       __IMPORT_DESCRIPTOR_mfc140u 10010ab0     mfc140u:mfc140u.dll
+ 0002:00004ac4       __IMPORT_DESCRIPTOR_KERNEL32 10010ac4     kernel32:KERNEL32.dll
+ 0002:00004ad8       __IMPORT_DESCRIPTOR_USER32 10010ad8     user32:USER32.dll
+ 0002:00004aec       __IMPORT_DESCRIPTOR_KernelEngine 10010aec     KernelEngine:KernelEngine.dll
+ 0002:00004b00       __IMPORT_DESCRIPTOR_VCRUNTIME140 10010b00     vcruntime:VCRUNTIME140.dll
+ 0002:00004b14       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 10010b14     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00004b28       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 10010b28     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00004b3c       __IMPORT_DESCRIPTOR_api-ms-win-crt-filesystem-l1-1-0 10010b3c     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0002:00004b50       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 10010b50     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00004b64       __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 10010b64     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00004b78       __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 10010b78     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00004b8c       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 10010b8c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00004ba0       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 10010ba0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00004bb4       __NULL_IMPORT_DESCRIPTOR   10010bb4     mfc140u:mfc140u.dll
+ 0003:00000040       ___security_cookie_complement 10012040     MSVCRT:gs_cookie.obj
+ 0003:00000044       ___security_cookie         10012044     MSVCRT:gs_cookie.obj
+ 0003:00000050       __fltused                  10012050     MSVCRT:fltused.obj
+ 0003:00000054       ___scrt_native_dllmain_reason 10012054     MSVCRT:utility.obj
+ 0003:00000058       __Init_global_epoch        10012058     MSVCRT:thread_safe_statics.obj
+ 0003:00000060       ___isa_enabled             10012060     MSVCRT:_cpu_disp_.obj
+ 0003:00000070       ___scrt_ucrt_dll_is_in_use 10012070     MSVCRT:ucrt_stubs.obj
+ 0003:00000074       ??_R0?AUIUnknownEx@@@8     10012074     PersonalRoomGame.obj
+ 0003:00000090       ??_R0?AUIServerUserItemSink@@@8 10012090     PersonalRoomGame.obj
+ 0003:000000b4       ??_R0?AUIPersonalRoomItem@@@8 100120b4     PersonalRoomGame.obj
+ 0003:000000d4       ??_R0?AUIPersonalRoomEventSink@@@8 100120d4     PersonalRoomGame.obj
+ 0003:000000fc       ??_R0?AV?$CWHArray@PAUtagPersonalTableParameter@@ABQAU1@@@@8 100120fc     PersonalRoomGame.obj
+ 0003:0000013c       ??_R0?AVCPersonalRoomGame@@@8 1001213c     PersonalRoomGame.obj
+ 0003:0000015c       ??_R0PA_W@8                1001215c     PersonalRoomServiceManager.obj
+ 0003:0000016c       ??_R0PAX@8                 1001216c     PersonalRoomServiceManager.obj
+ 0003:0000017c       ??_R0?AUIPersonalRoomServiceManager@@@8 1001217c     PersonalRoomServiceManager.obj
+ 0003:000001a8       ??_R0?AVCPersonalRoomServiceManager@@@8 100121a8     PersonalRoomServiceManager.obj
+ 0003:000001d4       ??_R0?AUITableUserAction@@@8 100121d4     TableFrameHook.obj
+ 0003:000001f4       ??_R0?AUIPersonalTableFrameHook@@@8 100121f4     TableFrameHook.obj
+ 0003:0000021c       ??_R0?AVCPersonalTableFrameHook@@@8 1001221c     TableFrameHook.obj
+ 0003:00000244       ??_R0?AVtype_info@@@8      10012244     MSVCRT:std_type_info_static.obj
+ 0003:0000025c       ??_R0?AVbad_alloc@std@@@8  1001225c     MSVCRT:throw_bad_alloc.obj
+ 0003:00000278       ??_R0?AVexception@std@@@8  10012278     MSVCRT:throw_bad_alloc.obj
+ 0003:00000294       ??_R0?AVbad_array_new_length@std@@@8 10012294     MSVCRT:throw_bad_alloc.obj
+ 0003:00000ac2       ?m_cbLogStatus@WHLogControl@@2EA 10012ac2     Log.obj
+ 0003:000012d0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 100132d0     Log.obj
+ 0003:000012dc       __afxForceEXTDLL           100132dc     PersonalRoomServer.obj
+ 0003:000012f4       ___@@_PchSym_@00@UhkzxvUtrgsfyUdswonUdswonUKlsKowKooKlsKooKqkKltKprKpyKluKqmKqsUKlvKorKpmKlqKqsKovKlsKqoKplKluKomKquUKlsKopKptKltKrrKqrKltKqnKrmKluKrpKpyUivovzhvPfmrxlwvUhgwzucOlyq@35EBA0C5BDB6E3D 100132f4     Stdafx.obj
+ 0003:00002302       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 10014302     Stdafx.obj
+ 0003:00002304       ___scrt_current_native_startup_state 10014304     MSVCRT:utility.obj
+ 0003:00002308       ___scrt_native_startup_lock 10014308     MSVCRT:utility.obj
+ 0003:00002350       __tls_index                10014350     MSVCRT:tlssup.obj
+ 0003:00002674       ___isa_available           10014674     MSVCRT:_cpu_disp_.obj
+ 0003:00002678       ___favor                   10014678     MSVCRT:_cpu_disp_.obj
+ 0003:0000267c       ___scrt_debugger_hook_flag 1001467c     MSVCRT:utility_desktop.obj
+ 0003:00002680       ?__type_info_root_node@@3U__type_info_node@@A 10014680     MSVCRT:tncleanup.obj
+ 0003:00002688       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 10014688     MSVCRT:default_local_stdio_options.obj
+ 0003:00002690       __afxForceEXCLUDE          10014690     mfcs140u:nolib.obj
+ 0003:00002694       __afxForceSTDAFX           10014694     mfcs140u:stdafx.obj
+ 0003:00002698       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 10014698     atls:atlbase.obj
+ 0003:000026d0       ___@@_PchSym_@00@UyrmzirvhUrmgvinvwrzgvUexgllohUzgohOmzgrevkilqPBACIAJCBDBUlyqiUcIGUhgwzucOlyq@400B0995F36844BC 100146d0     atls:stdafx.obj
+ 0003:000026d4       ___dyn_tls_init_callback   100146d4     <common>
+ 0005:00000000       __tls_start                10016000     MSVCRT:tlssup.obj
+ 0005:00000004       __Init_thread_epoch        10016004     MSVCRT:thread_safe_statics.obj
+ 0005:00000008       __tls_end                  10016008     MSVCRT:tlssup.obj
+
+ entry point at        0001:00009b2d
+
+ Static symbols
+
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     PersonalRoomService.exp
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffe7000       .debug$S                   10000000     KernelEngine:KernelEngine.dll
+ 0002:ffff4000       .idata$6                   10000000     oleaut32:OLEAUT32.dll
+ 0000:fffe7000       .debug$S                   10000000     oleaut32:OLEAUT32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     user32:USER32.dll
+ 0000:fffe7000       .debug$S                   10000000     user32:USER32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     mfc140u:mfc140u.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:fffe7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0001:00000000       ??__E_AtlBaseModule@ATL@@YAXXZ 10001000 f   atls:atlbase.obj
+ 0001:00000810       _time                      10001810 f   PersonalRoomGame.obj
+ 0001:0000094e       __catch$??1CPersonalRoomGame@@UAE@XZ$0 1000194e f   PersonalRoomGame.obj
+ 0001:00000eb0       $LN14                      10001eb0     PersonalRoomGame.obj
+ 0001:00006fa3       __catch$?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z$0 10007fa3 f   PersonalRoomGame.obj
+ 0001:00008311       __catch$??1CPersonalRoomServiceManager@@UAE@XZ$0 10009311 f   PersonalRoomServiceManager.obj
+ 0001:000084d0       __catch$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z$0 100094d0 f   PersonalRoomServiceManager.obj
+ 0001:000088ba       __catch$_CreatePersonalRoomServiceManager$0 100098ba f   PersonalRoomServiceManager.obj
+ 0001:00008906       __catch$_CreatePersonalRoomServiceManager$2 10009906 f   PersonalRoomServiceManager.obj
+ 0001:00009170       $$000000                   1000a170     MSVCRT:chkstk.obj
+ 0001:00009200       $$000000                   1000a200     MSVCRT:lldiv.obj
+ 0001:000092b0       $$000000                   1000a2b0     MSVCRT:llmul.obj
+ 0001:000093fc       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 1000a3fc f   MSVCRT:utility.obj
+ 0001:0000972c       ?__scrt_initialize_thread_safe_statics@@YAHXZ 1000a72c f   MSVCRT:thread_safe_statics.obj
+ 0001:00009809       ?__scrt_uninitialize_thread_safe_statics@@YAXXZ 1000a809 f   MSVCRT:thread_safe_statics.obj
+ 0001:00009825       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 1000a825 f   MSVCRT:dll_dllmain.obj
+ 0001:00009878       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1000a878 f   MSVCRT:dll_dllmain.obj
+ 0001:0000998a       ?dllmain_crt_process_detach@@YAH_N@Z 1000a98a f   MSVCRT:dll_dllmain.obj
+ 0001:00009a07       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 1000aa07 f   MSVCRT:dll_dllmain.obj
+ 0001:00009b03       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 1000ab03 f   MSVCRT:dll_dllmain.obj
+ 0001:00009d90       $$000000                   1000ad90     MSVCRT:_sehprolg4_.obj
+ 0001:0000a380       $$000000                   1000b380     MSVCRT:_sehprolg4gs_.obj
+ 0001:0000a3e0       __unwindfunclet$??1CPersonalRoomGame@@UAE@XZ$2 1000b3e0 f   PersonalRoomGame.obj
+ 0001:0000a3eb       __ehhandler$??1CPersonalRoomGame@@UAE@XZ 1000b3eb f   PersonalRoomGame.obj
+ 0001:0000a406       __unwindfunclet$?BindTableFrame@CPersonalRoomGame@@UAE_NPAUITableFrame@@G@Z$0 1000b406 f   PersonalRoomGame.obj
+ 0001:0000a415       __ehhandler$?BindTableFrame@CPersonalRoomGame@@UAE_NPAUITableFrame@@G@Z 1000b415 f   PersonalRoomGame.obj
+ 0001:0000a430       __unwindfunclet$?OnTCPNetworkSubCreateTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z$0 1000b430 f   PersonalRoomGame.obj
+ 0001:0000a43c       __ehhandler$?OnTCPNetworkSubCreateTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 1000b43c f   PersonalRoomGame.obj
+ 0001:0000a464       __ehhandler$?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 1000b464 f   PersonalRoomGame.obj
+ 0001:0000a480       __ehhandler$??1CPersonalRoomServiceManager@@UAE@XZ 1000b480 f   PersonalRoomServiceManager.obj
+ 0001:0000a49b       __unwindfunclet$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z$2 1000b49b f   PersonalRoomServiceManager.obj
+ 0001:0000a4aa       __ehhandler$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z 1000b4aa f   PersonalRoomServiceManager.obj
+ 0001:0000a4c5       __unwindfunclet$_CreatePersonalRoomServiceManager$4 1000b4c5 f   PersonalRoomServiceManager.obj
+ 0001:0000a4d4       __ehhandler$_CreatePersonalRoomServiceManager 1000b4d4 f   PersonalRoomServiceManager.obj
+ 0001:0000a4f0       __ehhandler$??_ECPersonalRoomServiceManager@@UAEPAXI@Z 1000b4f0 f   PersonalRoomServiceManager.obj
+ 0001:0000a510       ??__F_AtlBaseModule@ATL@@YAXXZ 1000b510 f   atls:atlbase.obj
+ 0002:00000164       ?_AtlBaseModule$initializer$@ATL@@3P6AXXZA 1000c164     atls:atlbase.obj
+ 0002:00000170       ?__scrt_initialize_tss_var@@3P6AHXZA 1000c170     MSVCRT:thread_safe_statics.obj
+ 0002:00000190       $SG95606                   1000c190     Log.obj
+ 0002:0000019c       $SG95774                   1000c19c     Log.obj
+ 0002:000001b4       $SG95775                   1000c1b4     Log.obj
+ 0002:000001c8       $SG95776                   1000c1c8     Log.obj
+ 0002:000001cc       $SG95779                   1000c1cc     Log.obj
+ 0002:000001d8       $SG95780                   1000c1d8     Log.obj
+ 0002:00000200       $SG95781                   1000c200     Log.obj
+ 0002:00000228       $SG95782                   1000c228     Log.obj
+ 0002:0000022c       $SG95811                   1000c22c     Log.obj
+ 0002:00000240       $SG95810                   1000c240     Log.obj
+ 0002:00000290       $SG95812                   1000c290     Log.obj
+ 0002:000002e0       $SG95813                   1000c2e0     Log.obj
+ 0002:000002e8       $SG95815                   1000c2e8     Log.obj
+ 0002:000002ec       $SG95816                   1000c2ec     Log.obj
+ 0002:000002fc       $SG95817                   1000c2fc     Log.obj
+ 0002:0000030c       $SG95821                   1000c30c     Log.obj
+ 0002:00000320       $SG95820                   1000c320     Log.obj
+ 0002:00000370       $SG95822                   1000c370     Log.obj
+ 0002:000003c0       $SG95823                   1000c3c0     Log.obj
+ 0002:000003c8       $SG95824                   1000c3c8     Log.obj
+ 0002:000003d0       $SG95826                   1000c3d0     Log.obj
+ 0002:00000420       $SG244740                  1000c420     PersonalRoomGame.obj
+ 0002:00000430       $SG244743                  1000c430     PersonalRoomGame.obj
+ 0002:0000044c       $SG244746                  1000c44c     PersonalRoomGame.obj
+ 0002:00000470       $SG244749                  1000c470     PersonalRoomGame.obj
+ 0002:00000488       $SG244751                  1000c488     PersonalRoomGame.obj
+ 0002:000004b4       ?IID_IPersonalRoomItem@@3U_GUID@@B 1000c4b4     PersonalRoomGame.obj
+ 0002:000004c4       $SG244811                  1000c4c4     PersonalRoomGame.obj
+ 0002:000004d0       $SG244810                  1000c4d0     PersonalRoomGame.obj
+ 0002:00000534       $SG244812                  1000c534     PersonalRoomGame.obj
+ 0002:0000054c       $SG244818                  1000c54c     PersonalRoomGame.obj
+ 0002:00000578       $SG244822                  1000c578     PersonalRoomGame.obj
+ 0002:000005b4       ?IID_IPersonalRoomEventSink@@3U_GUID@@B 1000c5b4     PersonalRoomGame.obj
+ 0002:000005c4       ?IID_IMatchServiceManager@@3U_GUID@@B 1000c5c4     PersonalRoomGame.obj
+ 0002:000005d4       $SG243938                  1000c5d4     PersonalRoomGame.obj
+ 0002:000005dc       $SG243939                  1000c5dc     PersonalRoomGame.obj
+ 0002:000005e0       $SG243998                  1000c5e0     PersonalRoomGame.obj
+ 0002:000005e8       $SG244000                  1000c5e8     PersonalRoomGame.obj
+ 0002:000006c0       $SG244001                  1000c6c0     PersonalRoomGame.obj
+ 0002:000006f8       $SG244131                  1000c6f8     PersonalRoomGame.obj
+ 0002:00000790       $SG244132                  1000c790     PersonalRoomGame.obj
+ 0002:0000079c       $SG244165                  1000c79c     PersonalRoomGame.obj
+ 0002:000007a8       $SG244136                  1000c7a8     PersonalRoomGame.obj
+ 0002:00000910       $SG244144                  1000c910     PersonalRoomGame.obj
+ 0002:000009b4       $SG244166                  1000c9b4     PersonalRoomGame.obj
+ 0002:000009c0       $SG244148                  1000c9c0     PersonalRoomGame.obj
+ 0002:00000a80       $SG244155                  1000ca80     PersonalRoomGame.obj
+ 0002:00000b24       $SG244245                  1000cb24     PersonalRoomGame.obj
+ 0002:00000b38       $SG244158                  1000cb38     PersonalRoomGame.obj
+ 0002:00000bf8       $SG244160                  1000cbf8     PersonalRoomGame.obj
+ 0002:00000c30       $SG244162                  1000cc30     PersonalRoomGame.obj
+ 0002:00000c68       $SG244164                  1000cc68     PersonalRoomGame.obj
+ 0002:00000d24       ?szTreasureDB@@3QB_WB      1000cd24     PersonalRoomGame.obj
+ 0002:00000d44       $SG244247                  1000cd44     PersonalRoomGame.obj
+ 0002:00000d50       ?szCompilation@@3QB_WB     1000cd50     PersonalRoomGame.obj
+ 0002:00000d9c       $SG244248                  1000cd9c     PersonalRoomGame.obj
+ 0002:00000da4       $SG244250                  1000cda4     PersonalRoomGame.obj
+ 0002:00000dcc       $SG244254                  1000cdcc     PersonalRoomGame.obj
+ 0002:00000de8       $SG244259                  1000cde8     PersonalRoomGame.obj
+ 0002:00000e0c       $SG244260                  1000ce0c     PersonalRoomGame.obj
+ 0002:00000e30       $SG244262                  1000ce30     PersonalRoomGame.obj
+ 0002:00000ef0       $SG244267                  1000cef0     PersonalRoomGame.obj
+ 0002:00000f0c       $SG244268                  1000cf0c     PersonalRoomGame.obj
+ 0002:00000f18       $SG244270                  1000cf18     PersonalRoomGame.obj
+ 0002:00000f44       $SG244311                  1000cf44     PersonalRoomGame.obj
+ 0002:00000f58       $SG244308                  1000cf58     PersonalRoomGame.obj
+ 0002:00000fd0       $SG244315                  1000cfd0     PersonalRoomGame.obj
+ 0002:00001098       $SG244316                  1000d098     PersonalRoomGame.obj
+ 0002:000010a4       $SG244324                  1000d0a4     PersonalRoomGame.obj
+ 0002:000010b0       $SG244321                  1000d0b0     PersonalRoomGame.obj
+ 0002:0000118c       $SG244326                  1000d18c     PersonalRoomGame.obj
+ 0002:000011b8       $SG244322                  1000d1b8     PersonalRoomGame.obj
+ 0002:00001220       $SG244323                  1000d220     PersonalRoomGame.obj
+ 0002:00001240       $SG244353                  1000d240     PersonalRoomGame.obj
+ 0002:00001264       $SG244400                  1000d264     PersonalRoomGame.obj
+ 0002:00001270       $SG244398                  1000d270     PersonalRoomGame.obj
+ 0002:000012d0       $SG244399                  1000d2d0     PersonalRoomGame.obj
+ 0002:0000132c       $SG244405                  1000d32c     PersonalRoomGame.obj
+ 0002:00001338       $SG244404                  1000d338     PersonalRoomGame.obj
+ 0002:00001398       $SG244408                  1000d398     PersonalRoomGame.obj
+ 0002:000013f8       $SG244430                  1000d3f8     PersonalRoomGame.obj
+ 0002:00001494       $SG244582                  1000d494     PersonalRoomGame.obj
+ 0002:000014b8       $SG244571                  1000d4b8     PersonalRoomGame.obj
+ 0002:00001504       $SG244602                  1000d504     PersonalRoomGame.obj
+ 0002:00001518       $SG244603                  1000d518     PersonalRoomGame.obj
+ 0002:00001550       $SG244604                  1000d550     PersonalRoomGame.obj
+ 0002:0000155c       $SG244651                  1000d55c     PersonalRoomGame.obj
+ 0002:00001568       $SG244605                  1000d568     PersonalRoomGame.obj
+ 0002:000015a8       $SG244649                  1000d5a8     PersonalRoomGame.obj
+ 0002:000015f8       $SG244650                  1000d5f8     PersonalRoomGame.obj
+ 0002:0000163c       $SG244660                  1000d63c     PersonalRoomGame.obj
+ 0002:00001660       ?IID_IServerUserItemSink@@3U_GUID@@B 1000d660     PersonalRoomGame.obj
+ 0002:00001670       $SG244662                  1000d670     PersonalRoomGame.obj
+ 0002:000016ec       $SG244663                  1000d6ec     PersonalRoomGame.obj
+ 0002:000016f8       $SG244681                  1000d6f8     PersonalRoomGame.obj
+ 0002:00001700       $SG244682                  1000d700     PersonalRoomGame.obj
+ 0002:00001740       $SG244686                  1000d740     PersonalRoomGame.obj
+ 0002:00001794       ?IID_IUnknownEx@@3U_GUID@@B 1000d794     PersonalRoomGame.obj
+ 0002:000017a4       $SG244706                  1000d7a4     PersonalRoomGame.obj
+ 0002:000017b0       $SG244705                  1000d7b0     PersonalRoomGame.obj
+ 0002:000017f0       ?IID_IPersonalRoomServiceManager@@3U_GUID@@B 1000d7f0     PersonalRoomGame.obj
+ 0002:00001924       $SG233257                  1000d924     PersonalRoomServiceManager.obj
+ 0002:00001934       $SG233343                  1000d934     PersonalRoomServiceManager.obj
+ 0002:00001940       $SG233346                  1000d940     PersonalRoomServiceManager.obj
+ 0002:00001950       ?IID_IUnknownEx@@3U_GUID@@B 1000d950     PersonalRoomServiceManager.obj
+ 0002:00001960       ?IID_IPersonalRoomServiceManager@@3U_GUID@@B 1000d960     PersonalRoomServiceManager.obj
+ 0002:000019f4       $SG65536                   1000d9f4     Stdafx.obj
+ 0002:000019fc       $SG65537                   1000d9fc     Stdafx.obj
+ 0002:00001a08       $SG65538                   1000da08     Stdafx.obj
+ 0002:00001a10       $SG65539                   1000da10     Stdafx.obj
+ 0002:00001a1c       $SG65540                   1000da1c     Stdafx.obj
+ 0002:00001a24       $SG65541                   1000da24     Stdafx.obj
+ 0002:00001a30       $SG65542                   1000da30     Stdafx.obj
+ 0002:00001a38       $SG65543                   1000da38     Stdafx.obj
+ 0002:00001a44       $SG65544                   1000da44     Stdafx.obj
+ 0002:00001a4c       $SG65545                   1000da4c     Stdafx.obj
+ 0002:00001a58       $SG65546                   1000da58     Stdafx.obj
+ 0002:00001a64       $SG64522                   1000da64     Stdafx.obj
+ 0002:00001a84       $SG65547                   1000da84     Stdafx.obj
+ 0002:00001a8c       $SG65548                   1000da8c     Stdafx.obj
+ 0002:00001a98       $SG65549                   1000da98     Stdafx.obj
+ 0002:00001aa0       $SG114702                  1000daa0     Stdafx.obj
+ 0002:00001aac       $SG65550                   1000daac     Stdafx.obj
+ 0002:00001ab8       $SG114703                  1000dab8     Stdafx.obj
+ 0002:00001ac4       $SG65551                   1000dac4     Stdafx.obj
+ 0002:00001acc       $SG114704                  1000dacc     Stdafx.obj
+ 0002:00001af8       $SG65552                   1000daf8     Stdafx.obj
+ 0002:00001b04       $SG114705                  1000db04     Stdafx.obj
+ 0002:00001b18       $SG65553                   1000db18     Stdafx.obj
+ 0002:00001b20       $SG114706                  1000db20     Stdafx.obj
+ 0002:00001b34       $SG65554                   1000db34     Stdafx.obj
+ 0002:00001b40       $SG114707                  1000db40     Stdafx.obj
+ 0002:00001b54       $SG65555                   1000db54     Stdafx.obj
+ 0002:00001b5c       $SG114708                  1000db5c     Stdafx.obj
+ 0002:00001b68       $SG65556                   1000db68     Stdafx.obj
+ 0002:00001b70       $SG114709                  1000db70     Stdafx.obj
+ 0002:00001b78       $SG65557                   1000db78     Stdafx.obj
+ 0002:00001b88       $SG114710                  1000db88     Stdafx.obj
+ 0002:00001b9c       $SG65558                   1000db9c     Stdafx.obj
+ 0002:00001ba8       $SG114711                  1000dba8     Stdafx.obj
+ 0002:00001bb8       $SG65559                   1000dbb8     Stdafx.obj
+ 0002:00001bc0       $SG114712                  1000dbc0     Stdafx.obj
+ 0002:00001bd4       $SG65560                   1000dbd4     Stdafx.obj
+ 0002:00001be0       $SG114713                  1000dbe0     Stdafx.obj
+ 0002:00001bf0       $SG65561                   1000dbf0     Stdafx.obj
+ 0002:00001bf8       $SG65562                   1000dbf8     Stdafx.obj
+ 0002:00001c04       $SG65563                   1000dc04     Stdafx.obj
+ 0002:00001c0c       $SG65564                   1000dc0c     Stdafx.obj
+ 0002:00001c18       $SG65565                   1000dc18     Stdafx.obj
+ 0002:00001c24       $SG65566                   1000dc24     Stdafx.obj
+ 0002:00001c2c       $SG65567                   1000dc2c     Stdafx.obj
+ 0002:00001c38       $SG65568                   1000dc38     Stdafx.obj
+ 0002:00001c44       $SG65569                   1000dc44     Stdafx.obj
+ 0002:00001c4c       $SG65570                   1000dc4c     Stdafx.obj
+ 0002:00001c58       $SG65571                   1000dc58     Stdafx.obj
+ 0002:00001c60       $SG65572                   1000dc60     Stdafx.obj
+ 0002:00001c6c       $SG65573                   1000dc6c     Stdafx.obj
+ 0002:00001c74       $SG65574                   1000dc74     Stdafx.obj
+ 0002:00001c80       $SG65575                   1000dc80     Stdafx.obj
+ 0002:00001c8c       $SG65576                   1000dc8c     Stdafx.obj
+ 0002:00001c98       $SG65577                   1000dc98     Stdafx.obj
+ 0002:00001ca4       $SG65578                   1000dca4     Stdafx.obj
+ 0002:00001cac       $SG65579                   1000dcac     Stdafx.obj
+ 0002:00001cb8       $SG65580                   1000dcb8     Stdafx.obj
+ 0002:00001cc4       $SG65581                   1000dcc4     Stdafx.obj
+ 0002:00001cd0       $SG65582                   1000dcd0     Stdafx.obj
+ 0002:00001cd8       $SG65583                   1000dcd8     Stdafx.obj
+ 0002:00001ce4       $SG65584                   1000dce4     Stdafx.obj
+ 0002:00001cec       $SG65585                   1000dcec     Stdafx.obj
+ 0002:00001cf8       $SG65586                   1000dcf8     Stdafx.obj
+ 0002:00001d00       $SG65587                   1000dd00     Stdafx.obj
+ 0002:00001d0c       $SG65588                   1000dd0c     Stdafx.obj
+ 0002:00001d14       $SG65589                   1000dd14     Stdafx.obj
+ 0002:00001d20       $SG65590                   1000dd20     Stdafx.obj
+ 0002:00001d2c       $SG65591                   1000dd2c     Stdafx.obj
+ 0002:00001d3c       $SG65592                   1000dd3c     Stdafx.obj
+ 0002:00001d4c       $SG65593                   1000dd4c     Stdafx.obj
+ 0002:00001d5c       $SG64569                   1000dd5c     Stdafx.obj
+ 0002:00001d7c       $SG65594                   1000dd7c     Stdafx.obj
+ 0002:00001d84       $SG65595                   1000dd84     Stdafx.obj
+ 0002:00001d90       $SG65596                   1000dd90     Stdafx.obj
+ 0002:00001d98       $SG65597                   1000dd98     Stdafx.obj
+ 0002:00001da4       $SG65598                   1000dda4     Stdafx.obj
+ 0002:00001dac       $SG65599                   1000ddac     Stdafx.obj
+ 0002:00001db8       $SG65600                   1000ddb8     Stdafx.obj
+ 0002:00001dc4       $SG65601                   1000ddc4     Stdafx.obj
+ 0002:00001dd0       $SG65602                   1000ddd0     Stdafx.obj
+ 0002:00001ddc       $SG65603                   1000dddc     Stdafx.obj
+ 0002:00001de4       $SG65604                   1000dde4     Stdafx.obj
+ 0002:00001df0       $SG65605                   1000ddf0     Stdafx.obj
+ 0002:00001df8       $SG65606                   1000ddf8     Stdafx.obj
+ 0002:00001e04       $SG65607                   1000de04     Stdafx.obj
+ 0002:00001e14       $SG65608                   1000de14     Stdafx.obj
+ 0002:00001e24       $SG65609                   1000de24     Stdafx.obj
+ 0002:00001e34       $SG65610                   1000de34     Stdafx.obj
+ 0002:00001e44       $SG65611                   1000de44     Stdafx.obj
+ 0002:00001e54       $SG65612                   1000de54     Stdafx.obj
+ 0002:00001e64       $SG65613                   1000de64     Stdafx.obj
+ 0002:00001e6c       $SG65614                   1000de6c     Stdafx.obj
+ 0002:00001e78       $SG65615                   1000de78     Stdafx.obj
+ 0002:00001e80       $SG65616                   1000de80     Stdafx.obj
+ 0002:00001e98       $SG65617                   1000de98     Stdafx.obj
+ 0002:00001eb0       $SG65618                   1000deb0     Stdafx.obj
+ 0002:00001ec8       $SG65619                   1000dec8     Stdafx.obj
+ 0002:00001ee0       $SG65620                   1000dee0     Stdafx.obj
+ 0002:00001ee8       $SG65621                   1000dee8     Stdafx.obj
+ 0002:00001ef4       $SG65622                   1000def4     Stdafx.obj
+ 0002:00001f00       $SG65623                   1000df00     Stdafx.obj
+ 0002:00001f08       $SG65624                   1000df08     Stdafx.obj
+ 0002:00001f14       ?IID_IAttemperEngine@@3U_GUID@@B 1000df14     Stdafx.obj
+ 0002:00001f24       $SG65625                   1000df24     Stdafx.obj
+ 0002:00001f2c       $SG65626                   1000df2c     Stdafx.obj
+ 0002:00001f3c       $SG65627                   1000df3c     Stdafx.obj
+ 0002:00001f44       $SG65628                   1000df44     Stdafx.obj
+ 0002:00001f50       $SG65629                   1000df50     Stdafx.obj
+ 0002:00001f58       $SG65630                   1000df58     Stdafx.obj
+ 0002:00001f64       $SG65631                   1000df64     Stdafx.obj
+ 0002:00001f6c       $SG65632                   1000df6c     Stdafx.obj
+ 0002:00001f78       $SG65633                   1000df78     Stdafx.obj
+ 0002:00001f84       $SG65634                   1000df84     Stdafx.obj
+ 0002:00001f8c       $SG65635                   1000df8c     Stdafx.obj
+ 0002:00001f98       $SG65636                   1000df98     Stdafx.obj
+ 0002:00001fa0       $SG65637                   1000dfa0     Stdafx.obj
+ 0002:00001fac       $SG65638                   1000dfac     Stdafx.obj
+ 0002:00001fb4       $SG65639                   1000dfb4     Stdafx.obj
+ 0002:00001fc0       $SG65640                   1000dfc0     Stdafx.obj
+ 0002:00001fc8       $SG64616                   1000dfc8     Stdafx.obj
+ 0002:00001fe0       $SG65641                   1000dfe0     Stdafx.obj
+ 0002:00001fec       $SG65642                   1000dfec     Stdafx.obj
+ 0002:00001ff4       $SG65643                   1000dff4     Stdafx.obj
+ 0002:0000200c       $SG65644                   1000e00c     Stdafx.obj
+ 0002:00002024       $SG65645                   1000e024     Stdafx.obj
+ 0002:0000202c       $SG64621                   1000e02c     Stdafx.obj
+ 0002:00002048       $SG65646                   1000e048     Stdafx.obj
+ 0002:00002054       $SG65647                   1000e054     Stdafx.obj
+ 0002:00002060       $SG65648                   1000e060     Stdafx.obj
+ 0002:00002070       $SG65649                   1000e070     Stdafx.obj
+ 0002:00002080       $SG65650                   1000e080     Stdafx.obj
+ 0002:0000208c       $SG65651                   1000e08c     Stdafx.obj
+ 0002:00002098       $SG65652                   1000e098     Stdafx.obj
+ 0002:000020a4       $SG65653                   1000e0a4     Stdafx.obj
+ 0002:000020b0       $SG65654                   1000e0b0     Stdafx.obj
+ 0002:000020bc       $SG65655                   1000e0bc     Stdafx.obj
+ 0002:000020c8       $SG186495                  1000e0c8     Stdafx.obj
+ 0002:000020d4       $SG64668                   1000e0d4     Stdafx.obj
+ 0002:000020f8       $SG64715                   1000e0f8     Stdafx.obj
+ 0002:00002114       $SG64762                   1000e114     Stdafx.obj
+ 0002:00002130       $SG63746                   1000e130     Stdafx.obj
+ 0002:00002150       $SG63817                   1000e150     Stdafx.obj
+ 0002:00002168       $SG114013                  1000e168     Stdafx.obj
+ 0002:0000216c       $SG114015                  1000e16c     Stdafx.obj
+ 0002:00002170       $SG114017                  1000e170     Stdafx.obj
+ 0002:00002174       $SG114019                  1000e174     Stdafx.obj
+ 0002:00002178       $SG114021                  1000e178     Stdafx.obj
+ 0002:00002180       $SG114023                  1000e180     Stdafx.obj
+ 0002:00002198       $SG114025                  1000e198     Stdafx.obj
+ 0002:000021ac       $SG114027                  1000e1ac     Stdafx.obj
+ 0002:000021bc       $SG63864                   1000e1bc     Stdafx.obj
+ 0002:000021d4       $SG63911                   1000e1d4     Stdafx.obj
+ 0002:000021f8       $SG63958                   1000e1f8     Stdafx.obj
+ 0002:0000221c       $SG86503                   1000e21c     Stdafx.obj
+ 0002:00002240       $SG86505                   1000e240     Stdafx.obj
+ 0002:0000226c       $SG64005                   1000e26c     Stdafx.obj
+ 0002:00002290       ?IID_IAndroidUserItemSink@@3U_GUID@@B 1000e290     Stdafx.obj
+ 0002:000022a0       $SG64052                   1000e2a0     Stdafx.obj
+ 0002:000022c4       $SG64099                   1000e2c4     Stdafx.obj
+ 0002:000022e4       ?IID_ITraceServiceManager@@3U_GUID@@B 1000e2e4     Stdafx.obj
+ 0002:000022f4       ?IID_IGameServiceManager@@3U_GUID@@B 1000e2f4     Stdafx.obj
+ 0002:00002304       $SG64146                   1000e304     Stdafx.obj
+ 0002:00002328       ?IID_IAsynchronismEngine@@3U_GUID@@B 1000e328     Stdafx.obj
+ 0002:00002338       $SG65199                   1000e338     Stdafx.obj
+ 0002:00002340       $SG65200                   1000e340     Stdafx.obj
+ 0002:00002348       $SG65201                   1000e348     Stdafx.obj
+ 0002:00002350       $SG65202                   1000e350     Stdafx.obj
+ 0002:00002360       $SG65203                   1000e360     Stdafx.obj
+ 0002:00002368       $SG65204                   1000e368     Stdafx.obj
+ 0002:00002370       $SG65205                   1000e370     Stdafx.obj
+ 0002:00002378       $SG65206                   1000e378     Stdafx.obj
+ 0002:00002380       $SG65207                   1000e380     Stdafx.obj
+ 0002:00002388       $SG65208                   1000e388     Stdafx.obj
+ 0002:00002390       $SG65209                   1000e390     Stdafx.obj
+ 0002:00002398       $SG65210                   1000e398     Stdafx.obj
+ 0002:000023a0       $SG65211                   1000e3a0     Stdafx.obj
+ 0002:000023a8       $SG65212                   1000e3a8     Stdafx.obj
+ 0002:000023b0       $SG65213                   1000e3b0     Stdafx.obj
+ 0002:000023b8       $SG65214                   1000e3b8     Stdafx.obj
+ 0002:000023c0       $SG65215                   1000e3c0     Stdafx.obj
+ 0002:000023c8       $SG65216                   1000e3c8     Stdafx.obj
+ 0002:000023d0       ?IID_IDataBase@@3U_GUID@@B 1000e3d0     Stdafx.obj
+ 0002:000023e0       $SG65217                   1000e3e0     Stdafx.obj
+ 0002:000023e8       $SG64193                   1000e3e8     Stdafx.obj
+ 0002:00002410       $SG65218                   1000e410     Stdafx.obj
+ 0002:00002418       $SG65219                   1000e418     Stdafx.obj
+ 0002:00002420       $SG65220                   1000e420     Stdafx.obj
+ 0002:00002428       $SG65221                   1000e428     Stdafx.obj
+ 0002:00002430       $SG65222                   1000e430     Stdafx.obj
+ 0002:00002438       $SG65223                   1000e438     Stdafx.obj
+ 0002:00002440       $SG65224                   1000e440     Stdafx.obj
+ 0002:00002448       $SG65225                   1000e448     Stdafx.obj
+ 0002:00002450       $SG65226                   1000e450     Stdafx.obj
+ 0002:00002458       $SG65227                   1000e458     Stdafx.obj
+ 0002:00002460       $SG65228                   1000e460     Stdafx.obj
+ 0002:00002468       $SG65229                   1000e468     Stdafx.obj
+ 0002:00002470       $SG65230                   1000e470     Stdafx.obj
+ 0002:00002478       $SG65231                   1000e478     Stdafx.obj
+ 0002:00002480       $SG65232                   1000e480     Stdafx.obj
+ 0002:00002488       $SG65233                   1000e488     Stdafx.obj
+ 0002:00002490       $SG65234                   1000e490     Stdafx.obj
+ 0002:00002498       $SG65235                   1000e498     Stdafx.obj
+ 0002:000024a0       $SG65236                   1000e4a0     Stdafx.obj
+ 0002:000024a8       $SG65237                   1000e4a8     Stdafx.obj
+ 0002:000024b0       $SG65238                   1000e4b0     Stdafx.obj
+ 0002:000024b8       $SG65239                   1000e4b8     Stdafx.obj
+ 0002:000024c0       $SG65240                   1000e4c0     Stdafx.obj
+ 0002:000024c8       $SG65241                   1000e4c8     Stdafx.obj
+ 0002:000024d0       $SG65242                   1000e4d0     Stdafx.obj
+ 0002:000024d8       $SG65243                   1000e4d8     Stdafx.obj
+ 0002:000024e0       $SG65244                   1000e4e0     Stdafx.obj
+ 0002:000024e8       $SG65245                   1000e4e8     Stdafx.obj
+ 0002:000024f0       $SG65246                   1000e4f0     Stdafx.obj
+ 0002:000024f8       $SG65247                   1000e4f8     Stdafx.obj
+ 0002:00002500       $SG65248                   1000e500     Stdafx.obj
+ 0002:00002508       $SG65249                   1000e508     Stdafx.obj
+ 0002:00002510       $SG65250                   1000e510     Stdafx.obj
+ 0002:00002518       $SG65251                   1000e518     Stdafx.obj
+ 0002:00002520       $SG65252                   1000e520     Stdafx.obj
+ 0002:00002528       $SG65253                   1000e528     Stdafx.obj
+ 0002:00002530       $SG65254                   1000e530     Stdafx.obj
+ 0002:00002538       $SG65255                   1000e538     Stdafx.obj
+ 0002:00002540       $SG65256                   1000e540     Stdafx.obj
+ 0002:00002548       $SG65257                   1000e548     Stdafx.obj
+ 0002:00002550       $SG65258                   1000e550     Stdafx.obj
+ 0002:00002558       $SG65259                   1000e558     Stdafx.obj
+ 0002:00002560       $SG65260                   1000e560     Stdafx.obj
+ 0002:00002568       $SG65261                   1000e568     Stdafx.obj
+ 0002:00002570       $SG65262                   1000e570     Stdafx.obj
+ 0002:00002578       $SG65263                   1000e578     Stdafx.obj
+ 0002:00002580       $SG65264                   1000e580     Stdafx.obj
+ 0002:00002588       $SG64240                   1000e588     Stdafx.obj
+ 0002:000025a8       $SG65265                   1000e5a8     Stdafx.obj
+ 0002:000025ac       $SG65266                   1000e5ac     Stdafx.obj
+ 0002:000025b8       $SG65267                   1000e5b8     Stdafx.obj
+ 0002:000025c4       $SG65268                   1000e5c4     Stdafx.obj
+ 0002:000025d0       $SG65269                   1000e5d0     Stdafx.obj
+ 0002:000025dc       $SG65270                   1000e5dc     Stdafx.obj
+ 0002:000025e8       $SG65271                   1000e5e8     Stdafx.obj
+ 0002:000025f4       $SG65272                   1000e5f4     Stdafx.obj
+ 0002:00002600       ?IID_IDataBaseEngine@@3U_GUID@@B 1000e600     Stdafx.obj
+ 0002:00002610       $SG65273                   1000e610     Stdafx.obj
+ 0002:0000261c       $SG65274                   1000e61c     Stdafx.obj
+ 0002:00002628       $SG65275                   1000e628     Stdafx.obj
+ 0002:00002634       $SG65276                   1000e634     Stdafx.obj
+ 0002:00002640       $SG65277                   1000e640     Stdafx.obj
+ 0002:0000264c       $SG65278                   1000e64c     Stdafx.obj
+ 0002:00002658       $SG65279                   1000e658     Stdafx.obj
+ 0002:00002664       $SG65280                   1000e664     Stdafx.obj
+ 0002:00002670       $SG65281                   1000e670     Stdafx.obj
+ 0002:0000267c       $SG65282                   1000e67c     Stdafx.obj
+ 0002:00002688       $SG65283                   1000e688     Stdafx.obj
+ 0002:00002694       $SG65284                   1000e694     Stdafx.obj
+ 0002:000026a0       $SG65285                   1000e6a0     Stdafx.obj
+ 0002:000026ac       $SG65286                   1000e6ac     Stdafx.obj
+ 0002:000026b8       $SG65287                   1000e6b8     Stdafx.obj
+ 0002:000026c4       $SG65288                   1000e6c4     Stdafx.obj
+ 0002:000026d0       $SG65289                   1000e6d0     Stdafx.obj
+ 0002:000026dc       $SG65290                   1000e6dc     Stdafx.obj
+ 0002:000026e8       $SG65291                   1000e6e8     Stdafx.obj
+ 0002:000026f4       $SG65292                   1000e6f4     Stdafx.obj
+ 0002:00002700       $SG65293                   1000e700     Stdafx.obj
+ 0002:0000270c       $SG65294                   1000e70c     Stdafx.obj
+ 0002:00002718       $SG65295                   1000e718     Stdafx.obj
+ 0002:00002724       $SG65296                   1000e724     Stdafx.obj
+ 0002:00002730       $SG65297                   1000e730     Stdafx.obj
+ 0002:0000273c       $SG65298                   1000e73c     Stdafx.obj
+ 0002:00002748       $SG65299                   1000e748     Stdafx.obj
+ 0002:00002754       $SG65300                   1000e754     Stdafx.obj
+ 0002:00002760       $SG65301                   1000e760     Stdafx.obj
+ 0002:0000276c       $SG65302                   1000e76c     Stdafx.obj
+ 0002:00002778       $SG65303                   1000e778     Stdafx.obj
+ 0002:00002784       $SG65304                   1000e784     Stdafx.obj
+ 0002:00002790       $SG65305                   1000e790     Stdafx.obj
+ 0002:0000279c       $SG65306                   1000e79c     Stdafx.obj
+ 0002:000027b4       $SG65307                   1000e7b4     Stdafx.obj
+ 0002:000027c0       $SG65308                   1000e7c0     Stdafx.obj
+ 0002:000027cc       $SG65309                   1000e7cc     Stdafx.obj
+ 0002:000027d8       $SG65310                   1000e7d8     Stdafx.obj
+ 0002:000027e4       $SG65311                   1000e7e4     Stdafx.obj
+ 0002:000027f0       $SG64287                   1000e7f0     Stdafx.obj
+ 0002:00002810       $SG65312                   1000e810     Stdafx.obj
+ 0002:0000281c       $SG65313                   1000e81c     Stdafx.obj
+ 0002:00002828       $SG65314                   1000e828     Stdafx.obj
+ 0002:00002834       $SG65315                   1000e834     Stdafx.obj
+ 0002:00002840       $SG65316                   1000e840     Stdafx.obj
+ 0002:0000284c       $SG65317                   1000e84c     Stdafx.obj
+ 0002:00002858       $SG65318                   1000e858     Stdafx.obj
+ 0002:00002864       $SG65319                   1000e864     Stdafx.obj
+ 0002:00002870       $SG65320                   1000e870     Stdafx.obj
+ 0002:0000287c       $SG65321                   1000e87c     Stdafx.obj
+ 0002:00002888       $SG65322                   1000e888     Stdafx.obj
+ 0002:000028a0       $SG65323                   1000e8a0     Stdafx.obj
+ 0002:000028ac       $SG65324                   1000e8ac     Stdafx.obj
+ 0002:000028b8       $SG65325                   1000e8b8     Stdafx.obj
+ 0002:000028c4       $SG65326                   1000e8c4     Stdafx.obj
+ 0002:000028d0       $SG65327                   1000e8d0     Stdafx.obj
+ 0002:000028dc       $SG65328                   1000e8dc     Stdafx.obj
+ 0002:000028e8       $SG65329                   1000e8e8     Stdafx.obj
+ 0002:000028f4       $SG65330                   1000e8f4     Stdafx.obj
+ 0002:00002900       $SG65331                   1000e900     Stdafx.obj
+ 0002:0000290c       $SG65332                   1000e90c     Stdafx.obj
+ 0002:00002918       $SG65333                   1000e918     Stdafx.obj
+ 0002:00002924       $SG65334                   1000e924     Stdafx.obj
+ 0002:00002930       $SG65335                   1000e930     Stdafx.obj
+ 0002:0000293c       $SG65336                   1000e93c     Stdafx.obj
+ 0002:0000294c       $SG65337                   1000e94c     Stdafx.obj
+ 0002:0000295c       ?IID_IUDPNetworkEngine@@3U_GUID@@B 1000e95c     Stdafx.obj
+ 0002:0000296c       $SG65338                   1000e96c     Stdafx.obj
+ 0002:0000297c       $SG65339                   1000e97c     Stdafx.obj
+ 0002:0000298c       $SG65340                   1000e98c     Stdafx.obj
+ 0002:00002998       $SG65341                   1000e998     Stdafx.obj
+ 0002:000029a4       $SG65342                   1000e9a4     Stdafx.obj
+ 0002:000029b0       $SG65343                   1000e9b0     Stdafx.obj
+ 0002:000029bc       $SG65344                   1000e9bc     Stdafx.obj
+ 0002:000029c8       $SG65345                   1000e9c8     Stdafx.obj
+ 0002:000029d4       $SG65346                   1000e9d4     Stdafx.obj
+ 0002:000029e0       $SG65347                   1000e9e0     Stdafx.obj
+ 0002:000029ec       $SG65348                   1000e9ec     Stdafx.obj
+ 0002:000029f8       $SG65349                   1000e9f8     Stdafx.obj
+ 0002:00002a04       $SG65350                   1000ea04     Stdafx.obj
+ 0002:00002a10       $SG65351                   1000ea10     Stdafx.obj
+ 0002:00002a1c       $SG65352                   1000ea1c     Stdafx.obj
+ 0002:00002a34       $SG65353                   1000ea34     Stdafx.obj
+ 0002:00002a40       $SG65354                   1000ea40     Stdafx.obj
+ 0002:00002a58       $SG65355                   1000ea58     Stdafx.obj
+ 0002:00002a64       $SG65356                   1000ea64     Stdafx.obj
+ 0002:00002a70       $SG65357                   1000ea70     Stdafx.obj
+ 0002:00002a88       $SG65358                   1000ea88     Stdafx.obj
+ 0002:00002a98       $SG64334                   1000ea98     Stdafx.obj
+ 0002:00002ac0       $SG65359                   1000eac0     Stdafx.obj
+ 0002:00002acc       $SG65360                   1000eacc     Stdafx.obj
+ 0002:00002ad8       $SG65361                   1000ead8     Stdafx.obj
+ 0002:00002ae4       $SG65362                   1000eae4     Stdafx.obj
+ 0002:00002af0       $SG65363                   1000eaf0     Stdafx.obj
+ 0002:00002afc       $SG65364                   1000eafc     Stdafx.obj
+ 0002:00002b08       $SG65365                   1000eb08     Stdafx.obj
+ 0002:00002b20       $SG65366                   1000eb20     Stdafx.obj
+ 0002:00002b2c       $SG65367                   1000eb2c     Stdafx.obj
+ 0002:00002b3c       $SG65368                   1000eb3c     Stdafx.obj
+ 0002:00002b48       $SG65369                   1000eb48     Stdafx.obj
+ 0002:00002b54       $SG65370                   1000eb54     Stdafx.obj
+ 0002:00002b60       $SG65371                   1000eb60     Stdafx.obj
+ 0002:00002b6c       $SG65372                   1000eb6c     Stdafx.obj
+ 0002:00002b78       ?IID_ITCPNetworkEngine@@3U_GUID@@B 1000eb78     Stdafx.obj
+ 0002:00002b88       $SG65373                   1000eb88     Stdafx.obj
+ 0002:00002b94       $SG65374                   1000eb94     Stdafx.obj
+ 0002:00002ba0       $SG65375                   1000eba0     Stdafx.obj
+ 0002:00002bb0       $SG65376                   1000ebb0     Stdafx.obj
+ 0002:00002bbc       $SG65377                   1000ebbc     Stdafx.obj
+ 0002:00002bc8       $SG65378                   1000ebc8     Stdafx.obj
+ 0002:00002bd4       $SG65379                   1000ebd4     Stdafx.obj
+ 0002:00002be0       $SG65380                   1000ebe0     Stdafx.obj
+ 0002:00002bec       $SG65381                   1000ebec     Stdafx.obj
+ 0002:00002bf8       $SG65382                   1000ebf8     Stdafx.obj
+ 0002:00002c10       $SG65383                   1000ec10     Stdafx.obj
+ 0002:00002c20       $SG65384                   1000ec20     Stdafx.obj
+ 0002:00002c2c       $SG65385                   1000ec2c     Stdafx.obj
+ 0002:00002c38       $SG65386                   1000ec38     Stdafx.obj
+ 0002:00002c44       $SG65387                   1000ec44     Stdafx.obj
+ 0002:00002c50       $SG65388                   1000ec50     Stdafx.obj
+ 0002:00002c68       $SG65389                   1000ec68     Stdafx.obj
+ 0002:00002c78       $SG65390                   1000ec78     Stdafx.obj
+ 0002:00002c84       $SG65391                   1000ec84     Stdafx.obj
+ 0002:00002c90       $SG65392                   1000ec90     Stdafx.obj
+ 0002:00002c9c       $SG65393                   1000ec9c     Stdafx.obj
+ 0002:00002cb4       $SG65394                   1000ecb4     Stdafx.obj
+ 0002:00002cc4       $SG65395                   1000ecc4     Stdafx.obj
+ 0002:00002cd0       $SG65396                   1000ecd0     Stdafx.obj
+ 0002:00002cdc       $SG65397                   1000ecdc     Stdafx.obj
+ 0002:00002ce8       $SG65398                   1000ece8     Stdafx.obj
+ 0002:00002cf8       $SG65399                   1000ecf8     Stdafx.obj
+ 0002:00002d04       $SG65400                   1000ed04     Stdafx.obj
+ 0002:00002d10       $SG65401                   1000ed10     Stdafx.obj
+ 0002:00002d1c       $SG65402                   1000ed1c     Stdafx.obj
+ 0002:00002d2c       $SG65403                   1000ed2c     Stdafx.obj
+ 0002:00002d38       $SG65404                   1000ed38     Stdafx.obj
+ 0002:00002d44       $SG65405                   1000ed44     Stdafx.obj
+ 0002:00002d50       $SG64381                   1000ed50     Stdafx.obj
+ 0002:00002d74       $SG65406                   1000ed74     Stdafx.obj
+ 0002:00002d80       $SG65407                   1000ed80     Stdafx.obj
+ 0002:00002d8c       $SG65408                   1000ed8c     Stdafx.obj
+ 0002:00002d98       $SG65409                   1000ed98     Stdafx.obj
+ 0002:00002da4       $SG65410                   1000eda4     Stdafx.obj
+ 0002:00002db0       $SG65411                   1000edb0     Stdafx.obj
+ 0002:00002dbc       $SG65412                   1000edbc     Stdafx.obj
+ 0002:00002dc8       $SG65413                   1000edc8     Stdafx.obj
+ 0002:00002dd4       $SG65414                   1000edd4     Stdafx.obj
+ 0002:00002de0       $SG65415                   1000ede0     Stdafx.obj
+ 0002:00002dec       $SG65416                   1000edec     Stdafx.obj
+ 0002:00002df8       $SG65417                   1000edf8     Stdafx.obj
+ 0002:00002e04       $SG65418                   1000ee04     Stdafx.obj
+ 0002:00002e10       $SG65419                   1000ee10     Stdafx.obj
+ 0002:00002e1c       ?IID_ITCPSocketService@@3U_GUID@@B 1000ee1c     Stdafx.obj
+ 0002:00002e2c       $SG65420                   1000ee2c     Stdafx.obj
+ 0002:00002e38       $SG65421                   1000ee38     Stdafx.obj
+ 0002:00002e44       $SG65422                   1000ee44     Stdafx.obj
+ 0002:00002e50       $SG65423                   1000ee50     Stdafx.obj
+ 0002:00002e5c       $SG65424                   1000ee5c     Stdafx.obj
+ 0002:00002e68       $SG65425                   1000ee68     Stdafx.obj
+ 0002:00002e78       $SG65426                   1000ee78     Stdafx.obj
+ 0002:00002e80       $SG65428                   1000ee80     Stdafx.obj
+ 0002:00002e84       $SG65429                   1000ee84     Stdafx.obj
+ 0002:00002e8c       $SG65430                   1000ee8c     Stdafx.obj
+ 0002:00002e98       $SG65431                   1000ee98     Stdafx.obj
+ 0002:00002ea0       $SG65432                   1000eea0     Stdafx.obj
+ 0002:00002eac       $SG65433                   1000eeac     Stdafx.obj
+ 0002:00002eb8       $SG65434                   1000eeb8     Stdafx.obj
+ 0002:00002ec4       $SG65435                   1000eec4     Stdafx.obj
+ 0002:00002ed0       $SG65436                   1000eed0     Stdafx.obj
+ 0002:00002edc       $SG65437                   1000eedc     Stdafx.obj
+ 0002:00002ee8       $SG65438                   1000eee8     Stdafx.obj
+ 0002:00002ef4       $SG65439                   1000eef4     Stdafx.obj
+ 0002:00002f00       $SG65440                   1000ef00     Stdafx.obj
+ 0002:00002f0c       $SG65441                   1000ef0c     Stdafx.obj
+ 0002:00002f18       $SG65442                   1000ef18     Stdafx.obj
+ 0002:00002f24       $SG65443                   1000ef24     Stdafx.obj
+ 0002:00002f30       $SG65444                   1000ef30     Stdafx.obj
+ 0002:00002f3c       $SG65445                   1000ef3c     Stdafx.obj
+ 0002:00002f48       $SG65446                   1000ef48     Stdafx.obj
+ 0002:00002f54       $SG65447                   1000ef54     Stdafx.obj
+ 0002:00002f60       $SG65448                   1000ef60     Stdafx.obj
+ 0002:00002f68       $SG65449                   1000ef68     Stdafx.obj
+ 0002:00002f80       $SG65450                   1000ef80     Stdafx.obj
+ 0002:00002f98       $SG65451                   1000ef98     Stdafx.obj
+ 0002:00002fa0       $SG65452                   1000efa0     Stdafx.obj
+ 0002:00002fac       $SG64428                   1000efac     Stdafx.obj
+ 0002:00002fc8       ?IID_IWEBSocketService@@3U_GUID@@B 1000efc8     Stdafx.obj
+ 0002:00002fd8       $SG65453                   1000efd8     Stdafx.obj
+ 0002:00002fe0       $SG65454                   1000efe0     Stdafx.obj
+ 0002:00002fec       $SG65455                   1000efec     Stdafx.obj
+ 0002:00002ff8       $SG65456                   1000eff8     Stdafx.obj
+ 0002:00003010       $SG65457                   1000f010     Stdafx.obj
+ 0002:00003018       $SG65458                   1000f018     Stdafx.obj
+ 0002:00003024       $SG65459                   1000f024     Stdafx.obj
+ 0002:0000302c       $SG65460                   1000f02c     Stdafx.obj
+ 0002:00003038       $SG65461                   1000f038     Stdafx.obj
+ 0002:00003044       $SG65462                   1000f044     Stdafx.obj
+ 0002:0000304c       $SG65463                   1000f04c     Stdafx.obj
+ 0002:00003058       $SG65464                   1000f058     Stdafx.obj
+ 0002:00003060       $SG65465                   1000f060     Stdafx.obj
+ 0002:0000306c       $SG65466                   1000f06c     Stdafx.obj
+ 0002:00003078       $SG65467                   1000f078     Stdafx.obj
+ 0002:00003084       $SG65468                   1000f084     Stdafx.obj
+ 0002:00003090       $SG65469                   1000f090     Stdafx.obj
+ 0002:0000309c       $SG65470                   1000f09c     Stdafx.obj
+ 0002:000030a4       $SG65471                   1000f0a4     Stdafx.obj
+ 0002:000030b4       $SG65472                   1000f0b4     Stdafx.obj
+ 0002:000030bc       $SG65473                   1000f0bc     Stdafx.obj
+ 0002:000030c8       $SG65474                   1000f0c8     Stdafx.obj
+ 0002:000030d0       $SG65475                   1000f0d0     Stdafx.obj
+ 0002:000030dc       $SG65476                   1000f0dc     Stdafx.obj
+ 0002:000030e8       $SG65477                   1000f0e8     Stdafx.obj
+ 0002:000030f4       $SG65478                   1000f0f4     Stdafx.obj
+ 0002:00003100       ?IID_ITimerEngine@@3U_GUID@@B 1000f100     Stdafx.obj
+ 0002:00003110       $SG65479                   1000f110     Stdafx.obj
+ 0002:0000311c       $SG65480                   1000f11c     Stdafx.obj
+ 0002:00003128       $SG65481                   1000f128     Stdafx.obj
+ 0002:00003134       $SG65482                   1000f134     Stdafx.obj
+ 0002:00003140       $SG65483                   1000f140     Stdafx.obj
+ 0002:0000314c       $SG65484                   1000f14c     Stdafx.obj
+ 0002:00003158       $SG65485                   1000f158     Stdafx.obj
+ 0002:00003164       $SG65486                   1000f164     Stdafx.obj
+ 0002:00003170       $SG65487                   1000f170     Stdafx.obj
+ 0002:0000317c       $SG65488                   1000f17c     Stdafx.obj
+ 0002:00003184       $SG65489                   1000f184     Stdafx.obj
+ 0002:00003190       $SG65490                   1000f190     Stdafx.obj
+ 0002:0000319c       $SG65491                   1000f19c     Stdafx.obj
+ 0002:000031a8       $SG65492                   1000f1a8     Stdafx.obj
+ 0002:000031b4       $SG65493                   1000f1b4     Stdafx.obj
+ 0002:000031c0       $SG65494                   1000f1c0     Stdafx.obj
+ 0002:000031cc       $SG65495                   1000f1cc     Stdafx.obj
+ 0002:000031d8       $SG65496                   1000f1d8     Stdafx.obj
+ 0002:000031e4       $SG65497                   1000f1e4     Stdafx.obj
+ 0002:000031f0       $SG65498                   1000f1f0     Stdafx.obj
+ 0002:000031fc       $SG65499                   1000f1fc     Stdafx.obj
+ 0002:00003208       $SG64475                   1000f208     Stdafx.obj
+ 0002:00003224       $SG65500                   1000f224     Stdafx.obj
+ 0002:00003230       $SG65501                   1000f230     Stdafx.obj
+ 0002:0000323c       $SG65502                   1000f23c     Stdafx.obj
+ 0002:00003248       $SG65503                   1000f248     Stdafx.obj
+ 0002:00003254       $SG65504                   1000f254     Stdafx.obj
+ 0002:00003260       $SG65505                   1000f260     Stdafx.obj
+ 0002:0000326c       $SG65506                   1000f26c     Stdafx.obj
+ 0002:00003278       $SG65507                   1000f278     Stdafx.obj
+ 0002:00003284       $SG65508                   1000f284     Stdafx.obj
+ 0002:0000328c       $SG65509                   1000f28c     Stdafx.obj
+ 0002:00003298       $SG65510                   1000f298     Stdafx.obj
+ 0002:000032a0       $SG65511                   1000f2a0     Stdafx.obj
+ 0002:000032ac       $SG65512                   1000f2ac     Stdafx.obj
+ 0002:000032b4       $SG65513                   1000f2b4     Stdafx.obj
+ 0002:000032c0       $SG65514                   1000f2c0     Stdafx.obj
+ 0002:000032c8       $SG65515                   1000f2c8     Stdafx.obj
+ 0002:000032d4       $SG65516                   1000f2d4     Stdafx.obj
+ 0002:000032dc       $SG65517                   1000f2dc     Stdafx.obj
+ 0002:000032e8       $SG65518                   1000f2e8     Stdafx.obj
+ 0002:000032f0       $SG65519                   1000f2f0     Stdafx.obj
+ 0002:000032fc       $SG65520                   1000f2fc     Stdafx.obj
+ 0002:00003308       $SG65521                   1000f308     Stdafx.obj
+ 0002:00003314       $SG65522                   1000f314     Stdafx.obj
+ 0002:00003320       $SG65523                   1000f320     Stdafx.obj
+ 0002:0000332c       $SG65524                   1000f32c     Stdafx.obj
+ 0002:00003338       $SG65525                   1000f338     Stdafx.obj
+ 0002:00003340       $SG65526                   1000f340     Stdafx.obj
+ 0002:0000334c       $SG65527                   1000f34c     Stdafx.obj
+ 0002:00003354       $SG65528                   1000f354     Stdafx.obj
+ 0002:00003360       $SG65529                   1000f360     Stdafx.obj
+ 0002:00003368       $SG65530                   1000f368     Stdafx.obj
+ 0002:00003374       $SG65531                   1000f374     Stdafx.obj
+ 0002:0000337c       $SG65532                   1000f37c     Stdafx.obj
+ 0002:00003388       $SG65533                   1000f388     Stdafx.obj
+ 0002:00003390       $SG65534                   1000f390     Stdafx.obj
+ 0002:0000339c       $SG65535                   1000f39c     Stdafx.obj
+ 0002:000033a8       ?IID_IPersonalRoomEventSink@@3U_GUID@@B 1000f3a8     TableFrameHook.obj
+ 0002:000033b8       ?IID_IPersonalTableFrameHook@@3U_GUID@@B 1000f3b8     TableFrameHook.obj
+ 0002:000033cc       ?IID_IUnknownEx@@3U_GUID@@B 1000f3cc     TableFrameHook.obj
+ 0002:000033dc       ?IID_ITableFrame@@3U_GUID@@B 1000f3dc     TableFrameHook.obj
+ 0002:000033ec       ?IID_IPersonalRoomServiceManager@@3U_GUID@@B 1000f3ec     TableFrameHook.obj
+ 0002:0000350c       _GS_ExceptionPointers      1000f50c     MSVCRT:gs_report.obj
+ 0002:00004070       __unwindtable$?OnTCPNetworkSubCreateTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 10010070     PersonalRoomGame.obj
+ 0002:00004078       __unwindtable$?BindTableFrame@CPersonalRoomGame@@UAE_NPAUITableFrame@@G@Z 10010078     PersonalRoomGame.obj
+ 0002:00004080       __catchsym$?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z$2 10010080     PersonalRoomGame.obj
+ 0002:00004090       __unwindtable$?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 10010090     PersonalRoomGame.obj
+ 0002:000040a0       __catchsym$??1CPersonalRoomGame@@UAE@XZ$3 100100a0     PersonalRoomGame.obj
+ 0002:000040b0       __tryblocktable$?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 100100b0     PersonalRoomGame.obj
+ 0002:000040c4       __tryblocktable$??1CPersonalRoomGame@@UAE@XZ 100100c4     PersonalRoomGame.obj
+ 0002:000040d8       __unwindtable$??1CPersonalRoomGame@@UAE@XZ 100100d8     PersonalRoomGame.obj
+ 0002:000040f0       __ehfuncinfo$?OnDBLoadPersonalParameter@CPersonalRoomGame@@IAE_NKPAXGPAUIServerUserItem@@@Z 100100f0     PersonalRoomGame.obj
+ 0002:00004114       __ehfuncinfo$?OnTCPNetworkSubCreateTable@CPersonalRoomGame@@IAE_NPAXGKPAUIServerUserItem@@@Z 10010114     PersonalRoomGame.obj
+ 0002:00004138       __ehfuncinfo$?BindTableFrame@CPersonalRoomGame@@UAE_NPAUITableFrame@@G@Z 10010138     PersonalRoomGame.obj
+ 0002:0000415c       __ehfuncinfo$??1CPersonalRoomGame@@UAE@XZ 1001015c     PersonalRoomGame.obj
+ 0002:00004180       __catchsym$_CreatePersonalRoomServiceManager$6 10010180     PersonalRoomServiceManager.obj
+ 0002:00004190       __catchsym$_CreatePersonalRoomServiceManager$5 10010190     PersonalRoomServiceManager.obj
+ 0002:000041a0       __catchsym$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z$3 100101a0     PersonalRoomServiceManager.obj
+ 0002:000041b0       __catchsym$??1CPersonalRoomServiceManager@@UAE@XZ$2 100101b0     PersonalRoomServiceManager.obj
+ 0002:000041c0       __unwindtable$??1CPersonalRoomServiceManager@@UAE@XZ 100101c0     PersonalRoomServiceManager.obj
+ 0002:000041d0       __tryblocktable$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z 100101d0     PersonalRoomServiceManager.obj
+ 0002:000041e4       __tryblocktable$??1CPersonalRoomServiceManager@@UAE@XZ 100101e4     PersonalRoomServiceManager.obj
+ 0002:000041f8       __unwindtable$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z 100101f8     PersonalRoomServiceManager.obj
+ 0002:00004210       __ehfuncinfo$_CreatePersonalRoomServiceManager 10010210     PersonalRoomServiceManager.obj
+ 0002:00004234       __ehfuncinfo$?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z 10010234     PersonalRoomServiceManager.obj
+ 0002:00004258       __ehfuncinfo$??1CPersonalRoomServiceManager@@UAE@XZ 10010258     PersonalRoomServiceManager.obj
+ 0002:0000427c       __tryblocktable$_CreatePersonalRoomServiceManager 1001027c     PersonalRoomServiceManager.obj
+ 0002:000042a4       __unwindtable$_CreatePersonalRoomServiceManager 100102a4     PersonalRoomServiceManager.obj
+ 0002:000042cc       __ehfuncinfo$??_ECPersonalRoomServiceManager@@UAEPAXI@Z 100102cc     PersonalRoomServiceManager.obj
+ 0002:00004348       __sehtable$??_M@YGXPAXIIP6EX0@Z@Z 10010348     MSVCRT:ehvecdtr.obj
+ 0002:00004368       __sehtable$?__ArrayUnwind@@YGXPAXIIP6EX0@Z@Z 10010368     MSVCRT:ehvecdtr.obj
+ 0002:00004388       __sehtable$___scrt_is_nonwritable_in_current_image 10010388     MSVCRT:utility.obj
+ 0002:000043a8       __sehtable$?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 100103a8     MSVCRT:dll_dllmain.obj
+ 0002:000043c8       __sehtable$?dllmain_crt_process_detach@@YAH_N@Z 100103c8     MSVCRT:dll_dllmain.obj
+ 0002:000043e8       __sehtable$?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 100103e8     MSVCRT:dll_dllmain.obj
+ 0002:000044a0       .edata                     100104a0     PersonalRoomService.exp
+ 0002:000044c8       rgpv                       100104c8     PersonalRoomService.exp
+ 0002:0000451c       rgszName                   1001051c     PersonalRoomService.exp
+ 0002:00004570       rgwOrd                     10010570     PersonalRoomService.exp
+ 0002:0000459a       szName                     1001059a     PersonalRoomService.exp
+ 0002:000045b2       $N00001                    100105b2     PersonalRoomService.exp
+ 0002:000045de       $N00002                    100105de     PersonalRoomService.exp
+ 0002:00004605       $N00003                    10010605     PersonalRoomService.exp
+ 0002:0000462c       $N00004                    1001062c     PersonalRoomService.exp
+ 0002:0000465c       $N00005                    1001065c     PersonalRoomService.exp
+ 0002:00004681       $N00006                    10010681     PersonalRoomService.exp
+ 0002:000046c7       $N00007                    100106c7     PersonalRoomService.exp
+ 0002:00004701       $N00008                    10010701     PersonalRoomService.exp
+ 0002:0000474a       $N00009                    1001074a     PersonalRoomService.exp
+ 0002:000047af       $N00010                    100107af     PersonalRoomService.exp
+ 0002:000047ff       $N00011                    100107ff     PersonalRoomService.exp
+ 0002:00004859       $N00012                    10010859     PersonalRoomService.exp
+ 0002:0000488e       $N00013                    1001088e     PersonalRoomService.exp
+ 0002:000048d9       $N00014                    100108d9     PersonalRoomService.exp
+ 0002:0000492a       $N00015                    1001092a     PersonalRoomService.exp
+ 0002:00004976       $N00016                    10010976     PersonalRoomService.exp
+ 0002:000049bc       $N00017                    100109bc     PersonalRoomService.exp
+ 0002:000049fd       $N00018                    100109fd     PersonalRoomService.exp
+ 0002:00004a2a       $N00019                    10010a2a     PersonalRoomService.exp
+ 0002:00004a5d       $N00020                    10010a5d     PersonalRoomService.exp
+ 0002:00004a8f       $N00021                    10010a8f     PersonalRoomService.exp
+ 0002:00004d24       .idata$6                   10010d24     mfc140u:mfc140u.dll
+ 0002:00004f22       .idata$6                   10010f22     kernel32:KERNEL32.dll
+ 0002:00004f3c       .idata$6                   10010f3c     user32:USER32.dll
+ 0002:00004f82       .idata$6                   10010f82     KernelEngine:KernelEngine.dll
+ 0002:0000507c       .idata$6                   1001107c     vcruntime:VCRUNTIME140.dll
+ 0002:00005266       .idata$6                   10011266     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00005288       .idata$6                   10011288     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000052a8       .idata$6                   100112a8     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0002:000052ce       .idata$6                   100112ce     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:000052f0       .idata$6                   100112f0     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00005312       .idata$6                   10011312     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00005332       .idata$6                   10011332     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00005352       .idata$6                   10011352     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       ?PADDING@@3PAEA            10012000     Stdafx.obj
+ 0003:000002c0       ?g_sResult@@3PADA          100122c0     Log.obj
+ 0003:00000ac8       ?g_wsResult@@3PA_WA        10012ac8     Log.obj
+ 0003:000012d8       ?nNewCount@@3HA            100132d8     PersonalRoomGame.obj
+ 0003:000012e0       ?GameServerDLL@@3UAFX_EXTENSION_MODULE@@A 100132e0     PersonalRoomServer.obj
+ 0003:000012f8       ?g_sResult@@3PADA          100132f8     Stdafx.obj
+ 0003:00001b00       ?g_wsResult@@3PA_WA        10013b00     Stdafx.obj
+ 0003:0000230c       ?module_local_atexit_table@@3U_onexit_table_t@@A 1001430c     MSVCRT:utility.obj
+ 0003:00002318       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 10014318     MSVCRT:utility.obj
+ 0003:00002324       ?is_initialized_as_dll@@3_NA 10014324     MSVCRT:utility.obj
+ 0003:00002328       ?_Tss_mutex@@3U_RTL_CRITICAL_SECTION@@A 10014328     MSVCRT:thread_safe_statics.obj
+ 0003:00002340       ?_Tss_cv@@3U_RTL_CONDITION_VARIABLE@@A 10014340     MSVCRT:thread_safe_statics.obj
+ 0003:00002344       ?_Tss_event@@3PAXA         10014344     MSVCRT:thread_safe_statics.obj
+ 0003:00002348       ?encoded_sleep_condition_variable_cs@@3P6GHPAU_RTL_CONDITION_VARIABLE@@PAU_RTL_CRITICAL_SECTION@@K@ZA 10014348     MSVCRT:thread_safe_statics.obj
+ 0003:0000234c       ?encoded_wake_all_condition_variable@@3P6GXPAU_RTL_CONDITION_VARIABLE@@@ZA 1001434c     MSVCRT:thread_safe_statics.obj
+ 0003:00002354       ?__proc_attached@@3HA      10014354     MSVCRT:dll_dllmain.obj
+ 0003:00002358       _GS_ExceptionRecord        10014358     MSVCRT:gs_report.obj
+ 0003:000023a8       _GS_ContextRecord          100143a8     MSVCRT:gs_report.obj
+ 0004:00000000       __guard_fids__             10015000     MSVCRT:std_type_info_static.obj
+ 0004:00000004       __guard_fids__             10015004     MSVCRT:thread_safe_statics.obj
+ 0004:00000008       __guard_fids_?__scrt_initialize_thread_safe_statics@@YAHXZ 10015008     MSVCRT:thread_safe_statics.obj
+ 0004:0000000c       __guard_fids_?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1001500c     MSVCRT:dll_dllmain.obj
+ 0004:00000014       __guard_fids_?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10015014     MSVCRT:dll_dllmain.obj
+ 0004:00000018       __guard_fids__             10015018     MSVCRT:throw_bad_alloc.obj
+ 0004:00000020       __guard_fids__             10015020     MSVCRT:throw_bad_alloc.obj
+ 0004:00000028       __guard_fids__             10015028     MSVCRT:throw_bad_alloc.obj
+ 0004:00000030       __guard_fids__             10015030     MSVCRT:throw_bad_alloc.obj
+ 0004:00000034       __guard_fids__             10015034     MSVCRT:throw_bad_alloc.obj
+ 0004:00000038       __guard_fids__             10015038     MSVCRT:throw_bad_alloc.obj
+ 0004:0000003c       __guard_fids__             1001503c     MSVCRT:throw_bad_alloc.obj
+ 0004:00000040       __guard_fids__             10015040     MSVCRT:throw_bad_alloc.obj
+ 0004:00000044       __guard_fids___except_handler4 10015044     MSVCRT:_chandler4gs_.obj
+ 0004:00000048       __guard_fids__             10015048     MSVCRT:guard_support.obj
+ 0004:0000004c       __guard_fids_??__E_AtlBaseModule@ATL@@YAXXZ 1001504c     atls:atlbase.obj
+ 0004:00000050       __guard_fids__             10015050     atls:atlbase.obj
+ 0006:000000a0       $R000000                   100170a0     PersonalRoomServer.res
+ 0006:000003a8       $R000308                   100173a8     PersonalRoomServer.res
+
+ Exports
+
+  ordinal    name
+
+        1    ??0CPersonalRoomServiceManager@@QAE@ABV0@@Z (public: __thiscall CPersonalRoomServiceManager::CPersonalRoomServiceManager(class CPersonalRoomServiceManager const &))
+        2    ??0CPersonalRoomServiceManager@@QAE@XZ (public: __thiscall CPersonalRoomServiceManager::CPersonalRoomServiceManager(void))
+        3    ??1CPersonalRoomServiceManager@@UAE@XZ (public: virtual __thiscall CPersonalRoomServiceManager::~CPersonalRoomServiceManager(void))
+        4    ??4CPersonalRoomServiceManager@@QAEAAV0@ABV0@@Z (public: class CPersonalRoomServiceManager & __thiscall CPersonalRoomServiceManager::operator=(class CPersonalRoomServiceManager const &))
+        5    ??_7CPersonalRoomServiceManager@@6B@ (const CPersonalRoomServiceManager::`vftable')
+        6    ?BindTableFrame@CPersonalRoomServiceManager@@UAE_NPAUITableFrame@@G@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::BindTableFrame(struct ITableFrame *,unsigned short))
+        7    ?CreatePersonalRoom@CPersonalRoomServiceManager@@UAE_NE@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::CreatePersonalRoom(unsigned char))
+        8    ?GetServerUserItemSink@CPersonalRoomServiceManager@@UAEPAUIUnknownEx@@XZ (public: virtual struct IUnknownEx * __thiscall CPersonalRoomServiceManager::GetServerUserItemSink(void))
+        9    ?InitPersonalRooomInterface@CPersonalRoomServiceManager@@UAE_NAAUtagPersonalRoomManagerParameter@@@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::InitPersonalRooomInterface(struct tagPersonalRoomManagerParameter &))
+       10    ?OnEventDataBase@CPersonalRoomServiceManager@@UAE_NGPAUIServerUserItem@@PAXGK@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnEventDataBase(unsigned short,struct IServerUserItem *,void *,unsigned short,unsigned long))
+       11    ?OnEventSocketPersonalRoom@CPersonalRoomServiceManager@@UAE_NGPAXGPAUIServerUserItem@@K@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnEventSocketPersonalRoom(unsigned short,void *,unsigned short,struct IServerUserItem *,unsigned long))
+       12    ?OnEventTimer@CPersonalRoomServiceManager@@UAE_NKI@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnEventTimer(unsigned long,unsigned int))
+       13    ?OnEventUserLogon@CPersonalRoomServiceManager@@UAE_NPAUIServerUserItem@@@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnEventUserLogon(struct IServerUserItem *))
+       14    ?OnEventUserLogonFinish@CPersonalRoomServiceManager@@UAE_NPAUIServerUserItem@@@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnEventUserLogonFinish(struct IServerUserItem *))
+       15    ?OnEventUserLogout@CPersonalRoomServiceManager@@UAE_NPAUIServerUserItem@@@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnEventUserLogout(struct IServerUserItem *))
+       16    ?OnTCPSocketMainServiceInfo@CPersonalRoomServiceManager@@UAE_NGPAXG@Z (public: virtual bool __thiscall CPersonalRoomServiceManager::OnTCPSocketMainServiceInfo(unsigned short,void *,unsigned short))
+       17    ?QueryInterface@CPersonalRoomServiceManager@@UAEPAXABU_GUID@@K@Z (public: virtual void * __thiscall CPersonalRoomServiceManager::QueryInterface(struct _GUID const &,unsigned long))
+       18    ?Release@CPersonalRoomServiceManager@@UAEXXZ (public: virtual void __thiscall CPersonalRoomServiceManager::Release(void))
+       19    ?StartService@CPersonalRoomServiceManager@@UAE_NXZ (public: virtual bool __thiscall CPersonalRoomServiceManager::StartService(void))
+       20    ?StopService@CPersonalRoomServiceManager@@UAE_NXZ (public: virtual bool __thiscall CPersonalRoomServiceManager::StopService(void))
+       21    _CreatePersonalRoomServiceManager
+               exported name: CreatePersonalRoomServiceManager

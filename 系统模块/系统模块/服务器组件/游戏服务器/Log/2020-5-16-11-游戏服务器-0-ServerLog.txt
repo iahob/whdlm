@@ -1,0 +1,27 @@
+16-11-9-44: OnEventTCPNetworkShut userid = 1 断线 
+16-11-9-44: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-11-9-44: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-11-9-44: PerformStandUpAction userid = 1 起立 
+16-11-9-44: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-11-9-44: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-11-9-44: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-11-9-44: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-11-9-44: PerformStandUpAction userid = 1 离开 
+16-11-9-44: PerformStandUpAction userid = 1 cbUserStatus = 2 离开 
+16-11-10-25: OnEventTCPNetworkShut userid = 1 断线 
+16-11-10-25: OnEventTCPNetworkShut userid = 1 wTableID = 0 wDrawCount = 0 断线 
+16-11-10-25: OnEventTCPNetworkShut userid = 1 断线 处理 
+16-11-10-25: PerformStandUpAction userid = 1 起立 
+16-11-10-25: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-11-10-25: PerformStandUpAction userid = 1  bStand = 0 起立 1 
+16-11-10-25: JudePersonalStandUp userid = 1 cbUserStatus = 2  bMustJoinStatus = 0  bWillJoinStatus = 0 起立 1 
+16-11-10-25: PerformStandUpAction userid = 1 userid = 1 起立 2 
+16-11-10-25: PerformStandUpAction userid = 1 离开 
+16-11-10-25: PerformStandUpAction userid = 1 cbUserStatus = 2 离开 
+16-11-15-49: OnEventTCPNetworkShut userid = 1 断线 
+16-11-15-49: OnEventTCPNetworkShut userid = 1 wTableID = 65535 wDrawCount = 0 断线 
+16-11-15-49: OnEventTCPNetworkShut userid = 1 断线 离开房间 
+16-11-16-35: PerformStandUpAction userid = 1787 起立 
+16-11-16-35: PerformStandUpAction userid = 1608 起立 
+16-11-16-35: PerformStandUpAction userid = 1787 起立 
+16-11-16-35: PerformStandUpAction userid = 1608 起立 

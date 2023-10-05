@@ -1,0 +1,381 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.6.0.0",
+      "version": 1.6,
+      "name": "daqiang",
+      "bone_data": [
+        {
+          "name": "gun",
+          "parent": "",
+          "dI": 0,
+          "x": -19.257251739501953,
+          "y": 4.45511531829834,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -0.0661286041,
+          "kY": 0.0661286041,
+          "arrow_x": 58.204151153564453,
+          "arrow_y": -5.9712756410590373E-06,
+          "effectbyskeleton": true,
+          "bl": 58,
+          "display_data": [
+            {
+              "name": "qiang.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 34.18936,
+                  "y": -14.3811855,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.06613028,
+                  "kY": -0.06612829
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fire_2",
+          "parent": "",
+          "dI": 0,
+          "x": 72.463661193847656,
+          "y": 13.113452911376953,
+          "z": 2,
+          "cX": 2.89999938,
+          "cY": 1.0,
+          "kX": 0.03557218,
+          "kY": -0.03557218,
+          "arrow_x": 90.702606201171875,
+          "arrow_y": 7.09484356775647E-06,
+          "effectbyskeleton": true,
+          "bl": 90,
+          "display_data": [
+            {
+              "name": "fireqiang.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 96.25173,
+                  "y": -1.73923111,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0355757475,
+                  "kY": 0.0355721861
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fire",
+          "parent": "",
+          "dI": 0,
+          "x": 72.463661193847656,
+          "y": 13.113452911376953,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.03557218,
+          "kY": -0.03557218,
+          "arrow_x": 90.702606201171875,
+          "arrow_y": 7.09484356775647E-06,
+          "effectbyskeleton": true,
+          "bl": 90,
+          "display_data": [
+            {
+              "name": "fireqiang.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 96.25173,
+                  "y": -1.73923111,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0355757475,
+                  "kY": 0.0355721861
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "daqiang",
+      "mov_data": [
+        {
+          "name": "daqiang",
+          "dr": 41,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "gun",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": -31.363639831542969,
+                  "y": -1.0,
+                  "z": 0,
+                  "cX": 1.1,
+                  "cY": 1.1,
+                  "kX": -0.418879032,
+                  "kY": 0.418879032,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "fire_2",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 0,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.799999952,
+                  "cY": 0.199999928,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 17,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 0,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": -0.50000006,
+                  "cY": 0.799999952,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 200,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.0,
+                  "cY": 0.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 0,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "fire",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 0,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.799999952,
+                  "cY": 0.199999928,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 17,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 0,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 21,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 0,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  },
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "qiang",
+      "width": 122.0,
+      "height": 73.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "fireqiang",
+      "width": 210.0,
+      "height": 101.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "daqiang0.plist"
+  ],
+  "config_png_path": [
+    "daqiang0.png"
+  ]
+}

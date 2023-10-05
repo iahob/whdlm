@@ -1,0 +1,215 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameServer.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "红包扫地雷服务器"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "HBSLServer.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司"
+            VALUE "OriginalFilename", "HBSLServer.dll"
+            VALUE "ProductName", "红包扫地雷服务器"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM_RULE DIALOGEX 0, 0, 350, 289
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "游戏配置",IDC_STATIC,0,4,341,109
+    EDITTEXT        IDC_EDIT_MONEYRANGE_MIN,93,27,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_MONEYRANGE_MAX,93,41,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "红包额度下限：",IDC_STATIC,31,30,57,8
+    LTEXT           "红包额度上限：",IDC_STATIC,31,45,57,8
+    LTEXT           "抢红包时长：",IDC_STATIC,39,58,49,8
+    EDITTEXT        IDC_EDIT_MONEYVALIDTIME,93,55,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "赔付倍数：",IDC_STATIC,47,72,41,8
+    EDITTEXT        IDC_EDIT_EXCHANGERADIO,93,69,53,12,ES_AUTOHSCROLL
+    LTEXT           "红包包数：",IDC_STATIC,47,16,41,8
+    EDITTEXT        IDC_EDIT_BAGCOUNT,93,13,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "雷号位置：",IDC_STATIC,47,99,41,8
+    CONTROL         "小数点第一位",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,93,99,64,10
+    CONTROL         "小数点第二位",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,158,99,64,10
+    GROUPBOX        "AI配置",IDC_STATIC,0,118,341,132
+    LTEXT           "埋雷列表总数：",IDC_STATIC,31,131,57,8
+    EDITTEXT        IDC_EDIT_MIN_BAG_LIST_COUNT,93,129,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（埋雷列表雷数小于这值时，AI开始埋雷）",IDC_STATIC,152,131,152,8
+    LTEXT           "真人埋雷列表数：",IDC_STATIC,23,144,65,8
+    EDITTEXT        IDC_EDIT_MAX_REAL_BAG_LIST_COUNT,93,142,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（真人埋雷数大于这个值时，AI取消埋雷）",IDC_STATIC,152,144,152,8
+    LTEXT           "埋雷个数上下限：",IDC_STATIC,22,157,65,8
+    EDITTEXT        IDC_EDIT_SET_BAG_COUNT_MIN,93,155,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（AI埋雷个数，上限下限之间随机）",IDC_STATIC,152,157,128,8
+    EDITTEXT        IDC_EDIT_SET_BAG_COUNT_MAX,121,155,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "埋雷间隔上下限：",IDC_STATIC,22,170,65,8
+    EDITTEXT        IDC_EDIT_SET_BAG_TIME_MIN,93,168,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（秒，AI埋雷时间间隔，上限下限之间随机）",IDC_STATIC,152,170,160,8
+    EDITTEXT        IDC_EDIT_SET_BAG_TIME_MAX,121,168,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "抢红包开始时间：",IDC_STATIC,23,197,65,8
+    EDITTEXT        IDC_EDIT_START_GET_BAG_TIME,93,194,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（秒，AI多少秒后开始抢红包）",IDC_STATIC,152,197,112,8
+    LTEXT           "抢红包个数上限：",IDC_STATIC,23,223,65,8
+    EDITTEXT        IDC_EDIT_MAX_GET_BAG_COUNT,93,220,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（AI一个红包最多抢多少个）",IDC_STATIC,152,223,104,8
+    LTEXT           "最后不抢红包数：",IDC_STATIC,23,236,65,8
+    EDITTEXT        IDC_EDIT_LAST_NO_GET_BAG_COUNT,93,233,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（AI不抢最后多少个红包）",IDC_STATIC,152,236,96,8
+    LTEXT           "（1~10）",IDC_STATIC,152,16,34,8
+    LTEXT           "（最小10）",IDC_STATIC,152,31,41,8
+    LTEXT           "（抢红包时长 5~30秒）",IDC_STATIC,152,57,84,8
+    LTEXT           "（最大1000）",IDC_STATIC,152,44,49,8
+    LTEXT           "（保留1位小数）",IDC_STATIC,152,70,61,8
+    LTEXT           "抢红包间隔上下限：",IDC_STATIC,14,210,73,8
+    EDITTEXT        IDC_EDIT_GET_BAG_TIME_MIN,93,207,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（秒，AI抢红包时间间隔，上限下限之间随机）",IDC_STATIC,152,210,168,8
+    EDITTEXT        IDC_EDIT_GET_BAG_TIME_MAX,121,207,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "埋雷大小上下限：",IDC_STATIC,22,184,65,8
+    EDITTEXT        IDC_EDIT_SET_BAG_SCORE_MIN,93,181,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（AI埋红包大小上下限）",IDC_STATIC,152,184,105,8
+    EDITTEXT        IDC_EDIT_SET_BAG_SCORE_MAX,121,181,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "系统库存：",IDC_STATIC,14,270,41,8
+    EDITTEXT        IDC_EDIT_SYSTEM_STORAGE,52,268,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USER_STORAGE,154,268,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "玩家库存：",IDC_STATIC,112,270,41,8
+    EDITTEXT        IDC_EDIT_PARAMETER_K,251,268,23,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "调节系数：",IDC_STATIC,209,270,41,8
+    LTEXT           "%",IDC_STATIC,275,270,8,8
+    GROUPBOX        "库存配置",IDC_STATIC,0,255,341,31
+    LTEXT           "中奖率：100%",IDC_STATIC_SYSTEM,286,269,52,8
+    LTEXT           "分数比例：",IDC_STATIC,47,85,41,8
+    EDITTEXT        IDC_EDIT_SCORE_RATIO,93,83,53,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "（最小比例100）",IDC_STATIC,151,84,61,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CUSTOM_RULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameServer.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

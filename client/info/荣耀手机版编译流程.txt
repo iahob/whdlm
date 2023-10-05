@@ -1,0 +1,31 @@
+首先请查看info/网狐棋牌荣耀版开发环境配置.docx 里面有需要安装的软件版本，按要求安装相应的软件
+正常开发是用sublime 做调试开发
+
+1.windows 编译调试流程
+按info/sublime配置说明.txt 配置sublime，里面有运行步骤
+(info/网狐棋牌荣耀版开发环境配置.docx 里面有用vs2015 调试的配置说明，有兴趣可以参考文档进行操作)
+
+2.android 编译流程
+按Info/android windows 环境配置.rtf  文件配置android环境，然后运行Info/发布release版.bat 或者 Info/发布debug版.bat
+然后在client_publish 目录会生成相应的资源文件和安装包
+
+3.ios 编译流程
+运行 info/发布资源.bat  然后在client/ciphercode 目录会生成相应的资源文件，然后拷贝到mac机上相应的目录，
+然后在frameworks/runtime-src/proj.ios_mac 用xcode 打开相应的工程，真机编译调试（不支持模拟器）
+
+4.关于版本更新配置问题请参考 info/大厅更新-客户端配置.docx
+
+5.第三方配置信息，登录服务器地址，网站服务器地址的修改帮助 
+主要修改 client\client\src\plaza\models 目录下的 yl.lua文件和 client\base\src\app\views 目录下的 WelcomeScene.lua 文件
+
+WelcomeScene.lua 修改资源更新路径  URL_REQUEST（默认跟网站服务器地址相同）
+
+yl.lua 主要会修改的地方
+yl.LOGONSERVER   --登录服务器地址
+yl.HTTP_URL		 --网站服务器地址
+
+yl.SocialShare   --分享配置
+yl.WeChat		 --微信配置
+yl.AliPay		 --支付宝配置
+yl.JFT			 --竣付通配置
+yl.AMAP			 --高德配置

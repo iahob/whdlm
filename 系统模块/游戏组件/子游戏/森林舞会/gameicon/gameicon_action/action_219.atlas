@@ -1,0 +1,41 @@
+
+action_219.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 2
+  size: 210, 213
+  orig: 214, 214
+  offset: 2, 1
+  index: -1
+hongbao
+  rotate: false
+  xy: 214, 34
+  size: 164, 181
+  orig: 164, 181
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 380, 154
+  size: 171, 61
+  orig: 171, 61
+  offset: 0, 0
+  index: -1
+zhadna
+  rotate: false
+  xy: 380, 60
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 553, 168
+  size: 174, 47
+  orig: 174, 47
+  offset: 0, 0
+  index: -1

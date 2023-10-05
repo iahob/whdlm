@@ -1,0 +1,84 @@
+﻿  Stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  TableFrameSink.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(282): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(282): error C3861: “IsGameCheatUser”: 找不到标识符
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(568): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(738): warning C4477: “_snwprintf”: 格式字符串“%I64d”需要类型“__int64”的参数，但可变参数 2 拥有了类型“LONGLONG *”
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(738): warning C4313: “_snwprintf”: 格式字符串中的“%d”与“LONGLONG *”类型的参数 2 冲突
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(738): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1028): warning C4244: “参数”: 从“WORD”转换到“BYTE”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1079): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1079): error C3861: “IsGameCheatUser”: 找不到标识符
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1093): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1093): error C3861: “IsGameCheatUser”: 找不到标识符
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1100): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1109): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1111): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1123): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1123): error C3861: “IsGameCheatUser”: 找不到标识符
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1139): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1141): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1150): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1150): error C3861: “IsGameCheatUser”: 找不到标识符
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1158): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1160): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1222): warning C4477: “_snwprintf”: 格式字符串“%I64d”需要类型“__int64”的参数，但可变参数 2 拥有了类型“LONGLONG *”
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1222): warning C4313: “_snwprintf”: 格式字符串中的“%d”与“LONGLONG *”类型的参数 2 冲突
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1222): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1472): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1472): error C3861: “IsGameCheatUser”: 找不到标识符
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1523): warning C4244: “参数”: 从“DWORD”转换到“WORD”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1751): warning C4244: “=”: 从“WORD”转换到“BYTE”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1879): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1881): warning C4477: “_snwprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LONGLONG”
+  d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1881): note: 请考虑在格式字符串中使用“%lld”
+  d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1881): note: 请考虑在格式字符串中使用“%I64d”
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1881): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(1972): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2015): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2296): warning C4018: “<”: 有符号/无符号不匹配
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2343): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2344): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2346): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2353): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2354): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2355): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2367): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2376): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2380): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2658): error C2039: “IsGameCheatUser”: 不是“CUserRight”的成员
+  d:\projects\trunk\server\server\游戏组件\开发库\include\rightdefine.h(64): note: 参见“CUserRight”的声明
+d:\projects\trunk\server\server\游戏组件\大连客户\红黑大战\服务器组件\tableframesink.cpp(2658): error C3861: “IsGameCheatUser”: 找不到标识符
+  HistoryScore.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameServiceManager.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameServer.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameLogic.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  DlgCustomRule.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  正在生成代码...

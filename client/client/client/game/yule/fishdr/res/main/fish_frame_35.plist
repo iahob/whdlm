@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>35_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,118},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,118},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,582},{126,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,116}</string>
+			</dict>
+			<key>35_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,582},{126,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,116}</string>
+			</dict>
+			<key>35_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,234},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,234},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,350},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,350},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,466},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,466},{128,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,116}</string>
+			</dict>
+			<key>35_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{128,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,118}</string>
+			</dict>
+			<key>35_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,0},{128,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,118}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>fish_frame_35.png</string>
+			<key>realTextureFileName</key>
+			<string>fish_frame_35.png</string>
+			<key>size</key>
+			<string>{256,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

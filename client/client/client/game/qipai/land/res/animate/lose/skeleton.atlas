@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud1
+  rotate: false
+  xy: 2, 64
+  size: 394, 202
+  orig: 397, 204
+  offset: 2, 1
+  index: -1
+cloud2
+  rotate: false
+  xy: 1359, 817
+  size: 435, 196
+  orig: 439, 198
+  offset: 1, 1
+  index: -1
+dizhuku
+  rotate: false
+  xy: 684, 409
+  size: 673, 604
+  orig: 800, 651
+  offset: 84, 22
+  index: -1
+nongminku
+  rotate: false
+  xy: 2, 397
+  size: 680, 616
+  orig: 800, 651
+  offset: 74, 18
+  index: -1
+rain
+  rotate: false
+  xy: 2, 268
+  size: 708, 127
+  orig: 708, 127
+  offset: 0, 0
+  index: -1
+xulie/hua0001
+  rotate: false
+  xy: 398, 166
+  size: 30, 25
+  orig: 108, 83
+  offset: 38, 11
+  index: -1
+xulie/hua0002
+  rotate: false
+  xy: 2, 2
+  size: 65, 60
+  orig: 108, 83
+  offset: 19, 5
+  index: -1
+xulie/hua0003
+  rotate: false
+  xy: 1796, 858
+  size: 81, 72
+  orig: 108, 83
+  offset: 13, 2
+  index: -1
+xulie/hua0004
+  rotate: false
+  xy: 1359, 651
+  size: 96, 80
+  orig: 108, 83
+  offset: 3, 0
+  index: -1
+xulie/hua0005
+  rotate: false
+  xy: 1359, 733
+  size: 102, 82
+  orig: 108, 83
+  offset: 0, 0
+  index: -1
+xulie/hua0006
+  rotate: false
+  xy: 1796, 932
+  size: 103, 81
+  orig: 108, 83
+  offset: 1, 2
+  index: -1
+xulie/hua0007
+  rotate: false
+  xy: 398, 193
+  size: 105, 73
+  orig: 108, 83
+  offset: 1, 6
+  index: -1
+xulie/hua0008
+  rotate: false
+  xy: 1463, 745
+  size: 106, 70
+  orig: 108, 83
+  offset: 1, 5
+  index: -1
+xulie/hua0009
+  rotate: false
+  xy: 1901, 991
+  size: 65, 22
+  orig: 108, 83
+  offset: 21, 6
+  index: -1

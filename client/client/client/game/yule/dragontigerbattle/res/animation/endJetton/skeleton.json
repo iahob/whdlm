@@ -1,0 +1,79 @@
+{
+"skeleton": { "hash": "xaoeSxTCOyToOs4Q7YpEfRcMCak", "spine": "3.6.53", "width": 1334, "height": 750, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dikuang", "parent": "root" },
+	{ "name": "suduxian", "parent": "root", "x": 91.16, "y": -16.05, "scaleX": 1.4, "scaleY": 2.1 },
+	{ "name": "xiaoguo", "parent": "root", "y": -15.39 },
+	{ "name": "zi", "parent": "root" }
+],
+"slots": [
+	{ "name": "xiaoguo", "bone": "xiaoguo" },
+	{ "name": "dikuang", "bone": "dikuang", "attachment": "dikuang" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "suduxian", "bone": "suduxian", "attachment": "suduxian", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"dikuang": {
+			"dikuang": { "width": 1134, "height": 137 }
+		},
+		"suduxian": {
+			"suduxian": { "width": 592, "height": 67 }
+		},
+		"zi": {
+			"zi": { "width": 645, "height": 135 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"dikuang": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			},
+			"suduxian": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"zi": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zi": {
+				"translate": [
+					{ "time": 0, "x": -1016.5, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 73.01, "y": 0 },
+					{ "time": 1.1667, "x": 996.84, "y": 0 }
+				]
+			},
+			"suduxian": {
+				"translate": [
+					{ "time": 0, "x": -1185.71, "y": 0 },
+					{ "time": 0.3333, "x": 78.92, "y": 0 },
+					{ "time": 0.8333, "x": 195.22, "y": 0 },
+					{ "time": 1.1667, "x": 1133.21, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

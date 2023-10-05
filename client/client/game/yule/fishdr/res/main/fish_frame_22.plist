@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>22_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,0},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,124},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,124},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,248},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,248},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,372},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,372},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,496},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,496},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,620},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+			<key>22_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,620},{126,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,124}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>fish_frame_22.png</string>
+			<key>realTextureFileName</key>
+			<string>fish_frame_22.png</string>
+			<key>size</key>
+			<string>{256,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

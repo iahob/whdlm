@@ -1,0 +1,60 @@
+﻿  Stdafx.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  DlgCustomRule.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  GameInfoWR.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  GameLogic.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  GameServer.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  GameServiceManager.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  HistoryScore.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  TableFrameSink.cpp
+D:\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+TableFrameSink.cpp(82): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+TableFrameSink.cpp(193): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(200): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(201): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(210): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(213): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+TableFrameSink.cpp(395): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1035): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1049): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1128): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1129): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1130): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1131): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): note: 参见“_snwprintf”的声明
+TableFrameSink.cpp(1237): warning C4996: 'vswprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1835): note: 参见“vswprintf”的声明
+TableFrameSink.cpp(1242): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\WHQJ\游戏\game\足球连线\服务器组件\Release_Unicode\游戏服务器.dll) does not match the Linker's OutputFile property value (D:\WHQJ\运行\Release\Unicode\Line9Server.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(游戏服务器) does not match the Linker's OutputFile property value (Line9Server). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\GameServer.lib 和对象 Release_Unicode\GameServer.exp
+GameServer.exp : warning LNK4070: .EXP 中的 /OUT:GameServer.dll 指令与输出文件名“../../../../运行/Release/Unicode/Line9Server.dll”不同；忽略指令
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineWidth1(int (* const)[3])" (?ISThreeLineWidth1@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineWidth2(int (* const)[3])" (?ISThreeLineWidth2@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineWidth3(int (* const)[3])" (?ISThreeLineWidth3@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineHeight4(int (* const)[3])" (?ISThreeLineHeight4@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineHeight5(int (* const)[3])" (?ISThreeLineHeight5@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineHeight6(int (* const)[3])" (?ISThreeLineHeight6@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineOblique7(int (* const)[3])" (?ISThreeLineOblique7@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+GameLogic.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CGameLogic::ISThreeLineOblique8(int (* const)[3])" (?ISThreeLineOblique8@CGameLogic@@QAEHQAY02H@Z)，该符号在函数 "public: void __thiscall CGameLogic::GenerateZeroLine(int (* const)[3])" (?GenerateZeroLine@CGameLogic@@QAEXQAY02H@Z) 中被引用
+../../../../运行/Release/Unicode/Line9Server.dll : fatal error LNK1120: 8 个无法解析的外部命令

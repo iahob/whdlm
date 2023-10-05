@@ -1,0 +1,10 @@
+[2020-04-09-22-02-36]: ptdtais *** SetPersonalTableLocked groupid = 0 roomid = 0 tableid = 0 加锁
+[2020-04-09-22-02-36]: ptdtais *** SetPersonalRoomID dwGroupID = 0 dwRoomID = 0 wTableID = 0
+[2020-04-09-22-02-36]: ptdtai **** 创建定时器 IDI_PERSONAL_AFTER_CREATE_ROOM_TIME roomid = 0
+[2020-04-09-22-02-36]: ptdtais *** SetPersonalRoomID dwGroupID = 0 dwRoomID = 912851 wTableID = 0
+[2020-04-09-22-02-36]: ptdtai *** UpdateAITableChange m_dwGroupConfigID = 0 nChange = 1  向AI服务器发送桌子更新 结束 roomid = 912851
+[2020-04-09-22-09-21]: ptdtais *** SetPersonalTableLocked groupid = 0 roomid = 0 tableid = 0 加锁
+[2020-04-09-22-09-21]: ptdtais *** SetPersonalRoomID dwGroupID = 0 dwRoomID = 0 wTableID = 0
+[2020-04-09-22-09-21]: ptdtai **** 创建定时器 IDI_PERSONAL_AFTER_CREATE_ROOM_TIME roomid = 0
+[2020-04-09-22-09-21]: ptdtais *** SetPersonalRoomID dwGroupID = 0 dwRoomID = 500594 wTableID = 0
+[2020-04-09-22-09-21]: ptdtai *** UpdateAITableChange m_dwGroupConfigID = 0 nChange = 1  向AI服务器发送桌子更新 结束 roomid = 500594

@@ -1,0 +1,76 @@
+
+action_522.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 968, 164
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+L-jb
+  rotate: false
+  xy: 912, 160
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+R-jb
+  rotate: true
+  xy: 439, 31
+  size: 41, 48
+  orig: 45, 51
+  offset: 2, 2
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 212, 212
+  orig: 214, 214
+  offset: 1, 1
+  index: -1
+mohu-7
+  rotate: true
+  xy: 573, 76
+  size: 47, 58
+  orig: 47, 60
+  offset: 0, 1
+  index: -1
+pan
+  rotate: false
+  xy: 216, 31
+  size: 221, 183
+  orig: 225, 184
+  offset: 1, 1
+  index: -1
+tao1
+  rotate: false
+  xy: 830, 141
+  size: 80, 73
+  orig: 80, 74
+  offset: 0, 0
+  index: -1
+xia-tao
+  rotate: false
+  xy: 748, 140
+  size: 80, 74
+  orig: 80, 74
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 439, 74
+  size: 132, 140
+  orig: 132, 140
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 573, 125
+  size: 173, 89
+  orig: 176, 90
+  offset: 2, 1
+  index: -1

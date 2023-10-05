@@ -1,0 +1,90 @@
+
+action_527.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 389, 77
+  size: 14, 13
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 661, 188
+  size: 11, 13
+  orig: 12, 13
+  offset: 1, 0
+  index: -1
+03
+  rotate: false
+  xy: 455, 92
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 2, 15
+  size: 14, 15
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+R-yu
+  rotate: false
+  xy: 661, 203
+  size: 54, 41
+  orig: 56, 42
+  offset: 1, 0
+  index: -1
+canying
+  rotate: false
+  xy: 216, 92
+  size: 237, 152
+  orig: 239, 153
+  offset: 2, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 32
+  size: 212, 212
+  orig: 214, 214
+  offset: 1, 1
+  index: -1
+lei
+  rotate: false
+  xy: 2, 2
+  size: 12, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+lei2
+  rotate: false
+  xy: 18, 19
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 717, 232
+  size: 12, 12
+  orig: 14, 13
+  offset: 0, 1
+  index: -1
+yu
+  rotate: false
+  xy: 455, 104
+  size: 204, 140
+  orig: 210, 143
+  offset: 3, 1
+  index: -1
+zi
+  rotate: false
+  xy: 216, 40
+  size: 171, 50
+  orig: 173, 51
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,55 @@
+
+action_401.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chai/L-toufa
+  rotate: false
+  xy: 438, 42
+  size: 172, 173
+  orig: 174, 175
+  offset: 1, 2
+  index: -1
+chai/R-toufa
+  rotate: false
+  xy: 612, 40
+  size: 101, 56
+  orig: 108, 72
+  offset: 7, 12
+  index: -1
+chai/shenti
+  rotate: false
+  xy: 238, 41
+  size: 198, 174
+  orig: 232, 195
+  offset: 27, 20
+  index: -1
+chai/shou
+  rotate: true
+  xy: 747, 100
+  size: 63, 99
+  orig: 65, 105
+  offset: 0, 6
+  index: -1
+chai/tou
+  rotate: false
+  xy: 612, 98
+  size: 133, 117
+  orig: 139, 117
+  offset: 6, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 234, 213
+  orig: 239, 214
+  offset: 4, 1
+  index: -1
+zi
+  rotate: false
+  xy: 747, 165
+  size: 135, 50
+  orig: 135, 51
+  offset: 0, 1
+  index: -1

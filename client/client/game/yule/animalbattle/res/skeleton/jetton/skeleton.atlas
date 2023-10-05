@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaishi_di
+  rotate: false
+  xy: 2, 2
+  size: 509, 123
+  orig: 509, 123
+  offset: 0, 0
+  index: -1
+tingzhixiazhu
+  rotate: false
+  xy: 513, 31
+  size: 344, 94
+  orig: 345, 95
+  offset: 1, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+action_238.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 215, 73
+  size: 144, 142
+  orig: 146, 143
+  offset: 1, 1
+  index: -1
+R
+  rotate: false
+  xy: 361, 88
+  size: 118, 127
+  orig: 120, 128
+  offset: 2, 1
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 211, 213
+  orig: 214, 214
+  offset: 1, 0
+  index: -1
+shaizi
+  rotate: false
+  xy: 392, 43
+  size: 44, 43
+  orig: 44, 60
+  offset: 0, 17
+  index: -1
+zi
+  rotate: false
+  xy: 215, 21
+  size: 175, 50
+  orig: 176, 51
+  offset: 1, 1
+  index: -1

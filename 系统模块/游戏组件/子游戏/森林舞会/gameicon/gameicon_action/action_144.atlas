@@ -1,0 +1,41 @@
+
+action_144.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 328, 79
+  size: 103, 133
+  orig: 105, 134
+  offset: 1, 0
+  index: -1
+R
+  rotate: false
+  xy: 215, 76
+  size: 111, 136
+  orig: 112, 137
+  offset: 0, 0
+  index: -1
+VS
+  rotate: true
+  xy: 215, 5
+  size: 69, 97
+  orig: 69, 97
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 211, 210
+  orig: 214, 214
+  offset: 1, 2
+  index: -1
+zi
+  rotate: true
+  xy: 433, 37
+  size: 175, 50
+  orig: 178, 51
+  offset: 2, 1
+  index: -1

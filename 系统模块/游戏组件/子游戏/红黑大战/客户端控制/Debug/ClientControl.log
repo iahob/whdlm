@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  ClientControlItemSink.cpp
+i:\whgame\游戏组件\房卡游戏\拼十\客户端控制\clientcontrol.h(6): error C2504: “CSkinDialog”: 未定义基类
+i:\whgame\游戏组件\房卡游戏\拼十\客户端控制\clientcontrol.h(8): error C2614: “IClientControlDlg”: 非法的成员初始化:“CSkinDialog”不是基或成员
+i:\whgame\游戏组件\房卡游戏\拼十\客户端控制\clientcontrolitemsink.h(3): fatal error C1083: 无法打开包括文件: “../../../开发库/Include/ClientControl.h ”: No such file or directory
+  ClientControl.cpp
+i:\whgame\游戏组件\房卡游戏\拼十\客户端控制\clientcontrol.h(6): error C2504: “CSkinDialog”: 未定义基类
+i:\whgame\游戏组件\房卡游戏\拼十\客户端控制\clientcontrol.h(8): error C2614: “IClientControlDlg”: 非法的成员初始化:“CSkinDialog”不是基或成员
+i:\whgame\游戏组件\房卡游戏\拼十\客户端控制\clientcontrolitemsink.h(3): fatal error C1083: 无法打开包括文件: “../../../开发库/Include/ClientControl.h ”: No such file or directory
+  正在生成代码...

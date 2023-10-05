@@ -1,0 +1,7 @@
+[2020-04-11-00-09-35]: ptdtais ****  IDI_PERSONAL_BEFORE_BEGAIN_TIME 
+[2020-04-11-00-09-35]: CancelCreateTable
+[2020-04-11-00-09-35]: ptdtais ****  HostDissumeGame groupid = 100005 roomid = 323304 
+[2020-04-11-00-09-35]: ptdtais ****  房间已解散 groupid = 100005 roomid = 323304 
+[2020-04-11-00-09-35]: ptdtais *** SetPersonalTableLocked groupid = 100005 roomid = 323304 tableid = 0 解锁
+[2020-04-11-00-09-35]: ptdtai ****  IDI_PERSONAL_BEFORE_BEGAIN_TIME roomid = 323304  dwTimerID = 43
+[2020-04-11-00-09-35]: ptdtai *** UpdateAITableChange m_dwGroupConfigID = 3 nChange = -1  向AI服务器发送桌子更新 结束 roomid = 323304

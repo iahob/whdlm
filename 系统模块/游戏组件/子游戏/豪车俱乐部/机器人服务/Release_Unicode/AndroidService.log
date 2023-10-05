@@ -1,0 +1,21 @@
+﻿  Stdafx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  GameLogic.cpp
+  AndroidService.cpp
+  AndroidUserItemSink.cpp
+AndroidUserItemSink.cpp(755): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(756): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(773): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(779): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(782): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(799): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+AndroidUserItemSink.cpp(863): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): note: 参见“_snwscanf”的声明
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(I:\qmqp\Server\游戏组件\豪车俱乐部\机器人服务\Release_Unicode\LuxuryCarAndroid.dll) does not match the Linker's OutputFile property value (I:\qmqp\Server\运行\Release\Unicode\LuxuryCarAndroid.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 Release_Unicode\LuxuryCarAndroid.lib 和对象 Release_Unicode\LuxuryCarAndroid.exp
+LuxuryCarAndroid.exp : warning LNK4070: .EXP 中的 /OUT:AndroidService.dll 指令与输出文件名“../../../运行/Release/Unicode/LuxuryCarAndroid.dll”不同；忽略指令
+  AndroidService.vcxproj -> I:\qmqp\Server\游戏组件\豪车俱乐部\机器人服务\Release_Unicode\LuxuryCarAndroid.dll
+  AndroidService.vcxproj -> Release_Unicode\LuxuryCarAndroid.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode\ 已经存在。
+  已复制         1 个文件。

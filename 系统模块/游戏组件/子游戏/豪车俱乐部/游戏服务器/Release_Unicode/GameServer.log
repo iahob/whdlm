@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release_Unicode\) contains files shared from another project (豪车俱乐部服务端.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(I:\WHQJGame\Server\游戏组件\H客户\豪车俱乐部\游戏服务器\Release_Unicode\LuxuryCarServer.dll) does not match the Linker's OutputFile property value (I:\WHQJGame\Server\运行\Release\Unicode\LuxuryCarServer.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  GameServer.vcxproj -> I:\WHQJGame\Server\游戏组件\H客户\豪车俱乐部\游戏服务器\Release_Unicode\LuxuryCarServer.dll
+  GameServer.vcxproj -> Release_Unicode\LuxuryCarServer.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode\ 已经存在。
+  系统找不到指定的路径。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\服务器组件\Release\Unicode\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy /y ..\..\..\运行\Release\Unicode\LuxuryCarServer.dll ..\..\..\发布组件\服务器组件\Release\Unicode\LuxuryCarServer.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd”已退出，代码为 1。

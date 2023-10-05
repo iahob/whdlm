@@ -1,0 +1,94 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  WndChatControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  WebPublicize.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  WebMessage.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  webbrowser.CPP
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  UserListControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(538): warning C4477: “_snprintf_s”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(538): note: 请考虑在格式字符串中使用“%lld”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(538): note: 请考虑在格式字符串中使用“%I64d”
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(547): warning C4477: “_snprintf_s”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(547): note: 请考虑在格式字符串中使用“%lld”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(547): note: 请考虑在格式字符串中使用“%I64d”
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(616): warning C4477: “_snprintf_s”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“LONGLONG”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(616): note: 请考虑在格式字符串中使用“%lld”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(616): note: 请考虑在格式字符串中使用“%I64d”
+  UserItemElement.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(634): warning C4474: _snprintf_s: 格式字符串中传递的参数太多
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(634): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(670): warning C4474: _snprintf_s: 格式字符串中传递的参数太多
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(670): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(692): warning C4474: _snprintf_s: 格式字符串中传递的参数太多
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(692): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(810): warning C4474: _snprintf_s: 格式字符串中传递的参数太多
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(810): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(821): warning C4474: _snprintf_s: 格式字符串中传递的参数太多
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\useritemelement.cpp(821): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  UserInformation.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(91): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\corecrt_wstdio.h(1649): note: 参见“_snwprintf”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(274): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\corecrt_wstdio.h(1649): note: 参见“_snwprintf”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(282): warning C4477: “_snprintf_s”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPCWSTR”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(282): note: 请考虑在格式字符串中使用“%ls”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(282): note: 请考虑在格式字符串中使用“%lls”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(282): note: 请考虑在格式字符串中使用“%Ls”
+  d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(282): note: 请考虑在格式字符串中使用“%ws”
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\userinformation.cpp(290): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\corecrt_wstdio.h(1649): note: 参见“_snwprintf”的声明
+  SystemTrayIcon.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  ShareControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  RichEditMessage.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  PasswordControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  MissionManager.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\missionmanager.cpp(246): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(2225): note: 参见“gethostbyname”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\missionmanager.cpp(254): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(1837): note: 参见“inet_addr”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\missionmanager.cpp(263): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(1837): note: 参见“inet_addr”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\missionmanager.cpp(268): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(2225): note: 参见“gethostbyname”的声明
+  Information.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\information.cpp(276): warning C4477: “_snprintf_s”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CString”
+  FlashControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  Expression.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  DlgTipControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  DlgBrowser.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\dlgbrowser.cpp(78): warning C4477: “_snprintf_s”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“CString”
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\游戏控件\Debug\游戏控件.dll) does not match the Linker's OutputFile property value (D:\Space\Github\旗舰大联盟\系统模块\运行\Debug\Ansi\ShareControlD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(游戏控件) does not match the Linker's OutputFile property value (ShareControlD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DlgBrowser.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../链接库/Ansi/ShareControlD.lib 和对象 ../../链接库/Ansi/ShareControlD.exp
+DlgBrowser.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: char const * __thiscall CGlobalWebLink::GetPlatformLink(void)" (__imp_?GetPlatformLink@CGlobalWebLink@@QAEPBDXZ)，该符号在函数 "protected: virtual int __thiscall CDlgBrowser::OnInitDialog(void)" (?OnInitDialog@CDlgBrowser@@MAEHXZ) 中被引用
+DlgBrowser.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::CloseWindow(void)" (?CloseWindow@CFGuiDialog@@UAEJXZ)
+Information.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::CloseWindow(void)" (?CloseWindow@CFGuiDialog@@UAEJXZ)
+DlgBrowser.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CFGuiDialog::DoModal(void)" (?DoModal@CFGuiDialog@@UAEHXZ)
+Information.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CFGuiDialog::DoModal(void)" (?DoModal@CFGuiDialog@@UAEHXZ)
+DlgBrowser.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::HandleOnSizeMessage(unsigned int,unsigned int,long,int &)" (?HandleOnSizeMessage@CFGuiDialog@@UAEJIIJAAH@Z)
+Information.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::HandleOnSizeMessage(unsigned int,unsigned int,long,int &)" (?HandleOnSizeMessage@CFGuiDialog@@UAEJIIJAAH@Z)
+MissionManager.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall CGlobalServer::GetLastServerName(char * const)" (__imp_?GetLastServerName@CGlobalServer@@QAEXQAD@Z)，该符号在函数 "public: bool __thiscall CMissionSocket::PerformConnect(bool)" (?PerformConnect@CMissionSocket@@QAE_N_N@Z) 中被引用
+MissionManager.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall CGlobalServer::GetServerItemName(unsigned short,char * const)" (__imp_?GetServerItemName@CGlobalServer@@QAEXGQAD@Z)，该符号在函数 "private: bool __thiscall CMissionSocket::SwitchServerItem(void)" (?SwitchServerItem@CMissionSocket@@AAE_NXZ) 中被引用
+MissionManager.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall CGlobalServer::GetServerItemInfo(char const *,struct tagServerItem &)" (__imp_?GetServerItemInfo@CGlobalServer@@QAE_NPBDAAUtagServerItem@@@Z)，该符号在函数 "private: bool __thiscall CMissionSocket::GetServerInfo(void)" (?GetServerInfo@CMissionSocket@@AAE_NXZ) 中被引用
+../../../运行/Debug/Ansi/ShareControlD.dll : fatal error LNK1120: 7 个无法解析的外部命令

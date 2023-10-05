@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "FGxT2tj63ZUsaQ2M93z5GHhvUvs", "spine": "3.6.53", "width": 1334, "height": 750, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": -63.9 },
+	{ "name": "zi", "parent": "root" }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg" },
+	{ "name": "zi", "bone": "zi", "attachment": "kai" }
+],
+"skins": {
+	"default": {},
+	"kaishi": {
+		"zi": {
+			"kai": { "name": "kaishi", "width": 313, "height": 154 }
+		}
+	},
+	"tingzhi": {
+		"zi": {
+			"kai": { "name": "tingzhi", "width": 313, "height": 154 }
+		}
+	},
+	"xiuxi": {
+		"zi": {
+			"kai": { "name": "xiuxi", "width": 313, "height": 154 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"zi": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zi": {
+				"translate": [
+					{ "time": 0, "x": -830.42, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0 },
+					{ "time": 1.5, "x": 839.19, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

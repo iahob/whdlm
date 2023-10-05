@@ -1,0 +1,119 @@
+{
+"skeleton": { "hash": "c3BxhJwlym5ZsP8yhcNwU19ubws", "spine": "3.6.53", "width": 1395.5, "height": 750, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zong", "parent": "root", "y": 400 },
+	{ "name": "L-kuang", "parent": "zong", "x": -301, "y": -359 },
+	{ "name": "R-kuang", "parent": "zong", "x": 300, "y": -441 },
+	{ "name": "VS", "parent": "zong", "x": 12, "y": -389 },
+	{ "name": "xiaoguo", "parent": "root" },
+	{ "name": "xulie", "parent": "zong", "y": -387.18, "scaleX": 1.144, "scaleY": 1.144 }
+],
+"slots": [
+	{ "name": "xiaoguo", "bone": "xiaoguo" },
+	{ "name": "L-kuang", "bone": "L-kuang", "attachment": "L-kuang" },
+	{ "name": "R-kuang", "bone": "R-kuang", "attachment": "R-kuang" },
+	{ "name": "vs", "bone": "VS", "attachment": "vs" },
+	{ "name": "xulie", "bone": "xulie", "attachment": "xulie/guang_00005", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"L-kuang": {
+			"L-kuang": { "width": 795, "height": 294 }
+		},
+		"R-kuang": {
+			"R-kuang": { "width": 794, "height": 294 }
+		},
+		"vs": {
+			"vs": { "width": 209, "height": 208 }
+		},
+		"xulie": {
+			"xulie/guang_00003": { "width": 528, "height": 420 },
+			"xulie/guang_00004": { "width": 528, "height": 420 },
+			"xulie/guang_00005": { "width": 528, "height": 420 },
+			"xulie/guang_00006": { "width": 528, "height": 420 },
+			"xulie/guang_00007": { "width": 528, "height": 420 },
+			"xulie/guang_00008": { "width": 528, "height": 420 },
+			"xulie/guang_00009": { "width": 528, "height": 420 },
+			"xulie/guang_00010": { "width": 528, "height": 420 },
+			"xulie/guang_00011": { "width": 528, "height": 420 },
+			"xulie/guang_00012": { "width": 528, "height": 420 },
+			"xulie/guang_00013": { "width": 528, "height": 420 },
+			"xulie/guang_00014": { "width": 528, "height": 420 },
+			"xulie/guang_00015": { "width": 528, "height": 420 },
+			"xulie/guang_00016": { "width": 528, "height": 420 },
+			"xulie/guang_00017": { "width": 528, "height": 420 },
+			"xulie/guang_00018": { "width": 528, "height": 420 },
+			"xulie/guang_00019": { "width": 528, "height": 420 },
+			"xulie/guang_00020": { "width": 528, "height": 420 },
+			"xulie/guang_00021": { "width": 528, "height": 420 },
+			"xulie/guang_00022": { "width": 528, "height": 420 },
+			"xulie/guang_00023": { "width": 528, "height": 420 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"vs": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"xulie": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1667, "name": "xulie/guang_00003" },
+					{ "time": 0.2, "name": "xulie/guang_00004" },
+					{ "time": 0.2333, "name": "xulie/guang_00005" },
+					{ "time": 0.2667, "name": "xulie/guang_00006" },
+					{ "time": 0.3, "name": "xulie/guang_00007" },
+					{ "time": 0.3333, "name": "xulie/guang_00008" },
+					{ "time": 0.3667, "name": "xulie/guang_00009" },
+					{ "time": 0.4, "name": "xulie/guang_00010" },
+					{ "time": 0.4333, "name": "xulie/guang_00011" },
+					{ "time": 0.4667, "name": "xulie/guang_00012" },
+					{ "time": 0.5, "name": "xulie/guang_00013" },
+					{ "time": 0.5333, "name": "xulie/guang_00014" },
+					{ "time": 0.5667, "name": "xulie/guang_00015" },
+					{ "time": 0.6, "name": "xulie/guang_00016" },
+					{ "time": 0.6333, "name": "xulie/guang_00017" },
+					{ "time": 0.6667, "name": "xulie/guang_00018" },
+					{ "time": 0.7, "name": "xulie/guang_00019" },
+					{ "time": 0.7333, "name": "xulie/guang_00020" },
+					{ "time": 0.7667, "name": "xulie/guang_00021" },
+					{ "time": 0.8, "name": "xulie/guang_00022" },
+					{ "time": 0.8333, "name": "xulie/guang_00023" },
+					{ "time": 0.8667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"L-kuang": {
+				"translate": [
+					{ "time": 0, "x": -743.51, "y": 0 },
+					{ "time": 0.2333, "x": 30.11, "y": 0 },
+					{ "time": 0.3667, "x": 0, "y": 0 }
+				]
+			},
+			"R-kuang": {
+				"translate": [
+					{ "time": 0, "x": 744.82, "y": 0 },
+					{ "time": 0.2333, "x": -36.24, "y": 0 },
+					{ "time": 0.3667, "x": 0, "y": 0 }
+				]
+			},
+			"VS": {
+				"scale": [
+					{ "time": 0, "x": 4.092, "y": 4.092, "curve": "stepped" },
+					{ "time": 0.1667, "x": 4.092, "y": 4.092 },
+					{ "time": 0.3333, "x": 0.736, "y": 0.736 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,212 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\LineClientControl.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LineClientControl.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "LineClientControl.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 546, 319
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "三九连线 - 控制窗口"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_GAME_STOCK,87,17,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GAME_JACKPOT,205,17,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "查询",IDC_BUTTON_STOCK_INQUIRY,151,35,41,14
+    PUSHBUTTON      "设置",IDC_BUTTON_STOCK_SET,205,35,41,14
+    EDITTEXT        IDC_EDIT_DIFFICULTY_ID,69,79,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_DIFFICULTY_VALUE,69,103,40,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置",IDC_BUTTON_DIFFICULTY_SET,19,127,41,14
+    PUSHBUTTON      "查询",IDC_BUTTON_DIFFICULTY_INQUIRY,73,127,41,14
+    PUSHBUTTON      "删除",IDC_BUTTON_DIFFICULTY_DELETE,19,151,41,14
+    PUSHBUTTON      "清空",IDC_BUTTON_DIFFICULTY_CLEAR,73,151,41,14
+    EDITTEXT        IDC_EDIT_GIFT_ID,65,196,49,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_COMBOT_GIFT_TYPE,65,238,49,95,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_GIFT_NUMBER,65,217,49,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "设置",IDC_BUTTON_GIFT_SET,19,262,41,14
+    PUSHBUTTON      "查询",IDC_BUTTON_GIFT_INQUIRY,73,262,41,14
+    PUSHBUTTON      "删除",IDC_BUTTON_GIFT_DELETE,19,286,41,14
+    PUSHBUTTON      "清空",IDC_BUTTON_GIFT_CLEAR,73,286,41,14
+    PUSHBUTTON      "更新",IDC_BUTTON_WIN_LOSE_UPDATE,491,137,41,14
+    PUSHBUTTON      "更新",IDC_BUTTON_LOG_UPDATE,491,293,41,14
+    CTEXT           "游戏库存：",IDC_STATIC,45,17,40,12,SS_CENTERIMAGE
+    CTEXT           "游戏彩池：",IDC_STATIC,161,17,40,12,SS_CENTERIMAGE
+    CTEXT           "玩家ＩＤ：",IDC_STATIC,23,79,40,12,SS_CENTERIMAGE
+    CTEXT           "玩家难度：",IDC_STATIC,23,103,40,12,SS_CENTERIMAGE
+    CTEXT           "玩家ＩＤ：",IDC_STATIC,21,196,40,12,SS_CENTERIMAGE
+    CTEXT           "赠送次数：",IDC_STATIC,21,218,40,12,SS_CENTERIMAGE
+    CTEXT           "赠送类型：",IDC_STATIC,21,240,40,12,SS_CENTERIMAGE
+    GROUPBOX        "库存操作",IDC_STATIC,7,7,274,48
+    GROUPBOX        "难度操作",IDC_STATIC,7,59,274,115
+    GROUPBOX        "赠送操作",IDC_STATIC,7,179,274,133
+    GROUPBOX        "日志显示",IDC_STATIC,291,163,248,149
+    GROUPBOX        "玩家输赢",IDC_STATIC,291,7,248,149
+    CONTROL         "",IDC_LISTT_LOG_INFORMATION,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    298,175,234,113
+    CONTROL         "",IDC_LISTT_WIN_LOSE_INFORMATION,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,298,19,234,114
+    CONTROL         "",IDC_LISTT_DIFFICULTY_INFORMATION,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,123,69,152,99
+    CONTROL         "",IDC_LISTT_GIFT_INFORMATION,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    123,190,152,115
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 539
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_LOGO           ICON                    "res\\001.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\LineClientControl.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

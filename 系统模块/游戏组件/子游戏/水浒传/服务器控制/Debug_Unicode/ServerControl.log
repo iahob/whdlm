@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug_Unicode\) contains files shared from another project (控制服务器.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+d:\projects\trunk\server\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  ServerControlItemSink.cpp
+  ServerControl.cpp
+  正在生成代码...
+ServerControl.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../../../运行/Debug/Unicode/ServerControl.lib 和对象 ../../../../运行/Debug/Unicode/ServerControl.exp
+ServerControl.exp : warning LNK4070: .EXP 中的 /OUT:ServerControl.dll 指令与输出文件名“../../../../运行/Debug/Unicode/WaterMarginServerDebug.dll”不同；忽略指令
+  ServerControl.vcxproj -> D:\projects\trunk\server\Server\游戏组件\大连客户\水浒传\服务器控制\../../../../运行/Debug/Unicode/WaterMarginServerDebug.dll
+  ServerControl.vcxproj -> ../../../../运行/Debug/Unicode/WaterMarginServerDebug.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Unicode 已经存在。
+  已复制         1 个文件。

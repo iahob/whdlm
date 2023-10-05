@@ -1,0 +1,74 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: 机器人服务, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\RSP000005.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /YX"stdafx.h" /Fp"Debug/RedNineBattleAndroid.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\游戏服务器\GameLogic.cpp
+.\AndroidUserItemSink.cpp
+.\AndroidService.cpp
+]
+Creating command line "cl.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\RSP000005.rsp /nologo"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\RSP000006.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /Yc"stdafx.h" /Fp"Debug/RedNineBattleAndroid.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\Stdafx.cpp
+]
+Creating command line "cl.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\RSP000006.rsp /nologo"
+Creating command line "rc.exe /d "_DEBUG" /d "_AFXDLL" /l 0x804 /I "Debug" /fo"Debug/AndroidService.res" .\AndroidService.rc"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\RSP000007.rsp" with contents
+[
+/OUT:"../../../运行/Debug/RedNineBattleAndroid.dll" /INCREMENTAL /NOLOGO /DLL /DEF:".\AndroidServiceD.def" /DEBUG /PDB:"Debug/机器人服务.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86
+.\Debug\AndroidService.obj
+.\Debug\AndroidUserItemSink.obj
+.\Debug\GameLogic.obj
+.\Debug\Stdafx.obj
+.\Debug\AndroidService.res
+]
+Creating command line "link.exe @h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\RSP000007.rsp"
+Creating temporary file "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\BAT000008.bat" with contents
+[
+@echo off
+mkdir ..\..\..\发布组件\服务器组件\Debug
+copy /y ..\..\..\运行\Debug\RedNineBattleAndroid.dll ..\..\..\发布组件\服务器组件\Debug\RedNineBattleAndroid.dll
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Post-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line "h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\BAT000008.bat"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+Stdafx.cpp
+Compiling...
+GameLogic.cpp
+AndroidUserItemSink.cpp
+AndroidService.cpp
+Compiling resources...
+Linking...
+LINK : LNK6004: ../../../运行/Debug/RedNineBattleAndroid.dll not found or not built by the last incremental link; performing full link
+   Creating library ../../../运行/Debug/RedNineBattleAndroid.lib and object ../../../运行/Debug/RedNineBattleAndroid.exp
+RedNineBattleAndroid.exp : warning LNK4070: /OUT:AndroidServiceD.dll directive in .EXP differs from output filename '../../../运行/Debug/RedNineBattleAndroid.dll'; ignoring directive
+Performing Post-Build Event...
+子目录或文件 ..\..\..\发布组件\服务器组件\Debug 已经存在。
+已复制         1 个文件。
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://h:\棋牌项目\通吃岛游戏\游戏组件\常规游戏\百人红九\机器人服务\Debug\BuildLog.htm"
+机器人服务 - 0 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

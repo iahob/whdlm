@@ -1,0 +1,97 @@
+
+action_57.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chai/L-biyan
+  rotate: true
+  xy: 2, 7
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+chai/L-shou
+  rotate: true
+  xy: 266, 11
+  size: 64, 88
+  orig: 64, 108
+  offset: 0, 5
+  index: -1
+chai/L-yan
+  rotate: false
+  xy: 28, 8
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+chai/R-biyan
+  rotate: true
+  xy: 84, 12
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+chai/R-shou
+  rotate: false
+  xy: 214, 2
+  size: 50, 73
+  orig: 51, 74
+  offset: 0, 0
+  index: -1
+chai/R-yan
+  rotate: true
+  xy: 59, 11
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+chai/shenti
+  rotate: true
+  xy: 267, 89
+  size: 163, 104
+  orig: 167, 104
+  offset: 2, 0
+  index: -1
+chai/tou
+  rotate: true
+  xy: 373, 93
+  size: 159, 122
+  orig: 159, 122
+  offset: 0, 0
+  index: -1
+chai/toufa
+  rotate: false
+  xy: 435, 47
+  size: 63, 44
+  orig: 64, 46
+  offset: 1, 0
+  index: -1
+chai/weiba
+  rotate: true
+  xy: 435, 3
+  size: 42, 52
+  orig: 43, 55
+  offset: 0, 1
+  index: -1
+di
+  rotate: false
+  xy: 2, 39
+  size: 210, 213
+  orig: 214, 214
+  offset: 2, 1
+  index: -1
+star
+  rotate: false
+  xy: 356, 10
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 214, 77
+  size: 175, 51
+  orig: 177, 52
+  offset: 1, 1
+  index: -1

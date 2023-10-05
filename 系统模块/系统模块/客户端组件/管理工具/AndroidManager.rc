@@ -1,0 +1,499 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\AndroidManager.rc2""  // 非 Microsoft Visual C++ 编辑资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AndroidManager.ico"
+IDI_DOWNLOAD            ICON                    "res\\DownLoad.ico"
+IDI_WHISPER             ICON                    "res\\WHISPER.ico"
+IDI_NULL                ICON                    "res\\NULL.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "藏宝库it社区28xin.com"
+            VALUE "CompanyName", "藏宝库it社区28xin.com"
+            VALUE "FileDescription", "机器管理"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "AndroidManager.exe"
+            VALUE "LegalCopyright", "藏宝库it社区28xin.com保留所有权利"
+            VALUE "OriginalFilename", "AndroidManager.exe"
+            VALUE "ProductName", "机器管理"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PLATFORM_FRAME DIALOGEX 0, 0, 687, 486
+STYLE DS_SETFONT | DS_CENTER | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_GAME,121,33,80,108,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SERVER,259,33,108,125,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查 询",IDC_BT_QUERY,387,68,53,16
+    PUSHBUTTON      "添加",IDC_BT_ADD,463,68,53,16
+    PUSHBUTTON      "修改",IDC_BT_MODIFY,539,68,53,16
+    PUSHBUTTON      "删除",IDC_BT_DELETE,614,68,53,16
+    LTEXT           "游戏列表：",IDC_STATIC,75,36,41,9
+    LTEXT           "房间列表：",IDC_STATIC,213,36,41,9
+    CONTROL         "",IDC_LIST_PARAMETER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,387,93,280,107
+    EDITTEXT        IDC_EDIT_COUNT_MEMBER0,387,226,22,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "AI数:",IDC_STATIC,387,210,39,8
+    LTEXT           "人",IDC_STATIC,419,232,9,8
+    PUSHBUTTON      "进入房间",IDC_BT_ENTER_ROOM,14,65,53,14
+    GROUPBOX        "房间控制",IDC_STATIC,8,51,359,434,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_USER_LIST_CONTROL,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_TABSTOP,14,86,345,278
+    PUSHBUTTON      "游戏调试",IDC_BT_GAME_CONTROL,190,65,53,14
+    CONTROL         "",IDC_CHAT_MESSAGE,"RichEdit20W",WS_VSCROLL | WS_TABSTOP | 0x904,13,368,346,85
+    EDITTEXT        IDC_INPUT_CHAT_EDIT,13,463,298,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "发送",IDC_BT_SEND_CHAT,316,464,41,14
+    PUSHBUTTON      "房间管理",IDC_BT_ROOM_MANAGE,130,65,53,14
+    PUSHBUTTON      "系统消息",IDC_BT_SYSTEM_MESSAGE,251,65,53,14
+    PUSHBUTTON      "退出房间",IDC_BT_EXIT_ROOM,71,65,53,14
+    GROUPBOX        "AI管理",IDC_STATIC_AI_MANAGER,373,51,305,434,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "AI高级属性",IDC_BT_AI_ADVANCED,311,65,53,14
+    LTEXT           "AI挂机比例:",IDC_STATIC,471,210,56,8
+    EDITTEXT        IDC_EDIT_AI_HANGING_MIN_RATE,471,226,22,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_HANGING_MAX_RATE,517,226,22,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "% --",IDC_STATIC,497,232,19,8
+    LTEXT           "%",IDC_STATIC,543,232,14,8
+    LTEXT           "AI携带金币配置:",IDC_STATIC,387,250,64,8
+    LTEXT           "携带范围:",IDC_STATIC,389,274,38,8
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MINMULTI0,435,274,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MAXMULTI0,533,274,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_LEVELRATE0,435,291,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMINRATE0,533,292,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMAXRATE0,595,292,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "倍最小筹码 --",IDC_STATIC,475,274,57,8
+    LTEXT           "倍第二筹码",IDC_STATIC,573,274,57,8
+    LTEXT           "人数比例:",IDC_STATIC,389,291,38,8
+    LTEXT           "浮动范围:",IDC_STATIC,491,292,38,8
+    LTEXT           "% --",IDC_STATIC,571,292,19,8
+    LTEXT           "%",IDC_STATIC,633,292,11,8
+    LTEXT           "携带范围:",IDC_STATIC,389,327,38,8
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MINMULTI1,435,327,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MAXMULTI1,533,327,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_LEVELRATE1,435,345,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMINRATE1,533,345,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMAXRATE1,595,345,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "倍第二筹码 --",IDC_STATIC,475,327,57,8
+    LTEXT           "倍第三筹码",IDC_STATIC,573,327,57,8
+    LTEXT           "人数比例:",IDC_STATIC,389,345,38,8
+    LTEXT           "浮动范围:",IDC_STATIC,491,345,38,8
+    LTEXT           "% --",IDC_STATIC,571,345,19,8
+    LTEXT           "%",IDC_STATIC,633,345,11,8
+    GROUPBOX        "",IDC_STATIC,384,316,283,51,0,WS_EX_TRANSPARENT
+    LTEXT           "携带范围:",IDC_STATIC,391,379,38,8
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MINMULTI2,437,379,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MAXMULTI2,535,379,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_LEVELRATE2,437,397,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMINRATE2,535,397,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMAXRATE2,596,397,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "倍第三筹码 --",IDC_STATIC,477,379,57,8
+    LTEXT           "倍第四筹码",IDC_STATIC,575,379,57,8
+    LTEXT           "人数比例:",IDC_STATIC,391,397,38,8
+    LTEXT           "浮动范围:",IDC_STATIC,492,397,38,8
+    LTEXT           "% --",IDC_STATIC,572,397,19,8
+    LTEXT           "%",IDC_STATIC,635,397,11,8
+    GROUPBOX        "",IDC_STATIC,384,368,283,51,0,WS_EX_TRANSPARENT
+    LTEXT           "携带范围:",IDC_STATIC,391,435,38,8
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MINMULTI3,437,435,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_MAXMULTI3,535,435,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_LEVELRATE3,437,452,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMINRATE3,535,453,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_AI_CARRYSCORE_FLOATMAXRATE3,597,453,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "倍第四筹码--",IDC_STATIC,477,435,57,8
+    LTEXT           "倍最大筹码",IDC_STATIC,575,435,57,8
+    LTEXT           "人数比例:",IDC_STATIC,391,452,38,8
+    LTEXT           "浮动范围:",IDC_STATIC,493,453,38,8
+    LTEXT           "% --",IDC_STATIC,573,453,19,8
+    LTEXT           "%",IDC_STATIC,635,453,11,8
+    GROUPBOX        "",IDC_STATIC,384,423,283,51,0,WS_EX_TRANSPARENT
+    GROUPBOX        "",IDC_STATIC,384,260,283,54,0,WS_EX_TRANSPARENT
+END
+
+IDD_DLG_LOGON DIALOGEX 0, 0, 293, 149
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_ACCOUNTS,84,63,121,213,CBS_DROPDOWN | CBS_OWNERDRAWVARIABLE | CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_PASSWORD,85,88,121,16,SS_CENTERIMAGE | WS_BORDER | WS_TABSTOP
+    COMBOBOX        IDC_LOGON_SERVER,85,38,121,174,CBS_DROPDOWN | CBS_OWNERDRAWVARIABLE | CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "登录服务器：",IDC_STATIC,25,43,49,8
+    LTEXT           "游戏帐号：",IDC_MODE_NAME,32,68,41,8
+    LTEXT           "游戏密码：",IDC_STATIC,32,93,41,8
+    PUSHBUTTON      "清除记录",IDC_DELETE_RECORD,221,64,43,14
+    CONTROL         "记住密码",IDC_REM_PASSWORD,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,221,92,44,10
+    PUSHBUTTON      "",IDOK,108,112,56,17
+    PUSHBUTTON      "",IDCANCEL,272,7,17,14
+    PUSHBUTTON      "注册",IDC_REGISTER,187,117,50,14
+END
+
+IDD_DLG_STATUS DIALOGEX 0, 0, 271, 61
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_CLIPCHILDREN | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_GIVE_UP,208,36,44,14
+END
+
+IDD_DLG_ROOM DIALOGEX 0, 0, 453, 303
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,103,282,50,14
+    PUSHBUTTON      "取消",IDCANCEL,396,282,50,14
+    CONTROL         "",IDC_LIST_ROOM_PLAYER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,33,439,240
+    PUSHBUTTON      "游戏控制",IDC_BTN_GAME_CONTROL,32,4,54,16
+END
+
+IDD_DLG_SERVER_MANAGER DIALOGEX 0, 0, 353, 366
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,102,322,50,14,WS_DISABLED
+    PUSHBUTTON      "取消",IDCANCEL,200,322,50,14
+    EDITTEXT        IDC_SERVER_NAME,74,39,211,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_KIND_ID,74,72,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_NODE_ID,210,72,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SORT_ID,74,88,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_RESTRICT_SCORE,210,88,75,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MIN_ENTER_SCORE,116,121,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAX_ENTER_SCORE,116,139,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MIN_TABLE_SCORE,116,157,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_MIN_ENTER_MEMBER,116,174,75,112,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_MAX_ENTER_MEMBER,116,192,75,112,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    CONTROL         "房间禁止私聊",IDC_FORFEND_WISPER_CHAT,"Button",BS_AUTOCHECKBOX | BS_FLAT | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,29,213,64,10
+    CONTROL         "房间禁止公聊",IDC_FORFEND_ROOM_CHAT,"Button",BS_AUTOCHECKBOX | BS_FLAT | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,107,213,64,10
+    CONTROL         "游戏禁止公聊",IDC_FORFEND_GAME_CHAT,"Button",BS_AUTOCHECKBOX | BS_FLAT | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,185,213,64,10
+    CONTROL         "游戏禁止私聊",IDC_FORFEND_WISPER_ON_GAME,"Button",BS_AUTOCHECKBOX | BS_FLAT | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,263,213,64,10
+    CONTROL         "禁止进入房间",IDC_FORFEND_ROOM_ENTER,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,29,231,64,10
+    CONTROL         "禁止进入游戏",IDC_FORFEND_GAME_ENTER,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,107,231,64,10
+    CONTROL         "禁止游戏旁观",IDC_FORFEND_GAME_LOOKON,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,185,231,64,10
+    CONTROL         "禁止用户规则",IDC_FORFEND_GAME_RULE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,263,231,64,10
+    CONTROL         "每局即时写分",IDC_IMMEDIATE_WRITE_SCORE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,29,249,64,10
+    CONTROL         "记录每局成绩",IDC_RECORD_GAME_SCORE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,107,249,64,10
+    CONTROL         "记录游戏过程",IDC_RECORD_GAME_TRACK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,185,249,64,10
+    CONTROL         "禁止用户锁桌",IDC_FORFEND_LOCK_TABLE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,263,249,64,10
+    CONTROL         "允许动态加入",IDC_ALLOW_DYNAMIC_JOIN,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,29,267,64,10
+    CONTROL         "防作弊模式",IDC_ALLOW_AVERT_DEBUG_MODE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,107,267,56,10
+    CONTROL         "禁止房间存款",IDC_FORFEND_SAVE_IN_ROOM,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,185,267,64,10
+    CONTROL         "禁止游戏存款",IDC_FORFEND_SAVE_IN_GAME,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,263,267,64,10
+    CONTROL         "断线托管代打",IDC_ALLOW_OFFLINE_TRUSTEE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,29,285,64,10
+    CONTROL         "允许AI陪玩",IDC_ALLOW_ANDROID_ATTEND,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,185,285,72,10
+    CONTROL         "动态底分模式",IDC_DYNAMIC_CELL_SCORE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,107,285,64,10
+    LTEXT           "进入房间的最低会员：",IDC_STATIC,30,176,81,8,NOT WS_VISIBLE
+    LTEXT           "进入房间的最低成绩：",IDC_STATIC,30,124,81,8
+    LTEXT           "进入房间的最高成绩：",IDC_STATIC,30,141,81,8
+    LTEXT           "进入房间的最高会员：",IDC_STATIC,30,194,81,8,NOT WS_VISIBLE
+    LTEXT           "坐下游戏的最低成绩：",IDC_STATIC,30,158,81,8
+    LTEXT           "房间名字：",IDC_STATIC,31,42,40,8
+    LTEXT           "每局封顶：",IDC_STATIC,167,90,40,8
+    LTEXT           "挂接节点：",IDC_STATIC,167,74,40,8
+    LTEXT           "挂接类型：",IDC_STATIC,31,73,40,8
+    LTEXT           "排序标识：",IDC_STATIC,31,89,40,8
+    CONTROL         "允许AI占位",IDC_ALLOW_ANDROID_SIMULATE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,263,285,72,10
+    EDITTEXT        IDC_SERVICE_REVENUE,210,55,75,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "税收比例：",IDC_STATIC_REVENUE_SERVICE,167,57,40,8,NOT WS_VISIBLE
+    CONTROL         "税收比例",IDC_REVENUE_RADIO,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_GROUP,31,57,48,10
+    CONTROL         "服务费数",IDC_SERVICE_RADIO,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,100,57,48,10
+    CONTROL         "房间支持回放",IDC_SUPPORT_PLAY_BACK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,30,303,64,10
+END
+
+IDD_DLG_ISSUE_MESSAGE DIALOGEX 0, 0, 223, 225
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "确定",IDOK,52,191,50,14
+    PUSHBUTTON      "取消",IDCANCEL,120,191,50,14
+    LTEXT           "请输入提示消息：",IDC_STATIC,18,38,65,8
+    EDITTEXT        IDC_EDT_MESSAGE,18,53,179,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "游戏消息",IDC_CHEK_GAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,122,48,10
+    CONTROL         "房间消息",IDC_CHEK_ROOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,122,48,10
+    CONTROL         "所有房间",IDC_CHECK_ALLROOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,152,122,48,10
+    CONTROL         "循环消息",IDC_CHEK_LOOP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,137,48,10
+    EDITTEXT        IDC_ED_TIMERATE,128,137,67,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "循环频率：",IDC_STATIC,85,139,41,8
+    CONTROL         "",IDC_CONCLUDEDATE,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP,84,161,56,15
+    LTEXT           "循环结束时间：",IDC_STATIC,21,165,57,8
+    CONTROL         "",IDC_CONCLUDETIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,161,56,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND_CUR            CURSOR                  "res\\HAND_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PLATFORM_FRAME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 683
+        BOTTOMMARGIN, 485
+    END
+
+    IDD_DLG_LOGON, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DLG_STATUS, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_ROOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 446
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 296
+    END
+
+    IDD_DLG_SERVER_MANAGER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 359
+    END
+
+    IDD_DLG_ISSUE_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BT_COMBOBOX         BITMAP                  "res\\PLAZA_LOGON\\BT_COMBOBOX.bmp"
+IDB_IMAGE_SEARCH        BITMAP                  "res\\IMAGE_SEARCH.bmp"
+IDB_BT_LOGON            BITMAP                  "res\\PLAZA_LOGON\\BT_LOGON.bmp"
+IDB_BT_LOGON_ITEM       BITMAP                  "res\\PLAZA_LOGON\\BT_LOGON_ITEM.bmp"
+IDB_BT_LOGON_QUIT       BITMAP                  "res\\PLAZA_LOGON\\BT_LOGON_QUIT.bmp"
+IDB_BT_STATUS_CANCEL    BITMAP                  "res\\DLG_STATUS\\BT_STATUS_CANCEL.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+DLG_LOGON_BACK          PNG                     "res\\PLAZA_LOGON\\DLG_LOGON_BACK.PNG"
+BT_LOGON_ENTER          PNG                     "res\\PLAZA_LOGON\\BT_LOGON_ENTER.png"
+BT_LOGON_LINK_2         PNG                     "res\\PLAZA_LOGON\\BT_LOGON_LINK_2.png"
+BT_LOGON_LINK_4         PNG                     "res\\PLAZA_LOGON\\BT_LOGON_LINK_4.png"
+BT_LOGON_REGISTER       PNG                     "res\\PLAZA_LOGON\\BT_LOGON_REGISTER.png"
+LOGON_TITILE            PNG                     "res\\PLAZA_LOGON\\LOGON_TITILE.PNG"
+BT_LOGON_ITEM           PNG                     "res\\PLAZA_LOGON\\BT_LOGON_ITEM.png"
+STATUS_POINT            PNG                     "res\\DLG_STATUS\\STATUS_POINT.png"
+STATUS_LINE             PNG                     "res\\DLG_STATUS\\STATUS_LINE.png"
+STATUS_IMAGE            PNG                     "res\\DLG_STATUS\\STATUS_IMAGE.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_COMMAND MENU
+BEGIN
+    POPUP "游戏列表"
+    BEGIN
+        MENUITEM "进入游戏房间",                      IDM_ENTER_SERVER
+        MENUITEM "收缩列表",                        IDM_SHRINK_LIST
+        MENUITEM "展开列表",                        IDM_EXPAND_LIST
+    END
+    POPUP "用户命令"
+    BEGIN
+        MENUITEM "用户登录",                        IDM_USER_LOGON
+        MENUITEM "用户切换",                        IDM_SWITCH_ACCOUNTS
+    END
+    POPUP "游戏房间"
+    BEGIN
+        MENUITEM "更多颜色",                        IDM_MORE_COLOR
+        MENUITEM SEPARATOR
+        MENUITEM "游戏规则",                        IDM_GAME_RULE
+        MENUITEM "游戏排行",                        IDM_GAME_CHART
+        MENUITEM "关闭房间",                        IDM_DELETE_SERVER_ITEM
+        MENUITEM SEPARATOR
+        MENUITEM "显示所有信息",                      IDM_MESSAGE_SHOW_ALL
+        MENUITEM "屏蔽厌恶信息",                      IDM_MESSAGE_HIDE_DETEST
+        MENUITEM "只显示好友信息",                     IDM_MESSAGE_ONLY_FRIEND
+    END
+    POPUP "用户菜单"
+    BEGIN
+        MENUITEM "与用户私聊",                       IDM_CREATE_ISER_WISPER
+        MENUITEM "拷贝用户名",                       IDM_COPY_USER_NICKNAME
+        MENUITEM SEPARATOR
+        MENUITEM "设置为好友",                       IDM_SET_FRIEND_USER
+        MENUITEM "设置为厌恶",                       IDM_SET_DETEST_USER
+        MENUITEM SEPARATOR
+        MENUITEM "设置聊天对象",                      IDM_SET_CHAT_USER
+        MENUITEM "取消聊天对象",                      IDM_CANCEL_CHAT_USER
+        MENUITEM SEPARATOR
+        MENUITEM "查找在线用户",                      IDM_SEARCH_ONLINE_USER
+        MENUITEM "查看用户位置",                      IDM_SEE_USER_LOCATION
+        MENUITEM "查看用户资料",                      IDM_SHOW_USER_INFO
+        MENUITEM "用户信息管理",                      IDM_USER_INFO_MANAGER
+        MENUITEM "设置备注信息",                      IDM_SET_USER_NOTE
+        MENUITEM SEPARATOR
+        MENUITEM "一起玩游戏",                       IDM_PLAY_GAME_TOGETHER
+        MENUITEM "邀请加入游戏",                      IDM_INVITE_USER
+        MENUITEM "旁观用户游戏",                      IDM_LOOKON_USER
+        MENUITEM SEPARATOR
+    END
+    POPUP "私聊控制"
+    BEGIN
+        MENUITEM "按 Enter 键发送消息",               IDM_SEND_BY_ENTER
+        MENUITEM "按 Ctrl+Enter 键发送消息",          IDM_SEND_BY_CTRL_ENTER
+    END
+    POPUP "管理控制"
+    BEGIN
+        POPUP "游戏玩家管理"
+        BEGIN
+            MENUITEM "踢用户下线",                       IDM_KILL_USER
+            MENUITEM "禁止该用户大厅聊天",                   32892
+            MENUITEM "允许该用户大厅聊天",                   32894
+            MENUITEM "禁止该用户游戏聊天",                   32896
+            MENUITEM "允许该用户游戏聊天",                   32902
+            MENUITEM "禁止该用户私聊",                     32899
+            MENUITEM "允许该用户私聊",                     32901
+        END
+        MENUITEM "游戏房间管理",                      IDM_MANAGER_SERVER
+        MENUITEM "系统消息管理",                      IDM_MANAGER_MESSAGE
+        MENUITEM SEPARATOR
+        MENUITEM "踢用户下线...",                    IDM_KILL_USER
+    END
+    POPUP "辅助命令"
+    BEGIN
+        MENUITEM "无效命令",                        IDM_NULL_COMMAND
+    END
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\AndroidManager.rc2"  // 非 Microsoft Visual C++ 编辑资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

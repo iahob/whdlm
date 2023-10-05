@@ -1,0 +1,137 @@
+{
+"skeleton": { "hash": "AfPoRCRi77xsdr/UbZSQRoBmGoY", "spine": "3.6.53", "width": 241.06, "height": 228.55, "images": "./iamge/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "nvren", "parent": "root", "y": 187.44 },
+	{ "name": "chai/shenti", "parent": "nvren", "length": 53.93, "rotation": 105.22, "x": 6.07, "y": -249.58 },
+	{ "name": "chai/tou", "parent": "chai/shenti", "length": 84.83, "rotation": -28.74, "x": 77.33, "y": 14.54 },
+	{ "name": "chai/L-toufa", "parent": "chai/tou", "length": 110.39, "rotation": -160.73, "x": 62.71, "y": 69.32 },
+	{ "name": "chai/R-toufa", "parent": "chai/tou", "length": 36.92, "rotation": -110.94, "x": 13.43, "y": -24.08 },
+	{ "name": "chai/shou", "parent": "chai/shenti", "length": 69.59, "rotation": 30.19, "x": -13.75, "y": -54.59 },
+	{ "name": "chakan", "parent": "root", "x": 1599.9 },
+	{ "name": "di", "parent": "root", "x": -12.36 },
+	{ "name": "zhuan", "parent": "root", "y": 6.74, "scaleX": 1.093, "scaleY": 1.093 },
+	{ "name": "zi", "parent": "root", "y": -58.54 }
+],
+"slots": [
+	{ "name": "di", "bone": "di", "attachment": "di" },
+	{ "name": "zhuan", "bone": "zhuan", "blend": "additive" },
+	{ "name": "chai/R-toufa", "bone": "chai/R-toufa", "attachment": "chai/R-toufa" },
+	{ "name": "chai/shenti", "bone": "chai/shenti", "attachment": "chai/shenti" },
+	{ "name": "chai/tou", "bone": "chai/tou", "attachment": "chai/tou" },
+	{ "name": "chai/shou", "bone": "chai/shou", "attachment": "chai/shou" },
+	{ "name": "chai/L-toufa", "bone": "chai/L-toufa", "attachment": "chai/L-toufa" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" }
+],
+"skins": {
+	"default": {
+		"chai/L-toufa": {
+			"chai/L-toufa": { "x": 77.72, "y": 36.45, "rotation": 77.97, "width": 174, "height": 175 }
+		},
+		"chai/R-toufa": {
+			"chai/R-toufa": { "x": 49.05, "y": 4.12, "rotation": 34.45, "width": 108, "height": 72 }
+		},
+		"chai/shenti": {
+			"chai/shenti": { "x": 62.54, "y": -2.49, "rotation": -105.22, "width": 232, "height": 195 }
+		},
+		"chai/shou": {
+			"chai/shou": { "x": 39.83, "y": -6.02, "rotation": -115.37, "width": 65, "height": 105 }
+		},
+		"chai/tou": {
+			"chai/tou": { "x": 55.24, "y": 2.89, "rotation": -76.49, "width": 139, "height": 117 }
+		},
+		"di": {
+			"di": { "width": 239, "height": 214 }
+		},
+		"zi": {
+			"zi": { "width": 135, "height": 51 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"zhuan": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" },
+					{ "time": 4.5, "color": "ffffffff" },
+					{ "time": 6, "color": "ffffff00" },
+					{ "time": 7.5, "color": "ffffffff" },
+					{ "time": 9, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zhuan": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.5, "angle": 180 },
+					{ "time": 3, "angle": 0 },
+					{ "time": 4.5, "angle": 180 },
+					{ "time": 6, "angle": 0 },
+					{ "time": 7.5, "angle": 180 },
+					{ "time": 9, "angle": 0 }
+				]
+			},
+			"chai/shenti": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.114, "y": 1.114 },
+					{ "time": 3, "x": 1, "y": 1 },
+					{ "time": 4.5, "x": 1.114, "y": 1.114 },
+					{ "time": 6, "x": 1, "y": 1 },
+					{ "time": 7.5, "x": 1.114, "y": 1.114 },
+					{ "time": 9, "x": 1, "y": 1 }
+				]
+			},
+			"chai/tou": {
+				"rotate": [
+					{ "time": 0, "angle": -2.46 },
+					{ "time": 1.5, "angle": 8.52 },
+					{ "time": 3, "angle": -2.46 },
+					{ "time": 4.5, "angle": 8.52 },
+					{ "time": 6, "angle": -2.46 },
+					{ "time": 7.5, "angle": 8.52 },
+					{ "time": 9, "angle": -2.46 }
+				]
+			},
+			"chai/shou": {
+				"rotate": [
+					{ "time": 0, "angle": -8.11 },
+					{ "time": 1.5, "angle": -20.1 },
+					{ "time": 3, "angle": -8.11 },
+					{ "time": 4.5, "angle": -20.1 },
+					{ "time": 6, "angle": -8.11 },
+					{ "time": 7.5, "angle": -20.1 },
+					{ "time": 9, "angle": -8.11 }
+				]
+			},
+			"chai/R-toufa": {
+				"rotate": [
+					{ "time": 0, "angle": -14.77 },
+					{ "time": 1.5, "angle": -13.41 },
+					{ "time": 3, "angle": -14.77 },
+					{ "time": 4.5, "angle": -13.41 },
+					{ "time": 6, "angle": -14.77 },
+					{ "time": 7.5, "angle": -13.41 },
+					{ "time": 9, "angle": -14.77 }
+				]
+			},
+			"chai/L-toufa": {
+				"rotate": [
+					{ "time": 0, "angle": 6.81 },
+					{ "time": 1.5, "angle": -5.47 },
+					{ "time": 3, "angle": 6.81 },
+					{ "time": 4.5, "angle": -5.47 },
+					{ "time": 6, "angle": 6.81 },
+					{ "time": 7.5, "angle": -5.47 },
+					{ "time": 9, "angle": 6.81, "curve": "stepped" },
+					{ "time": 13, "angle": 6.81 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,48 @@
+#ifndef GAME_LOGIC_HEAD_FILE
+#define GAME_LOGIC_HEAD_FILE
+
+#pragma once
+
+#include "Stdafx.h"
+
+//////////////////////////////////////////////////////////////////////////
+
+//数值掩码
+#define	LOGIC_MASK_COLOR			0xF0								//花色掩码
+#define	LOGIC_MASK_VALUE			0x0F								//数值掩码
+
+#define RESULT_WIN					1									//赢
+#define RESULT_LOSE					-1									//输
+
+//////////////////////////////////////////////////////////////////////////
+
+//游戏逻辑
+class CGameLogic
+{
+	//变量定义
+private:
+	static const BYTE				m_cbCardListDataTwo[52*8];				//扑克定义
+
+	//函数定义
+public:
+	//构造函数
+	CGameLogic();
+	//析构函数
+	virtual ~CGameLogic();
+
+	//类型函数
+public:
+	//获取数值
+	BYTE GetCardValue(BYTE cbCardData) { return cbCardData&LOGIC_MASK_VALUE; }
+	//获取花色
+	BYTE GetCardColor(BYTE cbCardData) { return (cbCardData&LOGIC_MASK_COLOR)>>4; }
+
+	//控制函数
+public:
+	//混乱扑克
+	void RandCardList(BYTE cbCardBuffer[], BYTE cbBufferCount);
+};
+
+//////////////////////////////////////////////////////////////////////////
+
+#endif

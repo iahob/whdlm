@@ -1,0 +1,111 @@
+
+action_529.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 34
+  size: 214, 214
+  orig: 235, 214
+  offset: 0, 0
+  index: -1
+xia_L_shou
+  rotate: true
+  xy: 218, 14
+  size: 78, 87
+  orig: 78, 87
+  offset: 0, 0
+  index: -1
+xia_L_xu
+  rotate: false
+  xy: 2, 2
+  size: 78, 30
+  orig: 78, 30
+  offset: 0, 0
+  index: -1
+xia_R_shou
+  rotate: false
+  xy: 867, 182
+  size: 47, 66
+  orig: 47, 66
+  offset: 0, 0
+  index: -1
+xia_R_xu
+  rotate: true
+  xy: 561, 155
+  size: 40, 49
+  orig: 40, 49
+  offset: 0, 0
+  index: -1
+xia_shen
+  rotate: false
+  xy: 218, 94
+  size: 100, 154
+  orig: 100, 154
+  offset: 0, 0
+  index: -1
+xie_l_tui
+  rotate: true
+  xy: 785, 178
+  size: 70, 80
+  orig: 70, 80
+  offset: 0, 0
+  index: -1
+xie_r_tui
+  rotate: true
+  xy: 700, 191
+  size: 57, 83
+  orig: 57, 83
+  offset: 0, 0
+  index: -1
+xie_shen
+  rotate: false
+  xy: 442, 150
+  size: 117, 98
+  orig: 117, 105
+  offset: 0, 7
+  index: -1
+yu_L_qi
+  rotate: true
+  xy: 320, 105
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+yu_meimao
+  rotate: false
+  xy: 916, 213
+  size: 43, 35
+  orig: 43, 35
+  offset: 0, 0
+  index: -1
+yu_shang_qi
+  rotate: false
+  xy: 612, 160
+  size: 38, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+yu_shen
+  rotate: false
+  xy: 320, 121
+  size: 120, 127
+  orig: 120, 127
+  offset: 0, 0
+  index: -1
+yu_xia_qi
+  rotate: false
+  xy: 82, 4
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 561, 197
+  size: 137, 51
+  orig: 137, 51
+  offset: 0, 0
+  index: -1

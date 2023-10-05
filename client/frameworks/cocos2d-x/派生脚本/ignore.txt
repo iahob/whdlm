@@ -1,0 +1,17 @@
+.obj
+.log
+.tlog
+.cache
+.db
+\assets\
+\bin\
+\gen\
+\obj\
+\Debug\
+\Debug.win32\
+\Release.win32\
+\licenses\
+\js-bindings\
+\fbx-conv\
+\plugin\
+\docs\

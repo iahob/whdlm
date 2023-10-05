@@ -1,0 +1,185 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, table, ul, ol, dl, input, textarea, select, form, fieldset, legend, dt, dd, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+i, em {
+    font-style: normal;
+}
+
+h1, h2, h3, b, strong {
+    font-weight: 100;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    font-size: 12px;
+}
+
+.fn-left {
+    float: left;
+}
+
+html {
+    height: 1580px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    font-family: "微软雅黑";
+    /* background: url('../images/bg_phone.png') top no-repeat ; */
+    /* background-size: cover; */
+    min-width: 1600px;
+}
+
+
+.ui-page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow:hidden;
+}
+/* 顶部 */
+.ui-contact {
+    width: 480px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -240px;
+    /* background: url('../images/contact_bg.png') center no-repeat; */
+    text-align: center;
+}
+
+    .ui-contact > a {
+        display: inline-block;
+        margin-top: 14px;
+        font-size: 18px;
+        color: #c294e0;
+    }
+
+.ui-qq {
+    margin-right: 43px;
+}
+
+.ui-contact > a > img {
+    margin-right: 10px;
+    vertical-align: -46%;
+}
+
+.ui-tel {
+    cursor: inherit;
+}
+
+.ui-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    z-index: -100;
+}
+
+.ui-logo {
+    width: 724px;
+    position: absolute;
+    left: 50%;
+    top: 156px;
+    margin-left: -362px;
+}
+
+.ui-qrcode {
+    width: 312px;
+    position: absolute;
+    left: 50%;
+    margin-left: -156px;
+    top: 709px;
+}
+
+.ui-btn {
+    display: block;
+    width: 296px;
+    height: 120px;
+    /* background: url('../images/btn.png') center no-repeat; */
+    /* background-size: 100% 100%; */
+    position: absolute;
+    left: 50%;
+    margin-left: -147px;
+    top: 1003px;
+}
+.index {
+    height: 80px;
+    top: 1050px;
+}
+
+    .ui-btn > img {
+        width: 100%;
+        height: 100%;
+    }
+
+.ui-abroadbtn {
+    display: block;
+    width: 296px;
+    height: 120px;
+    /* background: url('../images/btn.png') center no-repeat; */
+    /* background-size: 100% 100%; */
+    position: absolute;
+    left: 50%;
+    margin-left: -147px;
+    top: 1096px;
+}
+
+.ui-abroadbtn > img {
+    width: 100%;
+    height: 100%;
+}
+
+.ui-product {
+    width: 880px;
+    position: absolute;
+    left: 50%;
+    margin-left: -440px;
+    /* top: 1160px; */
+    bottom: -116px;
+}
+.ui-contact > a, .ui-bg, .ui-logo, .ui-qrcode, .ui-btn > img, .ui-product {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}

@@ -1,0 +1,55 @@
+
+action_123.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+de
+  rotate: false
+  xy: 2, 39
+  size: 208, 210
+  orig: 208, 210
+  offset: 0, 0
+  index: -1
+niao
+  rotate: false
+  xy: 335, 164
+  size: 138, 85
+  orig: 138, 85
+  offset: 0, 0
+  index: -1
+shayu
+  rotate: false
+  xy: 212, 124
+  size: 121, 125
+  orig: 121, 125
+  offset: 0, 0
+  index: -1
+xiongmao
+  rotate: true
+  xy: 212, 24
+  size: 98, 112
+  orig: 98, 112
+  offset: 0, 0
+  index: -1
+yeL
+  rotate: true
+  xy: 335, 106
+  size: 56, 155
+  orig: 56, 155
+  offset: 0, 0
+  index: -1
+yeR
+  rotate: true
+  xy: 326, 48
+  size: 56, 155
+  orig: 56, 155
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 326, 2
+  size: 166, 44
+  orig: 166, 44
+  offset: 0, 0
+  index: -1

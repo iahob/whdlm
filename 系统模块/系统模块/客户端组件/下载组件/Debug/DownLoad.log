@@ -1,0 +1,39 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  WEBSocket.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(163): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(1837): note: 参见“inet_addr”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(168): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(2225): note: 参见“gethostbyname”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(212): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\stdio.h(1939): note: 参见“_snprintf”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(318): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(2686): note: 参见“WSAAsyncSelect”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(323): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(2686): note: 参见“WSAAsyncSelect”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(409): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(1837): note: 参见“inet_addr”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\websocket.cpp(414): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winsock2.h(2225): note: 参见“gethostbyname”的声明
+  HeadTranslate.cpp
+  DownLoadDLL.cpp
+  DownLoad.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\download.cpp(325): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\stdio.h(1939): note: 参见“_snprintf”的声明
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\download.cpp(330): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\stdio.h(1939): note: 参见“_snprintf”的声明
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\Debug\下载组件.dll) does not match the Linker's OutputFile property value (D:\Space\Github\旗舰大联盟\系统模块\运行\Debug\Ansi\DownLoadD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(下载组件) does not match the Linker's OutputFile property value (DownLoadD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DownLoad.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../链接库/Ansi/DownLoadD.lib 和对象 ../../链接库/Ansi/DownLoadD.exp
+  DownLoad.vcxproj -> D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\下载组件\Debug\下载组件.dll
+  DownLoad.vcxproj -> Debug\下载组件.pdb (Full PDB)
+  子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+  系统找不到指定的文件。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy /y ..\..\..\运行\Debug\Ansi\下载组件.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\下载组件.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd”已退出，代码为 1。

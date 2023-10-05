@@ -1,0 +1,51 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+i:\whqjgame\server\游戏组件\开发库\include\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  GameServerManager.cpp
+  GameServer.cpp
+  GameLogic.cpp
+  DlgCustomRule.cpp
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(253): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(253): note: 尝试匹配参数列表“(const wchar_t [16])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(259): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(259): note: 尝试匹配参数列表“(const wchar_t [17])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(264): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(264): note: 尝试匹配参数列表“(const wchar_t [17])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(269): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(269): note: 尝试匹配参数列表“(const wchar_t [19])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(274): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(274): note: 尝试匹配参数列表“(const wchar_t [20])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(279): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(279): note: 尝试匹配参数列表“(const wchar_t [20])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(285): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(285): note: 尝试匹配参数列表“(const wchar_t [18])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(376): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(376): note: 尝试匹配参数列表“(const wchar_t [14])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(385): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(385): note: 尝试匹配参数列表“(const wchar_t [19])”时
+i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(834): error C2664: “void ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::Format(UINT,...)”: 无法将参数 1 从“const wchar_t [13]”转换为“const char *”
+          with
+          [
+              _CharType=char
+          ]
+  i:\whqjgame\server\游戏组件\游戏列表\新百家乐（超级抢庄版）\游戏服务器\dlgcustomrule.cpp(834): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  正在生成代码...

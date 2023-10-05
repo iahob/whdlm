@@ -1,0 +1,355 @@
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 701 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 701 end
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 205 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 205 end
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 901 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 901 end
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 902 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 902 end
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 903 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 903 end
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 904 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 904 end
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 905 start
+[2023-08-27-15-17-39] OnEventDataBase wRequestID = 905 end
+[2023-08-27-15-17-43] OnEventDataBase wRequestID = 602 start
+[2023-08-27-15-17-43] OnEventDataBase wRequestID = 602 end
+[2023-08-27-15-17-43] OnEventDataBase wRequestID = 602 start
+[2023-08-27-15-17-43] OnEventDataBase wRequestID = 602 end
+[2023-08-27-15-22-51] OnEventDataBase wRequestID = 903 start
+[2023-08-27-15-22-51] OnEventDataBase wRequestID = 903 end
+[2023-08-27-15-22-51] OnEventDataBase wRequestID = 904 start
+[2023-08-27-15-22-51] OnEventDataBase wRequestID = 904 end
+[2023-08-27-15-22-51] OnEventDataBase wRequestID = 905 start
+[2023-08-27-15-22-51] OnEventDataBase wRequestID = 905 end
+[2023-08-27-15-22-56] OnEventDataBase wRequestID = 602 start
+[2023-08-27-15-22-56] OnEventDataBase wRequestID = 602 end
+[2023-08-27-15-22-56] OnEventDataBase wRequestID = 602 start
+[2023-08-27-15-22-56] OnEventDataBase wRequestID = 602 end
+[2023-08-27-15-23-35] OnEventDataBase wRequestID = 200 start
+[2023-08-27-15-23-35] OnEventDataBase wRequestID = 200 end
+[2023-08-27-15-23-35] OnEventDataBase wRequestID = 701 start
+[2023-08-27-15-23-35] OnEventDataBase wRequestID = 701 end
+[2023-08-27-15-24-22] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-24-22] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-24-23] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-24-23] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-24-24] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-24-24] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-24-29] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-24-29] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-25-17] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-25-17] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-33-35] OnEventDataBase wRequestID = 200 start
+[2023-08-27-15-33-35] OnEventDataBase wRequestID = 200 end
+[2023-08-27-15-33-35] OnEventDataBase wRequestID = 701 start
+[2023-08-27-15-33-35] OnEventDataBase wRequestID = 701 end
+[2023-08-27-15-43-35] OnEventDataBase wRequestID = 200 start
+[2023-08-27-15-43-35] OnEventDataBase wRequestID = 200 end
+[2023-08-27-15-43-35] OnEventDataBase wRequestID = 701 start
+[2023-08-27-15-43-35] OnEventDataBase wRequestID = 701 end
+[2023-08-27-15-46-49] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-46-49] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-46-50] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-46-50] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-46-55] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-46-55] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-50-48] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-50-48] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-52-01] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-52-01] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-52-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-52-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-52-48] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-15-52-48] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-15-53-35] OnEventDataBase wRequestID = 200 start
+[2023-08-27-15-53-35] OnEventDataBase wRequestID = 200 end
+[2023-08-27-15-53-35] OnEventDataBase wRequestID = 701 start
+[2023-08-27-15-53-35] OnEventDataBase wRequestID = 701 end
+[2023-08-27-16-00-56] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-00-56] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-00-57] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-00-57] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-01-01] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-01-01] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-01-53] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-01-53] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-01-55] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-01-55] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-04] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-04] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-06] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-06] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-06] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-06] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-07] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-07] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-07] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-07] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-07] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-07] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-08] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-08] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-08] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-08] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-09] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-02-10] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-02-10] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-03-35] OnEventDataBase wRequestID = 200 start
+[2023-08-27-16-03-35] OnEventDataBase wRequestID = 200 end
+[2023-08-27-16-03-35] OnEventDataBase wRequestID = 701 start
+[2023-08-27-16-03-35] OnEventDataBase wRequestID = 701 end
+[2023-08-27-16-04-05] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-05] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-26] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-26] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-30] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-30] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-31] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-31] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-32] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-32] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-33] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-33] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-34] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-34] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-04-40] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-04-40] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-05-30] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-05-30] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-06-16] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-06-16] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 901 start
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 901 end
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 902 start
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 902 end
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 903 start
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 903 end
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 904 start
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 904 end
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 905 start
+[2023-08-27-16-14-00] OnEventDataBase wRequestID = 905 end
+[2023-08-27-16-14-05] OnEventDataBase wRequestID = 602 start
+[2023-08-27-16-14-05] OnEventDataBase wRequestID = 602 end
+[2023-08-27-16-14-05] OnEventDataBase wRequestID = 602 start
+[2023-08-27-16-14-05] OnEventDataBase wRequestID = 602 end
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-15-58] OnEventDataBase wRequestID = 100 start
+[2023-08-27-16-15-58] OnEventDataBase wRequestID = 100 end
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 3 start
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 3 end
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 8 wSubCmdID = 3 start
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 8 wSubCmdID = 3 end
+[2023-08-27-16-15-58] OnEventDataBase wRequestID = 912 start
+[2023-08-27-16-15-58] OnEventDataBase wRequestID = 912 end
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 start
+[2023-08-27-16-15-58] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 start
+[2023-08-27-16-15-59] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 end
+[2023-08-27-16-16-05] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 start
+[2023-08-27-16-16-05] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 end
+[2023-08-27-16-16-05] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 start
+[2023-08-27-16-16-05] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 end
+[2023-08-27-16-16-08] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 start
+[2023-08-27-16-16-08] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 10 start
+[2023-08-27-16-16-13] PerformStandUpAction userid = 1 起立
+[2023-08-27-16-16-13] PerformStandUpAction userid = 0 起立 离开
+[2023-08-27-16-16-13] PerformStandUpAction userid = 1  rMatchStatus = 0 cbUserStatus = 1
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 10 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 start
+[2023-08-27-16-16-13] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 end
+[2023-08-27-16-16-14] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 start
+[2023-08-27-16-16-14] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 end
+[2023-08-27-16-16-14] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 start
+[2023-08-27-16-16-14] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 end
+[2023-08-27-16-16-15] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 start
+[2023-08-27-16-16-15] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 10 start
+[2023-08-27-16-16-17] PerformStandUpAction userid = 1 起立
+[2023-08-27-16-16-17] PerformStandUpAction userid = 0 起立 离开
+[2023-08-27-16-16-17] PerformStandUpAction userid = 1  rMatchStatus = 0 cbUserStatus = 1
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 10 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 start
+[2023-08-27-16-16-17] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 end
+[2023-08-27-16-16-18] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 start
+[2023-08-27-16-16-18] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 end
+[2023-08-27-16-16-18] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 start
+[2023-08-27-16-16-18] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 end
+[2023-08-27-16-16-22] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 start
+[2023-08-27-16-16-22] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 10 start
+[2023-08-27-16-16-23] PerformStandUpAction userid = 1 起立
+[2023-08-27-16-16-23] PerformStandUpAction userid = 0 起立 离开
+[2023-08-27-16-16-23] PerformStandUpAction userid = 1  rMatchStatus = 0 cbUserStatus = 1
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 10 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 start
+[2023-08-27-16-16-23] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 end
+[2023-08-27-16-16-25] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 start
+[2023-08-27-16-16-25] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 4 end
+[2023-08-27-16-16-25] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 start
+[2023-08-27-16-16-25] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 7 end
+[2023-08-27-16-16-29] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 start
+[2023-08-27-16-16-29] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 2 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 8 wSubCmdID = 3 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 8 wSubCmdID = 3 end
+[2023-08-27-16-16-42] OnEventDataBase wRequestID = 912 start
+[2023-08-27-16-16-42] OnEventDataBase wRequestID = 912 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-16-42] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-03] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 4 start
+[2023-08-27-16-17-03] PerformStandUpAction userid = 1 起立
+[2023-08-27-16-17-03] PerformStandUpAction userid = 0 起立 离开
+[2023-08-27-16-17-03] PerformStandUpAction userid = 1  rMatchStatus = 0 cbUserStatus = 1
+[2023-08-27-16-17-03] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 4 end
+[2023-08-27-16-17-03] OnEventTCPNetworkShut userid = 1 断线
+[2023-08-27-16-17-03] OnEventTCPNetworkShut userid = 1 断线 离开房间
+[2023-08-27-16-17-03] usersid = 1 离开房间
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 1 wSubCmdID = 2 end
+[2023-08-27-16-17-26] OnEventDataBase wRequestID = 100 start
+[2023-08-27-16-17-26] OnEventDataBase wRequestID = 100 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 3 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 3 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 8 wSubCmdID = 3 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 8 wSubCmdID = 3 end
+[2023-08-27-16-17-26] OnEventDataBase wRequestID = 912 start
+[2023-08-27-16-17-26] OnEventDataBase wRequestID = 912 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 100 wSubCmdID = 1 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 11 end
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 start
+[2023-08-27-16-17-26] OnEventTCPNetworkRead wMainCmdID = 200 wSubCmdID = 8 end
+[2023-08-27-16-17-32] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 4 start
+[2023-08-27-16-17-32] PerformStandUpAction userid = 1 起立
+[2023-08-27-16-17-32] PerformStandUpAction userid = 0 起立 离开
+[2023-08-27-16-17-32] PerformStandUpAction userid = 1  rMatchStatus = 0 cbUserStatus = 1
+[2023-08-27-16-17-32] OnEventTCPNetworkRead wMainCmdID = 3 wSubCmdID = 4 end
+[2023-08-27-16-17-32] OnEventTCPNetworkShut userid = 1 断线
+[2023-08-27-16-17-32] OnEventTCPNetworkShut userid = 1 断线 离开房间
+[2023-08-27-16-17-32] usersid = 1 离开房间
+[2023-08-27-16-23-35] OnEventDataBase wRequestID = 200 start
+[2023-08-27-16-23-35] OnEventDataBase wRequestID = 200 end
+[2023-08-27-16-23-35] OnEventDataBase wRequestID = 701 start
+[2023-08-27-16-23-35] OnEventDataBase wRequestID = 701 end

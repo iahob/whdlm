@@ -1,0 +1,42 @@
+# view AndroidManifest.xml #generated:27
+-keep class com.taobao.accs.ChannelService { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.taobao.accs.ChannelService$KernelService { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.taobao.accs.EventReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.taobao.accs.ServiceReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.taobao.accs.data.MsgDistributeService { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.taobao.agoo.AgooCommondReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.umeng.message.NotificationProxyBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.umeng.message.UmengDownloadResourceService { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.umeng.message.UmengIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.umeng.message.UmengMessageCallbackHandlerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.umeng.message.UmengMessageIntentReceiverService { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.umeng.message.XiaomiIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.umeng.message.provider.MessageProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class org.android.agoo.accs.AgooService { <init>(...); }
+

@@ -1,0 +1,41 @@
+
+action_147.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 214, 214
+  orig: 214, 214
+  offset: 0, 0
+  index: -1
+hei
+  rotate: false
+  xy: 420, 56
+  size: 103, 106
+  orig: 103, 106
+  offset: 0, 0
+  index: -1
+hong
+  rotate: true
+  xy: 525, 59
+  size: 103, 100
+  orig: 103, 100
+  offset: 0, 0
+  index: -1
+pai
+  rotate: false
+  xy: 218, 23
+  size: 200, 193
+  orig: 200, 193
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 420, 164
+  size: 179, 52
+  orig: 179, 52
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png;;wav;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DTextureIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditKey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrameViewDexter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrameWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowAward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowBank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowEgg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHelp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowRoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTurntable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowWin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\消息定义\CMD_Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DTextureIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditKey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrameViewDexter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrameWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMove.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowAward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowBank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowEgg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHelp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowRoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowTurntable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowWin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\GAME_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\GameClient.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GameClient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\DexterData.dex" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="全局">
+      <UniqueIdentifier>{2a952258-df30-494e-bd84-1c3f01c6dbc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="调度">
+      <UniqueIdentifier>{3c54765e-9667-4011-9dcf-47c8d842cc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="定时器">
+      <UniqueIdentifier>{553c2c2f-b863-4e49-811d-35493de92f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通讯引擎">
+      <UniqueIdentifier>{e6dca260-9586-42d0-b862-6811b4bc9c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="异步处理">
+      <UniqueIdentifier>{91933944-a9d7-4e8f-bb42-c88faf29fb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务引擎">
+      <UniqueIdentifier>{23a01a79-7eed-443b-b429-d3dfae6c4a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库引擎">
+      <UniqueIdentifier>{4dd4d1bb-0de2-494b-b67e-f1f4923f709f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="其他文件">
+      <UniqueIdentifier>{ed1302dd-ac12-4939-892f-df7fc884806a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="websocket">
+      <UniqueIdentifier>{ae49706b-116b-4cbb-b1af-ae09caa58293}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KernelEngine.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\KernelEngine.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KernelEngine.cpp">
+      <Filter>全局</Filter>
+    </ClCompile>
+    <ClCompile Include="AttemperEngine.cpp">
+      <Filter>调度</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEngine.cpp">
+      <Filter>定时器</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPNetworkEngine.cpp">
+      <Filter>通讯引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocketService.cpp">
+      <Filter>通讯引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="AsynchronismEngine.cpp">
+      <Filter>异步处理</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceService.cpp">
+      <Filter>服务引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseAide.cpp">
+      <Filter>数据库引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseEngine.cpp">
+      <Filter>数据库引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>其他文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceServiceManager.cpp">
+      <Filter>其他文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>数据库引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\ByteBuffer.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\WebSocket.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\base\StringUtil.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\net\http\HttpContext.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\net\http\HttpRequest.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\utility\Base64.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="zlreactor\utility\SHA1.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="WEBSocketService.cpp">
+      <Filter>通讯引擎</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KernelEngineHead.h">
+      <Filter>全局</Filter>
+    </ClInclude>
+    <ClInclude Include="AttemperEngine.h">
+      <Filter>调度</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEngine.h">
+      <Filter>定时器</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPNetworkEngine.h">
+      <Filter>通讯引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocketService.h">
+      <Filter>通讯引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynchronismEngine.h">
+      <Filter>异步处理</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceService.h">
+      <Filter>服务引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseAide.h">
+      <Filter>数据库引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseEngine.h">
+      <Filter>数据库引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceServiceManager.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>数据库引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\ByteBuffer.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\WebSocket.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\base\StringUtil.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\net\http\HttpContext.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\net\http\HttpProtocol.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\net\http\HttpRequest.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\utility\Base64.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="zlreactor\utility\SHA1.h">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="WEBSocketService.h">
+      <Filter>通讯引擎</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>sangong/game_ani_vs1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1212,774},{657,139}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{657,139}</string>
+			</dict>
+			<key>sangong/game_ani_vs10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1817,0},{605,185}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{605,185}</string>
+			</dict>
+			<key>sangong/game_ani_vs11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,671},{657,185}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{657,185}</string>
+			</dict>
+			<key>sangong/game_ani_vs2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{657,605},{607,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{607,169}</string>
+			</dict>
+			<key>sangong/game_ani_vs3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{444,0},{611,137}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{611,137}</string>
+			</dict>
+			<key>sangong/game_ani_vs4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{283,0},{549,161}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{549,161}</string>
+			</dict>
+			<key>sangong/game_ani_vs5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1264,605},{577,157}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{577,157}</string>
+			</dict>
+			<key>sangong/game_ani_vs6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,856},{613,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{613,159}</string>
+			</dict>
+			<key>sangong/game_ani_vs7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{613,856},{599,153}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{599,153}</string>
+			</dict>
+			<key>sangong/game_ani_vs8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1212,0},{605,191}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{605,191}</string>
+			</dict>
+			<key>sangong/game_ani_vs9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{671,185}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{671,185}</string>
+			</dict>
+			<key>sangong/game_vs_boll.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1962,605},{86,86}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{86,86}</string>
+			</dict>
+			<key>sangong/game_vs_lose.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{185,605},{98,63}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{98,63}</string>
+			</dict>
+			<key>sangong/game_vs_user.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1841,605},{121,138}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{121,138}</string>
+			</dict>
+			<key>sangong/vs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{581,0},{232,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{232,200}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>sangong_gamecompare.png</string>
+			<key>realTextureFileName</key>
+			<string>sangong_gamecompare.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

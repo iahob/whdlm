@@ -1,0 +1,39 @@
+﻿  Stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlplus.h(26): warning C4467: 已弃用 ATL 属性的使用情况
+  ImageEditorControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\形象组件\imageeditorcontrol.cpp(713): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\形象组件\imageeditorcontrol.cpp(719): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\形象组件\imageeditorcontrol.cpp(725): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\形象组件\imageeditorcontrol.cpp(731): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\形象组件\imageeditorcontrol.cpp(737): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  FaceSelectControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  FaceItemView.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  FaceItemControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  FaceCustomControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  CustomFaceManager.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  CameraControl.cpp
+d:\space\github\旗舰大联盟\系统模块\系统模块\客户端组件\图形类库\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“EVENTTYPE_UI”的左侧
+  AvatarControl.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Space\Github\旗舰大联盟\系统模块\系统模块\客户端组件\形象组件\Debug\形象组件.dll) does not match the Linker's OutputFile property value (D:\Space\Github\旗舰大联盟\系统模块\运行\Debug\Ansi\AvatarControlD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(形象组件) does not match the Linker's OutputFile property value (AvatarControlD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+AvatarControl.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ../../链接库/Ansi/AvatarControlD.lib 和对象 ../../链接库/Ansi/AvatarControlD.exp
+CameraControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::CloseWindow(void)" (?CloseWindow@CFGuiDialog@@UAEJXZ)
+FaceSelectControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::CloseWindow(void)" (?CloseWindow@CFGuiDialog@@UAEJXZ)
+CameraControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CFGuiDialog::DoModal(void)" (?DoModal@CFGuiDialog@@UAEHXZ)
+FaceSelectControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CFGuiDialog::DoModal(void)" (?DoModal@CFGuiDialog@@UAEHXZ)
+CameraControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::HandleOnSizeMessage(unsigned int,unsigned int,long,int &)" (?HandleOnSizeMessage@CFGuiDialog@@UAEJIIJAAH@Z)
+FaceSelectControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiDialog::HandleOnSizeMessage(unsigned int,unsigned int,long,int &)" (?HandleOnSizeMessage@CFGuiDialog@@UAEJIIJAAH@Z)
+CustomFaceManager.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: char const * __thiscall CGlobalWebLink::GetPlatformLink(void)" (__imp_?GetPlatformLink@CGlobalWebLink@@QAEPBDXZ)，该符号在函数 "private: bool __thiscall CCustomFaceManager::PerformDownLoad(unsigned long,unsigned long)" (?PerformDownLoad@CCustomFaceManager@@AAE_NKK@Z) 中被引用
+FaceCustomControl.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual int __thiscall CFGuiDialog::DoModal(void)" (__imp_?DoModal@CFGuiDialog@@UAEHXZ)，该符号在函数 "protected: void __thiscall CFaceItemCustomWnd::OnBnClickedLoadCamera(void)" (?OnBnClickedLoadCamera@CFaceItemCustomWnd@@IAEXXZ) 中被引用
+FaceCustomControl.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CFGuiWnd::HandleOnSizeMessage(unsigned int,unsigned int,long,int &)" (?HandleOnSizeMessage@CFGuiWnd@@UAEJIIJAAH@Z)
+../../../运行/Debug/Ansi/AvatarControlD.dll : fatal error LNK1120: 6 个无法解析的外部命令
